@@ -1,0 +1,179 @@
+% !TeX encoding = UTF-8
+% !TeX program  = xelatex
+
+\documentclass[12pt,a4paper,openany]{book} 
+\usepackage[typeblock=golden]{stb-titlepage}   
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{subcaption}  % Add this to your preamble
+\usepackage{svg}        % for \includesvg
+\usepackage{pdflscape}  % for landscape pages
+\usepackage{array,tabularx} % needed for \newcolumntype, tabularx
+% (optional if your svgs live in figs/)
+\svgpath{{figs/}}
+\usepackage[round,authoryear]{natbib}
+\let\cite\citep % makes \cite{...} behave like \citep{...}
+
+
+\makeatletter
+\def\chapter{\@startsection{chapter}{0}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{6ex \@plus.2ex}%
+	{\normalfont\huge\bfseries}}
+\makeatother
+
+
+
+%==== Math setup =====================================================
+\usepackage{amsmath}%............................. Advanced math (before fonts)
+%\usepackage{amssymb}%............................ AMS Symbol fonts
+\usepackage[version=4]{mhchem}
+\usepackage{siunitx}           % For correct units (μmol m⁻² s⁻¹)
+
+%==== Font setup =====================================================
+\usepackage{iftex}
+\ifxetex
+    \usepackage[math-style=TeX,
+                bold-style=TeX,
+               ]{unicode-math}
+    \setmainfont{Cambria}%........................ Unicode fonts  (Win)                
+    \setsansfont[Scale=MatchLowercase]{Calibri}
+    \setmonofont[Scale=MatchLowercase]{Consolas}
+    \setmathfont{Cambria Math}
+    \defaultfontfeatures{Ligatures=TeX}
+    \let\bm\symbfit
+\else
+    \usepackage[utf8]{inputenc}%.................. Unicode file format
+    \usepackage{textcomp}%........................ Additional text symbols
+    \usepackage[T1]{fontenc}%..................... Type 1 outline fonts
+    \usepackage{bm}%.............................. Bold math fonts
+\fi
+\normalfont
+
+%==== Units and numbers ==============================================
+\usepackage{siunitx}%............................. Unit, number and angle output
+    \sisetup{detect-all = true, detect-family = true}
+    \sisetup{output-decimal-marker = {.} ,
+             group-separator = {\,},
+             number-unit-product = {\,},
+             inter-unit-product = \mathord{\cdot},
+             exponent-product = \mathord{\times},
+             separate-uncertainty = true}
+         
+%==== Ref's, Bib's and Nomencl =======================================
+\usepackage{stb-nomencl}%......................... List of symbols 
+    \renewcommand*{\UnitLabel}[1]{~[\,\unit{#1}\,]}
+\usepackage{stb-bib}%............................. Bibliography (natbib internally)
+    \bibliographystyle{stb-bib-eng-a}
+    \renewcommand\bibfont{\small}
+    \renewcommand\bibsection{\chapter{\bibname}}
+
+%==== Tables + Graphics + Color =====================================
+\usepackage{array}%............................... Extended table defs 
+    \setlength{\extrarowheight}{2pt}
+\usepackage{longtable}%........................... Tables can break over pages
+\usepackage{graphicx}%............................ Included graphics
+\usepackage[font=small]{caption}%................. Customize captions  
+\usepackage[table]{xcolor}%....................... Color setup + colortbl 
+    
+%==== Extra defs for template ========================================
+\makeatletter
+%---- TOC entries and case
+    \renewcommand\contentsname{Table of contents}
+    \renewcommand\listfigurename{List of figures}
+    \renewcommand\listtablename{List of tables}
+    \renewcommand\bibname{List of references}
+    
+    \renewcommand\tableofcontents{\chapter*{\contentsname}\@starttoc{toc}}
+    \renewcommand\listoffigures{\chapter{\listfigurename}\@starttoc{lof}}
+    \renewcommand\listoftables{\chapter{\listtablename}\@starttoc{lot}}
+
+%---- Plagiarism signatures
+    \newcommand\tstrut[1][4ex]{\rule{0pt}{#1}}
+    \newcommand\tdots[1][5cm]{\makebox[#1]{\dotfill}}
+
+%---- Summary head line
+    \newcommand\sumheading{%
+        \rowcolor[gray]{.9}%
+        \centering\arraybackslash%
+        \bfseries\normalsize}
+
+%==== User Defs ======================================================
+%
+% Please insert user defined commands here
+% and NOT in the document itself!
+%
+%
+\makeatother
+
+\let\cleardoublepage\clearpage
+
+%==== Title Page =====================================================
+\title{\textbf{Design of an Automated Electronic Greenhouse}\\[2ex]
+       \large Mechatronic Project 478\\Final Report\\[2ex]}                   
+\author{\Large Author: Luke Riley\\ 
+        \large 23835990 \\[5ex]
+        \Large Supervisor: Mrs. L Ginsburg}                
+\address{Department of Mechanical and Mechatronic Engineering\\
+        Stellenbosch University \\
+        Private Bag X1, Matieland 7602, South Africa.}
+\date{2025/07/07}                             
+\Copyright{2023}{Stellenbosch University.\\ All rights reserved.}
+
+%==== Main Document ==================================================
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\raggedbottom
+\begin{document}   
+
+\frontmatter%---------------------------------------------------------                    
+\maketitle 
+
+\include{chaps-front/chap-plagiarism}
+\include{chaps-front/chap-summary}
+\include{chaps-front/chap-acknowledge}
+
+% Use \chapter*{} before TOC
+\tableofcontents
+% Use \chapter{} after TOC
+
+\listoffigures
+\listoftables
+\include{chaps-front/chap-symbols}
+
+\mainmatter%----------------------------------------------------------
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+
+\include{chaps-main/chap-intro}
+\include{chaps-main/chap-literature}
+\include{chaps-main/chap-concept}
+\include{chaps-main/chap-integration}
+\include{chaps-main/chap-Design_Evaluation}
+\include{chaps-main/chap-conclusion}
+
+\appendix%------------------------------------------
+
+
+\input{chaps-append/risk}
+\input{chaps-append/chap-planning}
+\input{chaps-append/draw}
+\input{chaps-append/chap-maths}
+\input{chaps-append/Setup}
+\input{chaps-append/endoflife}
+
+\backmatter%----------------------------------------------------------
+\bibliography{bib/GHreferences}
+ 
+\end{document}   
+

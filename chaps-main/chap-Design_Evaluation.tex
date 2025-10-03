@@ -1,0 +1,312 @@
+\chapter{Design Evaluation}
+
+This section outlines the tests used to validate the greenhouse systems setup and operation. It includes performance tests to validate selection and design of sensors, actuators the system as a whole and its wireless monitoring and control capabilities. 
+
+\section{Sensor Validation } 
+
+Each sensor needs to be tested to verify its response and accuracy to real shifts in environmental conditions. 
+For each test, the sensor was connected to the ESP32 microcontroller with the appropriate pins configured for operation. 
+A serial communication link was established to output the sensor readings at one-second intervals. 
+These serial outputs were then imported into MATLAB, where the data was processed and plotted to generate the response graphs presented in the following subsections. 
+This approach ensured consistent logging, real-time monitoring, and clear visualization of each sensor's performance. 
+
+\subsection{Temperature and Humidity Sensor}
+
+\subsubsection*{Test Objective}
+The purpose of this test was to verify the accuracy and responsiveness of the DHT22 sensor to real environmental changes in temperature and humidity. 
+
+\subsubsection*{Methodology}
+The sensor was connected to the ESP32 microcontroller and live readings were recorded. 
+A burst of warm air was directed towards the sensor to simulate a rapid change in environmental conditions. 
+The corresponding temperature and relative humidity values were logged and plotted using MATLAB for analysis. 
+
+\subsubsection*{Results}
+The plotted data, shown in Figure~\ref{fig:dht22_test}, demonstrates the sensor's response to the applied stimulus. 
+A clear rise in temperature was observed immediately after exposure to warm air, accompanied by a corresponding change in humidity. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figs/dthtest.jpg}
+	\caption{DHT22 response to applied warm air (temperature and humidity vs. time).}
+	\label{fig:dht22_test}
+\end{figure}
+
+\subsubsection*{Discussion}
+The test confirms that the DHT22 sensor responds promptly to changes in environmental conditions, with smooth and continuous data output. 
+The test showed the expected rise in both temperature and humidity. However, it was noted that the humidity readings temporarily saturated at the maximum percentage due to condensation forming within the sensor. After a short period, the values gradually returned to ambient levels. While this behavior is not ideal, it is a known characteristic of the sensor under extreme conditions and is not expected to cause issues during normal greenhouse operation, where such rapid condensation is unlikely to occur.
+However, slight response delays were noted, which are consistent with the DHT22's documented sampling rate and latency.
+
+\subsection{Soil Moisture Sensor}
+
+\subsubsection*{Test Objective}
+The purpose of this test was to validate the functionality and calibration response of the soil moisture sensor under different moisture conditions. 
+
+\subsubsection*{Methodology}
+The sensor was connected to the ESP32 microcontroller and real-time values were logged. 
+The sensor probes were sequentially tested in three environments: 
+\begin{enumerate}
+	\item Open air (representing completely dry soil). 
+	\item Damp soil. 
+	\item Fully submerged in water. 
+\end{enumerate}
+The recorded data was plotted in MATLAB to observe the changes in moisture percentage. 
+
+\subsubsection*{Results}
+The results, shown in Figure~\ref{fig:soilmoisture_test}, demonstrate the sensor’s clear response across the three test conditions. 
+The readings started at approximately \(0\%\) in open air, increased to around \(50\%\) in damp soil, and finally rose to about \(80\%\) when submerged in water. 
+These values align with the expected qualitative behavior of the sensor. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figs/soiltest.jpg}
+	\caption{Soil moisture sensor response in open air, damp soil, and submerged in water.}
+	\label{fig:soilmoisture_test}
+\end{figure}
+
+\subsubsection*{Discussion}
+The test confirms that the soil moisture sensor is capable of distinguishing between dry, moist, and saturated conditions with clear transitions. 
+The sensor provided consistent and repeatable readings, making it suitable for use in greenhouse irrigation control. 
+The calibration process will ensure more accurate mapping of percentage values to volumetric water content, but the results demonstrate strong baseline performance for the intended application.
+
+\subsection{Light Sensor (BH1750)}
+
+\subsubsection*{Test Objective}
+The purpose of this test was to verify the accuracy and responsiveness of the BH1750 light sensor when subjected to sudden changes in illumination. 
+
+\subsubsection*{Methodology}
+The sensor was connected to the ESP32 via the I\textsuperscript{2}C interface, and its lux readings were logged in real time. 
+A torch was used as a controlled light source. The test procedure involved:
+\begin{enumerate}
+	\item Measuring the baseline lux level in a dimly lit room (ambient conditions). 
+	\item Shining a torch directly on the sensor to observe the rise in lux. 
+	\item Removing the torch to observe the return to baseline levels. 
+\end{enumerate}
+The recorded data was processed and plotted in MATLAB to visualize the sensor response. 
+
+\subsubsection*{Results}
+The results, shown in Figure~\ref{fig:bh1750_test}, indicate a sharp increase in light intensity when the torch was directed at the sensor, with the lux value rising to approximately 200. 
+When the torch was removed, the lux level dropped back down to around 40, representing the ambient light level in the room. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figs/lighttest2.jpg}
+	\caption{BH1750 light sensor response to torch illumination and return to ambient room lighting.}
+	\label{fig:bh1750_test}
+\end{figure}
+
+\subsubsection*{Discussion}
+The test demonstrates that the BH1750 sensor is highly responsive to changes in light conditions, with minimal delay between exposure and measurement. 
+The observed values are consistent with expected lux levels, confirming that the sensor is suitable for monitoring greenhouse lighting conditions. 
+This responsiveness ensures accurate detection of both natural and artificial light variations, which is essential for regulating plant growth environments.
+
+\subsection{CO\textsubscript{2} Sensor}
+
+To validate the CO\textsubscript{2} sensor, the device was first left to stabilize under ambient indoor conditions, which measured approximately 1000\,ppm. 
+A short burst of exhaled air was then directed towards the sensor to create a rapid increase in CO\textsubscript{2} concentration. 
+The sensor response was logged via the ESP32 serial output at one-second intervals and plotted in MATLAB. 
+
+As shown in Figure~\ref{fig:co2_response}, the concentration quickly rose and saturated at the sensor's maximum measurable value of 5000\,ppm. 
+After exposure, the readings steadily decreased and returned to baseline ambient levels of approximately 1000\,ppm within less than two minutes. 
+This confirmed both the sensor’s responsiveness to rapid changes in CO\textsubscript{2} concentration and its ability to recover to stable baseline values after disturbance. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/CO2test.jpg}
+	\caption{CO\textsubscript{2} sensor response to exhaled air and recovery to ambient conditions.}
+	\label{fig:co2_response}
+\end{figure}
+
+\section{Actuator Tests }
+
+Each actuator was connected to its respective relay channel, corresponding to the assigned GPIO pin on the microcontroller. 
+Testing was carried out by first supplying the rated voltage directly to each actuator, followed by validation through relay control. 
+A logical HIGH signal was written to each GPIO pin to trigger the relay, with successful activation confirmed visually via the built-in indicator LED and audibly by the distinct clicking sound of the relay switch. 
+As the relay module operates in active-high mode, actuators were connected to either the Normally Open (NO) or Normally Closed (NC) terminals as required. 
+Once verified, the appropriate 5\,V or 12\,V supply was connected to the Common (CO) port to power the actuators. 
+Table~\ref{tab:actuator_tests} summarizes the testing procedures and outcomes for each actuator.
+
+
+\begin{table}[H]
+	\centering
+	\caption{Actuator Testing and Observations}
+	\label{tab:actuator_tests}
+	\begin{tabular}{|p{3cm}|p{6cm}|p{6cm}|}
+		\hline
+		\textbf{Actuator} & \textbf{Test Procedure} & \textbf{Observation} \\
+		\hline
+		Solenoid Valve & 12\,V applied directly, then via relay control. Bulk and high-frequency capacitors added to suppress voltage spikes. & Audible switching confirmed; misting nozzles activated and deactivated with relay control. \\
+		\hline
+		Linear Actuator & 12\,V applied with polarity switching, then via relay-controlled H-bridge. & Extension and retraction observed correctly in both directions. Relay control verified reliable actuation. \\
+		\hline
+		Supplemental Lighting & 5\,V applied directly, then switched via relay control. & Purple UV grow light switched on and off reliably under both direct and relay control. \\
+		\hline
+		Intake / HAF Fans & 12\,V applied directly, then via relay control. & Fans powered on successfully; airflow observed. Relay switching confirmed proper operation. \\
+		\hline
+	\end{tabular}
+\end{table}
+
+With the mains water supply connected, the solenoid valve successfully controlled the misting system, providing adequate pressure to the misting nozzles. The nozzles were observed to start and stop spraying water in direct response to the relay switching.
+
+During testing, it was observed that switching the misting solenoid simultaneously with Wi-Fi activity (e.g., ThingSpeak uploads) introduced supply transients that caused the ESP32 to briefly brown-out and reset. The solenoid’s inductive kickback and relay contact bounce injected noise onto the 12 V rail, which coupled into the 5 V supply. To mitigate this, a bulk electrolytic capacitor and a high-frequency ceramic capacitor were added at the solenoid driver terminals. These components damped the transient response and provided local energy buffering, resulting in stable system operation without timeouts or resets.
+
+\section{Remote monitoring}
+
+Remote monitoring enables greenhouse conditions to be observed wirelessly, removing the need for the user to be physically present near the system. The setup was implemented using ThingSpeak, with the microcontroller configured to upload sensor data for all parameters at 20-second intervals. By accessing the ThingSpeak platform, the user can view the data remotely in real time. A dashboard was also created to present the information in a clear and accessible format, as shown in the figure below.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/dash.png}
+	\caption{Wireless Monitoring Dashboard.}
+	\label{fig:Wireless Monitoring Dashboard}
+\end{figure}
+
+Thingspeak also allows the storage and collection of data. this data is saved and intepreted in the following sections in full system test. 
+
+\section{Solar Power Test}
+
+To validate the capability of the solar subsystem to power the greenhouse entirely off-grid, a series of tests were conducted. The procedure was as follows:
+
+\begin{enumerate}
+	\item The battery voltage was measured with no load connected, showing 12.8\,V, indicating a partial state of charge (full charge is approximately 14.8\,V).  
+	\item The battery was connected to the Skyking charge controller via the positive and negative terminals. Upon connection, the controller powered on and displayed the battery voltage.  
+	\item Using the controller menu, the float voltage was set to 13.7\,V, the discharge stop voltage to 10.8\,V, and the battery type configured as a sealed gel battery, in accordance with the battery manufacturer’s recommended operating conditions.  
+	\item The solar panels were connected using MC4 connectors. The charge controller confirmed successful charging through its display.  
+	\item The 12\,V supply terminal block and greenhouse system ground were connected to the load terminals of the charge controller.  
+	\item The controller display indicated power transfer to the load. This was verified by measuring the potential difference across the load terminals with a multimeter.  
+\end{enumerate}
+
+These steps confirmed correct wiring and successful operation of the solar power subsystem. The charge controller additionally provides low-voltage protection by disconnecting the load if the battery voltage drops below a safe threshold. During full system testing, it was confirmed that the solar array supplied sufficient power to operate the greenhouse without discharging the battery to unsafe levels.
+
+
+\section{Greenhouse Setup}
+
+The Full Greenhouse setup can be seen in the figure below. Please see Apendix E for additional pictures.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figs/setup.jpeg}
+	\caption{Greenhouse Setup}
+	\label{fig:Greenhouse Setup}
+\end{figure}
+
+\section{Enviromental Response}
+
+With the all of the sensors, actuators, solar power and monitroing sytems tested installed and integrated succesfully the system can be tested with all systems operational. the greenhouse can be powered on and allowed to measure the enviromental conditions and try control the environment to desirable conditions. 
+
+To evaluate the performance of the greenhouse control system, a two-phase test procedure was conducted over a period of six days. In the first phase, the greenhouse was operated for three full day–night cycles with all sensors and monitoring systems active, but without the actuators connected. This allowed the internal environment to respond passively to external conditions, providing a baseline measurement of natural fluctuations in temperature, humidity, and light.
+
+In the second phase, the actuators (ventilation, irrigation, and heating) were connected and enabled. The greenhouse was again run for three full day–night cycles, with the control system actively attempting to regulate conditions towards the desirable setpoints. This phase demonstrates the effectiveness of the system in stabilizing the greenhouse environment.
+
+The temperature, humidity and soil data from both phases were collected and plotted, enabling a direct comparison between passive response and active control. The resulting figures highlight the extent to which the actuators improve environmental stability and overall system performance.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figs/temp_n.png}
+		\caption{Actuators off}
+		\label{fig:temp_off}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figs/temp_a.png}
+		\caption{Actuators on}
+		\label{fig:temp_on}
+	\end{subfigure}
+	\caption{Internal vs. external temperature profiles for the greenhouse with (a) actuators off and (b) actuators on.}
+	\label{fig:temp_comparison}
+\end{figure}
+
+
+It was observed that the greenhouse system experienced difficulty in adequately cooling the internal environment during hotter daytime conditions. The internal temperature consistently rose to approximately \SI{5}{\celsius} above the ambient external temperature. Nevertheless, the active ventilation and circulation fans provided a noticeable cooling benefit when compared to the passive test without actuators.
+
+During the actuator-off test, the internal temperature was allowed to increase to a peak of around \SI{48}{\celsius}, while at night it dropped well below the desired setpoint, reaching approximately \SI{11}{\celsius}. In contrast, during the actuator-on test, the heating system effectively maintained the internal temperature close to the desired setpoint of \SI{15}{\celsius}, keeping the greenhouse slightly warmer than the external environment during colder conditions.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figs/hum_n.png}
+		\caption{Actuators off}
+		\label{fig:hum_off}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figs/hum_a.png}
+		\caption{Actuators on}
+		\label{fig:hum_on}
+	\end{subfigure}
+	\caption{Internal vs.\ external humidity profiles for the greenhouse with (a) actuators off and (b) actuators on.}
+	\label{fig:hum_comparison}
+\end{figure}
+
+The humidity exhibited a wide variation throughout the day–night cycle, which can be attributed to the dependence of relative humidity on temperature. 
+During periods of low humidity, the system attempted to compensate by activating the misting function every 20 minutes, this can be seen through the spikes of humidity.  
+While this temporarily increased the humidity within the greenhouse, the levels gradually declined back toward ambient conditions as the warmer air expanded and its relative humidity decreased.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figs/soil_n.png}
+		\caption{Actuators off}
+		\label{fig:Soil_off}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figs/soil_a.png}
+		\caption{Actuators on}
+		\label{fig:Soil_on}
+	\end{subfigure}
+	\caption{Soil Moisture profile for the greenhouse with (a) actuators off and (b) actuators on.}
+	\label{fig:soil_comparison}
+\end{figure}
+
+During the initial phase, with the mister inactive, the soil moisture gradually dropped below the setpoint as the medium was allowed to dry out. On the third day, following a cold night, a slight increase in moisture was observed due to condensation re-entering the system.
+
+In contrast, during the operational phase with actuators enabled, the irrigation system consistently maintained soil moisture above the desired setpoint. Levels remained stable at around 80\%, never dropping below the target, demonstrating effective control and regulation of ideal moisture conditions.
+
+\subsection*{ CO\textsubscript{2} and Lux Observation}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/co2data.png}
+	\caption{CO\textsubscript{2}}
+	\label{fig:CO\textsubscript{2} Profile}
+\end{figure}
+
+
+The \(\mathrm{CO_{2}}\) plot provides valuable insight by highlighting a distinct day–night cycle, with concentrations rising during the night as a result of plant respiration. 
+This trend is consistent with general ambient \(\mathrm{CO_{2}}\) behavior and does not indicate any problematic accumulation within the greenhouse. Since the levels remained within healthy ranges for plant growth, no active control or actuation was required, such as venting to regulate concentrations.  
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/lux.png}
+	\caption{CO\textsubscript{2}}
+	\label{fig:Lux Profile}
+\end{figure}
+
+The plot of the light intensity profile illustrates the digital on/off state of the supplemental LED lighting. 
+As calculated in Appendix~D, the LED was designed to provide 
+\SI{200}{\micro\mole\per\square\meter\per\second} PPFD and was configured to activate whenever the ambient 
+levels dropped below this threshold, but only during daylight hours. This corresponds to an illuminance of approximately 
+\SI{10800}{lux}. The lighting can be observed switching on during the early morning and evening periods, as well as 
+intermittently on the second day when cloud cover reduced incoming solar radiation.
+
+\section{Full system Test with Plants Growth}
+
+\subsection{Plants growth}
+
+The operational success of the greenhouse system will still need to be validated through a controlled growth trial of microgreens, serving as a key performance indicator. seen in the figure below the test will be conducted with 4 varrieties of microgreesns; seen left to right peas, radish, beetroot and arugala microgreens have been planted.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/greens.jpeg}
+	\caption{Microgreens}
+	\label{fig:Microgreens}
+\end{figure}
+

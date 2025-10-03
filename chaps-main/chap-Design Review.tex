@@ -1,0 +1,48 @@
+\chapter{Design Evaluation}
+
+This section outlines the tests used to validate the greenhouse systems setup and operation. It includes performance tests to validate selection and design of sensors, actuators the system as a whole and its wireless monitoring and control capabilities. 
+
+\section{Sensor Validation }
+
+Each sensor needs to be tested to verify its response and accuracy to real shifts in enviroment conditions. 
+
+
+\subsection{Temperature and Humidity Sensor}
+
+\subsubsection*{Test Objective}
+The purpose of this test was to verify the accuracy and responsiveness of the DHT22 sensor to real environmental changes in temperature and humidity. 
+
+\subsubsection*{Methodology}
+The sensor was connected to the ESP32 microcontroller and live readings were recorded. 
+A burst of warm air was directed towards the sensor to simulate a rapid change in environmental conditions. 
+The corresponding temperature and relative humidity values were logged and plotted using MATLAB for analysis. 
+
+\subsubsection*{Results}
+The plotted data, shown in Figure~\ref{fig:dht22_test}, demonstrates the sensor's response to the applied stimulus. 
+A clear rise in temperature was observed immediately after exposure to warm air, accompanied by a corresponding change in humidity. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figs/dht22_test.png}
+	\caption{DHT22 response to applied warm air (temperature and humidity vs. time).}
+	\label{fig:dht22_test}
+\end{figure}
+
+\subsubsection*{Discussion}
+The test confirms that the DHT22 sensor responds promptly to changes in environmental conditions, with smooth and continuous data output. 
+The expected inverse relationship between temperature and humidity was observed, validating the sensor’s suitability for greenhouse monitoring applications. 
+However, slight response delays were noted, which are consistent with the DHT22's documented sampling rate and latency.
+
+
+\section{Actuator test }
+
+\section{Remote monitoring}
+
+\section{Full system Test}
+
+\subsection{Greenhouse Setup}
+
+\subsection{Enviromental Response}
+
+\subsection{Plants growth}
+

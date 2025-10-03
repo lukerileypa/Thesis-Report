@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template-stb-report-eng.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+The style file: stb-bib-eng-a.bst
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: chaps-front/chap-plagiarism.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: chaps-front/chap-summary.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: chaps-front/chap-acknowledge.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: chaps-front/chap-symbols.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: chaps-main/chap-intro.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: chaps-main/chap-literature.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: chaps-main/chap-concept.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: chaps-main/chap-integration.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: chaps-main/chap-Design_Evaluation.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: chaps-main/chap-conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+Database file #1: bib/GHreferences.bib
+Repeated entry---line 153 of file bib/GHreferences.bib
+ : @article{ahn2017
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "manclim"
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty chapter and pages in dalai2020
+Warning--missing institution in Dieter
+Warning--missing institution in faridi_cooling
+Warning--missing institution in greenhouse_lighting
+Warning--empty journal in verma_cooling
+You've used 40 entries,
+            3324 wiz_defined-function locations,
+            886 strings with 12969 characters,
+and the built_in function-call counts, 28770 in all, are:
+= -- 2272
+> -- 799
+< -- 45
++ -- 314
+- -- 269
+* -- 2599
+:= -- 3819
+add.period$ -- 128
+call.type$ -- 40
+change.case$ -- 310
+chr.to.int$ -- 39
+cite$ -- 45
+duplicate$ -- 2804
+empty$ -- 2565
+format.name$ -- 532
+if$ -- 5714
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 351
+newline$ -- 250
+num.names$ -- 162
+pop$ -- 876
+preamble$ -- 1
+purify$ -- 249
+quote$ -- 0
+skip$ -- 722
+stack$ -- 0
+substring$ -- 1451
+swap$ -- 1210
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 357
+warning$ -- 5
+while$ -- 268
+width$ -- 0
+write$ -- 550
+(There was 1 error message)

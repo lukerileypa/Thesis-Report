@@ -1,0 +1,349 @@
+\begin{thebibliography}{40}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\edef\AFRstr{\string afrikaans}
+\ifx\AFRstr\languagename
+   \input{stb-bib.afr}%
+ \else
+   \input{stb-bib.eng}%
+\fi
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Ahn} \emph{\bbletal{}}(2017)\citenamefont{Ahn},
+  \citenamefont{Bae} \protect\BIBand{} \citenamefont{Kang}}]{ahn2017}
+\bibnamefont{Ahn}, \bibfnamefont{Y.D.}, \bibnamefont{Bae}, \bibfnamefont{S.}
+  \protect\BIBand{} \bibnamefont{Kang}, \bibfnamefont{S.-J.} (2017).
+\newblock Power controllable led system with increased energy efficiency using
+  multi-sensors for plant cultivation.
+\newblock \emph{Energies}, \bblvol{}~10, \bblno{}~10, \bblp{} 1607.
+
+\bibitem[{\citenamefont{{Axe Struct}}(n.d.)}]{axe_struct_solar_mounting}
+\bibnamefont{{Axe Struct}} (nd).
+\newblock Understanding solar panel rails, brackets and clamps: The fool-proof
+  explanation of solar racking systems.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://axestruct.com/solar-panel-rails-brackets-and-clamps/}
+
+\bibitem[{\citenamefont{{Bluelab}}(n.d.)}]{controlling_humidity}
+\bibnamefont{{Bluelab}} (nd).
+\newblock Controlling humidity and temperature in greenhouses.
+\newblock Accessed: 2025-07-15.
+\newline\bblurlpre\url{https://blog.bluelab.com/controlling-humidity-and-temperature-in-greenhouses}
+
+\bibitem[{\citenamefont{{CANNA South Africa}}(n.d.)}]{canna_temp}
+\bibnamefont{{CANNA South Africa}} (nd).
+\newblock How air temperature affects plants.
+\newblock Accessed: July 2025.
+\newline\bblurlpre\url{https://www.canna.co.za/articles/how-air-temperature-affects-plants}
+
+\bibitem[{\citenamefont{{Cedar-Built Greenhouses}}(n.d.)}]{cedar_greenhouse}
+\bibnamefont{{Cedar-Built Greenhouses}} (nd).
+\newblock Essential guide to greenhouse watering system — cedar-built
+  greenhouses.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://www.cedarbuiltgreenhouses.com/our-blogs/essential-guide-to-greenhouse-irrigation-system?utm_source=chatgpt.com}
+
+\bibitem[{\citenamefont{Dalai}(2020)}]{dalai2020}
+\bibnamefont{Dalai}, \bibfnamefont{S.} (2020 11).
+\newblock \emph{Green-houses: Types and Structural Components}.
+\newblock New Delhi Publishers.
+
+\bibitem[{\citenamefont{Dieter} \protect\BIBand{}
+  \citenamefont{Schmidt}()}]{Dieter}
+\bibnamefont{Dieter}, \bibfnamefont{G.E.} \protect\BIBand{}
+  \bibnamefont{Schmidt}, \bibfnamefont{L.C.} ().
+\newblock Engineering design sixth edition.
+\newblock \bbltechrep{}.
+
+\bibitem[{\citenamefont{{Drygair Greenhouse
+  Dehumidifiers}}(n.d.)}]{pepper_guide}
+\bibnamefont{{Drygair Greenhouse Dehumidifiers}} (nd).
+\newblock What are the ideal conditions for pepper cultivation? pepper
+  greenhouse guide.
+\newblock Accessed: July 2025.
+\newline\bblurlpre\url{https://drygair.com/blog/pepper-greenhouse/}
+
+\bibitem[{\citenamefont{Dwinugroho}
+  \emph{\bbletal{}}(2021)\citenamefont{Dwinugroho}, \citenamefont{Fatoni}
+  \protect\BIBand{} \citenamefont{Adhitya}}]{dwinugroho2021greenhouse}
+\bibnamefont{Dwinugroho}, \bibfnamefont{M.R.}, \bibnamefont{Fatoni},
+  \bibfnamefont{A.} \protect\BIBand{} \bibnamefont{Adhitya}, \bibfnamefont{R.}
+  (2021).
+\newblock Greenhouse automation system based on plc for temperature and
+  humidity monitoring.
+\newblock \emph{Journal of Physics: Conference Series}, \bblvol{} 1869,
+  \bblno{}~1, \bblp{} 012080.
+
+\bibitem[{\citenamefont{Eltawil} \protect\BIBand{}
+  \citenamefont{Zhao}(2013)}]{Eltawil2013}
+\bibnamefont{Eltawil}, \bibfnamefont{M.A.} \protect\BIBand{}
+  \bibnamefont{Zhao}, \bibfnamefont{Z.} (2013 9).
+\newblock Mppt techniques for photovoltaic applications.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, \bblvol{}~25,
+  \bblpp{} 793--813.
+\newblock ISSN 1364-0321.
+
+\bibitem[{\citenamefont{{Espressif Systems}}(n.d.)}]{esp_esp32}
+\bibnamefont{{Espressif Systems}} (nd).
+\newblock Esp32 overview – espressif systems.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://www.espressif.com/en/products/socs/esp32/overview}
+
+\bibitem[{\citenamefont{Faridi} \emph{\bbletal{}}()\citenamefont{Faridi},
+  \citenamefont{Arabhosseini}, \citenamefont{Arabhosseini} \protect\BIBand{}
+  \citenamefont{Zarei}}]{faridi_cooling}
+\bibnamefont{Faridi}, \bibfnamefont{H.}, \bibnamefont{Arabhosseini},
+  \bibfnamefont{A.}, \bibnamefont{Arabhosseini}, \bibfnamefont{A.}
+  \protect\BIBand{} \bibnamefont{Zarei}, \bibfnamefont{G.} ().
+\newblock The most commonly used greenhouse cooling technologies: Conventional
+  against modern methods.
+\newblock \bbltechrep{}.
+\newline\bblurlpre\url{https://www.researchgate.net/publication/337936976}
+
+\bibitem[{\citenamefont{Farooq} \emph{\bbletal{}}(2022)\citenamefont{Farooq},
+  \citenamefont{Javid}, \citenamefont{Riaz} \protect\BIBand{}
+  \citenamefont{Atal}}]{farooq2022}
+\bibnamefont{Farooq}, \bibfnamefont{M.S.}, \bibnamefont{Javid},
+  \bibfnamefont{R.}, \bibnamefont{Riaz}, \bibfnamefont{S.} \protect\BIBand{}
+  \bibnamefont{Atal}, \bibfnamefont{Z.} (2022).
+\newblock Iot based smart greenhouse framework and control strategies for
+  sustainable agriculture.
+
+\bibitem[{\citenamefont{{FloraFlex Media}}(n.d.)}]{floraflex_irrigation}
+\bibnamefont{{FloraFlex Media}} (nd).
+\newblock Greenhouse irrigation systems: Maximizing crop growth and efficiency
+  - floraflex media.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://floraflex.com/default/blog/post/greenhouse-irrigation-systems-maximizing-crop-growth-and-efficiency}
+
+\bibitem[{\citenamefont{Ghani} \emph{\bbletal{}}(2019)\citenamefont{Ghani},
+  \citenamefont{Bakochristou}, \citenamefont{ElBialy},
+  \citenamefont{Gamaledin}, \citenamefont{Rashwan}, \citenamefont{Abdelhalim}
+  \protect\BIBand{} \citenamefont{Ismail}}]{ghani2019}
+\bibnamefont{Ghani}, \bibfnamefont{S.}, \bibnamefont{Bakochristou},
+  \bibfnamefont{F.}, \bibnamefont{ElBialy}, \bibfnamefont{E.M.A.A.},
+  \bibnamefont{Gamaledin}, \bibfnamefont{S.M.A.}, \bibnamefont{Rashwan},
+  \bibfnamefont{M.M.}, \bibnamefont{Abdelhalim}, \bibfnamefont{A.M.}
+  \protect\BIBand{} \bibnamefont{Ismail}, \bibfnamefont{S.M.} (2019).
+\newblock Design challenges of agricultural greenhouses in hot and arid
+  environments – a review.
+
+\bibitem[{\citenamefont{GrowersNetwork}(n.d.)}]{airflow_growersnetwork}
+\bibnamefont{GrowersNetwork} (nd).
+\newblock Airflow: Think positive - growers network.
+\newline\bblurlpre\url{https://growersnetwork.org/cultivation/airflow-think-positive/}
+
+\bibitem[{\citenamefont{{Hortitech Help Center}}(n.d.)}]{measuring_ppfd}
+\bibnamefont{{Hortitech Help Center}} (nd).
+\newblock Measuring greenhouse lighting: Ppfd, par, and dli.
+\newblock Accessed: July 2025.
+\newline\bblurlpre\url{https://help.hortitechdirect.com/en/articles/9397183-measuring-greenhouse-lighting-ppfd-par-and-dli}
+
+\bibitem[{\citenamefont{{Insogreen}}(n.d.)}]{inson_greenhouse}
+\bibnamefont{{Insogreen}} (nd).
+\newblock What is a sawtooth greenhouse and how does it work?
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://www.insongreenhouse.com/blog/what-is-a-sawtooth-greenhouse-and-how-does-it-work}
+
+\bibitem[{\citenamefont{Kochetova}
+  \emph{\bbletal{}}(2022)\citenamefont{Kochetova}, \citenamefont{Avercheva},
+  \citenamefont{Bassarskaya} \protect\BIBand{}
+  \citenamefont{Zhigalova}}]{kochetova2022}
+\bibnamefont{Kochetova}, \bibfnamefont{G.V.}, \bibnamefont{Avercheva},
+  \bibfnamefont{O.V.}, \bibnamefont{Bassarskaya}, \bibfnamefont{E.M.}
+  \protect\BIBand{} \bibnamefont{Zhigalova}, \bibfnamefont{T.V.} (2022).
+\newblock Light quality as a driver of photosynthetic apparatus development.
+
+\bibitem[{\citenamefont{Koşan} \emph{\bbletal{}}(2020)\citenamefont{Koşan},
+  \citenamefont{Akkoç}, \citenamefont{Dişli} \protect\BIBand{}
+  \citenamefont{Aktaş}}]{kosan2020}
+\bibnamefont{Koşan}, \bibfnamefont{M.}, \bibnamefont{Akkoç},
+  \bibfnamefont{A.E.}, \bibnamefont{Dişli}, \bibfnamefont{E.}
+  \protect\BIBand{} \bibnamefont{Aktaş}, \bibfnamefont{M.} (2020).
+\newblock Design of an innovative pv/t and heat pump system for greenhouse
+  heating.
+\newblock \emph{Journal of Energy Systems}, \bblvol{}~4, \bblpp{} 58--70.
+\newblock ISSN 26022052.
+
+\bibitem[{\citenamefont{Krisciunas}(2023)}]{Krisciunas2023}
+\bibnamefont{Krisciunas}, \bibfnamefont{K.} (2023).
+\newblock How solar panels work, in theory and in practice.
+\newblock \emph{AIP Advances}, \bblvol{}~13.
+\newblock ISSN 21583226.
+
+\bibitem[{\citenamefont{Kumari} \emph{\bbletal{}}(2007)\citenamefont{Kumari},
+  \citenamefont{Tiwari} \protect\BIBand{} \citenamefont{Sodha}}]{kumari2007}
+\bibnamefont{Kumari}, \bibfnamefont{N.}, \bibnamefont{Tiwari},
+  \bibfnamefont{G.N.} \protect\BIBand{} \bibnamefont{Sodha},
+  \bibfnamefont{M.S.} (2007).
+\newblock Performance evaluation of greenhouse having passive or active heating
+  in different climatic zones of india.
+\newblock \emph{Agricultural Engineering International: the CIGR Ejournal},
+  \bblvol{}~9.
+
+\bibitem[{\citenamefont{López} \emph{\bbletal{}}(2013)\citenamefont{López},
+  \citenamefont{Valera}, \citenamefont{Molina-Aiz} \protect\BIBand{}
+  \citenamefont{Peña}}]{lopez2013}
+\bibnamefont{López}, \bibfnamefont{A.}, \bibnamefont{Valera},
+  \bibfnamefont{D.L.}, \bibnamefont{Molina-Aiz}, \bibfnamefont{F.D.}
+  \protect\BIBand{} \bibnamefont{Peña}, \bibfnamefont{A.} (2013).
+\newblock Effectiveness of horizontal air flow fans supporting natural
+  ventilation in a mediterranean multi-span greenhouse.
+\newblock \emph{Scientia Agricola}, \bblvol{}~70.
+\newblock ISSN 01039016.
+
+\bibitem[{\citenamefont{{MathWorks}}(n.d.)}]{thingspeak}
+\bibnamefont{{MathWorks}} (nd).
+\newblock Thingspeak iot platform.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://thingspeak.com}
+
+\bibitem[{\citenamefont{Mellalou}
+  \emph{\bbletal{}}(2022)\citenamefont{Mellalou}, \citenamefont{Mouaky},
+  \citenamefont{Bacaoui} \protect\BIBand{}
+  \citenamefont{Outzourhit}}]{Mellalou2022}
+\bibnamefont{Mellalou}, \bibfnamefont{A.}, \bibnamefont{Mouaky},
+  \bibfnamefont{A.}, \bibnamefont{Bacaoui}, \bibfnamefont{A.} \protect\BIBand{}
+  \bibnamefont{Outzourhit}, \bibfnamefont{A.} (2022).
+\newblock A comparative study of greenhouse shapes and orientations under the
+  climatic conditions of marrakech, morocco.
+\newblock \emph{International Journal of Environmental Science and Technology},
+  \bblvol{}~19.
+\newblock ISSN 17352630.
+
+\bibitem[{\citenamefont{Nederhoff}(n.d.)}]{nederhoff}
+\bibnamefont{Nederhoff}, \bibfnamefont{E.} (nd).
+\newblock Humidity in the greenhouse.
+\newblock \bbltechrep{}, Wageningen University and Research.
+\newblock Accessed: July 2025.
+\newline\bblurlpre\url{https://www.researchgate.net/publication/285223373}
+
+\bibitem[{\citenamefont{Olabisi} \emph{\bbletal{}}(2022)\citenamefont{Olabisi},
+  \citenamefont{Nofiu}, \citenamefont{Olabisi} \protect\BIBand{}
+  \citenamefont{Nofiu}}]{olabisi2022}
+\bibnamefont{Olabisi}, \bibfnamefont{O.}, \bibnamefont{Nofiu},
+  \bibfnamefont{A.}, \bibnamefont{Olabisi}, \bibfnamefont{O.} \protect\BIBand{}
+  \bibnamefont{Nofiu}, \bibfnamefont{A.} (2022 12).
+\newblock Principles for the production of tomatoes in the greenhouse.
+\newblock \emph{Tomato - From Cultivation to Processing Technology}.
+\newline\bblurlpre\url{https://www.intechopen.com/chapters/83614
+  undefined/chapters/83614}
+
+\bibitem[{\citenamefont{Olagunju}(2015)}]{Olagunju2015}
+\bibnamefont{Olagunju}, \bibfnamefont{T.E.} (2015).
+\newblock Impacts of human-induced deforestation, forest degradation and
+  fragmentation on food security.
+\newblock \emph{New York Scince Journal}, \bblvol{}~8.
+\newblock ISSN 0717-6163.
+
+\bibitem[{\citenamefont{{Raspberry Pi Foundation}}(n.d.)}]{raspberrypi}
+\bibnamefont{{Raspberry Pi Foundation}} (nd).
+\newblock What is a raspberry pi?
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://www.raspberrypi.com/about/}
+
+\bibitem[{\citenamefont{Sena} \emph{\bbletal{}}(2024)\citenamefont{Sena},
+  \citenamefont{Kumari}, \citenamefont{Kumar} \protect\BIBand{}
+  \citenamefont{Husen}}]{sena2024}
+\bibnamefont{Sena}, \bibfnamefont{S.}, \bibnamefont{Kumari}, \bibfnamefont{S.},
+  \bibnamefont{Kumar}, \bibfnamefont{V.} \protect\BIBand{} \bibnamefont{Husen},
+  \bibfnamefont{A.} (2024).
+\newblock Light emitting diode (led) lights for the improvement of plant
+  performance and production: A comprehensive review.
+
+\bibitem[{\citenamefont{Sethi}(2009)}]{Sethi2009}
+\bibnamefont{Sethi}, \bibfnamefont{V.P.} (2009 1).
+\newblock On the selection of shape and orientation of a greenhouse: Thermal
+  modeling and experimental validation.
+\newblock \emph{Solar Energy}, \bblvol{}~83, \bblpp{} 21--38.
+\newblock ISSN 0038092X.
+
+\bibitem[{\citenamefont{Torres} \emph{\bbletal{}}()\citenamefont{Torres},
+  \citenamefont{Lopez} \protect\BIBand{}
+  \citenamefont{Floriculture}}]{greenhouse_lighting}
+\bibnamefont{Torres}, \bibfnamefont{A.P.}, \bibnamefont{Lopez},
+  \bibfnamefont{R.G.} \protect\BIBand{} \bibnamefont{Floriculture},
+  \bibfnamefont{P.} ().
+\newblock Ho-000-w measuring daily light integral in a greenhouse commercial
+  greenhouse production purdue extension what is light and why is it important?
+\newblock \bbltechrep{}.
+\newline\bblurlpre\url{www.hort.purdue.edu}
+
+\bibitem[{\citenamefont{{UC Agriculture and Natural
+  Resources}}(n.d.)}]{carbon_dioxide_enrichment}
+\bibnamefont{{UC Agriculture and Natural Resources}} (nd).
+\newblock Carbon dioxide enrichment in greenhouses.
+\newblock Accessed: July 2025.
+\newline\bblurlpre\url{https://ucanr.edu/blog/nursery-and-flower-grower/article/carbon-dioxide-enrichment-greenhouses}
+
+\bibitem[{\citenamefont{{Vegtech Netafim}}(n.d.)}]{vegtech_netafim}
+\bibnamefont{{Vegtech Netafim}} (nd).
+\newblock Greenhouse technology solutions | vegtech netafim.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://www.vegtechnetafim.com/knowledge-center/greenhouse-technology/}
+
+\bibitem[{\citenamefont{Verma}(2022)}]{verma_cooling}
+\bibnamefont{Verma}, \bibfnamefont{A.} (2022).
+\newblock Agri articles agri articles types of greenhouse and their impact on
+  crop production types of greenhouse.
+\newblock ISSN 2582-9882.
+\newline\bblurlpre\url{http://www.agriarticles.com}
+
+\bibitem[{\citenamefont{Verma} \emph{\bbletal{}}(2022)\citenamefont{Verma},
+  \citenamefont{Singh} \protect\BIBand{} \citenamefont{Sharma}}]{verma2022}
+\bibnamefont{Verma}, \bibfnamefont{A.}, \bibnamefont{Singh}, \bibfnamefont{R.}
+  \protect\BIBand{} \bibnamefont{Sharma}, \bibfnamefont{P.} (2022).
+\newblock Greenhouse technologies: Design, materials and applications.
+\newblock \emph{International Journal of Agricultural Sciences}, \bblvol{}~14,
+  \bblno{}~3, \bblpp{} 145--153.
+\newblock Accessed July 2025.
+
+\bibitem[{\citenamefont{Vox} \emph{\bbletal{}}(2010)\citenamefont{Vox},
+  \citenamefont{Teitel}, \citenamefont{Pardossi}, \citenamefont{Minuto},
+  \citenamefont{Tinivella} \protect\BIBand{} \citenamefont{Schettini}}]{vox}
+\bibnamefont{Vox}, \bibfnamefont{G.}, \bibnamefont{Teitel}, \bibfnamefont{M.},
+  \bibnamefont{Pardossi}, \bibfnamefont{A.}, \bibnamefont{Minuto},
+  \bibfnamefont{A.}, \bibnamefont{Tinivella}, \bibfnamefont{F.}
+  \protect\BIBand{} \bibnamefont{Schettini}, \bibfnamefont{E.} (2010).
+\newblock Sustainable greenhouse systems.
+\newblock \capitalize\bblin{}: \bibnamefont{Salazar}, \bibfnamefont{A.}
+  \protect\BIBand{} \bibnamefont{Rios}, \bibfnamefont{I.} (\bbleds{}),
+  \emph{Sustainable Agriculture: Technology, Planning and Management}, \bblpp{}
+  1--78. Nova Science Publishers, Inc., New York.
+\newblock Copyright 2010; accessed via University of Arizona repository.
+\newline\bblurlpre\url{https://ceac.arizona.edu/sites/default/files/Sustainable%20Greenhouse.pdf}
+
+\bibitem[{\citenamefont{WebbyLab}(n.d.{\natexlab{\emph{a}}})}]{automated_greenhouse_iot}
+\bibnamefont{WebbyLab} (nd{\natexlab{\emph{a}}}).
+\newblock Automated greenhouse management with iot: Monitoring and controlling.
+\newblock Accessed: 2025-07-15.
+\newline\bblurlpre\url{https://webbylab.com/blog/smart-greenhouse-solutions-iot-based-environmental-monitoring-and-control/}
+
+\bibitem[{\citenamefont{WebbyLab}(n.d.{\natexlab{\emph{b}}})}]{automated_greenhouse_iot_b}
+\bibnamefont{WebbyLab} (nd{\natexlab{\emph{b}}}).
+\newblock Automated greenhouse management with iot: Monitoring and controlling.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://webbylab.com/blog/smart-greenhouse-solutions-iot-based-environmental-monitoring-and-control/}
+
+\bibitem[{\citenamefont{Yahaya} \emph{\bbletal{}}(2019)\citenamefont{Yahaya},
+  \citenamefont{Abass} \protect\BIBand{} \citenamefont{Adeshina}}]{Yahaya2019}
+\bibnamefont{Yahaya}, \bibfnamefont{A.}, \bibnamefont{Abass},
+  \bibfnamefont{Y.A.} \protect\BIBand{} \bibnamefont{Adeshina},
+  \bibfnamefont{S.A.} (2019 12).
+\newblock Greenhouse monitoring and control system with an arduino system.
+\newblock \capitalize\bblin{}: \emph{2019 15th International Conference on
+  Electronics, Computer and Computation, ICECCO 2019}. Institute of Electrical
+  and Electronics Engineers Inc.
+\newblock ISBN 9781728151601.
+
+\end{thebibliography}

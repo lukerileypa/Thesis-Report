@@ -28,11 +28,11 @@ For local display of environmental readings, an I²C LCD module is used. The mod
 
 \section{Software Framework and Control Logic}
 
-This section outlines the software design framework for the greenhouse system. The accompanying flowcharts illustrate the sequence of tasks and decision-making processes implemented on the microcontroller. These flowcharts serve to simplify the development of complex control algorithms—particularly those involving multiple variables with competing operational requirements.
+This section outlines the software design framework for the greenhouse system. The accompanying flowcharts illustrate the sequence of tasks and decision-making processes implemented on the microcontroller. These flowcharts serve to simplify the development of complex control algorithms, particularly those involving multiple variables with competing operational requirements.
 
 In certain situations, control actions are prioritized based on environmental conditions. For example, if the internal temperature exceeds the setpoint while soil moisture levels remain adequate, the misting system may still be activated to assist with cooling. In such cases, temperature regulation is prioritized over soil moisture conservation.
 
-The control logic is structured into distinct modules, arranged in approximate order of priority: \textit{Principal Control}, \textit{Temperature Control}, \textit{Airflow Control}, \textit{Humidity Control}, \textit{Lighting Control}, and \textit{Air Quality Control}.
+The control logic is structured into distinct modules, arranged in approximate order of priority: \textit{Principal Control}, \textit{Temperature Control}, \textit{Airflow Control}, \textit{Irrigation Control}, \textit{Lighting Control}, and \textit{Air Quality Control}.
 
 \begin{figure}[H]
 \centering

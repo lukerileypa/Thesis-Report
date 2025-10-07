@@ -1,4 +1,4 @@
-\chapter{Design Evaluation}
+\chapter{Design Evaluation}\label{chap:eval}
 
 This section outlines the tests used to validate the greenhouse systems setup and operation. It includes performance tests to validate selection and design of sensors, actuators the system as a whole and its wireless monitoring and control capabilities. 
 
@@ -112,7 +112,7 @@ This confirmed both the sensor’s responsiveness to rapid changes in CO\textsub
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figs/CO2test.jpg}
-	\caption{CO\textsubscript{2} sensor response to exhaled air and recovery to ambient conditions.}
+	\caption{CO\textsubscript{2} sensor response}
 	\label{fig:co2_response}
 \end{figure}
 
@@ -151,7 +151,7 @@ During testing, it was observed that switching the misting solenoid simultaneous
 
 \section{Remote monitoring}
 
-Remote monitoring enables greenhouse conditions to be observed wirelessly, removing the need for the user to be physically present near the system. The setup was implemented using ThingSpeak, with the microcontroller configured to upload sensor data for all parameters at 20-second intervals. By accessing the ThingSpeak platform, the user can view the data remotely in real time. A dashboard was also created to present the information in a clear and accessible format, as shown in the figure below.
+Remote monitoring enables greenhouse conditions to be observed wirelessly, removing the need for the user to be physically present near the system. The setup was implemented using ThingSpeak, with the microcontroller configured to upload sensor data for all parameters at 20-second intervals. By accessing the ThingSpeak platform, the user can view the data remotely in real time. A dashboard was also created to present the information in a clear and accessible format, as shown in the figure below. Thingspeak also allows the storage and collection of data. this data is saved and interpreted in section \ref{sec:response}. 
 
 \begin{figure}[H]
 	\centering
@@ -160,7 +160,18 @@ Remote monitoring enables greenhouse conditions to be observed wirelessly, remov
 	\label{fig:Wireless Monitoring Dashboard}
 \end{figure}
 
-Thingspeak also allows the storage and collection of data. this data is saved and intepreted in the following sections in full system test. 
+To enable user-defined environmental control, the system integrates wireless connectivity via the Blynk IoT platform. Blynk allows intuitive dashboard creation on mobile devices, giving users the ability to adjust greenhouse parameters such as temperature and humidity directly from their phones using sliders and buttons.
+
+Although Blynk lacks the long-term data storage and analytical features of ThingSpeak, it excels in real-time control and user interaction. The ESP32 was configured with a unique Blynk template and authentication token, allowing remote updates of setpoints for various environmental parameters.
+
+During calibration, it became clear that some user-defined values such as an excessively low humidity limit could be impractical due to natural temperature-humidity relationships and fluctuations. As a result, fixed setpoints were used during testing to ensure consistent system performance. Nonetheless, the app proved valuable for user engagement and fine-tuning, offering flexibility for future customization based on plant type or user preference. Figure~\ref{fig:Blynk} shows the configured Blynk dashboard.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.35\textwidth]{figs/blynk.jpeg}
+	\caption{User App with Blynk}
+	\label{fig:Blynk}
+\end{figure}
 
 \section{Solar Power Test}
 
@@ -180,7 +191,7 @@ These steps confirmed correct wiring and successful operation of the solar power
 
 \section{Greenhouse Setup}
 
-The Full Greenhouse setup can be seen in the figure below. Please see Apendix E for additional pictures.
+The Full Greenhouse setup can be seen in the figure below. Please see Appendix \ref{chap:pics} for additional pictures.
 
 \begin{figure}[H]
 	\centering
@@ -189,9 +200,11 @@ The Full Greenhouse setup can be seen in the figure below. Please see Apendix E 
 	\label{fig:Greenhouse Setup}
 \end{figure}
 
-\section{Enviromental Response}
+\section{Enviromental Response}\label{sec:response}
 
 With the all of the sensors, actuators, solar power and monitroing sytems tested installed and integrated succesfully the system can be tested with all systems operational. the greenhouse can be powered on and allowed to measure the enviromental conditions and try control the environment to desirable conditions. 
+
+\subsection{ Dual Phase Test}
 
 To evaluate the performance of the greenhouse control system, a two-phase test procedure was conducted over a period of six days. In the first phase, the greenhouse was operated for three full day–night cycles with all sensors and monitoring systems active, but without the actuators connected. This allowed the internal environment to respond passively to external conditions, providing a baseline measurement of natural fluctuations in temperature, humidity, and light.
 
@@ -269,12 +282,12 @@ During the initial phase, with the mister inactive, the soil moisture gradually 
 
 In contrast, during the operational phase with actuators enabled, the irrigation system consistently maintained soil moisture above the desired setpoint. Levels remained stable at around 80\%, never dropping below the target, demonstrating effective control and regulation of ideal moisture conditions.
 
-\subsection*{ CO\textsubscript{2} and Lux Observation}
+\subsection{ CO\textsubscript{2} and Lux Observation}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figs/co2data.png}
-	\caption{CO\textsubscript{2}}
+	\caption{CO\textsubscript{2} Profile}
 	\label{fig:CO\textsubscript{2} Profile}
 \end{figure}
 
@@ -286,7 +299,7 @@ This trend is consistent with general ambient \(\mathrm{CO_{2}}\) behavior and d
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figs/lux.png}
-	\caption{CO\textsubscript{2}}
+	\caption{Lux Profile}}}
 	\label{fig:Lux Profile}
 \end{figure}
 
@@ -298,8 +311,6 @@ levels dropped below this threshold, but only during daylight hours. This corres
 intermittently on the second day when cloud cover reduced incoming solar radiation.
 
 \section{Full system Test with Plants Growth}
-
-\subsection{Plants growth}
 
 The operational success of the greenhouse system will still need to be validated through a controlled growth trial of microgreens, serving as a key performance indicator. seen in the figure below the test will be conducted with 4 varrieties of microgreesns; seen left to right peas, radish, beetroot and arugala microgreens have been planted.
 

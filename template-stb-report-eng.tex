@@ -7,11 +7,16 @@
 \usepackage{parskip}
 \usepackage{subcaption}
 \usepackage{tabularx}
+\usepackage[pdftex]{hyperref}
+\usepackage{enumitem} % for compact lists
+\usepackage{pdfpages}
 \usepackage{threeparttable}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{makecell}
 \usepackage{geometry}
+\usepackage{hyperref}
+\usepackage[title,titletoc]{appendix}
 \geometry{margin=1in}
 \usepackage{float}
 \usepackage{graphicx}
@@ -23,7 +28,15 @@
 \svgpath{{figs/}}
 \usepackage[round,authoryear]{natbib}
 \let\cite\citep % makes \cite{...} behave like \citep{...}
-
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=black,
+	citecolor=black,
+	pdftitle={Your Report Title},
+	pdfauthor={Your Name}
+}
 
 \makeatletter
 \def\chapter{\@startsection{chapter}{0}{\z@}%
@@ -76,7 +89,7 @@
 \usepackage{stb-bib}%............................. Bibliography (natbib internally)
     \bibliographystyle{stb-bib-eng-a}
     \renewcommand\bibfont{\small}
-    \renewcommand\bibsection{\chapter{\bibname}}
+    %\renewcommand\bibsection{\chapter{\bibname}}
 
 %==== Tables + Graphics + Color =====================================
 \usepackage{array}%............................... Extended table defs 
@@ -140,15 +153,26 @@
 \maketitle 
 
 \include{chaps-front/chap-plagiarism}
+\include{chaps-front/chap-AI-use-2024}
 \include{chaps-front/chap-summary}
 \include{chaps-front/chap-acknowledge}
+\include{chaps-front/chap-ecsa}
 
 % Use \chapter*{} before TOC
+\hypersetup{
+	linkcolor=black,
+	citecolor=black,
+}
 \tableofcontents
+
 % Use \chapter{} after TOC
 
 \listoffigures
 \listoftables
+\hypersetup{
+	linkcolor=blue,
+	citecolor=black,
+}
 \include{chaps-front/chap-symbols}
 
 \mainmatter%----------------------------------------------------------
@@ -158,19 +182,23 @@
 \include{chaps-main/chap-intro}
 \include{chaps-main/chap-literature}
 \include{chaps-main/chap-concept}
+\include{chaps-main/chap-Detailed_design}
 \include{chaps-main/chap-integration}
 \include{chaps-main/chap-Design_Evaluation}
 \include{chaps-main/chap-conclusion}
 
 \appendix%------------------------------------------
 
+\renewcommand{\chaptername}{Appendix} % ensures "Appendix A"
 
-\input{chaps-append/risk}
-\input{chaps-append/chap-planning}
-\input{chaps-append/draw}
-\input{chaps-append/chap-maths}
-\input{chaps-append/Setup}
-\input{chaps-append/endoflife}
+\begin{appendices} % this sets headings like "Appendix A"
+	\input{chaps-append/chap-planning}
+	\input{chaps-append/risk}
+	\input{chaps-append/draw}
+	\input{chaps-append/chap-maths}
+	\input{chaps-append/Setup}
+	\input{chaps-append/endoflife}
+\end{appendices}
 
 \backmatter%----------------------------------------------------------
 \bibliography{bib/GHreferences}

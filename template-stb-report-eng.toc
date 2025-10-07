@@ -1,11 +1,12 @@
-\contentsline {chapter}{\numberline {1}List of figures}{vii}{chapter.1}%
-\contentsline {chapter}{\numberline {2}List of tables}{viii}{chapter.2}%
-\contentsline {chapter}{\numberline {3}List of symbols}{ix}{chapter.3}%
+\contentsline {chapter}{\numberline {1}List of figures}{ix}{chapter.1}%
+\contentsline {chapter}{\numberline {2}List of tables}{x}{chapter.2}%
+\contentsline {chapter}{\numberline {3}List of symbols}{xii}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Introduction}{1}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Background}{1}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Objectives}{1}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Motivation}{1}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Methodology}{1}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Use of AI Tools}{2}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Literature review and market research}{3}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Environmental Requirements for Optimal Plant Growth }{3}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Temperature}{3}{subsection.5.1.1}%
@@ -33,68 +34,83 @@
 \contentsline {section}{\numberline {6.2}Stakeholder Requirements}{15}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Engineering Requirements}{17}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Functional Decomposition}{18}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Concept Developement}{19}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Concept Evaluation}{19}{subsection.6.4.2}%
-\contentsline {subsubsection}{\numberline {6.4.2.1}Structure}{19}{subsubsection.6.4.2.1}%
-\contentsline {subsubsection}{\numberline {6.4.2.2}Covering Material}{20}{subsubsection.6.4.2.2}%
-\contentsline {subsubsection}{\numberline {6.4.2.3}Active Heating}{21}{subsubsection.6.4.2.3}%
-\contentsline {subsubsection}{\numberline {6.4.2.4}Active Cooling}{22}{subsubsection.6.4.2.4}%
-\contentsline {subsubsection}{\numberline {6.4.2.5}Irrigation}{23}{subsubsection.6.4.2.5}%
-\contentsline {subsubsection}{\numberline {6.4.2.6}Controller Selection}{24}{subsubsection.6.4.2.6}%
-\contentsline {section}{\numberline {6.5}Physical Decomposition}{25}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Detailed Design}{27}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Structure}{28}{subsection.6.6.1}%
-\contentsline {subsubsection}{\numberline {6.6.1.1}Frame}{28}{subsubsection.6.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.6.1.2}Covering material}{29}{subsubsection.6.6.1.2}%
-\contentsline {subsection}{\numberline {6.6.2}Intake and HAF fans}{29}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}Ventilation}{30}{subsection.6.6.3}%
-\contentsline {subsubsection}{\numberline {6.6.3.1}Natural Ventilation}{30}{subsubsection.6.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.6.3.2}Forced Ventilation}{31}{subsubsection.6.6.3.2}%
-\contentsline {subsection}{\numberline {6.6.4}Misting Sytem}{31}{subsection.6.6.4}%
-\contentsline {subsection}{\numberline {6.6.5}Active Heating System}{32}{subsection.6.6.5}%
-\contentsline {subsection}{\numberline {6.6.6}Control Center Design}{32}{subsection.6.6.6}%
-\contentsline {subsubsection}{\numberline {6.6.6.1}Electrical Component Housing}{32}{subsubsection.6.6.6.1}%
-\contentsline {subsubsection}{\numberline {6.6.6.2}Ventilation System}{32}{subsubsection.6.6.6.2}%
-\contentsline {subsubsection}{\numberline {6.6.6.3}Access Panel}{32}{subsubsection.6.6.6.3}%
-\contentsline {subsection}{\numberline {6.6.7}Environmental Monitoring}{33}{subsection.6.6.7}%
-\contentsline {subsubsection}{\numberline {6.6.7.1}Controller}{33}{subsubsection.6.6.7.1}%
-\contentsline {subsubsection}{\numberline {6.6.7.2}Sensors}{34}{subsubsection.6.6.7.2}%
-\contentsline {subsubsection}{\numberline {6.6.7.3}Temperature and Humidity Sensor}{34}{subsubsection.6.6.7.3}%
-\contentsline {subsubsection}{\numberline {6.6.7.4}Light Sensor}{35}{subsubsection.6.6.7.4}%
-\contentsline {subsubsection}{\numberline {6.6.7.5}Carbon Dioxide Sensor}{35}{subsubsection.6.6.7.5}%
-\contentsline {subsubsection}{\numberline {6.6.7.6}Soil Moisture Sensor}{36}{subsubsection.6.6.7.6}%
-\contentsline {subsubsection}{\numberline {6.6.7.7}Rain Sensor}{36}{subsubsection.6.6.7.7}%
-\contentsline {subsection}{\numberline {6.6.8}Data Acquisition and Monitoring}{37}{subsection.6.6.8}%
-\contentsline {subsubsection}{\numberline {6.6.8.1}Local Monitoring}{37}{subsubsection.6.6.8.1}%
-\contentsline {section}{\numberline {6.7}Power Supply}{38}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}Step-down Buck Converter}{38}{subsection.6.7.1}%
-\contentsline {subsection}{\numberline {6.7.2}Battery Capacity}{39}{subsection.6.7.2}%
-\contentsline {subsection}{\numberline {6.7.3}Solar System}{39}{subsection.6.7.3}%
-\contentsline {subsection}{\numberline {6.7.4}Provided Equipment}{39}{subsection.6.7.4}%
-\contentsline {section}{\numberline {6.8}Relays}{39}{section.6.8}%
-\contentsline {section}{\numberline {6.9}Linear actuator and H-Bridge}{39}{section.6.9}%
-\contentsline {chapter}{\numberline {7}System Integration}{41}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Wiring}{41}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Software Framework and Control Logic}{43}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Design Evaluation}{47}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Sensor Validation }{47}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Temperature and Humidity Sensor}{47}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Soil Moisture Sensor}{48}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Light Sensor (BH1750)}{49}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}CO\textsubscript {2} Sensor}{50}{subsection.8.1.4}%
-\contentsline {section}{\numberline {8.2}Actuator Tests }{51}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Remote monitoring}{52}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Solar Power Test}{52}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Greenhouse Setup}{53}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Enviromental Response}{54}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Full system Test with Plants Growth}{57}{section.8.7}%
-\contentsline {subsection}{\numberline {8.7.1}Plants growth}{57}{subsection.8.7.1}%
-\contentsline {chapter}{\numberline {9}Conclusions}{59}{chapter.9}%
-\contentsline {chapter}{\numberline {A}Risk Analysis and Mitigation Procedures}{60}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Project Planning}{61}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Engineering Drawing}{63}{appendix.C}%
-\contentsline {chapter}{Engineering Drawing}{63}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Calculations}{64}{appendix.D}%
-\contentsline {chapter}{\numberline {E}Greenhouse Setup Images}{69}{appendix.E}%
-\contentsline {chapter}{\numberline {F}Responsible use of resources and an end-of-life strategy }{70}{appendix.F}%
-\contentsline {chapter}{\numberline {G}List of references}{71}{appendix.G}%
+\contentsline {section}{\numberline {6.5}Concept Developement}{19}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Concept Evaluation}{19}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Structure}{20}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Covering Material}{20}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Active Heating}{21}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}Active Cooling}{22}{subsection.6.6.4}%
+\contentsline {subsection}{\numberline {6.6.5}Irrigation}{23}{subsection.6.6.5}%
+\contentsline {subsection}{\numberline {6.6.6}Controller Selection}{24}{subsection.6.6.6}%
+\contentsline {section}{\numberline {6.7}Physical Decomposition}{25}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Detailed Design}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Structure}{29}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Frame}{29}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Covering material}{30}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Intake and HAF fans}{30}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}HAF Requirements}{30}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Ventilation}{31}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Natural Ventilation}{31}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Forced Ventilation}{32}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Misting System}{32}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Active Heating System}{33}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Control Center Design}{33}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Electrical Component Housing}{33}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Ventilation System}{33}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}Access Panel}{33}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7.7}Environmental Monitoring}{34}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Controller}{34}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Sensors}{35}{subsection.7.7.2}%
+\contentsline {subsubsection}{\numberline {7.7.2.1} Temperature and Humidity Sensor}{35}{subsubsection.7.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.7.2.2} Light Sensor}{36}{subsubsection.7.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.7.2.3} Carbon Dioxide Sensor}{36}{subsubsection.7.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.7.2.4} Soil Moisture Sensor}{37}{subsubsection.7.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.7.2.5} Rain Sensor}{38}{subsubsection.7.7.2.5}%
+\contentsline {subsection}{\numberline {7.7.3}Data Acquisition and Monitoring}{38}{subsection.7.7.3}%
+\contentsline {section}{\numberline {7.8}Power Supply}{39}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Step-down Buck Converter}{39}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Battery Capacity}{40}{subsection.7.8.2}%
+\contentsline {subsection}{\numberline {7.8.3}Solar System}{40}{subsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.8.4}Provided Equipment}{40}{subsection.7.8.4}%
+\contentsline {section}{\numberline {7.9}Relays}{40}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Linear actuator and H-Bridge}{41}{section.7.10}%
+\contentsline {chapter}{\numberline {8}System Integration}{42}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Wiring}{42}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Software Framework and Control Logic}{44}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Design Evaluation}{48}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Sensor Validation }{48}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Temperature and Humidity Sensor}{48}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Soil Moisture Sensor}{49}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Light Sensor (BH1750)}{50}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}CO\textsubscript {2} Sensor}{51}{subsection.9.1.4}%
+\contentsline {section}{\numberline {9.2}Actuator Tests }{52}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Remote monitoring}{53}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Solar Power Test}{54}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Greenhouse Setup}{55}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Enviromental Response}{55}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1} Dual Phase Test}{55}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2} CO\textsubscript {2} and Lux Observation}{58}{subsection.9.6.2}%
+\contentsline {section}{\numberline {9.7}Full system Test with Plants Growth}{59}{section.9.7}%
+\contentsline {chapter}{\numberline {10}Conclusions}{61}{chapter.10}%
+\contentsline {chapter}{Appendix \numberline {A}Techno-economic Analysis}{62}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Budget}{62}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}Planning and Time Management}{63}{section.1.A.2}%
+\contentsline {section}{\numberline {A.3}Technical Impact}{64}{section.1.A.3}%
+\contentsline {section}{\numberline {A.4}Return on Investement}{64}{section.1.A.4}%
+\contentsline {section}{\numberline {A.5}Potential for Commercialization}{64}{section.1.A.5}%
+\contentsline {chapter}{Appendix \numberline {B}Safety and Mitigation Procedures}{65}{appendix.1.B}%
+\contentsline {section}{\numberline {B.1}Safety}{65}{section.1.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Type of Work Involved}{65}{subsection.1.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}General Lab and Rooftop Safety}{65}{subsection.1.B.1.2}%
+\contentsline {subsection}{\numberline {B.1.3}Electrical Safety}{66}{subsection.1.B.1.3}%
+\contentsline {subsection}{\numberline {B.1.4}Water Usage and Safety}{66}{subsection.1.B.1.4}%
+\contentsline {subsection}{\numberline {B.1.5}Housekeeping and Shutdown}{66}{subsection.1.B.1.5}%
+\contentsline {subsection}{\numberline {B.1.6}Working at Heights}{66}{subsection.1.B.1.6}%
+\contentsline {section}{\numberline {B.2}Risk Analysis and Mitigation Procedures}{67}{section.1.B.2}%
+\contentsline {chapter}{Appendix \numberline {C}Engineering Drawing}{68}{appendix.1.C}%
+\contentsline {chapter}{Appendix \numberline {D}Calculations}{69}{appendix.1.D}%
+\contentsline {chapter}{Appendix \numberline {E}Greenhouse Setup Images}{75}{appendix.1.E}%
+\contentsline {chapter}{Appendix \numberline {F}Responsible use of resources and an end-of-life strategy }{76}{appendix.1.F}%
+\contentsline {section}{\numberline {F.1}Resource Consumption Overview}{76}{section.1.F.1}%
+\contentsline {section}{\numberline {F.2}Strategies for Resource Conservation and Environmental Impact Reduction}{76}{section.1.F.2}%
+\contentsline {section}{\numberline {F.3}End-of-Life Strategies}{77}{section.1.F.3}%

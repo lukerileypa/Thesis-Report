@@ -160,7 +160,7 @@ Remote monitoring enables greenhouse conditions to be observed wirelessly, remov
 	\label{fig:Wireless Monitoring Dashboard}
 \end{figure}
 
-To enable user-defined environmental control, the system integrates wireless connectivity via the Blynk IoT platform. Blynk allows intuitive dashboard creation on mobile devices, giving users the ability to adjust greenhouse parameters such as temperature and humidity directly from their phones using sliders and buttons.
+To enable user-defined environmental control, the system integrates wireless connectivity via the Blynk IoT platform. Blynk allows intuitive dashboard creation on mobile devices, giving users the ability to adjust greenhouse parameters such as temperature and humidity setpoints directly from their phones using sliders and buttons.
 
 Although Blynk lacks the long-term data storage and analytical features of ThingSpeak, it excels in real-time control and user interaction. The ESP32 was configured with a unique Blynk template and authentication token, allowing remote updates of setpoints for various environmental parameters.
 
@@ -210,7 +210,7 @@ To evaluate the performance of the greenhouse control system, a two-phase test p
 
 In the second phase, the actuators (ventilation, irrigation, and heating) were connected and enabled. The greenhouse was again run for three full day–night cycles, with the control system actively attempting to regulate conditions towards the desirable setpoints. This phase demonstrates the effectiveness of the system in stabilizing the greenhouse environment.
 
-The temperature, humidity and soil data from both phases were collected and plotted, enabling a direct comparison between passive response and active control. The resulting figures highlight the extent to which the actuators improve environmental stability and overall system performance.
+The temperature, humidity and soil data from both phases were collected from Thingspeak and plotted using python, enabling a direct comparison between passive response and active control. The resulting figures highlight the extent to which the actuators improve environmental stability and overall system performance.
 
 \begin{figure}[H]
 	\centering
@@ -288,7 +288,7 @@ In contrast, during the operational phase with actuators enabled, the irrigation
 	\centering
 	\includegraphics[width=0.7\textwidth]{figs/co2data.png}
 	\caption{CO\textsubscript{2} Profile}
-	\label{fig:CO\textsubscript{2} Profile}
+	\label{fig:CO2}
 \end{figure}
 
 
@@ -299,8 +299,8 @@ This trend is consistent with general ambient \(\mathrm{CO_{2}}\) behavior and d
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figs/lux.png}
-	\caption{Lux Profile}}}
-	\label{fig:Lux Profile}
+	\caption{Lux Profile}
+	\label{fig:Lux}
 \end{figure}
 
 The plot of the light intensity profile illustrates the digital on/off state of the supplemental LED lighting. 

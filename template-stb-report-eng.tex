@@ -2,21 +2,24 @@
 % !TeX program  = xelatex
 
 \documentclass[12pt,a4paper,openany]{book} 
+\makeatletter
+\renewcommand{\cleardoublepage}{\clearpage}
+\makeatother
+
 \usepackage[typeblock=golden]{stb-titlepage}   
-\usepackage[hidelinks]{hyperref}
 \usepackage{parskip}
 \usepackage{subcaption}
 \usepackage{tabularx}
-\usepackage[pdftex]{hyperref}
 \usepackage{enumitem} % for compact lists
 \usepackage{pdfpages}
 \usepackage{threeparttable}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{makecell}
+\usepackage[section]{placeins}
 \usepackage{geometry}
 \usepackage{hyperref}
-\usepackage[title,titletoc]{appendix}
+\usepackage[titletoc]{appendix}
 \geometry{margin=1in}
 \usepackage{float}
 \usepackage{graphicx}
@@ -38,11 +41,48 @@
 	pdfauthor={Your Name}
 }
 
+\usepackage{etoolbox} % for \AtBeginEnvironment
 \makeatletter
-\def\chapter{\@startsection{chapter}{0}{\z@}%
-	{-3.5ex \@plus -1ex \@minus -.2ex}%
-	{6ex \@plus.2ex}%
-	{\normalfont\huge\bfseries}}
+% one-line appendix chapter head: "Appendix A: Title"
+\newcommand{\oneLineAppendixHead}[1]{%
+	\vspace*{0pt}% space above title (tighten/loosen as needed)
+	{\parindent\z@ \normalfont \huge\bfseries
+		\appendixname~\thechapter:~#1\par}%
+	\vskip 2ex % space below title (adjust to taste)
+}
+
+% swap in the custom head only inside the appendices environment
+\AtBeginEnvironment{appendices}{%
+	\let\old@makechapterhead\@makechapterhead
+	\let\@makechapterhead\oneLineAppendixHead
+}
+\AtEndEnvironment{appendices}{%
+	\let\@makechapterhead\old@makechapterhead
+}
+\makeatother
+
+%\makeatletter
+%\def\chapter{\@startsection{chapter}{0}{\z@}%
+%	{-3.5ex \@plus -1ex \@minus -.2ex}%
+%	{6ex \@plus.2ex}%
+%	{\normalfont\huge\bfseries}}
+%\makeatother
+
+\makeatletter
+\renewcommand\tableofcontents{%
+	\chapter*{\contentsname}%
+	\@starttoc{toc}%
+}
+\renewcommand\listoffigures{%
+	\chapter*{\listfigurename}%
+	\addcontentsline{toc}{chapter}{\listfigurename}%
+	\@starttoc{lof}%
+}
+\renewcommand\listoftables{%
+	\chapter*{\listtablename}%
+	\addcontentsline{toc}{chapter}{\listtablename}%
+	\@starttoc{lot}%
+}
 \makeatother
 
 
@@ -107,9 +147,6 @@
     \renewcommand\listtablename{List of tables}
     \renewcommand\bibname{List of references}
     
-    \renewcommand\tableofcontents{\chapter*{\contentsname}\@starttoc{toc}}
-    \renewcommand\listoffigures{\chapter{\listfigurename}\@starttoc{lof}}
-    \renewcommand\listoftables{\chapter{\listtablename}\@starttoc{lot}}
 
 %---- Plagiarism signatures
     \newcommand\tstrut[1][4ex]{\rule{0pt}{#1}}
@@ -129,10 +166,9 @@
 %
 \makeatother
 
-\let\cleardoublepage\clearpage
-
 %==== Title Page =====================================================
-\title{\textbf{Design of an Automated Electronic Greenhouse}\\[2ex]
+\title{\vspace{1cm}
+	\textbf{Design of an Automated Electronic Greenhouse}\\[2ex]
        \large Mechatronic Project 478\\Final Report\\[2ex]}                   
 \author{\Large Author: Luke Riley\\ 
         \large 23835990 \\[5ex]
@@ -187,9 +223,8 @@
 \include{chaps-main/chap-Design_Evaluation}
 \include{chaps-main/chap-conclusion}
 
-\appendix%------------------------------------------
+\bibliography{bib/GHreferences}
 
-\renewcommand{\chaptername}{Appendix} % ensures "Appendix A"
 
 \begin{appendices} % this sets headings like "Appendix A"
 	\input{chaps-append/chap-planning}
@@ -201,7 +236,7 @@
 \end{appendices}
 
 \backmatter%----------------------------------------------------------
-\bibliography{bib/GHreferences}
+
  
 \end{document}   
 

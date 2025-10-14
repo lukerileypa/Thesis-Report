@@ -1,10 +1,24 @@
+% --- Engineering Drawing appendix (one landscape page, no extras) ---
+\FloatBarrier
 \begin{landscape}
-	\chapter{Engineering Drawing}
+	\thispagestyle{plain}             % no header clutter
+	% Advance chapter + ToC entry WITHOUT starting a new page
+	\refstepcounter{chapter}
+	\addcontentsline{toc}{chapter}{Appendix \thechapter\quad Engineering Drawing}
+	\chaptermark{Engineering Drawing}
 	
-	\begin{sidewaysfigure}
-		\centering
-		\includegraphics[width=0.8\linewidth]{figs/drawing.png}
-		\caption{Engineering Drawing}
-		\label{fig:engineering-drawing}
-	\end{sidewaysfigure}
+	% One-line heading on the same (landscape) page
+	\centering
+	\vspace*{-0.5\baselineskip}       % tighten top whitespace if you like
+	{\huge\bfseries Appendix \thechapter: Engineering Drawing\par}
+	\vspace{0.75\baselineskip}
+	
+	% Place the image directly (no figure float)
+	% Use textheight as the limiting dimension on landscape pages
+	\includegraphics[width=0.97\textheight]{figs/drawing.png}
+	
+	\vspace{0.5\baselineskip}
+	\captionof{figure}{Engineering Drawing}
+	\label{fig:engineering-drawing}
 \end{landscape}
+\FloatBarrier

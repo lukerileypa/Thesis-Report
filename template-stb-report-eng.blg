@@ -5,10 +5,14 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: stb-bib-eng-a.bst
 Reallocating 'name_of_file' (item size: 1) to 32 items.
 A level-1 auxiliary file: chaps-front/chap-plagiarism.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: chaps-front/chap-AI-use-2024.aux
 Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: chaps-front/chap-summary.aux
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: chaps-front/chap-acknowledge.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: chaps-front/chap-ecsa.aux
 Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: chaps-front/chap-symbols.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
@@ -17,6 +21,8 @@ Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chaps-main/chap-literature.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: chaps-main/chap-concept.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: chaps-main/chap-Detailed_design.aux
 Reallocating 'name_of_file' (item size: 1) to 32 items.
 A level-1 auxiliary file: chaps-main/chap-integration.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
@@ -39,7 +45,7 @@ Warning--missing institution in greenhouse_lighting
 Warning--empty journal in verma_cooling
 You've used 40 entries,
             3324 wiz_defined-function locations,
-            886 strings with 12969 characters,
+            889 strings with 13061 characters,
 and the built_in function-call counts, 28770 in all, are:
 = -- 2272
 > -- 799

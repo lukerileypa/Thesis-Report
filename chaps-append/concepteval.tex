@@ -1,0 +1,223 @@
+\chapter{Concept Evaluation}\label{app:concept_evaluation}
+
+In this section the developed concepts are evaluated and expanded on. A weighted scoring system was used to evaluate the best design for each subsystem. Key criteria like efficiency, cost and manufacturability were assigned importance to weights. Each concept was rated 1-5 against these criteria, with scores calculated by multiplying ratings by weights and summing the results. The highest-scoring concepts were selected, ensuring optimal performance while meeting project priorities. This approach attempts to minimized bias and enable clear trade-off decisions between competing requirements, However it is acknowledged that while a quantitative evaluation method was applied, a degree of subjectivity remains inherent in the assessment process.
+
+\subsection{Structure}
+
+For the structure there are generally 3 options that will fit with the small-scale greenhouse’s requirements. The criterion are weighted by a percentage and the concepts are rated on a scale of 1-5 The weights were selected to reflect the priorities for a small-scale greenhouse: 
+temperature management is most critical (30\%), followed by cost effectiveness (30\%), 
+while manufacturability (20\%) and space efficiency (20\%) are also key considerations.
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.3}
+	\setlength{\tabcolsep}{5pt}
+	\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+	
+	\begin{tabular}{|p{3.2cm}|C{1.2cm}|C{1.6cm}|C{1.6cm}|C{1.6cm}|p{5.2cm}|}
+		\hline
+		\textbf{Criterion} & \textbf{Weight (\%)} & \textbf{Even Span} & \textbf{Lean-to} & \textbf{Arch} & \textbf{Rationale} \\
+		\hline
+		Temperature Management & 30 & 3 & 3 & 3 & All options allow moderate control; lean-to benefits from thermal mass of shared wall, but may overheat in summer. \\
+		\hline
+		Ease of Manufacturability & 20 & 2 & 4 & 1 & Lean-to can require fewer materials by leveraging an existing wall; even span is moderate; arch is most complex. \\
+		\hline
+		Space Efficiency \& Footprint & 20 & 2 & 3 & 2 & Lean-to can optimize space against a building; others require more free-standing footprint. \\
+		\hline
+		Cost Effectiveness & 30 & 2 & 3 & 1 & Lean-to reduces material and covering costs; even span moderate; arch requires more structure and covering. \\
+		\hline
+		\textbf{Weighted Total} & \textbf{100} & \textbf{2.3} & \textbf{3.2} & \textbf{1.8} & Lean-to achieves the best balance across cost, space, and manufacturability. \\
+		\hline
+	\end{tabular}
+	\caption{Weighted Concept Evaluation of Greenhouse Structures}
+	\label{tab:concept_evaluation}
+\end{table}
+
+For small-scale applications, the lean-to option emerges as the most practical solution, balancing cost, space utilization, and manufacturability, while still offering adequate thermal performance.
+
+
+\subsection{Covering Material}
+
+The weighting was chosen to reflect the relative importance of each criterion in greenhouse performance. 
+Durability (30\%) was weighted highest as the covering must withstand weathering and mechanical stress. 
+Light transmissibility (20\%) and thermal insulation (20\%) were both critical to plant growth. 
+Cost effectiveness (20\%) was included to balance performance with budget, while ease of manufacturability (10\%) was given a smaller weight since fabrication complexity is less important than long-term functionality.
+
+\begin{table}[H]
+	\centering
+	\begingroup
+	\small
+	\setlength{\tabcolsep}{4pt} % tighter columns (scoped)
+	\renewcommand{\arraystretch}{1.25}
+	\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{3.2cm}|
+			>{\centering\arraybackslash}p{1.2cm}|
+			>{\centering\arraybackslash}p{1.3cm}|
+			>{\centering\arraybackslash}p{2.0cm}|
+			>{\centering\arraybackslash}p{2.0cm}|
+			X|}
+		\hline
+		\textbf{Criterion} & \textbf{Weight (\%)} & \textbf{Glass} & \textbf{Soft Plastic Covering} & \textbf{Perspex Acrylic} & \textbf{Rationale} \\
+		\hline
+		Light Transmissibility   & 20  & 4 & 3 & 3 & Glass transmits light exceptionally well; soft plastic is less transparent; Perspex is good but typically slightly lower than glass. \\
+		\hline
+		Durability               & 30  & 2 & 1 & 4 & Glass is brittle and prone to breakage; soft plastic tears/UV-degrades; Perspex is impact-resistant with good weathering. \\
+		\hline
+		Cost Effectiveness       & 20  & 3 & 5 & 2 & Soft plastic has lowest upfront cost; glass moderate; Perspex is higher cost per m\textsuperscript{2}. \\
+		\hline
+		Ease of Manufacturability& 10  & 1 & 2 & 3 & Glass is heavy and difficult to cut/fit; soft plastic easier to handle; Perspex is lightweight and easy to cut/shape. \\
+		\hline
+		Thermal Insulation       & 20  & 3 & 1 & 3 & Glass and Perspex provide reasonable insulation; thin soft plastic performs poorly. \\
+		\hline
+		\textbf{Weighted Total}  & \textbf{100} & \textbf{2.7} & \textbf{2.3} & \textbf{3.1} & \\
+		\hline
+	\end{tabularx}
+	\caption{Weighted Concept Evaluation of Greenhouse Covering Materials}
+	\label{tab:covering_evaluation}
+	\endgroup
+\end{table}
+
+
+Perspex was selected as the covering material due to its durability, ease of fabrication and ability to be cut to shape, and favourable balance between thermal insulation and light transmittance.
+
+\subsection{Active Heating}
+
+Temperature management and cost effectiveness were weighted highest at 30\% each, as maintaining a stable climate and operating affordability are the most critical factors for long-term success.
+
+\begin{table}[H]
+	\centering
+	\caption{Weighted Concept Evaluation of Heating Options}
+	\label{tab:heating_eval}
+	\begin{threeparttable}
+		\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{3cm} 
+				|>{\centering\arraybackslash}p{1.2cm} 
+				|>{\centering\arraybackslash}p{1.2cm} 
+				|>{\centering\arraybackslash}p{1.2cm} 
+				|>{\centering\arraybackslash}p{1.2cm} 
+				|X|}
+			\hline
+			\textbf{Criterion} & \textbf{Weight (\%)} & \textbf{Electric Heater} & \textbf{Gas Heater} & \textbf{Heat Lamp} & \textbf{Rationale} \\ \hline
+			Temperature Management & 30 & 3 & 4 & 3 & Gas provides strong heating; electric moderate; lamps uneven. \\ \hline
+			Ease of Manufacturability & 20 & 4 & 1 & 2 & Electric is plug-and-play; gas requires plumbing; lamps simple but less effective. \\ \hline
+			Off-Grid Capabilities & 20 & 4 & 1 & 1 & Electric integrates with solar; gas not sustainable; lamps not suited for solar. \\ \hline
+			Cost Effectiveness & 30 & 2 & 3 & 1 & Gas fuel is cheaper; electric moderate; lamps inefficient per area. \\ \hline
+			\textbf{Weighted Total} & 100 & \textbf{3.1} & \textbf{2.5} & \textbf{2.2} & \\ \hline
+		\end{tabularx}
+	\end{threeparttable}
+\end{table}
+
+
+An electric heater was selected as it offers efficient, evenly distributed heating, seamless integration with the solar power system, and lower cost and complexity compared to gas heaters or heat lamps.
+
+\subsection{Active Cooling}
+
+The weighting was selected to reflect the relative importance of cooling performance in maintaining plant health. 
+Temperature management (30\%) was given the highest weight as this is the primary purpose of cooling. 
+Cost effectiveness (30\%) was also heavily weighted due to budget constraints for long-term operation. 
+Off-grid capabilities (20\%) were prioritized to ensure compatibility with renewable systems. 
+Finally, ease of manufacturability (20\%) was included to account for installation complexity and practicality.
+
+\begin{table}[H]
+	\centering
+	\begingroup
+	\footnotesize
+	\setlength{\tabcolsep}{3pt} % tighter columns (scoped to this table)
+	\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{3.0cm}|
+			>{\centering\arraybackslash}p{1.2cm}|
+			>{\centering\arraybackslash}p{1.8cm}|
+			>{\centering\arraybackslash}p{1.8cm}|
+			>{\centering\arraybackslash}p{2.2cm}|
+			X|}
+		\hline
+		\textbf{Criterion} & \textbf{Weight (\%)} & \textbf{Actuated Ventilation} & \textbf{Evaporative Cooling Module} & \textbf{Misting} & \textbf{Rationale} \\
+		\hline
+		Temperature Management      & 30 & 4 & 2 & 3 & Ventilation exchanges hot air for ambient; evaporative modules underperform in humidity; misting adds moderate evaporative cooling. \\
+		\hline
+		Ease of Manufacturability   & 20 & 4 & 1 & 3 & Fans + simple controls vs. pumps, pads, and ducting; misting needs basic plumbing and nozzle layout. \\
+		\hline
+		Off-Grid Capabilities       & 20 & 3 & 2 & 2 & DC/efficient fans suit solar; evaporative modules draw more power; misting depends on reliable pressurized water. \\
+		\hline
+		Cost Effectiveness          & 30 & 3 & 1 & 3 & Ventilation: moderate ; evaporative: high cost and energy; misting: low cost but ongoing water use. \\
+		\hline
+		\textbf{Weighted Total}     & \textbf{100} & \textbf{3.5} & \textbf{1.5} & \textbf{2.8} & \\
+		\hline
+	\end{tabularx}
+	\caption{Weighted Concept Evaluation of Cooling Options}
+	\label{tab:cooling_evaluation}
+	\endgroup
+\end{table}
+
+
+Actuated ventilation emerges as the most economical and energy-efficient cooling method, as it requires only fans to exchange hot and cool air. Its drawback is that it can only cool the greenhouse down to the ambient temperature outside. To enhance this, active ventilation can be combined with misting. Misting promotes evaporative cooling within the greenhouse and, although it requires a pressurized water supply and humidity control, it significantly improves temperature regulation. In contrast, evaporative cooling modules are less favorable due to their high cost, greater power demand, and limited performance in humid environments. Therefore, a combined ventilation and misting approach is the most balanced solution, addressing both cost-effectiveness and cooling performance.
+
+\subsection{Irrigation}
+
+The weighting was selected to reflect the importance of reliable soil moisture control (30\%) and cost effectiveness (30\%) as primary design drivers. Coupled environment control capabilities (15\%) were included to account for irrigation methods that are able to also influence temperature and humidity. Ease of manufacturability (15\%) was considered for practicality, while off-grid capabilities (10\%) were given a smaller weight as irrigation can often be supported by external water supplies.
+
+\begin{table}[H]
+	\centering
+	\begingroup
+	\small
+	\renewcommand{\arraystretch}{1.2}
+	\setlength{\tabcolsep}{3pt}
+	\begin{tabularx}{\textwidth}{|p{3.6cm}|c|c|c|c|X|}
+		\hline
+		\textbf{Criterion} & \textbf{Weight (\%)} & \textbf{Drip Fed} & \textbf{Ebb \& Flow} & \textbf{Misting} & \textbf{Rationale} \\
+		\hline
+		Soil Moisture Control & 30 & 3 & 3 & 2 & Drip and ebb-flow target roots well; misting less precise for soil. \\
+		\hline
+		Ease of Manufacturability & 15 & 4 & 1 & 4 & Drip/mist easy to set up; ebb-flow complex with pumps/reservoirs. \\
+		\hline
+		Off-Grid Capabilities & 10 & 3 & 2 & 1 & Drip can run on solar pumps; ebb-flow requires circulation; misting needs high pressure. \\
+		\hline
+		Coupled Env. Control & 15 & 0 & 0 & 5 & Only misting can also improve humidity/temperature Control. \\
+		\hline
+		Cost Effectiveness & 30 & 4 & 2 & 4 & Drip and misting affordable; ebb-flow expensive/complex. \\
+		\hline
+		\textbf{Weighted Total} & \textbf{100} & \textbf{3.00} & \textbf{1.85} & \textbf{3.25} & \\
+		\hline
+	\end{tabularx}
+	\caption{Weighted Concept Evaluation of Irrigation Methods}
+	\label{tab:irrigation_evaluation}
+	\endgroup
+\end{table}
+
+Misting emerges as the most effective method due to its dual role in both irrigation and environmental control, despite requiring higher water pressure. A misting system with sensor-based control is therefore preferred for optimizing both plant growth and climate regulation.
+
+\subsection{Controller Selection}
+
+% Weight justification + PLC note
+The weights were assigned based on the relative importance of each criterion to the concept: 
+GPIO flexibility (30\%) is most critical for hardware interfacing, programmability and cost each carry 
+significant weight (20\% each), while WiFi (20\%) and power consumption (10\%) are also key but secondary factors. 
+PLCs were considered but ruled out early due to their high cost, complexity, and limited suitability for rapid prototyping or application in small-scale systems.
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.3}
+	\setlength{\tabcolsep}{6pt}
+	\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+	
+	\begin{tabular}{|p{2.8cm}|C{1.2cm}|C{1.8cm}|C{1.8cm}|C{1.8cm}|p{5cm}|}
+		\hline
+		\textbf{Criterion} & \textbf{Weight (\%)} & \textbf{Raspberry Pi 4B} & \textbf{ESP32} & \textbf{Arduino Uno} & \textbf{Rationale} \\
+		\hline
+		Input/Output GPIO Flexibility & 30 & 3 & 4 & 3 & ESP32 has more versatile GPIO including analog inputs; Pi and Arduino provide sufficient but less flexible options. \\
+		\hline
+		Ease of Programmability & 20 & 4 & 4 & 4 & All three have strong community support and beginner-friendly development environments. \\
+		\hline
+		WiFi Capabilities & 20 & 4 & 4 & 2 & ESP32 and Pi include WiFi by default; Arduino requires shields/modules, increasing cost and complexity. \\
+		\hline
+		Power Consumption & 10 & 4 & 3 & 3 & Raspberry Pi is relatively efficient; ESP32 moderate; Arduino low but limited in capability. \\
+		\hline
+		Cost Effectiveness & 20 & 2 & 4 & 3 & ESP32 offers the best feature-to-price ratio; Arduino is low-cost but less capable; Raspberry Pi is more expensive. \\
+		\hline
+		\textbf{Weighted Total} & \textbf{100} & \textbf{3.3} & \textbf{3.9} & \textbf{3.0} & ESP32 emerges as the most balanced choice overall. \\
+		\hline
+	\end{tabular}
+	\caption{Weighted Evaluation of Microcontroller Options}
+	\label{tab:controller_evaluation}
+\end{table}
+
+
+The ESP32 Offers a balance of performance and cost, with built-in Wi-Fi and Bluetooth, making it ideal for IoT and wireless applications.

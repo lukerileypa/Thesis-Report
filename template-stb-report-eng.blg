@@ -35,53 +35,57 @@ Repeated entry---line 153 of file bib/GHreferences.bib
  : @article{ahn2017
  :                 ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "automated_greenhouse_iot_b"
+Warning--I didn't find a database entry for "wei"
 Warning--I didn't find a database entry for "manclim"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--to sort, need author or key in weather
+Warning--to sort, need author or key in lig
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty chapter and pages in dalai2020
 Warning--missing institution in Dieter
 Warning--missing institution in faridi_cooling
 Warning--missing institution in greenhouse_lighting
 Warning--empty journal in verma_cooling
-You've used 40 entries,
+You've used 42 entries,
             3324 wiz_defined-function locations,
-            889 strings with 13061 characters,
-and the built_in function-call counts, 28770 in all, are:
-= -- 2272
-> -- 799
-< -- 45
-+ -- 314
-- -- 269
-* -- 2599
-:= -- 3819
-add.period$ -- 128
-call.type$ -- 40
-change.case$ -- 310
-chr.to.int$ -- 39
-cite$ -- 45
-duplicate$ -- 2804
-empty$ -- 2565
-format.name$ -- 532
-if$ -- 5714
-int.to.chr$ -- 2
+            902 strings with 13615 characters,
+and the built_in function-call counts, 30295 in all, are:
+= -- 2395
+> -- 839
+< -- 46
++ -- 332
+- -- 284
+* -- 2752
+:= -- 3984
+add.period$ -- 132
+call.type$ -- 42
+change.case$ -- 324
+chr.to.int$ -- 42
+cite$ -- 53
+duplicate$ -- 2964
+empty$ -- 2711
+format.name$ -- 559
+if$ -- 6031
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 351
-newline$ -- 250
+missing$ -- 368
+newline$ -- 259
 num.names$ -- 162
-pop$ -- 876
+pop$ -- 934
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 262
 quote$ -- 0
-skip$ -- 722
+skip$ -- 753
 stack$ -- 0
-substring$ -- 1451
-swap$ -- 1210
-text.length$ -- 21
+substring$ -- 1542
+swap$ -- 1270
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 357
-warning$ -- 5
-while$ -- 268
+type$ -- 375
+warning$ -- 7
+while$ -- 277
 width$ -- 0
-write$ -- 550
+write$ -- 570
 (There was 1 error message)

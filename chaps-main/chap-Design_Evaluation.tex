@@ -116,7 +116,7 @@ This confirmed both the sensor’s responsiveness to rapid changes in CO\textsub
 	\label{fig:co2_response}
 \end{figure}
 
-\section{Actuator Tests }
+\section{Actuator Validation }
 
 Each actuator was connected to its respective relay channel, corresponding to the assigned GPIO pin on the microcontroller. 
 Testing was carried out by first supplying the rated voltage directly to each actuator, followed by validation through relay control. 
@@ -282,6 +282,8 @@ During the initial phase, with the mister inactive, the soil moisture gradually 
 
 In contrast, during the operational phase with actuators enabled, the irrigation system consistently maintained soil moisture above the desired setpoint. Levels remained stable at around 80\%, never dropping below the target, demonstrating effective control and regulation of ideal moisture conditions.
 
+Incosistencies and delays in the feedback of the misting can be observed. This is becuase misting was only allowed to activate during the day and in duty cycle intervals of 1 minute every 20 minutes. This prevents overwatering, allows time for feedbak delay, and prevents unintentional cooling of the enviroment at night when thermal regulation is prioritized. 
+
 \subsection{ CO\textsubscript{2} and Lux Observation}
 
 \begin{figure}[H]
@@ -310,13 +312,58 @@ levels dropped below this threshold, but only during daylight hours. This corres
 \SI{10800}{lux}. The lighting can be observed switching on during the early morning and evening periods, as well as 
 intermittently on the second day when cloud cover reduced incoming solar radiation.
 
+\section{Evaluation Using Performance Requirements}
+
+\begin{threeparttable}
+	\caption{Performance Requirement Verification}\label{tab:performance_verification}
+	\begin{tabular}{|p{1.5cm}|p{4.5cm}|c|p{3cm}|p{3cm}|}
+		\hline
+		\textbf{PR Number} & \textbf{Description} & \textbf{Target} & \textbf{Actual} & \textbf{Comment} \\
+		\hline
+		2 & Resist Wind speeds & 18.81\,kph & Not Tested & Validated through calculations \\
+		\hline
+		3 & Temperature sensing range & -10–50\,°C & -40–80\,°C & Passed \\
+		\hline
+		4 & Soil moisture sensing & 0–100\,\% & 0–100\,\%  & Passed \\
+		\hline
+		5 & Humidity sensing & 0–100\,RH\% & 0–100\,RH\%  & Passed \\
+		\hline
+		6 & CO\textsubscript{2} sensing range & 0–1000\,ppm & 0–5000\,ppm & Passed \\
+		\hline
+		7 & Light sensing & 0–600\,\si{\micro\mole\per\metre\squared\per\second} & 0–925\,\si{\micro\mole\per\metre\squared\per\second} & Passed \\
+		\hline
+		8 & Latency in displaying environmental conditions & <120\,s & $\sim$30\,s average & Passed \\
+		\hline
+		9 & Control temperature & 15 min–30 max\,°C & 15–35\,°C maintained & 15 min Passed - 30 max Failed \\
+		\hline
+		10 & Control soil moisture content & 50–100\,\% & 50–100\,\% maintained & Passed \\
+		\hline
+		11 & Control humidity & 40 min–80 max\,\% & 40–95\,\% maintained & 40 min Passed - 80 max Failed \\
+		\hline
+		12 & Supplemental lighting intensity & 200\,\si{\micro\mole\per\metre\squared\per\second} & Not tested & Validated in calculations \\
+		\hline
+		13 & Energy consumption & 0–1200\,Wh & 980\,Wh over 24\,h & Passed \\
+		\hline
+		14 & Battery storage capacity & >24\,h & Not Tested & Remained sufficiently charged over cloudy periods \\
+		\hline
+	\end{tabular}
+\end{threeparttable}
+
+
 \section{Full system Test with Plants Growth}
 
-The operational success of the greenhouse system will still need to be validated through a controlled growth trial of microgreens, serving as a key performance indicator. seen in the figure below the test will be conducted with 4 varrieties of microgreesns; seen left to right peas, radish, beetroot and arugala microgreens have been planted.
+The operational success of the greenhouse system was validated through a controlled two-week growth trial of microgreens, conducted to verify the system’s ability to maintain suitable environmental conditions for plant growth. The experiment served as a performance test against the design requirements related to temperature, humidity, and irrigation control. Four microgreen varieties (peas, radish, beetroot, and arugula) were planted within the greenhouse. As shown in the before-and-after photographs below, all varieties exhibited healthy germination and growth, confirming that the system effectively supported sustained plant development and met its intended functional objectives.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figs/greens.jpeg}
+	\caption{Microgreens Seeds}
+	\label{fig:Microgreens}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/green2.jpeg}
 	\caption{Microgreens}
 	\label{fig:Microgreens}
 \end{figure}

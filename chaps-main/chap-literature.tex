@@ -49,10 +49,10 @@ For most greenhouse crops, net photosynthesis increases significantly as \ce{CO2
 
 
 \begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{figs/Co2.jpg}
-    \caption{Effect of \ce{CO2} concentration on photosynthesis rate. \cite{carbon_dioxide_enrichment}. }
-    \label{fig:photosynthesis}
+	\centering
+	\fbox{\includegraphics[width=0.65\textwidth]{figs/Co2.jpg}}
+	\caption{Effect of \ce{CO2} concentration on photosynthesis rate. \cite{carbon_dioxide_enrichment}. }
+	\label{fig:photosynthesis}
 \end{figure}
 
 As seen in the figure \ref{fig:photosynthesis}, at low \ce{CO2} concentrations (below approximately 300~ppm), the rate of photosynthesis increases sharply as \ce{CO2} concentration rises. However, beyond approximately 400--500~ppm (close to ambient fresh air levels), further increases in \ce{CO2} concentration have little to no additional effect on the photosynthesis rate, as the curve begins to plateau. Therefore, monitoring and maintaining ambient \ce{CO2} concentrations through simple ventilation can be sufficient to support healthy plant growth, without the need for costly \ce{CO2} enrichment.
@@ -72,7 +72,7 @@ This metric provides valuable information for irrigation management, ensuring th
 
 \section{Structural Design Standards}
 
-\subsection{Achitecture of a greenhouse} 
+\subsection{Achitecture of a greenhouse}\label{architecture}
 
 Beyond structural integrity, the architectural design of the greenhouse plays a key role in regulating its internal climate. Greenhouses function either to retain heat during cold periods or to exclude heat in hotter seasons, with the aim of maintaining a productive microclimate for plant growth \cite{ghani2019}. In South Africa’s hot summers, a primary design consideration is minimizing heat buildup, making passive and active cooling essential.
 
@@ -89,25 +89,25 @@ A well-designed greenhouse structure must therefore strike a balance between mec
 
 Choosing the right shape involves balancing structural load requirements with climate control goals, and often depends on regional weather patterns, crop types, and energy availability.
 
-In terms of geographic suitability, greenhouse performance varies significantly with latitude and shape. For example, at \SI{31}{\degree}N latitude, even-span and Quonset greenhouses tend to receive more solar radiation in winter and less in summer, which is ideal for regions with significant seasonal temperature variation. However, at higher latitudes such as \SI{50}{\degree}N, uneven-span greenhouses are more effective for maintaining suitable internal conditions throughout the year 
+In terms of geographic suitability, greenhouse performance varies significantly with latitude and shape. For example, at \SI{31}{\degree}N latitude, even-span and Quonset greenhouses tend to receive more solar radiation in winter and less in summer, which is ideal for regions with significant seasonal temperature variation. However, at higher latitudes such as \SI{50}{\degree}N, uneven-span greenhouses are more effective for maintaining suitable internal conditions throughout the year.
 \citep{Sethi2009}
 
-The inclination angle significantly affects solar heat gain by altering the amount of radiation absorbed by the greenhouse surface. As shown in the figure below, solar energy gaining rates decrease with steeper angles, particularly for the N--S orientation. While both orientations perform similarly at \SI{17}{\degree}, the E--W orientation consistently captures more energy at higher inclinations. This highlights the importance of optimizing both orientation and tilt to balance heat gain and internal climate control.
+The inclination angle significantly affects solar heat gain by altering the amount of radiation absorbed by the greenhouse surface. \citep{Mellalou2022}. As shown in figure \ref{fig:inclin} below, solar energy gaining rates decrease with steeper angles, particularly for the N--S orientation. While both orientations perform similarly at \SI{15}{\degree}, the E--W orientation consistently captures more energy at higher inclinations. This highlights the importance of optimizing both orientation and tilt to balance heat gain and internal climate control.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{figs/inclination.png}
+    \includegraphics[width=0.95\textwidth]{figs/inclination.png}
     \caption{Solar radiation gain vs inclination angles \citep{Mellalou2022}. }
-    \label{fig:photosynthesis}
+    \label{fig:inclin}
 \end{figure}
 
 \subsection{Sawtooth Design}
 
 The sawtooth greenhouse has gained popularity in tropical and subtropical climates due to its unique roof design and natural ventilation system. This roof features several curved, sawtooth-shaped sections, with vertical windows at the highest points to enhance natural ventilation. It uses natural resources like airflow and gravity to regulate the temperature and humidity inside the greenhouse, reducing reliance on external energy sources such as electricity \citep{inson_greenhouse}. Compared to traditional greenhouses, sawtooth greenhouses provide better ventilation, temperature control, and structural stability, making them ideal for hot, humid regions and areas with frequent rain. As the temperature inside the greenhouse rises, warm air naturally ascends and exits through the vertical windows at the top, while cooler air enters from below, creating a natural airflow cycle. The vertical windows are often controlled by a roll-up mechanism that opens for ventilation and closes for insulation when needed.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{figs/sawtooth.jpg}
+    \includegraphics[width=0.5\textwidth]{figs/sawtooth.jpg}
     \caption{Sawtooth Greenhouses \citep{inson_greenhouse}. }
     \label{fig:photosynthesis}
 \end{figure}
@@ -124,7 +124,7 @@ Greenhouses are typically classified by structural type and the materials used f
 
 \textbf{Framing Materials:} Common framing materials include wood, steel, and aluminium. While wood is inexpensive and accessible, aluminium is preferred for its strength, low maintenance, and resistance to corrosion, making it the most durable and cost-effective option for long-term greenhouse use \citep{dalai2020}.
 
-\subsection{Covering materials}
+\subsection{Covering materials}\label{cover}
 
 The choice of covering material greatly influences the internal environment, light transmission, durability, and cost of a greenhouse. The most used materials include glass, plastic film, and rigid panels.
 
@@ -138,7 +138,7 @@ The choice of covering material greatly influences the internal environment, lig
 
 Automated control of environmental parameters such as irrigation, heating and cooling, humidity, and airflow reduces manual workload and contributes to improved plant health. The following sections outline key industry standards and practices for managing these environmental factors effectively.
 
-\subsection{Irrigation Systems}
+\subsection{Irrigation Systems}\label{irrig}
 
 The right water system is key to the success of any greenhouse project. As greenhouse plants have a limited soil buffer, precision irrigation systems are vital to ensure high-quality crops and yields \citep{vegtech_netafim}.
 Some of the most used types of irrigation include:
@@ -153,7 +153,7 @@ Some of the most used types of irrigation include:
 
 Irrigation water in these systems is most effectively stored in closed storage tanks. This provides a means to better control water quality as it protects water from outside contaminants, in addition to minimizing loss of water due to evaporation.
 
-\subsection{Heating and Cooling Systems}
+\subsection{Heating and Cooling Systems} \label{heat}
 
 \section*{Heating and Cooling Systems in Greenhouses}
 
@@ -165,7 +165,7 @@ Efficient heating and cooling systems are essential for maintaining optimal cond
 This approach leverages solar energy to naturally warm the greenhouse. By incorporating design elements such as proper orientation, insulation, and thermal mass (e.g., water barrels or rock walls), heat is absorbed during the day and released at night, maintaining a stable internal temperature \citep{kumari2007}.
 
 \subsection*{Active Heating}
-To compensate for temperature drops, especially during winter nights, various heating systems are utilized. Options include unit heaters, central heating systems, radiant heat, and solar heating systems. The choice of system depends on factors such as greenhouse size, crop requirements, and energy efficiency considerations.
+To compensate for temperature drops, especially during winter nights, various heating systems are utilized. Options include unit heaters such as electric fan heaters, gas heating systems, heat lamps, and solar heating systems. The choice of system depends on factors such as greenhouse size, crop requirements, and energy efficiency considerations.
 
 \subsection*{Passive Cooling}
 Natural ventilation is employed to facilitate air exchange between the interior and exterior, helping to dissipate excess heat. This can be achieved through operable vents in the roof and sidewalls, allowing warm air to escape and cooler air to enter \citep{faridi_cooling}.
@@ -248,7 +248,7 @@ Automation in greenhouses allows for precise control of environmental conditions
 Sensor data is fed into a controller, such as a PLC, Arduino, or Raspberry Pi, enabling automated decision-making for heating, cooling, irrigation, and other critical operations \citep{automated_greenhouse_iot}.
 
 
-\subsubsection{Controllers}
+\subsubsection{Controllers} \label{control}
 
 \textbf{Programmable Logic Controllers (PLC):} A Programmable Logic Controller (PLC) is a robust, industrial-grade computer used for controlling and monitoring industrial processes. It operates by receiving inputs, processing the data, and triggering outputs based on pre-programmed logic. PLCs are widely used in greenhouse automation due to their flexibility and reliability. Built with rugged designs and solid-state components, PLCs ensure long-term, reliable performance in harsh environments. The main drawback of PLCs is their higher power requirements and higher cost compared to microcontroller-based systems, which may limit their use in smaller or cost-sensitive projects \citep{dwinugroho2021greenhouse}.
 

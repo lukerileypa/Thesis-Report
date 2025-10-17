@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.9.21)  14 OCT 2025 10:51
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.9.21)  16 OCT 2025 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -213,6 +213,48 @@ ttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box58
 )
+(C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+
+(C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen175
@@ -306,11 +348,6 @@ Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count293
-
-(C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen190
 
@@ -579,7 +616,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count316
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 42.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
@@ -838,11 +875,11 @@ Package fontspec Info:
 (fontspec)             <->"Cambria/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Cambria(1)/m/n on input line 103.
+(Font)                  OT1/lmr/m/n --> TU/Cambria(1)/m/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Cambria(1)/m/it on input line 103.
+(Font)                  OT1/lmr/m/it --> TU/Cambria(1)/m/it on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Cambria(1)/b/n on input line 103.
+(Font)                  OT1/lmr/bx/n --> TU/Cambria(1)/b/n on input line 105.
 
 Package fontspec Info: 
 (fontspec)             Calibri scale = 1.0052548708189.
@@ -982,9 +1019,9 @@ uage=dflt;"
 uage=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Calibri(1)/m/n on input line 104.
+(Font)                  OT1/lmss/m/n --> TU/Calibri(1)/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Calibri(1)/b/n on input line 104.
+(Font)                  OT1/lmss/bx/n --> TU/Calibri(1)/b/n on input line 106.
 
 Package fontspec Info: 
 (fontspec)             Consolas scale = 0.9521887652806346.
@@ -1070,9 +1107,9 @@ uage=dflt;"
 guage=dflt;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/m/n on input line 105.
+(Font)                  OT1/lmtt/m/n --> TU/Consolas(1)/m/n on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/b/n on input line 105.
+(Font)                  OT1/lmtt/m/n --> TU/Consolas(1)/b/n on input line 107.
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "Cambria Math/B" (it probably
@@ -1115,16 +1152,16 @@ ia
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 106.
+(Font)              `operators' in the math version `normal' on input line 108.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/CambriaMath(1)/m/n on input line 106
+(Font)                  OT1/lmr/m/n --> TU/CambriaMath(1)/m/n on input line 108
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 106.
+(Font)              `operators' in the math version `bold' on input line 108.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/CambriaMath(1)/b/n on input line 10
-6.
+(Font)                  OT1/lmr/bx/n --> TU/CambriaMath(1)/b/n on input line 10
+8.
 
 Package fontspec Info: 
 (fontspec)             Cambria Math scale = 1.0001.
@@ -1178,15 +1215,15 @@ stment={\fontdimen
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 106.
+(Font)              `symbols' in the math version `normal' on input line 108.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/CambriaMath(2)/m/n on input line 10
-6.
+(Font)                  OMS/lmsy/m/n --> TU/CambriaMath(2)/m/n on input line 10
+8.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 106.
+(Font)              `symbols' in the math version `bold' on input line 108.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/CambriaMath(2)/b/n on input line 10
-6.
+(Font)                  OMS/lmsy/b/n --> TU/CambriaMath(2)/b/n on input line 10
+8.
 
 Package fontspec Info: 
 (fontspec)             Cambria Math scale = 0.9999.
@@ -1235,16 +1272,16 @@ stment={\fontdimen
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-06.
+08.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/m/n on input line 10
-6.
+(Font)                  OMX/lmex/m/n --> TU/CambriaMath(3)/m/n on input line 10
+8.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 106
+(Font)              `largesymbols' in the math version `bold' on input line 108
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/b/n on input line 10
-6.
+(Font)                  OMX/lmex/m/n --> TU/CambriaMath(3)/b/n on input line 10
+8.
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             
@@ -1316,16 +1353,13 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \rownum=\count369
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 186.
+h' as default language. on input line 188.
 
 (template-stb-report-eng.aux (chaps-front/chap-plagiarism.aux)
 (chaps-front/chap-AI-use-2024.aux) (chaps-front/chap-summary.aux)
 (chaps-front/chap-acknowledge.aux) (chaps-front/chap-ecsa.aux)
 (chaps-front/chap-symbols.aux) (chaps-main/chap-intro.aux)
 (chaps-main/chap-literature.aux
-
-LaTeX Warning: Label `fig:photosynthesis' multiply defined.
-
 
 LaTeX Warning: Label `fig:photosynthesis' multiply defined.
 
@@ -1355,29 +1389,33 @@ LaTeX Warning: Label `fig:air_circulation' multiply defined.
 
 LaTeX Warning: Label `fig:lcd_screen' multiply defined.
 
-) (chaps-main/chap-Design_Evaluation.aux) (chaps-main/chap-conclusion.aux))
+) (chaps-main/chap-Design_Evaluation.aux
+
+LaTeX Warning: Label `fig:Microgreens' multiply defined.
+
+) (chaps-main/chap-conclusion.aux))
 \openout1 = `template-stb-report-eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1426,14 +1464,14 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 186.
+Package hyperref Info: Link coloring ON on input line 188.
 
 (template-stb-report-eng.out) (template-stb-report-eng.out)
 \@outlinefile=\write4
 \openout4 = `template-stb-report-eng.out'.
 
 
-Package chemgreek Info: Activating mapping `fontspec' on line 186.
+Package chemgreek Info: Activating mapping `fontspec' on line 188.
 
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
@@ -1442,19 +1480,25 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 186.
+or `english'. on input line 188.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+92.
+
+(C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 190.
+(Font)              scaled to size 14.40152pt on input line 192.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 190.
+(Font)              scaled to size 10.00107pt on input line 192.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 190.
+(Font)              scaled to size 7.00075pt on input line 192.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 190.
+(Font)              scaled to size 14.39845pt on input line 192.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 190.
+(Font)              scaled to size 9.99893pt on input line 192.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 190.
+(Font)              scaled to size 6.99925pt on input line 192.
 
 
 [1
@@ -1514,7 +1558,7 @@ File: figs/sign.png Graphic file (type bmp)
 
 LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 193.
+ 195.
 [5]
 \openout2 = `chaps-front/chap-acknowledge.aux'.
 
@@ -1652,10 +1696,6 @@ File: figs/sawtooth.jpg Graphic file (type bmp)
 <figs/sawtooth.jpg>
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
 [7]
 Overfull \hbox (6.64651pt too wide) in paragraph at lines 125--126
 []\TU/Cambria(0)/b/n/12 Framing Materials: \TU/Cambria(0)/m/n/12 Common framing
@@ -1663,14 +1703,14 @@ Overfull \hbox (6.64651pt too wide) in paragraph at lines 125--126
  []
 
 
-
-[8]
 Overfull \hbox (3.56082pt too wide) in paragraph at lines 133--134
 []\TU/Cambria(0)/b/n/12 Plastic Film Greenhouses: \TU/Cambria(0)/m/n/12 Covered
  with flexible materials such as polyethylene, polyvinyl
  []
 
 
+
+[8]
 Overfull \hbox (5.21161pt too wide) in paragraph at lines 135--136
 []\TU/Cambria(0)/b/n/12 Rigid Panel Greenhouses: \TU/Cambria(0)/m/n/12 Made fro
 m polycarbonate, fiberglass-reinforced plastic, acrylic,
@@ -1700,6 +1740,10 @@ lities. The ESP8266 and ESP32
  []
 
 
+Package natbib Warning: Citation `automated_greenhouse_iot_b' on page 13 undefi
+ned on input line 275.
+
+
 
 [13])
 
@@ -1726,57 +1770,60 @@ Overfull \hbox (9.06104pt too wide) in paragraph at lines 31--58
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\TU/Cambria(0)/b/n/12 PR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \TU/Cambria(0)/b/n/12 Num-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 []|\TU/Cambria(0)/b/n/12 Related
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 \TU/Cambria(0)/b/n/12 Stakeholder
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 \TU/Cambria(0)/b/n/12 Require-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/12 Temperature sensing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []|\TU/Cambria(0)/m/n/12 Control soil moisture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []|\TU/Cambria(0)/m/n/12 Supplemental lighting
  []
 
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 152.
+(Font)              scaled to size 5.00053pt on input line 159.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 152.
+(Font)              scaled to size 4.99947pt on input line 159.
 
-Overfull \hbox (46.26997pt too wide) in paragraph at lines 116--159
+Package natbib Warning: Citation `wei' on page 17 undefined on input line 164.
+
+
+Overfull \hbox (46.26997pt too wide) in paragraph at lines 125--168
  [] 
  []
 
 
-
-[16]
 
 [17]
 
@@ -1784,380 +1831,24 @@ Overfull \hbox (46.26997pt too wide) in paragraph at lines 116--159
 File: figs/Funct.png Graphic file (type bmp)
 <figs/Funct.png>
 
+Overfull \hbox (2.02039pt too wide) in paragraph at lines 215--216
+\TU/Cambria(0)/m/n/12 The developed subsystem concepts were evaluated using a w
+eighted scoring method based
+ []
+
+
 
 [19]
-Overfull \hbox (4.48178pt too wide) in paragraph at lines 200--200
- []|\TU/Cambria(0)/b/n/12 Weight 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]|\TU/Cambria(0)/m/n/12 Temperature
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 202--203
-[]|\TU/Cambria(0)/m/n/12 All options allow moderate
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 204--205
-[]|\TU/Cambria(0)/m/n/12 Lean-to can require fewer
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 204--205
-\TU/Cambria(0)/m/n/12 materials by leveraging an
- []
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 204--205
-\TU/Cambria(0)/m/n/12 existing wall; even span is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
-[]|\TU/Cambria(0)/m/n/12 Space Efficiency
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 206--207
-[]|\TU/Cambria(0)/m/n/12 Lean-to can optimize space
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 206--207
-\TU/Cambria(0)/m/n/12 against a building; others
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 206--207
-\TU/Cambria(0)/m/n/12 require more free-standing
- []
-
-
-Underfull \hbox (badness 6157) in paragraph at lines 208--209
-\TU/Cambria(0)/m/n/12 covering costs; even span
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-\TU/Cambria(0)/m/n/12 moderate; arch requires
- []
-
-
-Overfull \hbox (19.55199pt too wide) in paragraph at lines 198--213
- [][] 
- []
-
-
-Overfull \hbox (1.10208pt too wide) in paragraph at lines 254--254
- []|\TU/Cambria(0)/b/n/10.95 Weight 
- []
-
-
-Underfull \hbox (badness 5036) in paragraph at lines 254--254
-\TU/Cambria(0)/m/n/10.95 to breakage; soft plastic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-\TU/Cambria(0)/m/n/10.95 tears/UV-degrades; Per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-\TU/Cambria(0)/m/n/10.95 spex is impact-resistant
- []
-
-
-Underfull \hbox (badness 4266) in paragraph at lines 254--254
-[]|\TU/Cambria(0)/m/n/10.95 Glass is heavy and diffi-
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 254--254
-\TU/Cambria(0)/m/n/10.95 easier to handle; Perspex
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-\TU/Cambria(0)/m/n/10.95 reasonable insulation;
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 254--254
-\TU/Cambria(0)/m/n/10.95 thin soft plastic performs
+Overfull \hbox (4.48889pt too wide) in paragraph at lines 231--232
+\TU/Cambria(0)/m/n/12 reduced performance in humid conditions. Thus, a combined
+ ventilation–misting approach
  []
 
 
 
 [20]
-Overfull \hbox (4.48178pt too wide) in paragraph at lines 286--286
- []|\TU/Cambria(0)/b/n/12 Weight 
- []
-
-
-Overfull \hbox (7.79819pt too wide) in paragraph at lines 286--286
- []|\TU/Cambria(0)/b/n/12 Electric 
- []
-
-
-Overfull \hbox (3.43295pt too wide) in paragraph at lines 286--286
- \TU/Cambria(0)/b/n/12 Heater| 
- []
-
-
-Overfull \hbox (3.43295pt too wide) in paragraph at lines 286--286
- \TU/Cambria(0)/b/n/12 Heater| 
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 286--286
-[]|\TU/Cambria(0)/m/n/12 Gas provides strong heating;
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 286--286
-[]|\TU/Cambria(0)/m/n/12 Gas fuel is cheaper; electric
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
-\TU/Cambria(0)/m/n/12 moderate; lamps inefficient
- []
-
-
-
-[21]
-Overfull \hbox (8.02951pt too wide) in paragraph at lines 295--300
-\TU/Cambria(0)/m/n/12 as this is the primary purpose of cooling. Cost effective
-ness (30%) was also heavily weighted
- []
-
-
-Overfull \hbox (3.13554pt too wide) in paragraph at lines 326--326
- []|\TU/Cambria(0)/b/n/10 Evaporative 
- []
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 326--326
-\TU/Cambria(0)/m/n/10 ity; misting adds moderate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\TU/Cambria(0)/m/n/10 Fans + simple controls vs.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-\TU/Cambria(0)/m/n/10 pumps, pads, and ducting;
- []
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 326--326
-[]|\TU/Cambria(0)/m/n/10 DC/efficient fans suit solar;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-\TU/Cambria(0)/m/n/10 evaporative modules draw
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\TU/Cambria(0)/m/n/10 Ventilation: moderate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-\TU/Cambria(0)/m/n/10 capex/opex; evaporative:
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 326--326
-\TU/Cambria(0)/m/n/10 ing: low capex but ongoing
- []
-
-
-
-[22]
-Overfull \hbox (4.00867pt too wide) in paragraph at lines 337--338
-\TU/Cambria(0)/m/n/12 The weighting was selected to reflect the importance of r
-eliable soil moisture control (30%)
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 361--361
-\TU/Cambria(0)/m/n/10.95 roots well; misting less
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-\TU/Cambria(0)/m/n/10.95 ebb-flow complex with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-[]|\TU/Cambria(0)/m/n/10.95 Drip can run on so-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-\TU/Cambria(0)/m/n/10.95 lar pumps; ebb-flow
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-\TU/Cambria(0)/m/n/10.95 requires circulation;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-[]|\TU/Cambria(0)/m/n/10.95 Only misting can
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-\TU/Cambria(0)/m/n/10.95 also improve humid-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-[]|\TU/Cambria(0)/m/n/10.95 Drip and misting af-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
-\TU/Cambria(0)/m/n/10.95 fordable; ebb-flow
- []
-
-
-
-[23]
-Overfull \hbox (4.48178pt too wide) in paragraph at lines 385--385
- []|\TU/Cambria(0)/b/n/12 Weight 
- []
-
-
-Overfull \hbox (6.72832pt too wide) in paragraph at lines 385--385
- []|\TU/Cambria(0)/b/n/12 Raspberry 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\TU/Cambria(0)/m/n/12 Input/Output
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 387--388
-[]|\TU/Cambria(0)/m/n/12 ESP32 has more versatile
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 387--388
-\TU/Cambria(0)/m/n/12 GPIO including analog in-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 387--388
-\TU/Cambria(0)/m/n/12 puts; Pi and Arduino pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\TU/Cambria(0)/m/n/12 Ease of Pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
-[]|\TU/Cambria(0)/m/n/12 All three have strong
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
-\TU/Cambria(0)/m/n/12 community support and
- []
-
-
-Underfull \hbox (badness 6063) in paragraph at lines 389--390
-\TU/Cambria(0)/m/n/12 beginner-friendly develop-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\TU/Cambria(0)/m/n/12 WiFi Capabili-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
-\TU/Cambria(0)/m/n/12 by default; Arduino re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
-\TU/Cambria(0)/m/n/12 quires shields/modules,
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 391--392
-\TU/Cambria(0)/m/n/12 increasing cost and com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\TU/Cambria(0)/m/n/12 Power Con-
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 393--394
-[]|\TU/Cambria(0)/m/n/12 Raspberry Pi is relatively
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
-[]|\TU/Cambria(0)/m/n/12 Cost Effective-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
-[]|\TU/Cambria(0)/m/n/12 ESP32 offers the best
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 395--396
-\TU/Cambria(0)/m/n/12 feature-to-price ratio; Ar-
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 395--396
-\TU/Cambria(0)/m/n/12 duino is low-cost but less
- []
-
-
-Underfull \hbox (badness 7740) in paragraph at lines 395--396
-\TU/Cambria(0)/m/n/12 capable; Raspberry Pi is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\TU/Cambria(0)/b/n/12 Weighted To-
- []
-
-
-Overfull \hbox (31.55199pt too wide) in paragraph at lines 383--400
- [][] 
- []
-
-
-
-[24]
 File: figs/phys1.png Graphic file (type bmp)
 <figs/phys1.png>
-
-
-[25]
 File: figs/phys2.png Graphic file (type bmp)
 <figs/phys2.png>
 File: figs/phys3.png Graphic file (type bmp)
@@ -2166,9 +1857,9 @@ File: figs/phys4.png Graphic file (type bmp)
 <figs/phys4.png>
 
 
-[26])
+[21])
 
-[27]
+[22]
 \openout2 = `chaps-main/chap-Detailed_design.aux'.
 
  (chaps-main/chap-Detailed_design.tex
@@ -2181,48 +1872,44 @@ File: figs/anotated.png Graphic file (type bmp)
 <figs/anotated.png>
 
 
-[28
+[23
 
 
 
 
 ]
 
-[29]
+[24]
 File: figs/whirlpool.png Graphic file (type bmp)
 <figs/whirlpool.png>
 
 
-[30]
-File: figs/ventcalc.png Graphic file (type bmp)
-<figs/ventcalc.png>
+[25]
+File: figs/fbd.png Graphic file (type bmp)
+<figs/fbd.png>
 
 
-[31]
-File: figs/fancalcs.png Graphic file (type bmp)
-<figs/fancalcs.png>
+[26]
 
-
-[32]
-Overfull \hbox (14.8891pt too wide) in paragraph at lines 118--119
+[27]
+Overfull \hbox (14.8891pt too wide) in paragraph at lines 110--111
 \TU/Cambria(0)/m/n/12 ventilation to prevent control center overheating. A stra
 tegically positioned HAF fan mounted
  []
 
-
-
-[33]
 File: figs/airflow1.png Graphic file (type bmp)
 <figs/airflow1.png>
 
 
-[34]
+[28]
 
-Package natbib Warning: Citation `manclim' on page 35 undefined on input line 1
-46.
+[29]
+
+Package natbib Warning: Citation `manclim' on page 30 undefined on input line 1
+38.
 
 
-Overfull \hbox (10.50125pt too wide) in paragraph at lines 146--147
+Overfull \hbox (10.50125pt too wide) in paragraph at lines 138--139
 \TU/Cambria(0)/m/n/12 heating, while still permitting adequate airflow for accu
 rate environmental readings through
  []
@@ -2231,43 +1918,43 @@ File: figs/steven.png Graphic file (type bmp)
 <figs/steven.png>
 
 
-[35]
+[30]
 
-[36]
-Overfull \hbox (14.44943pt too wide) in paragraph at lines 232--233
+[31]
+Overfull \hbox (14.44943pt too wide) in paragraph at lines 224--225
 \TU/Cambria(0)/m/n/12 abling the automated misting system to deliver precise ir
 rigation when needed. The SEN0114
  []
 
 
 
-[37]
-Overfull \hbox (2.10925pt too wide) in paragraph at lines 260--261
+[32]
+Overfull \hbox (2.10925pt too wide) in paragraph at lines 252--253
 []\TU/Cambria(0)/b/n/12 Wet Point Calibration: \TU/Cambria(0)/m/n/12 Place the 
 sensor probes in fully saturated soil (considered 100%
  []
 
 LaTeX Font Info:    Font shape `TU/Consolas(0)/m/n' will be
-(Font)              scaled to size 11.42633pt on input line 289.
+(Font)              scaled to size 11.42633pt on input line 281.
 
 
-[38]
+[33]
 File: figs/LCD.jpg Graphic file (type bmp)
 <figs/LCD.jpg>
 
 
-[39]
+[34]
 
-[40])
+[35])
 
-[41]
+[36]
 \openout2 = `chaps-main/chap-integration.aux'.
 
  (chaps-main/chap-integration.tex
 Chapter 5.
 
 
-[42
+[37
 
 
 
@@ -2281,32 +1968,17 @@ LaTeX Warning: Float too large for page by 66.09665pt on input line 18.
 
 
 
-[43]
-File: figs/soft1.png Graphic file (type bmp)
-<figs/soft1.png>
+[38]
 
-
-[44
+[39
 
 
 ]
-File: figs/soft2.png Graphic file (type bmp)
-<figs/soft2.png>
-File: figs/soft3.png Graphic file (type bmp)
-<figs/soft3.png>
-File: figs/soft4.png Graphic file (type bmp)
-<figs/soft4.png>
-File: figs/soft5.png Graphic file (type bmp)
-<figs/soft5.png>
-File: figs/soft6.png Graphic file (type bmp)
-<figs/soft6.png>
+File: figs/soft1.png Graphic file (type bmp)
+<figs/soft1.png>
 )
 
-[45]
-
-[46]
-
-[47]
+[40]
 \openout2 = `chaps-main/chap-Design_Evaluation.aux'.
 
  (chaps-main/chap-Design_Evaluation.tex
@@ -2315,19 +1987,19 @@ File: figs/dthtest.jpg Graphic file (type bmp)
 <figs/dthtest.jpg>
 
 
-[48
+[41
 
 
 
 
 ]
 
-[49]
+[42]
 File: figs/soiltest.jpg Graphic file (type bmp)
 <figs/soiltest.jpg>
 
 
-[50]
+[43]
 File: figs/lighttest2.jpg Graphic file (type bmp)
 <figs/lighttest2.jpg>
 
@@ -2347,7 +2019,7 @@ File: figs/CO2test.jpg Graphic file (type bmp)
 <figs/CO2test.jpg>
 
 
-[51]
+[44]
 Underfull \hbox (badness 4739) in paragraph at lines 137--137
 []|\TU/Cambria(0)/m/n/12 12V applied directly, then via
  []
@@ -2414,22 +2086,22 @@ Overfull \hbox (11.42339pt too wide) in paragraph at lines 133--146
 
 
 
-[52]
+[45]
 File: figs/dash.png Graphic file (type bmp)
 <figs/dash.png>
 
 
-[53]
+[46]
 File: figs/blynk.jpeg Graphic file (type bmp)
 <figs/blynk.jpeg>
 
 
-[54]
+[47]
 File: figs/setup.jpeg Graphic file (type bmp)
 <figs/setup.jpeg>
 
 
-[55]
+[48]
 File: figs/temp_n.png Graphic file (type bmp)
 <figs/temp_n.png>
 File: figs/temp_a.png Graphic file (type bmp)
@@ -2440,157 +2112,551 @@ File: figs/hum_a.png Graphic file (type bmp)
 <figs/hum_a.png>
 
 
-[56]
+[49]
 File: figs/soil_n.png Graphic file (type bmp)
 <figs/soil_n.png>
 File: figs/soil_a.png Graphic file (type bmp)
 <figs/soil_a.png>
 
 
-[57]
+[50]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 285.
+(hyperref)                removing `\mathsurround' on input line 287.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 285.
+(hyperref)                removing `\z@' on input line 287.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 287.
 
 File: figs/co2data.png Graphic file (type bmp)
 <figs/co2data.png>
 
 
-[58]
+[51]
 File: figs/lux.png Graphic file (type bmp)
 <figs/lux.png>
 
-Overfull \hbox (12.3677pt too wide) in paragraph at lines 306--312
+Overfull \hbox (12.3677pt too wide) in paragraph at lines 308--314
 \TU/Cambria(0)/m/n/12 LED lighting. As calculated in Appendix D, the LED was de
 signed to provide [][]
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]|\TU/Cambria(0)/b/n/12 PR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\TU/Cambria(0)/b/n/12 Num-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+[]|\TU/Cambria(0)/m/n/12 Validated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+\TU/Cambria(0)/m/n/12 through cal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\TU/Cambria(0)/m/n/12 Temperature sensing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]|\TU/Cambria(0)/m/n/12 0–
+ []
+
+
+Overfull \hbox (5.0305pt too wide) in paragraph at lines 333--333
+\TU/Cambria(0)/m/n/12 925[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]|\TU/Cambria(0)/m/n/12 15–35°C main-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+[]|\TU/Cambria(0)/m/n/12 Control soil moisture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]|\TU/Cambria(0)/m/n/12 40–95% main-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\TU/Cambria(0)/m/n/12 980Wh over
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 347--348
+[]|\TU/Cambria(0)/m/n/12 Remained suffi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\TU/Cambria(0)/m/n/12 ciently charged
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\TU/Cambria(0)/m/n/12 over cloudy
+ []
+
+
+Overfull \hbox (53.8984pt too wide) in paragraph at lines 318--351
+[] 
+ []
+
+
+
+[52]
 File: figs/greens.jpeg Graphic file (type bmp)
 <figs/greens.jpeg>
 
 
-[59])
+[53]
+File: figs/green2.jpeg Graphic file (type bmp)
+<figs/green2.jpeg>
+)
 
-[60]
+[54]
 \openout2 = `chaps-main/chap-conclusion.aux'.
 
  (chaps-main/chap-conclusion.tex
 Chapter 7.
 
 
-[61
+[55
 
 
 
 
 ])
 
-[62] (template-stb-report-eng.bbl
+[56] (template-stb-report-eng.bbl
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/stellenbosch-2\stb-bib.
 eng)
 LaTeX Font Info:    Font shape `TU/Consolas(0)/m/n' will be
-(Font)              scaled to size 10.42651pt on input line 35.
-
-Overfull \hbox (56.24257pt too wide) in paragraph at lines 38--42
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][][] [] [][
-][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
- []
+(Font)              scaled to size 10.42651pt on input line 25.
 
 
-Overfull \hbox (4.14967pt too wide) in paragraph at lines 44--48
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][] [] [][][
-][][] [] [][] [] [][] [] [][][][][][][][] [] [][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][]$[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][] [] [][][
-][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][][][][][][
-][] [] [][][] [] [][][][][][][] [] [][][][] [] [][][][] []
- []
-
-
-
-[63
+[57
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 147--151
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][][] [] [][
-][][][][][][][][][][][][][] [] [][][] [] [][] [] [][][][][][][][] []
+
+[58]) (chaps-append/concepteval.tex
+
+[59]
+Appendix A.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+
+Overfull \hbox (4.48178pt too wide) in paragraph at lines 19--19
+ []|\TU/Cambria(0)/b/n/12 Weight 
  []
 
 
-Overfull \hbox (121.30055pt too wide) in paragraph at lines 153--157
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][] [] [][][
-][][][][][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][]$[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\TU/Cambria(0)/m/n/12 Temperature
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 21--22
+[]|\TU/Cambria(0)/m/n/12 All options allow moderate
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 23--24
+[]|\TU/Cambria(0)/m/n/12 Lean-to can require fewer
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 materials by leveraging an
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 existing wall; even span is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/Cambria(0)/m/n/12 Space Efficiency
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 25--26
+[]|\TU/Cambria(0)/m/n/12 Lean-to can optimize space
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 25--26
+\TU/Cambria(0)/m/n/12 against a building; others
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 25--26
+\TU/Cambria(0)/m/n/12 require more free-standing
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 covering costs; even span
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 moderate; arch requires
+ []
+
+
+Overfull \hbox (19.55199pt too wide) in paragraph at lines 17--32
+ [][] 
+ []
+
+
+
+[60
+
+]
+Overfull \hbox (1.10208pt too wide) in paragraph at lines 73--73
+ []|\TU/Cambria(0)/b/n/10.95 Weight 
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/10.95 to breakage; soft plastic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/10.95 tears/UV-degrades; Per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/10.95 spex is impact-resistant
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 73--73
+[]|\TU/Cambria(0)/m/n/10.95 Glass is heavy and diffi-
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/10.95 easier to handle; Perspex
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/10.95 reasonable insulation;
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/10.95 thin soft plastic performs
+ []
+
+
+
+[61]
+Overfull \hbox (4.48178pt too wide) in paragraph at lines 104--104
+ []|\TU/Cambria(0)/b/n/12 Weight 
+ []
+
+
+Overfull \hbox (7.79819pt too wide) in paragraph at lines 104--104
+ []|\TU/Cambria(0)/b/n/12 Electric 
+ []
+
+
+Overfull \hbox (3.43295pt too wide) in paragraph at lines 104--104
+ \TU/Cambria(0)/b/n/12 Heater| 
+ []
+
+
+Overfull \hbox (3.43295pt too wide) in paragraph at lines 104--104
+ \TU/Cambria(0)/b/n/12 Heater| 
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 104--104
+[]|\TU/Cambria(0)/m/n/12 Gas provides strong heating;
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 104--104
+[]|\TU/Cambria(0)/m/n/12 Gas fuel is cheaper; electric
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+\TU/Cambria(0)/m/n/12 moderate; lamps inefficient
+ []
+
+
+
+[62]
+Overfull \hbox (8.02951pt too wide) in paragraph at lines 113--118
+\TU/Cambria(0)/m/n/12 as this is the primary purpose of cooling. Cost effective
+ness (30%) was also heavily weighted
+ []
+
+
+Overfull \hbox (3.13554pt too wide) in paragraph at lines 144--144
+ []|\TU/Cambria(0)/b/n/10 Evaporative 
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 144--144
+\TU/Cambria(0)/m/n/10 ity; misting adds moderate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\TU/Cambria(0)/m/n/10 Fans + simple controls vs.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\TU/Cambria(0)/m/n/10 pumps, pads, and ducting;
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 144--144
+[]|\TU/Cambria(0)/m/n/10 DC/efficient fans suit solar;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\TU/Cambria(0)/m/n/10 evaporative modules draw
+ []
+
+
+
+[63]
+Overfull \hbox (4.00867pt too wide) in paragraph at lines 155--156
+\TU/Cambria(0)/m/n/12 The weighting was selected to reflect the importance of r
+eliable soil moisture control (30%)
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 179--179
+\TU/Cambria(0)/m/n/10.95 roots well; misting less
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\TU/Cambria(0)/m/n/10.95 ebb-flow complex with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]|\TU/Cambria(0)/m/n/10.95 Drip can run on so-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\TU/Cambria(0)/m/n/10.95 lar pumps; ebb-flow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\TU/Cambria(0)/m/n/10.95 requires circulation;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]|\TU/Cambria(0)/m/n/10.95 Only misting can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\TU/Cambria(0)/m/n/10.95 also improve humid-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]|\TU/Cambria(0)/m/n/10.95 Drip and misting af-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\TU/Cambria(0)/m/n/10.95 fordable; ebb-flow
  []
 
 
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 284--288
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][][][] [] [
-][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [
-] [][][][][][][] []
+Overfull \hbox (4.48178pt too wide) in paragraph at lines 203--203
+ []|\TU/Cambria(0)/b/n/12 Weight 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][] [] [][][
-][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] []
+Overfull \hbox (6.72832pt too wide) in paragraph at lines 203--203
+ []|\TU/Cambria(0)/b/n/12 Raspberry 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--325
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][][] [] [][
-][][][][][] [] [][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][]
-[][][][][][][] []
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]|\TU/Cambria(0)/m/n/12 Input/Output
  []
 
 
-Overfull \hbox (195.32362pt too wide) in paragraph at lines 327--331
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][][][][][][
-] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][]$[][] 
+Underfull \hbox (badness 3199) in paragraph at lines 205--206
+[]|\TU/Cambria(0)/m/n/12 ESP32 has more versatile
  []
 
 
-Overfull \hbox (195.32362pt too wide) in paragraph at lines 333--337
-\TU/Cambria(0)/m/n/10.95 Available at: [][]$[][][][][] [] [] [] [][][][][][][][
-] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][]$[][] 
+Underfull \hbox (badness 3250) in paragraph at lines 205--206
+\TU/Cambria(0)/m/n/12 GPIO including analog in-
  []
 
+
+Underfull \hbox (badness 1014) in paragraph at lines 205--206
+\TU/Cambria(0)/m/n/12 puts; Pi and Arduino pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\TU/Cambria(0)/m/n/12 Ease of Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+[]|\TU/Cambria(0)/m/n/12 All three have strong
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+\TU/Cambria(0)/m/n/12 community support and
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 207--208
+\TU/Cambria(0)/m/n/12 beginner-friendly develop-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[]|\TU/Cambria(0)/m/n/12 WiFi Capabili-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/Cambria(0)/m/n/12 by default; Arduino re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/Cambria(0)/m/n/12 quires shields/modules,
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 209--210
+\TU/Cambria(0)/m/n/12 increasing cost and com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]|\TU/Cambria(0)/m/n/12 Power Con-
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 211--212
+[]|\TU/Cambria(0)/m/n/12 Raspberry Pi is relatively
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\TU/Cambria(0)/m/n/12 Cost Effective-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+[]|\TU/Cambria(0)/m/n/12 ESP32 offers the best
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 213--214
+\TU/Cambria(0)/m/n/12 feature-to-price ratio; Ar-
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 213--214
+\TU/Cambria(0)/m/n/12 duino is low-cost but less
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 213--214
+\TU/Cambria(0)/m/n/12 capable; Raspberry Pi is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]|\TU/Cambria(0)/b/n/12 Weighted To-
+ []
+
+
+Overfull \hbox (31.55199pt too wide) in paragraph at lines 201--218
+ [][] 
+ []
+
+
+
+[65]) (chaps-append/software.tex
+
+[66]
+Appendix B.
+
+Overfull \hbox (1.31494pt too wide) in paragraph at lines 1--1
+[]\TU/Cambria(0)/b/n/24.88 Appendix B: Sample Software Control Al-
+ []
+
+File: figs/soft2.png Graphic file (type bmp)
+<figs/soft2.png>
+File: figs/soft3.png Graphic file (type bmp)
+<figs/soft3.png>
+
+
+[67
+
+]
+File: figs/soft4.png Graphic file (type bmp)
+<figs/soft4.png>
+
+
+[68]
+File: figs/soft5.png Graphic file (type bmp)
+<figs/soft5.png>
 ) (chaps-append/chap-planning.tex
 
-[65]
-Appendix A.
+[69]
+Appendix C.
 File: figs/cost.png Graphic file (type bmp)
 <figs/cost.png>
 
 
-[66
+[70
 
 ]
 
@@ -2639,31 +2705,29 @@ or  <return>  to continue without it.
 
 
 
-[67
+[71
 
 ]
-Overfull \hbox (0.1217pt too wide) in paragraph at lines 40--41
+Overfull \hbox (0.1217pt too wide) in paragraph at lines 38--39
 \TU/Cambria(0)/m/n/12 ual labour requirements, lowering maintenance and supervi
 sion costs over time. Although
  []
 
 
-Overfull \hbox (2.49149pt too wide) in paragraph at lines 40--41
+Overfull \hbox (2.49149pt too wide) in paragraph at lines 38--39
 \TU/Cambria(0)/m/n/12 tronics, these expenses are recovered through long-term o
 perational savings and improved
  []
 
 ) (chaps-append/risk.tex
 
-[68
+[72
 
 ]
-
-[69]
-Appendix B.
+Appendix D.
 
 
-[70
+[73
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 94--94
@@ -2797,9 +2861,9 @@ Underfull \hbox (badness 2846) in paragraph at lines 94--94
 
 ) (chaps-append/draw.tex
 
-[71]
+[74]
 
-[72]
+[75]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
@@ -2814,7 +2878,7 @@ See the caption package documentation for explanation.
 
 
 
-[73
+[76
 
 ]) (chaps-append/chap-maths.tex
 File: smath2.pdf Graphic file (type pdf)
@@ -2828,12 +2892,12 @@ File: smath2.pdf Graphic file (type pdf)
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 1>
 
-Appendix D.
+Appendix F.
 
 
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 1>
-[74
+[77
 
 
 
@@ -2852,54 +2916,54 @@ File: smath2.pdf Graphic file (type pdf)
 
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 2>
-[75
-
-]
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
-
-
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
-[76
-
-]
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
-
-
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
-[77
-
-]
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
-
-
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
 [78
 
 ]
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
+<use smath2.pdf, page 3>
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
+<use smath2.pdf, page 3>
 
 
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
+<use smath2.pdf, page 3>
 [79
 
+]
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 4>
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 4>
+
+
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 4>
+[80
+
+]
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 5>
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 5>
+
+
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 5>
+[81
+
+]
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 6>
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 6>
+
+
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 6>
+[82
+
 ]) (chaps-append/Setup.tex
-Appendix E.
+Appendix G.
 File: figs/mppt.jpeg Graphic file (type bmp)
 <figs/mppt.jpeg>
 File: figs/LED.png Graphic file (type bmp)
@@ -2920,24 +2984,18 @@ File: figs/LCD.jpeg Graphic file (type bmp)
 <figs/LCD.jpeg>
 ) (chaps-append/endoflife.tex
 
-[80
+[83
 
 ]
-Appendix F.
+Appendix H.
 
-Overfull \hbox (8.30031pt too wide) in paragraph at lines 1--1
-[]\TU/Cambria(0)/b/n/24.88 Appendix F: Responsible use of resources
- []
-
-
-Overfull \hbox (12.93681pt too wide) in paragraph at lines 15--15
-[]\TU/Cambria(0)/b/n/17.28 Strategies for Resource Conservation and Environmen-
-
+Overfull \hbox (13.26903pt too wide) in paragraph at lines 1--1
+[]\TU/Cambria(0)/b/n/24.88 Appendix H: Responsible use of resources
  []
 
 
 
-[81
+[84
 
 ]
 Overfull \hbox (2.85477pt too wide) in paragraph at lines 23--24
@@ -2947,7 +3005,7 @@ erial reuse in future projects.
 
 )
 
-[82]
+[85]
 
 Package natbib Warning: There were undefined citations.
 
@@ -2968,19 +3026,19 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `template-stb-report-eng.out' has not changed
 .
-(rerunfilecheck)             Checksum: EE0A3427768D3CE4BBF905420F5DD6FD;17835.
+(rerunfilecheck)             Checksum: 70E2282F641E77EAD203E297750FC02A;19490.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28126 strings out of 408640
- 584501 string characters out of 5744798
- 1168819 words of memory out of 5000000
- 50612 multiletter control sequences out of 15000+600000
- 564446 words of font info for 145 fonts, out of 8000000 for 9000
+ 28228 strings out of 408640
+ 586525 string characters out of 5744798
+ 1173240 words of memory out of 5000000
+ 50695 multiletter control sequences out of 15000+600000
+ 565527 words of font info for 149 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 95i,18n,115p,1324b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,18n,115p,1324b,1609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (97 pages).
+Output written on template-stb-report-eng.pdf (100 pages).

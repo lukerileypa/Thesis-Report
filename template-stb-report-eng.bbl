@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{42}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -18,6 +18,17 @@
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{lig()}]{lig}
+ ().
+\newblock A definitive grow light study.
+\newline\bblurlpre\url{https://www.vegetableacademy.com/post/a-definitive-grow-light-study?utm_source=chatgpt.com}
+
+\bibitem[{wea()}]{weather}
+ ().
+\newblock Stellenbosch climate, weather by month, average temperature (western
+  cape, south africa) - weather spark.
+\newline\bblurlpre\url{https://weatherspark.com/y/82954/Average-Weather-in-Stellenbosch-Western-Cape-South-Africa-Year-Round}
 
 \bibitem[{\citenamefont{Ahn} \emph{\bbletal{}}(2017)\citenamefont{Ahn},
   \citenamefont{Bae} \protect\BIBand{} \citenamefont{Kang}}]{ahn2017}
@@ -323,16 +334,22 @@
 \newblock Copyright 2010; accessed via University of Arizona repository.
 \newline\bblurlpre\url{https://ceac.arizona.edu/sites/default/files/Sustainable%20Greenhouse.pdf}
 
-\bibitem[{\citenamefont{WebbyLab}(n.d.{\natexlab{\emph{a}}})}]{automated_greenhouse_iot}
-\bibnamefont{WebbyLab} (nd{\natexlab{\emph{a}}}).
+\bibitem[{\citenamefont{Watson} \emph{\bbletal{}}(2019)\citenamefont{Watson},
+  \citenamefont{Gómez}, \citenamefont{Buffington}, \citenamefont{Bucklin},
+  \citenamefont{Henley} \protect\BIBand{}
+  \citenamefont{McConnell}}]{Watson2019}
+\bibnamefont{Watson}, \bibfnamefont{J.A.}, \bibnamefont{Gómez},
+  \bibfnamefont{C.}, \bibnamefont{Buffington}, \bibfnamefont{D.E.},
+  \bibnamefont{Bucklin}, \bibfnamefont{R.A.}, \bibnamefont{Henley},
+  \bibfnamefont{R.W.} \protect\BIBand{} \bibnamefont{McConnell},
+  \bibfnamefont{D.B.} (2019 11).
+\newblock Greenhouse ventilation.
+\newblock \emph{EDIS}, \bblvol{} 2019, \bblp{}~4.
+
+\bibitem[{\citenamefont{WebbyLab}(n.d.)}]{automated_greenhouse_iot}
+\bibnamefont{WebbyLab} (nd).
 \newblock Automated greenhouse management with iot: Monitoring and controlling.
 \newblock Accessed: 2025-07-15.
-\newline\bblurlpre\url{https://webbylab.com/blog/smart-greenhouse-solutions-iot-based-environmental-monitoring-and-control/}
-
-\bibitem[{\citenamefont{WebbyLab}(n.d.{\natexlab{\emph{b}}})}]{automated_greenhouse_iot_b}
-\bibnamefont{WebbyLab} (nd{\natexlab{\emph{b}}}).
-\newblock Automated greenhouse management with iot: Monitoring and controlling.
-\newblock Accessed July 2025.
 \newline\bblurlpre\url{https://webbylab.com/blog/smart-greenhouse-solutions-iot-based-environmental-monitoring-and-control/}
 
 \bibitem[{\citenamefont{Yahaya} \emph{\bbletal{}}(2019)\citenamefont{Yahaya},

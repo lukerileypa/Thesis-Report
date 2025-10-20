@@ -11,45 +11,44 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Sensor Physical Decomposition}}{21}{figure.caption.29}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Ventilation Physical Decomposition}}{21}{figure.caption.30}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Irrigation Physical Decomposition}}{21}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Solar Physical Decomposition}}{22}{figure.caption.32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Detailed Design}}{23}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Final Concept Definition}}{24}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Air circulation}}{25}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Free body diagram of Vent Mechanism}}{26}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Air Intake}}{29}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Stevenson Screens for sensor protection}}{30}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces LCD screen for local monitoring}}{34}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Detailed Design}}{22}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Final Concept Definition}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Air circulation}}{24}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Free body diagram of Vent Mechanism}}{25}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Air Intake}}{28}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Stevenson Screens for sensor protection}}{29}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces LCD screen for local monitoring}}{32}{figure.caption.44}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Wiring schematic}}{38}{figure.caption.46}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Principal Control Flowchart}}{40}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Wiring schematic}}{36}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Principal Control Flowchart}}{38}{figure.caption.46}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces DHT22 response to applied warm air (temperature and humidity vs. time).}}{42}{figure.caption.51}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Soil moisture sensor response in open air, damp soil, and submerged in water.}}{43}{figure.caption.56}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces BH1750 light sensor response to torch illumination and return to ambient room lighting.}}{44}{figure.caption.61}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces CO\textsubscript {2} sensor response}}{45}{figure.caption.63}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Wireless Monitoring Dashboard.}}{46}{figure.caption.65}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces User App with Blynk}}{47}{figure.caption.66}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Greenhouse Setup}}{48}{figure.caption.67}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Internal vs. external temperature profiles for the greenhouse with (a) actuators off and (b) actuators on.}}{49}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Internal vs.\ external humidity profiles for the greenhouse with (a) actuators off and (b) actuators on.}}{50}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Soil Moisture profile for the greenhouse with (a) actuators off and (b) actuators on.}}{51}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces CO\textsubscript {2} Profile}}{52}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Lux Profile}}{52}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Microgreens Seeds}}{54}{figure.caption.74}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Microgreens}}{54}{figure.caption.75}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces DHT22 response to applied warm air (temperature and humidity vs. time).}}{40}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Soil moisture sensor response in open air, damp soil, and submerged in water.}}{41}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces BH1750 light sensor response to torch illumination and return to ambient lighting.}}{41}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces CO\textsubscript {2} sensor response to rapid change in concentration.}}{42}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Wireless Monitoring Dashboard.}}{44}{figure.caption.60}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces User App with Blynk}}{45}{figure.caption.61}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Greenhouse Setup}}{46}{figure.caption.62}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Internal vs. external temperature profiles for the greenhouse with (a) Actuators off and (b) Actuators on.}}{47}{figure.caption.63}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Internal vs.\ external humidity profiles for the greenhouse with (a) actuators off and (b) actuators on.}}{48}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Soil Moisture profile for the greenhouse with (a) actuators off and (b) actuators on.}}{49}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces CO\textsubscript {2} Profile}}{50}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Lux Profile}}{50}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Microgreens Seeds}}{52}{figure.caption.69}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Microgreens}}{52}{figure.caption.70}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Temperature control}}{67}{figure.caption.87}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Airflow control}}{68}{figure.caption.88}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Irrigation control}}{68}{figure.caption.89}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Light control}}{69}{figure.caption.90}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Estimated Costs}}{70}{figure.caption.91}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Temperature control}}{63}{figure.caption.81}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Airflow control}}{64}{figure.caption.82}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Irrigation control}}{64}{figure.caption.83}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Light control}}{65}{figure.caption.84}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Engineering Drawing}}{76}{figure.1.E.1}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Estimated Costs}}{66}{figure.caption.85}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Engineering Drawing}}{72}{figure.1.E.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {G.1}{\ignorespaces Overview of greenhouse hardware components and setup.}}{83}{figure.caption.93}%
+\contentsline {figure}{\numberline {G.1}{\ignorespaces Overview of greenhouse hardware components and setup.}}{79}{figure.caption.87}%
 \addvspace {10\p@ }

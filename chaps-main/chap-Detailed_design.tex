@@ -25,7 +25,7 @@ Allowing users to place the greenhouse against a thermally massive surface (e.g.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figs/anotated.png}
+	\fbox{\includegraphics[width=0.86\textwidth]{figs/anotated.png}}
 	\caption{Final Concept Definition}
 	\label{fig:Final_concept}
 \end{figure}
@@ -45,7 +45,7 @@ Intake fans bring in fresh oxygen rich air when needed. To regulate the greenhou
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{figs/whirlpool.png}
+	\fbox{\includegraphics[width=0.5\textwidth]{figs/whirlpool.png}}
 	\caption{Air circulation}
 	\label{fig:air_circulation}
 \end{figure}
@@ -55,6 +55,7 @@ Intake fans bring in fresh oxygen rich air when needed. To regulate the greenhou
 A common guideline is to size the HAF fans to be able to move 2 CFM for each square foot of greenhouse floor area \citep{Watson2019}. By these standards for the floor area of 0.85\,m\textsuperscript{2} an HAF capacity of at least 18.3\,CFM would be required to ensure healthy air circulation. Two 120\,mm PC fans with an average of 70\,CFM each will be more than sufficient and will be activated during dedicated HAF periods.
 
 \begin{align}
+	\small
 	A_{\text{floor}} &:= b \cdot l = 0.85 \,\si{m^2} \\[1em]
 	A_{\text{floor,ft}} &:= A_{\text{floor}} \cdot 10.764 \,\frac{\si{ft^2}}{\si{m^2}}
 	= 9.1494 \,\si{ft^2} \\[1em]
@@ -74,7 +75,7 @@ An effective ventilation system at the top of the greenhouse will allow for pass
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{figs/fbd.png}
+	\fbox{\includegraphics[width=0.3\textwidth]{figs/fbd.png}}
 	\caption{Free body diagram of Vent Mechanism}
 	\label{fig:vent_fbd}
 \end{figure}
@@ -100,21 +101,19 @@ A 12\,V, 120\,W fan heateer is provided by the university to meet this requireme
 
 \section{Control Center Design}
 \subsection{Electrical Component Housing}
-A dedicated area is required for the safe and neat storage of all electrical components such as the battery, controller, and valve. The control center can be made from wood as it is simple to construct and mount parts to, as well as being electrically nonconductive and thermally insulating. 
-
-Specifically, marine plywood will be used as it resists water damage and is made from high-quality hardwood veneers, making it stronger and more resistant to warping compared to standard plywood. Coating it with white exterior-grade paint will further improve water resistance and reflect sunlight, keeping internal components cooler while reflecting more light for the plants.
+A dedicated area is required for the safe and neat storage of all electrical components such as the battery, controller, and valve. The control center can be made from wood as it is simple to construct and mount parts to, as well as being electrically nonconductive and thermally insulating. Specifically, marine plywood will be used as it resists water damage and is made from high-quality hardwood veneers, making it stronger and more resistant to warping compared to standard plywood. Coating it with white exterior-grade paint will further improve water resistance and reflect sunlight, keeping internal components cooler while reflecting more light for the plants.
 
 \subsection{Ventilation System}
-A cutout from the Perspex allows for placement of a louvre vent. These vents will allow for passive ventilation to keep the control center cool while the shape of the louvre vents will prevent water from entering. This vent needs to be placed on the side of the greenhouse to allow for the placement of the greenhouse against a wall. 
+A cutout from the Perspex allows for placement of a louvre vent as seen in figure \ref{fig:air_circulation}. These vents will allow for passive ventilation to keep the control center cool while the shape of the louvre vents will prevent water from entering. This vent needs to be placed on the side of the greenhouse to allow for the placement of the greenhouse against a wall. 
 
-For this reason, the control center was shifted to the right side of the greenhouse, which also allows for more space to be used for the plants. The system incorporates dedicated ventilation to prevent control center overheating. A strategically positioned HAF fan mounted on the enclosure's side creates an airflow path drawing outside air through the large vent, across the electronics, and exhausting it into the greenhouse. This dual-purpose design simultaneously cools the control components while introducing fresh air into the growing environment.
+For this reason, the control center was moved to the right side of the greenhouse, freeing up more space for plants. Dedicated ventilation prevents overheating, a strategically positioned HAF fan mounted on the enclosure's side creates an airflow path drawing outside air through the large vent, across the electronics, and exhausting it into the greenhouse. This dual-purpose setup cools the control components while supplying fresh air to the growing environment.
 
 \subsection{Access Panel}
-A cutout from the side panel around the control center allows for the placement of a door providing easy access to the electrical components. This door will also incorporate the louvred vent, enabling proper ventilation for the electrical components and acting as the intake for the HAF fan connected to the control center.
+A cutout from the side panel around the control center allows for the placement of a door providing easy access to the electrical components. This door will also incorporate the louvred vent, enabling proper ventilation for the electrical components and acting as the intake for the HAF fan attached to the side of the control center.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figs/airflow1.png}
+	\includegraphics[width=0.68\textwidth]{figs/airflow1.png}
 	\caption{Air Intake}
 	\label{fig:air_circulation}
 \end{figure}
@@ -135,7 +134,7 @@ The ESP32 supports a variety of communication protocols such as I\textsuperscrip
 \label{subsec:sensors}
 Multiple sensors enable accurate monitoring of both the internal greenhouse environment and the external ambient conditions. This data informs the control of greenhouse parameters and provides a baseline for comparison between internal and external climates. 
 
-The external temperature and humidity sensor will be exposed to direct sunlight and rainfall, while the internal sensors will encounter both sunlight and periodic misting. Therefore, appropriate protection is essential to ensure sensor longevity. Custom 3D-printed Stevenson screens can be employed to shield the sensors from water exposure and overheating, while still permitting adequate airflow for accurate environmental readings through the slatted design. White 3D-printed material should be used to reflect the most sunlight and prevent overheating. The Stevenson screen should be placed at least 1.2\,m from the ground \cite{manclim}.
+The external temperature and humidity sensor will be exposed to direct sunlight and rainfall, while the internal sensors will experience both sunlight and periodic misting. To ensure longevity and reliable performance, protective housings are required. Custom 3D-printed Stevenson screens can shield sensors from water and heat while allowing airflow through their slatted design for accurate readings. White filament is recommended to reflect sunlight and minimize heat absorption. In accordance with standards, the Stevenson screen should be mounted at least 1.2,m above ground level~\cite{manclim}.
 
 \begin{figure}[htbp]
 	\centering
@@ -164,7 +163,6 @@ The DHT22 sensor was selected for its balance of accuracy, low cost, and ease of
 		Humidity Accuracy & $\pm$2--5\,\% RH \\
 		Operating Voltage & 3.3--5.5\,V \\
 		Output Signal & Digital (single-wire protocol) \\
-		Sampling Period & $\geq$ 2 seconds \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -187,7 +185,6 @@ The BH1750 light sensor is chosen for its good balance of accuracy, cost-effecti
 		Resolution & 1\,lx (High-Resolution Mode) \\
 		Accuracy & $\pm$20\% at 25$^\circ$C \\
 		Current Consumption & $\approx$0.12\,mA (active), 0.01 \\
-		Operating Temperature & --40$^\circ$C to +85$^\circ$C \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -206,14 +203,12 @@ The sensor communicates through UART or PWM, offering flexibility in how data is
 		\toprule
 		\textbf{Parameter} & \textbf{Specification} \\
 		\midrule
-		Technology & NDIR (Non-Dispersive Infrared) \\
 		Communication & UART, PWM \\
 		Operating Voltage & 3.6--5.5\,V \\
 		Current Consumption & 33\,mA (typical) \\
 		Measurement Range & 0--5000\,ppm \\
 		Accuracy & ±(50\,ppm + 5\% of reading) \\
 		Warm-up Time & 3 minutes \\
-		Operating Temperature & 0--50\,°C \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -264,7 +259,7 @@ The sensors ease of integration, low power requirements (drawing less than 20\,m
 
 A rain sensor is mounted on the exterior of the greenhouse to detect rainfall and trigger protective actions. When rainfall is detected, the system is programmed to automatically close the ventilation openings, thereby safeguarding electrical components and preventing overwatering of the plants. 
 
-The selected model is an HKD general-purpose rain sensor, which features a large sensing surface to improve droplet detection. The sensor operates by using exposed conductive tracks on the board: when water bridges the tracks, the resistance changes significantly---from approximately \SI{2}{\mega\ohm} when dry to around \SI{100}{\kilo\ohm} when wet. This variation is processed by the module, which outputs a digital signal (logic HIGH or LOW) to indicate the presence of rain. 
+The selected model is an HKD general-purpose rain sensor, which features a large sensing surface to improve droplet detection. The sensor operates by using exposed conductive tracks on the board: when water bridges the tracks, the resistance changes significantly, from approximately \SI{2}{\mega\ohm} when dry to around \SI{100}{\kilo\ohm} when wet. This variation is processed by the module, which outputs a digital signal (logic HIGH or LOW) to indicate the presence of rain. 
 
 
 
@@ -312,7 +307,7 @@ A solar system rated to provide at least 240W would be able to charge the batter
 
 \subsection{Provided Equipment}\label{sec:provided}
 
-The M\&M department of engineering has provided a 12V, 100Ah battery which should be sufficient based on the previous DoD calculations. Additionally two solar panels rated at 105W are provided along with a Skyking Solar Charge Controller. This charge controller will be able to charge the battery from the 2 solar panels which will power all the components. 
+The M\&M department of engineering has provided a 12V, 100Ah battery which should be sufficient based on the previous DoD calculations. Additionally two solar panels rated at 105W are provided along with a Skyking Solar Charge Controller. This charge controller will charge the battery from the 2 solar panels which will power all the components. 
 
 \section{Relays}
 The ESP32 operates with 3.3V digital logic, which is suitable for interfacing with most sensors. However, it cannot directly control components that require higher voltages or draw significant current. To address this, relay modules are used to enable the ESP32 to switch high-power devices using low-voltage control signals. Two 4-channel relay module has been selected for this project, capable of switching loads up to 250V and 10A, and compatible with 3.3V logic levels. This module will allow the ESP32 to control 12V devices such as fans, the linear actuator, and the heater efficiently and safely. 

@@ -1,15 +1,14 @@
 \chapter{Concept Evaluation}\label{app:concept_evaluation}
 
-In this section the developed concepts are evaluated and expanded on. A weighted scoring system was used to evaluate the best design for each subsystem. Key criteria like efficiency, cost and manufacturability were assigned importance to weights. Each concept was rated 1-5 against these criteria, with scores calculated by multiplying ratings by weights and summing the results. The highest-scoring concepts were selected, ensuring optimal performance while meeting project priorities. This approach attempts to minimized bias and enable clear trade-off decisions between competing requirements, However it is acknowledged that while a quantitative evaluation method was applied, a degree of subjectivity remains inherent in the assessment process.
+This section evaluates and expands on the developed concepts. A weighted scoring system was used to determine the best design for each subsystem. Key criteria such as efficiency, cost, and manufacturability were assigned importance weights, and each concept was rated from 1–5. Scores were calculated by multiplying ratings by weights and summing the results. The highest-scoring concepts were selected to ensure optimal performance while aligning with project priorities. Although this quantitative method reduces bias, some subjectivity in the assessment remains.
 
-\subsection{Structure}
+\section{Structure}
 
-For the structure there are generally 3 options that will fit with the small-scale greenhouse’s requirements. The criterion are weighted by a percentage and the concepts are rated on a scale of 1-5 The weights were selected to reflect the priorities for a small-scale greenhouse: 
-temperature management is most critical (30\%), followed by cost effectiveness (30\%), 
-while manufacturability (20\%) and space efficiency (20\%) are also key considerations.
+Three structural options were considered to meet the small-scale greenhouse requirements. Criteria were weighted by importance and rated on a 1–5 scale. The weighting reflects project priorities: temperature management (30\%) and cost effectiveness (30\%) are most critical, while manufacturability (20\%) and space efficiency (20\%) are secondary considerations.
 
 \begin{table}[H]
 	\centering
+	\small
 	\renewcommand{\arraystretch}{1.3}
 	\setlength{\tabcolsep}{5pt}
 	\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
@@ -36,7 +35,7 @@ while manufacturability (20\%) and space efficiency (20\%) are also key consider
 For small-scale applications, the lean-to option emerges as the most practical solution, balancing cost, space utilization, and manufacturability, while still offering adequate thermal performance.
 
 
-\subsection{Covering Material}
+\section{Covering Material}
 
 The weighting was chosen to reflect the relative importance of each criterion in greenhouse performance. 
 Durability (30\%) was weighted highest as the covering must withstand weathering and mechanical stress. 
@@ -79,12 +78,13 @@ Cost effectiveness (20\%) was included to balance performance with budget, while
 
 Perspex was selected as the covering material due to its durability, ease of fabrication and ability to be cut to shape, and favourable balance between thermal insulation and light transmittance.
 
-\subsection{Active Heating}
+\section{Active Heating}
 
 Temperature management and cost effectiveness were weighted highest at 30\% each, as maintaining a stable climate and operating affordability are the most critical factors for long-term success.
 
 \begin{table}[H]
 	\centering
+	\small
 	\caption{Weighted Concept Evaluation of Heating Options}
 	\label{tab:heating_eval}
 	\begin{threeparttable}
@@ -108,7 +108,7 @@ Temperature management and cost effectiveness were weighted highest at 30\% each
 
 An electric heater was selected as it offers efficient, evenly distributed heating, seamless integration with the solar power system, and lower cost and complexity compared to gas heaters or heat lamps.
 
-\subsection{Active Cooling}
+\section{Active Cooling}
 
 The weighting was selected to reflect the relative importance of cooling performance in maintaining plant health. 
 Temperature management (30\%) was given the highest weight as this is the primary purpose of cooling. 
@@ -120,6 +120,7 @@ Finally, ease of manufacturability (20\%) was included to account for installati
 	\centering
 	\begingroup
 	\footnotesize
+	\small
 	\setlength{\tabcolsep}{3pt} % tighter columns (scoped to this table)
 	\renewcommand{\arraystretch}{1.2}
 	\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{3.0cm}|
@@ -150,7 +151,7 @@ Finally, ease of manufacturability (20\%) was included to account for installati
 
 Actuated ventilation emerges as the most economical and energy-efficient cooling method, as it requires only fans to exchange hot and cool air. Its drawback is that it can only cool the greenhouse down to the ambient temperature outside. To enhance this, active ventilation can be combined with misting. Misting promotes evaporative cooling within the greenhouse and, although it requires a pressurized water supply and humidity control, it significantly improves temperature regulation. In contrast, evaporative cooling modules are less favorable due to their high cost, greater power demand, and limited performance in humid environments. Therefore, a combined ventilation and misting approach is the most balanced solution, addressing both cost-effectiveness and cooling performance.
 
-\subsection{Irrigation}
+\section{Irrigation}
 
 The weighting was selected to reflect the importance of reliable soil moisture control (30\%) and cost effectiveness (30\%) as primary design drivers. Coupled environment control capabilities (15\%) were included to account for irrigation methods that are able to also influence temperature and humidity. Ease of manufacturability (15\%) was considered for practicality, while off-grid capabilities (10\%) were given a smaller weight as irrigation can often be supported by external water supplies.
 
@@ -184,7 +185,7 @@ The weighting was selected to reflect the importance of reliable soil moisture c
 
 Misting emerges as the most effective method due to its dual role in both irrigation and environmental control, despite requiring higher water pressure. A misting system with sensor-based control is therefore preferred for optimizing both plant growth and climate regulation.
 
-\subsection{Controller Selection}
+\section{Controller Selection}
 
 % Weight justification + PLC note
 The weights were assigned based on the relative importance of each criterion to the concept: 
@@ -194,6 +195,7 @@ PLCs were considered but ruled out early due to their high cost, complexity, and
 
 \begin{table}[H]
 	\centering
+	\small
 	\renewcommand{\arraystretch}{1.3}
 	\setlength{\tabcolsep}{6pt}
 	\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}

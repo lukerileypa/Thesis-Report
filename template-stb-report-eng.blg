@@ -19,6 +19,11 @@ Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: chaps-main/chap-intro.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chaps-main/chap-literature.aux
+Case mismatch error between cite keys Farooq2022 and farooq2022
+---line 92 of file chaps-main/chap-literature.aux
+ : \citation{Farooq2022
+ :                     }
+I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: chaps-main/chap-concept.aux
 Reallocating 'name_of_file' (item size: 1) to 36 items.
@@ -35,57 +40,53 @@ Repeated entry---line 153 of file bib/GHreferences.bib
  : @article{ahn2017
  :                 ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "automated_greenhouse_iot_b"
-Warning--I didn't find a database entry for "wei"
 Warning--I didn't find a database entry for "manclim"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Warning--to sort, need author or key in weather
-Warning--to sort, need author or key in lig
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty chapter and pages in dalai2020
 Warning--missing institution in Dieter
 Warning--missing institution in faridi_cooling
 Warning--missing institution in greenhouse_lighting
 Warning--empty journal in verma_cooling
-You've used 42 entries,
+You've used 43 entries,
             3324 wiz_defined-function locations,
-            902 strings with 13615 characters,
-and the built_in function-call counts, 30295 in all, are:
-= -- 2395
-> -- 839
-< -- 46
-+ -- 332
-- -- 284
-* -- 2752
-:= -- 3984
-add.period$ -- 132
-call.type$ -- 42
-change.case$ -- 324
-chr.to.int$ -- 42
-cite$ -- 53
-duplicate$ -- 2964
-empty$ -- 2711
-format.name$ -- 559
-if$ -- 6031
+            912 strings with 13993 characters,
+and the built_in function-call counts, 32048 in all, are:
+= -- 2517
+> -- 925
+< -- 49
++ -- 363
+- -- 314
+* -- 2960
+:= -- 4223
+add.period$ -- 138
+call.type$ -- 43
+change.case$ -- 341
+chr.to.int$ -- 43
+cite$ -- 48
+duplicate$ -- 3137
+empty$ -- 2848
+format.name$ -- 614
+if$ -- 6360
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 368
-newline$ -- 259
-num.names$ -- 162
-pop$ -- 934
+missing$ -- 388
+newline$ -- 267
+num.names$ -- 174
+pop$ -- 958
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 276
 quote$ -- 0
-skip$ -- 753
+skip$ -- 775
 stack$ -- 0
-substring$ -- 1542
-swap$ -- 1270
-text.length$ -- 23
+substring$ -- 1621
+swap$ -- 1362
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 375
-warning$ -- 7
-while$ -- 277
+type$ -- 384
+warning$ -- 5
+while$ -- 297
 width$ -- 0
-write$ -- 570
-(There was 1 error message)
+write$ -- 591
+(There were 2 error messages)

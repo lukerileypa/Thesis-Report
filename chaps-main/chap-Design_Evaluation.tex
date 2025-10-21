@@ -2,6 +2,17 @@
 
 This section outlines the tests used to validate the greenhouse systems setup and operation. It includes performance tests to validate selection and design of sensors, actuators the system as a whole and its wireless monitoring and control capabilities. 
 
+\section{Greenhouse Setup}
+
+The Full Greenhouse setup can be seen in the figure below. Please see Appendix \ref{chap:pics} for additional pictures.
+
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=0.4\textwidth]{figs/setup.jpeg}}
+	\caption{Greenhouse Setup}
+	\label{fig:Greenhouse Setup}
+\end{figure}
+
 \section{Sensor Validation}\label{sec:sensor_validation}
 
 All sensors were tested to verify their response and accuracy to real environmental changes under controlled conditions.  Each was connected to the ESP32 microcontroller with the appropriate pin configuration, and real-time data was logged at one-second intervals through serial communication. 
@@ -123,9 +134,9 @@ The objective of this experiment was to verify the successful implementation of 
 
 \subsection{Methodology}
 The test was conducted using the ESP32 microcontroller configured to interface with two IoT platforms: \textit{ThingSpeak} and \textit{Blynk}.  
-For remote monitoring, the ESP32 was programmed to upload data for all environmental parameters including temperature, humidity, soil moisture, CO\textsubscript{2}, and light intensity at 20-second intervals to the ThingSpeak cloud platform. A custom dashboard was developed to visualize these readings in real time, as shown in Figure~\ref{fig:Wireless Monitoring Dashboard}.  
+For remote monitoring, the ESP32 was programmed to upload data for all environmental parameters including temperature, humidity, soil moisture, CO\textsubscript{2}, and light intensity at 20-second intervals to the ThingSpeak cloud platform. A custom dashboard was developed to visualize these readings in real time, as shown in Figure~\ref{fig:thingspeak_dashboard}.  
 
-For remote control, the system was integrated with the Blynk IoT platform. A mobile dashboard was created (Figure~\ref{fig:Blynk}) to enable the user to adjust key control parameters such as temperature and humidity setpoints through sliders and buttons. . The ESP32 was connected to Eduroam services and configured with a unique
+For remote control, the system was integrated with the Blynk IoT platform. A mobile dashboard was created (Figure~\ref{fig:blynk_dashboard}) to enable the user to adjust key control parameters such as temperature and humidity setpoints through sliders and buttons. . The ESP32 was connected to Eduroam services and configured with a unique
 Blynk template and authentication token, allowing remote updates of setpoints for various environmental parameters.
 
 \subsection{Results}
@@ -133,25 +144,28 @@ The greenhouse successfully transmitted all sensor data to ThingSpeak without co
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figs/dash.png}
-	\caption{Wireless Monitoring Dashboard.}
-	\label{fig:Wireless Monitoring Dashboard}
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\fbox{\includegraphics[width=0.98\textwidth]{figs/dash.png}} % Slightly smaller to fit border
+		\caption{ThingSpeak Wireless Monitoring Dashboard.}
+		\label{fig:thingspeak_dashboard}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.25\textwidth}
+		\centering
+		\fbox{\includegraphics[width=0.98\textwidth]{figs/blynk.jpeg}}
+		\caption{Blynk Mobile Control Interface.}
+		\label{fig:blynk_dashboard}
+	\end{subfigure}
+	\caption{Remote monitoring and control interfaces: (a) ThingSpeak dashboard for data visualization and logging, and (b) Blynk app for real-time parameter control.}
+	\label{fig:remote_monitoring}
 \end{figure}
-
 
 The Blynk dashboard enabled real-time modification of environmental setpoints from a mobile device. Commands sent via Blynk were received by the microcontroller with negligible delay. Parameter changes were reflected in the system's behaviour, demonstrating successful two-way communication between the user and the greenhouse.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.35\textwidth]{figs/blynk.jpeg}
-	\caption{User App with Blynk}
-	\label{fig:Blynk}
-\end{figure}
 
 
 \subsection{Discussion}
 The experiment confirmed that both remote data monitoring and user interaction were successfully achieved. While ThingSpeak proved effective for real-time data visualization and long-term data storage, Blynk offered a more intuitive interface for real-time control adjustments. The combined use of these platforms allows both analytical monitoring and interactive management of greenhouse conditions.
-
 
 \section{Solar Power Test}
 
@@ -167,18 +181,6 @@ To validate the capability of the solar subsystem to power the greenhouse entire
 \end{enumerate}
 
 These steps confirmed correct wiring and successful operation of the solar power subsystem. The charge controller additionally provides low-voltage protection by disconnecting the load if the battery voltage drops below a safe threshold. During full system testing, it was confirmed that the solar array supplied sufficient power to operate the greenhouse without discharging the battery to unsafe levels even during days with high cloud cover.
-
-
-\section{Greenhouse Setup}
-
-The Full Greenhouse setup can be seen in the figure below. Please see Appendix \ref{chap:pics} for additional pictures.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.4\textwidth]{figs/setup.jpeg}
-	\caption{Greenhouse Setup}
-	\label{fig:Greenhouse Setup}
-\end{figure}
 
 \section{Enviromental Response}\label{sec:response}
 
@@ -339,15 +341,21 @@ The operational success of the greenhouse system was validated through a control
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figs/greens.jpeg}
-	\caption{Microgreens Seeds}
-	\label{fig:Microgreens}
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\fbox{\includegraphics[width=\textwidth]{figs/greens.jpeg}}
+		\caption{Before: microgreen seeds at planting.}
+		\label{fig:microgreens_before}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\fbox{\includegraphics[width=\textwidth]{figs/green2.jpeg}}
+		\caption{After: successful microgreen growth.}
+		\label{fig:microgreens_after}
+	\end{subfigure}
+	\caption{Two-week microgreen growth trial conducted in the greenhouse.}
+	\label{fig:microgreens_growth}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{figs/green2.jpeg}
-	\caption{Microgreens}
-	\label{fig:Microgreens}
-\end{figure}
 

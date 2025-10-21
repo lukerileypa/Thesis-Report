@@ -27,6 +27,7 @@
 \contentsline {subsection}{\numberline {2.3.5}Automation and Environmental Control}{11}{subsection.2.3.5}%
 \contentsline {subsubsection}{\numberline {2.3.5.1}Sensors}{12}{subsubsection.2.3.5.1}%
 \contentsline {subsubsection}{\numberline {2.3.5.2}Controllers}{12}{subsubsection.2.3.5.2}%
+\contentsline {subsection}{\numberline {2.3.6}Wireless Connectivity and Actuation}{13}{subsection.2.3.6}%
 \contentsline {section}{\numberline {2.4}Energy Efficiency \& Sustainability}{13}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Key Requirements for Solar System}{14}{subsection.2.4.1}%
 \contentsline {chapter}{\numberline {3}Concept Design}{15}{chapter.3}%
@@ -78,23 +79,23 @@
 \contentsline {section}{\numberline {5.1}Wiring}{35}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Software Framework and Control Logic}{37}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Design Evaluation}{39}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Sensor Validation}{39}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Temperature and Humidity Sensor (DHT22)}{39}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Summary of Additional Sensor Tests}{40}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Actuator Validation }{42}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Remote monitoring}{43}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Objective}{43}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Methodology}{43}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Results}{44}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Discussion}{45}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}Solar Power Test}{45}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Greenhouse Setup}{46}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Enviromental Response}{46}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1} Dual Phase Test}{47}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2} CO\textsubscript {2} and Lux Observation}{50}{subsection.6.6.2}%
-\contentsline {section}{\numberline {6.7}Evaluation Using Performance Requirements}{51}{section.6.7}%
-\contentsline {section}{\numberline {6.8}Full system Test with Plants Growth}{51}{section.6.8}%
-\contentsline {chapter}{\numberline {7}Conclusions}{53}{chapter.7}%
+\contentsline {section}{\numberline {6.1}Greenhouse Setup}{39}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Sensor Validation}{39}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Temperature and Humidity Sensor (DHT22)}{40}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Summary of Additional Sensor Tests}{41}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Actuator Validation }{42}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Remote monitoring}{43}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Objective}{43}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Methodology}{44}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Results}{44}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Discussion}{45}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}Solar Power Test}{45}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Enviromental Response}{45}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1} Dual Phase Test}{45}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2} CO\textsubscript {2} and Lux Observation}{49}{subsection.6.6.2}%
+\contentsline {section}{\numberline {6.7}Evaluation Using Performance Requirements}{50}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Full system Test with Plants Growth}{50}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Conclusions}{52}{chapter.7}%
 \contentsline {chapter}{Appendix \numberline {A}Concept Evaluation}{57}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Structure}{57}{section.1.A.1}%
 \contentsline {section}{\numberline {A.2}Covering Material}{58}{section.1.A.2}%

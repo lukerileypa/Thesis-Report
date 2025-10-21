@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{43}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -19,16 +19,11 @@
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{lig()}]{lig}
- ().
+\bibitem[{\citenamefont{Academy}(2024)}]{definitiveGrowLight2024}
+\bibnamefont{Academy}, \bibfnamefont{V.} (2024).
 \newblock A definitive grow light study.
-\newline\bblurlpre\url{https://www.vegetableacademy.com/post/a-definitive-grow-light-study?utm_source=chatgpt.com}
-
-\bibitem[{wea()}]{weather}
- ().
-\newblock Stellenbosch climate, weather by month, average temperature (western
-  cape, south africa) - weather spark.
-\newline\bblurlpre\url{https://weatherspark.com/y/82954/Average-Weather-in-Stellenbosch-Western-Cape-South-Africa-Year-Round}
+\newblock Accessed: 2024.
+\newline\bblurlpre\url{https://www.vegetableacademy.com/post/a-definitive-grow-light-study}
 
 \bibitem[{\citenamefont{Ahn} \emph{\bbletal{}}(2017)\citenamefont{Ahn},
   \citenamefont{Bae} \protect\BIBand{} \citenamefont{Kang}}]{ahn2017}
@@ -279,6 +274,13 @@
 \newblock \emph{Solar Energy}, \bblvol{}~83, \bblpp{} 21--38.
 \newblock ISSN 0038092X.
 
+\bibitem[{\citenamefont{Spark}(2024)}]{weatherStellenbosch2024}
+\bibnamefont{Spark}, \bibfnamefont{W.} (2024).
+\newblock Stellenbosch climate, weather by month, average temperature (western
+  cape, south africa) - weather spark.
+\newblock Accessed: 2024.
+\newline\bblurlpre\url{https://weatherspark.com/y/82954/Average-Weather-in-Stellenbosch-Western-Cape-South-Africa-Year-Round}
+
 \bibitem[{\citenamefont{Torres} \emph{\bbletal{}}()\citenamefont{Torres},
   \citenamefont{Lopez} \protect\BIBand{}
   \citenamefont{Floriculture}}]{greenhouse_lighting}
@@ -351,6 +353,20 @@
 \newblock Automated greenhouse management with iot: Monitoring and controlling.
 \newblock Accessed: 2025-07-15.
 \newline\bblurlpre\url{https://webbylab.com/blog/smart-greenhouse-solutions-iot-based-environmental-monitoring-and-control/}
+
+\bibitem[{\citenamefont{Wei} \emph{\bbletal{}}(2024)\citenamefont{Wei},
+  \citenamefont{Li}, \citenamefont{Lu}, \citenamefont{Guo},
+  \citenamefont{Dong}, \citenamefont{Yang}, \citenamefont{Lü}
+  \protect\BIBand{} \citenamefont{Liu}}]{Wei2024}
+\bibnamefont{Wei}, \bibfnamefont{X.}, \bibnamefont{Li}, \bibfnamefont{B.},
+  \bibnamefont{Lu}, \bibfnamefont{H.}, \bibnamefont{Guo}, \bibfnamefont{J.},
+  \bibnamefont{Dong}, \bibfnamefont{Z.}, \bibnamefont{Yang}, \bibfnamefont{F.},
+  \bibnamefont{Lü}, \bibfnamefont{E.} \protect\BIBand{} \bibnamefont{Liu},
+  \bibfnamefont{Y.} (2024 7).
+\newblock Distribution characteristics and prediction of temperature and
+  relative humidity in a south china greenhouse.
+\newblock \emph{Agronomy}, \bblvol{}~14.
+\newblock ISSN 20734395.
 
 \bibitem[{\citenamefont{Yahaya} \emph{\bbletal{}}(2019)\citenamefont{Yahaya},
   \citenamefont{Abass} \protect\BIBand{} \citenamefont{Adeshina}}]{Yahaya2019}

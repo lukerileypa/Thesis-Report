@@ -128,7 +128,7 @@ of how well the system should perform the functions.
 \hline
 \textbf{PR Number} & \textbf{Description} & \textbf{Target} & \textbf{Range} & \textbf{Unit} & \textbf{Related Stakeholder Requirement} \\
 \hline
-2 & Resist Wind speeds & 18.81\tnote{1} & >18.8 & kph & SR1 \\
+2 & Resist Wind speeds\tnote{1} & 18.81 & >18.8 & kph & SR1 \\
 \hline
 3 & Temperature sensing range & Maximize & -10--50 & °C & SR2 \\
 \hline
@@ -138,31 +138,32 @@ of how well the system should perform the functions.
 \hline
 6 & CO2 sensing range & 0--1000 & 0--1000 & ppm & SR2 \\
 \hline
-7 & Light sensing & 0--600\tnote{2} & 0--600 & \si{\micro\mole\per\metre\squared\per\second} & SR2 \\
+7 & Light sensing\tnote{2} & 0--600 & 0--600 & \si{\micro\mole\per\metre\squared\per\second} & SR2 \\
 \hline
 8 & Latency in displaying environmental conditions & Minimize & <120 & s & SR3 \\
 \hline
-9 & Control temperature & User selected\tnote{3} & 15--30\tnote{4} & °C & SR4 \\
+9 & Control temperature\tnote{4} & User selected\tnote{3} & 15--30 & °C & SR4 \\
 \hline
-10 & Control soil moisture content & User selected & 50--100\tnote{5} & \% & SR5 \\
+10 & Control soil moisture content\tnote{5} & User selected & 50--100 & \% & SR5 \\
 \hline
-11 & Control humidity & User selected & 40--90\tnote{6} & \% & SR5 \\
+11 & Control humidity\tnote{6} & User selected & 40--90 & \% & SR5 \\
 \hline
 12 & Supplemental lighting intensity\tnote{2} & 200 & 100--300 & \si{\micro\mole\per\metre\squared\per\second} & SR4 \\
 \hline
 13 & Energy Consumption & Minimize & 0--1200 & Wh & SR8 \\
 \hline
-14 & Battery storage capacity & 24 & >24 & hours & SR6 \\
+14 & Battery storage capacity & 24\tnote{7} & >24 & hours & SR6 \\
 \hline
 \end{tabular}
 \begin{tablenotes}
 \footnotesize
-\item[1] \citep{weather} Average wind speeds peak at 18.8 kph in Stellenbosch.
-\item[2] \citep{lig}. Seedlings: 100–300, Vegetative: 300–600 \si{\micro\mole\per\metre\squared\per\second}
-\item[3] The System should allow desired ranges to be setable by the user, suitable testing thresholds are used as follows.
+\item[1] \citep{weatherStellenbosch2024} Maximum average wind speeds peak at 18.8 kph in Stellenbosch during January.
+\item[2] \citep{definitiveGrowLight2024}. Ideal ranges for Seedlings: 100–300, Vegetative: 300–600 \si{\micro\mole\per\metre\squared\per\second}
+\item[3] The System should allow desired ranges to be setable by the user, however suitable testing thresholds are used as follows.
 \item[4] \citep{kosan2020}. Suitable temperature ranges for a range of plants: 15–30°C.
 \item[5] 50\% minimum soil moisture prevents dry soil medium
-\item[6] \citep{wei}. Tolerable humidity is between 40–90\% for greenhouses.
+\item[6] \citep{Wei2024}. Tolerable humidity is between 40–90\% for greenhouses.
+\item[7] The system must maintain power throughout the night.
   
 \end{tablenotes}
 \end{threeparttable}

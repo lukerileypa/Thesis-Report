@@ -1,4 +1,4 @@
-\begin{thebibliography}{43}
+\begin{thebibliography}{47}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -33,6 +33,16 @@
   multi-sensors for plant cultivation.
 \newblock \emph{Energies}, \bblvol{}~10, \bblno{}~10, \bblp{} 1607.
 
+\bibitem[{\citenamefont{{American Society of Heating, Refrigerating and
+  Air-Conditioning Engineers}}(2021)}]{stack}
+\bibnamefont{{American Society of Heating, Refrigerating and Air-Conditioning
+  Engineers}} (2021).
+\newblock \emph{ASHRAE Handbook -- Fundamentals}.
+\newblock ASHRAE, Atlanta, GA.
+\newblock ISBN 978-1-947192-60-2.
+\newblock Chapter 16: Ventilation and Infiltration. Contains stack effect
+  (buoyancy) airflow equations.
+
 \bibitem[{\citenamefont{{Axe Struct}}(n.d.)}]{axe_struct_solar_mounting}
 \bibnamefont{{Axe Struct}} (nd).
 \newblock Understanding solar panel rails, brackets and clamps: The fool-proof
@@ -45,12 +55,6 @@
 \newblock Controlling humidity and temperature in greenhouses.
 \newblock Accessed: 2025-07-15.
 \newline\bblurlpre\url{https://blog.bluelab.com/controlling-humidity-and-temperature-in-greenhouses}
-
-\bibitem[{\citenamefont{{CANNA South Africa}}(n.d.)}]{canna_temp}
-\bibnamefont{{CANNA South Africa}} (nd).
-\newblock How air temperature affects plants.
-\newblock Accessed: July 2025.
-\newline\bblurlpre\url{https://www.canna.co.za/articles/how-air-temperature-affects-plants}
 
 \bibitem[{\citenamefont{{Cedar-Built Greenhouses}}(n.d.)}]{cedar_greenhouse}
 \bibnamefont{{Cedar-Built Greenhouses}} (nd).
@@ -104,6 +108,12 @@
 \newblock Esp32 overview – espressif systems.
 \newblock Accessed July 2025.
 \newline\bblurlpre\url{https://www.espressif.com/en/products/socs/esp32/overview}
+
+\bibitem[{\citenamefont{Evans}(2019)}]{solenoid}
+\bibnamefont{Evans}, \bibfnamefont{P.} (2019).
+\newblock How solenoid valves work - the engineering mindset.
+\newblock Accessed July 2025.
+\newline\bblurlpre\url{https://theengineeringmindset.com/how-solenoid-valves-work/}
 
 \bibitem[{\citenamefont{Faridi} \emph{\bbletal{}}()\citenamefont{Faridi},
   \citenamefont{Arabhosseini}, \citenamefont{Arabhosseini} \protect\BIBand{}
@@ -197,6 +207,13 @@
 \newblock \emph{Agricultural Engineering International: the CIGR Ejournal},
   \bblvol{}~9.
 
+\bibitem[{\citenamefont{Lawrence}(2005)}]{Lawrence2005RHdewpoint}
+\bibnamefont{Lawrence}, \bibfnamefont{M.G.} (2005).
+\newblock The relationship between relative humidity and the dewpoint
+  temperature in moist air: A simple conversion and applications.
+\newblock \emph{Bulletin of the American Meteorological Society}, \bblvol{}~86,
+  \bblno{}~2, \bblpp{} 225--234.
+
 \bibitem[{\citenamefont{López} \emph{\bbletal{}}(2013)\citenamefont{López},
   \citenamefont{Valera}, \citenamefont{Molina-Aiz} \protect\BIBand{}
   \citenamefont{Peña}}]{lopez2013}
@@ -278,7 +295,7 @@
 \bibnamefont{Spark}, \bibfnamefont{W.} (2024).
 \newblock Stellenbosch climate, weather by month, average temperature (western
   cape, south africa) - weather spark.
-\newblock Accessed: 2024.
+\newblock Accessed: 2025.
 \newline\bblurlpre\url{https://weatherspark.com/y/82954/Average-Weather-in-Stellenbosch-Western-Cape-South-Africa-Year-Round}
 
 \bibitem[{\citenamefont{Torres} \emph{\bbletal{}}()\citenamefont{Torres},
@@ -368,6 +385,30 @@
 \newblock \emph{Agronomy}, \bblvol{}~14.
 \newblock ISSN 20734395.
 
+\bibitem[{\citenamefont{Xu} \emph{\bbletal{}}(2024)\citenamefont{Xu},
+  \citenamefont{Liu}, \citenamefont{Praat}, \citenamefont{Pizzio},
+  \citenamefont{Jiang}, \citenamefont{Driever}, \citenamefont{Van De~Cotte},
+  \citenamefont{Villers}, \citenamefont{Gevaert}, \citenamefont{Leonhardt},
+  \citenamefont{Nelissen}, \citenamefont{Kinoshita}, \citenamefont{Vanneste},
+  \citenamefont{Rodriguez}, \citenamefont{van Zanten}, \citenamefont{Dai~Vu}
+  \protect\BIBand{} \citenamefont{De~Smet}}]{xu2024_high_temp_stomatal}
+\bibnamefont{Xu}, \bibfnamefont{X.}, \bibnamefont{Liu}, \bibfnamefont{H.},
+  \bibnamefont{Praat}, \bibfnamefont{M.}, \bibnamefont{Pizzio},
+  \bibfnamefont{G.A.}, \bibnamefont{Jiang}, \bibfnamefont{Z.},
+  \bibnamefont{Driever}, \bibfnamefont{S.M.}, \bibnamefont{Van De~Cotte},
+  \bibfnamefont{B.}, \bibnamefont{Villers}, \bibfnamefont{S.L.},
+  \bibnamefont{Gevaert}, \bibfnamefont{K.}, \bibnamefont{Leonhardt},
+  \bibfnamefont{N.}, \bibnamefont{Nelissen}, \bibfnamefont{H.},
+  \bibnamefont{Kinoshita}, \bibfnamefont{T.}, \bibnamefont{Vanneste},
+  \bibfnamefont{S.}, \bibnamefont{Rodriguez}, \bibfnamefont{P.L.},
+  \bibnamefont{van Zanten}, \bibfnamefont{M.}, \bibnamefont{Dai~Vu},
+  \bibfnamefont{L.} \protect\BIBand{} \bibnamefont{De~Smet}, \bibfnamefont{I.}
+  (2024).
+\newblock Stomatal opening under high temperatures is controlled by the
+  ost1-regulated tot3–aha1 module.
+\newblock \emph{Nature Plants}, \bblpp{}~--.
+\newblock High-temperature‐mediated stomatal opening mechanism.
+
 \bibitem[{\citenamefont{Yahaya} \emph{\bbletal{}}(2019)\citenamefont{Yahaya},
   \citenamefont{Abass} \protect\BIBand{} \citenamefont{Adeshina}}]{Yahaya2019}
 \bibnamefont{Yahaya}, \bibfnamefont{A.}, \bibnamefont{Abass},
@@ -378,5 +419,15 @@
   Electronics, Computer and Computation, ICECCO 2019}. Institute of Electrical
   and Electronics Engineers Inc.
 \newblock ISBN 9781728151601.
+
+\bibitem[{\citenamefont{Çengel} \protect\BIBand{}
+  \citenamefont{Boles}(2019)}]{heat}
+\bibnamefont{Çengel}, \bibfnamefont{Y.A.} \protect\BIBand{}
+  \bibnamefont{Boles}, \bibfnamefont{M.A.} (2019).
+\newblock \emph{Thermodynamics: An Engineering Approach}.
+\newblock 9\bblth{} \bbledn{}. McGraw-Hill Education, New York, NY.
+\newblock ISBN 978-1-260-09190-4.
+\newblock Includes foundational energy balance and heat transfer relations
+  relevant to conduction, convection, and radiation.
 
 \end{thebibliography}

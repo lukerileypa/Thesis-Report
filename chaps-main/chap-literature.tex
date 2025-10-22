@@ -6,7 +6,7 @@ Different plant species require a careful balance of light, temperature, humidit
 
 \subsection{Temperature} 
 
-Plants regulate transpiration and cooling through specialized organs known as stomata located on the surface of leaves. These pores can open or close to control the release of water vapor, helping the plant manage water loss and internal temperature \cite{canna_temp}. As ambient temperatures rise, open stomata allow for increased evaporation, aiding in the cooling process. However, excessive heat can lead to excessive water loss and stress. While optimal temperature ranges vary depending on the plant species and its growth stage, greenhouse temperatures are generally best maintained between \SI{15}{\degreeCelsius} and \SI{30}{\degreeCelsius} to support healthy plant development \cite{kosan2020}.
+Plants regulate transpiration and cooling through specialized organs known as stomata located on the surface of leaves. These pores can open or close to control the release of water vapor, helping the plant manage water loss and internal temperature \cite{xu2024_high_temp_stomatal}. As ambient temperatures rise, open stomata allow for increased evaporation, aiding in the cooling process. However, excessive heat can lead to excessive water loss and stress. While optimal temperature ranges vary depending on the plant species and its growth stage, greenhouse temperatures are generally best maintained between \SI{15}{\degreeCelsius} and \SI{30}{\degreeCelsius} to support healthy plant development \cite{kosan2020}.
 
 \subsection{Light} 
 
@@ -25,10 +25,7 @@ The exact factor depends on the spectrum of the light source, but for white LEDs
 \end{equation}
 
 where 1~\si{\micro\mole\per\metre\squared\per\second} corresponds to roughly 54~lux. 
-This relationship allows lux sensor readings to be interpreted in terms of usable light for 
-photosynthesis.  \citep{ahn2017}
-
-Monitoring and balancing light intensity through artificial lighting systems and proper greenhouse design is therefore essential to maintain optimal photosynthetic activity without causing plant stress.
+This relationship allows lux sensor readings to be interpreted in terms of usable light for photosynthesis.  \citep{ahn2017} Ideal PPFD ranges for Seedlings range from 100–300, while vegatative range from 300–600 \si{\micro\mole\per\metre\squared\per\second} \citep{definitiveGrowLight2024}. Monitoring and balancing light intensity through artificial lighting systems and proper greenhouse design is therefore essential to maintain optimal photosynthetic activity without causing plant stress.
 
 
 \subsection{Humidity} 
@@ -37,7 +34,7 @@ Humidity plays a critical role in plant health by influencing the rate of transp
 
 Conversely, in low humidity conditions, transpiration rates can become excessively high due to the dry air. In response, plants often close their stomata to conserve water, but this also limits gas exchange and light absorption, leading to water stress and reduced growth \cite{nederhoff}.
 
-To support optimal development, research indicates that the ideal relative humidity (RH) range for most greenhouse crops lies between 65\% and 85\%. Maintaining this balance helps prevent both under- and over-transpiration, ensuring steady nutrient uptake and healthy physiological function \cite{pepper_guide}.
+To support optimal development, research indicates that the ideal relative humidity (RH) range for most greenhouse crops lies between 30\% and 90\%. Maintaining this balance helps prevent both under- and over-transpiration, ensuring steady nutrient uptake and healthy physiological function \cite{pepper_guide}.
 
 
 
@@ -45,7 +42,7 @@ To support optimal development, research indicates that the ideal relative humid
 
 For most greenhouse crops, net photosynthesis increases significantly as \ce{CO2} concentrations rise from ambient levels (approximately 340~ppm) up to around 1,000~ppm, potentially boosting photosynthesis by up to 50\%. However, the benefit of \ce{CO2} supplementation varies by crop and may not be economically justifiable under low light conditions or for certain species like tulips and Easter lilies, which show little response \cite{carbon_dioxide_enrichment}.
 
-\ce{CO2} enters plants through stomata via diffusion, and its uptake is influenced by external \ce{CO2} concentration as well as factors such as light, temperature, humidity, and water availability. While plants generally grow well at ambient \ce{CO2} levels (about 340~ppm), concentrations can drop to as low as 200~ppm in sealed greenhouses during the day due to plant uptake. This drop can significantly reduce photosynthesis, sometimes with an effect comparable to the enhancement achieved by raising \ce{CO2} levels to 1,300~ppm.
+\ce{CO2} enters plants through stomata via diffusion, and its uptake is influenced by external \ce{CO2} concentration as well as factors such as light, temperature, humidity, and water availability. While plants generally grow well at ambient \ce{CO2} levels, concentrations can drop to as low as 200~ppm in sealed greenhouses during the day due to plant uptake. This drop can significantly reduce photosynthesis, sometimes with an effect comparable to the enhancement achieved by raising \ce{CO2} levels to 1,300~ppm.
 
 
 \begin{figure}[h]
@@ -67,7 +64,7 @@ To monitor soil moisture effectively, \textbf{Volumetric Water Content (VWC)} is
 \text{VWC (\%)} = \frac{\text{Volume of Water}~(\mathrm{cm}^3)}{\text{Volume of Soil}~(\mathrm{cm}^3)} \times 100
 \end{equation}
 
-This metric provides valuable information for irrigation management, ensuring that plants receive adequate moisture for optimal growth without the risk of overwatering or water stress.
+This measurable metric provides valuable information for irrigation management, ensuring that plants receive adequate moisture for optimal growth without the risk of overwatering or water stress.
 
 
 \section{Structural Design Standards}
@@ -92,7 +89,7 @@ Choosing the right shape involves balancing structural load requirements with cl
 In terms of geographic suitability, greenhouse performance varies significantly with latitude and shape. For example, at \SI{31}{\degree}N latitude, even-span and Quonset greenhouses tend to receive more solar radiation in winter and less in summer, which is ideal for regions with significant seasonal temperature variation. However, at higher latitudes such as \SI{50}{\degree}N, uneven-span greenhouses are more effective for maintaining suitable internal conditions throughout the year.
 \citep{Sethi2009}
 
-The inclination angle significantly affects solar heat gain by altering the amount of radiation absorbed by the greenhouse surface. \citep{Mellalou2022}. As shown in figure \ref{fig:inclin} below, solar energy gaining rates decrease with steeper angles, particularly for the N--S orientation. While both orientations perform similarly at \SI{15}{\degree}, the E--W orientation consistently captures more energy at higher inclinations. This highlights the importance of optimizing both orientation and tilt to balance heat gain and internal climate control.
+The inclination angle significantly affects solar heat gain by altering the amount of radiation absorbed by the greenhouse surface. \citep{Mellalou2022}. As shown in figure \ref{fig:inclin} below, solar energy gaining rates decrease with steeper roof angles such as the \SI{27}{\degree} inclination angle seen below. While both N--S and E--W orientations perform similarly at \SI{12}{\degree} inclination, the E--W orientation consistently captures more energy at higher inclinations. This highlights the importance of optimizing both greenhouse orientation and tilt to balance heat gain and internal climate control.
 
 \begin{figure}[h]
     \centering
@@ -103,26 +100,18 @@ The inclination angle significantly affects solar heat gain by altering the amou
 
 \subsection{Sawtooth Design}
 
-The sawtooth greenhouse has gained popularity in tropical and subtropical climates due to its unique roof design and natural ventilation system. This roof features several curved, sawtooth-shaped sections, with vertical windows at the highest points to enhance natural ventilation. It uses natural resources like airflow and gravity to regulate the temperature and humidity inside the greenhouse, reducing reliance on external energy sources such as electricity \citep{inson_greenhouse}. Compared to traditional greenhouses, sawtooth greenhouses provide better ventilation, temperature control, and structural stability, making them ideal for hot, humid regions and areas with frequent rain. As the temperature inside the greenhouse rises, warm air naturally ascends and exits through the vertical windows at the top, while cooler air enters from below, creating a natural airflow cycle. The vertical windows are often controlled by a roll-up mechanism that opens for ventilation and closes for insulation when needed.
+The sawtooth greenhouse has gained popularity in tropical and subtropical climates due to its unique roof design and natural ventilation system. This roof features several curved, sawtooth-shaped sections, with vertical windows at the highest points to enhance natural ventilation. It uses natural resources like airflow and gravity to regulate the temperature and humidity inside the greenhouse, reducing reliance on external energy sources such as electricity \citep{inson_greenhouse}. Compared to traditional greenhouses, sawtooth greenhouses provide better ventilation, temperature control, and structural stability, making them ideal for hot, humid regions. As the temperature inside the greenhouse rises, warm air naturally ascends and exits through the vertical windows at the top, while cooler air enters from below, creating a natural airflow cycle. The vertical windows are often controlled by a roll-up mechanism that opens for ventilation and closes for insulation when needed.
 
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[width=0.5\textwidth]{figs/sawtooth.jpg}}
+    \fbox{\includegraphics[width=0.45\textwidth]{figs/sawtooth.jpg}}
     \caption{Sawtooth Greenhouses \citep{inson_greenhouse}. }
     \label{fig:photosynthesis}
 \end{figure}
 
 \subsection{Construction techniques}
 
-Greenhouses are typically classified by structural type and the materials used for framing and covering. The primary structural types include wooden-framed, pipe-framed, and truss-framed greenhouses, each suited to different span widths and construction needs.
-
-\textbf{Wooden-Framed Structures:} Ideal for spans under 6 meters, these greenhouses use timber, often pine or other locally sourced lumber, for columns and side posts. They are cost-effective and reasonably durable for small-scale applications and can also utilize bamboo as an eco-friendly alternative.
-
-\textbf{Pipe-Framed Structures:} Used for medium spans up to approximately 12 meters, these structures incorporate metal pipes to form side posts, columns, cross ties, and purlins. Trusses are generally not included in this design.
-
-\textbf{Truss-Framed Structures:} Suitable for larger spans of 15 meters or more, truss-framed greenhouses offer high structural strength and are commonly used for glasshouse construction. Trusses consist of welded elements like rafters, chords, and struts, made from flat steel, tubular steel, or angle iron. These frames are well-suited for pre-fabrication and large-scale installations.
-
-\textbf{Framing Materials:} Common framing materials include wood, steel, and aluminium. While wood is inexpensive and accessible, aluminium is preferred for its strength, low maintenance, and resistance to corrosion, making it the most durable and cost-effective option for long-term greenhouse use \citep{dalai2020}.
+Greenhouses are classified by structure (wooden-, pipe-, and truss-framed) and by framing material. Wooden frames suit small, simple builds; pipe/steel frames add strength for larger spans; and truss systems deliver maximum rigidity for big installations. Materials are chosen for cost, durability, and maintenance: wood is cheap and accessible, however aluminium offers the best mix of strength, corrosion resistance, and low upkeep thus often the long-term choice \citep{dalai2020}.
 
 \subsection{Covering materials}\label{cover}
 
@@ -140,50 +129,44 @@ Automated control of environmental parameters such as irrigation, heating and co
 
 \subsection{Irrigation Systems}\label{irrig}
 
-The right water system is key to the success of any greenhouse project. As greenhouse plants have a limited soil buffer, precision irrigation systems are vital to ensure high-quality crops and yields \citep{vegtech_netafim}.
+The right water system is key to the success of any greenhouse system. As greenhouse plants have a limited soil buffer, precision irrigation systems are vital to ensure high-quality crops and yields \citep{vegtech_netafim}.
 Some of the most used types of irrigation include:
 
 \textbf{Drip Irrigation:} This system delivers water directly to the base of each plant through a network of tubes and emitters, ensuring precise watering and minimizing water waste. By keeping foliage dry, it reduces the risk of fungal diseases. Drip irrigation is highly efficient and can be automated for consistent application \citep{cedar_greenhouse}.
 
 \textbf{Misting System:} Misting systems distribute fine water droplets from above to hydrate plants and maintain humidity within the greenhouse. It provides broad and uniform coverage suitable for various crops, particularly delicate seedlings and humidity-loving plants. While effective for moisture control, excessive use can wet plant foliage, potentially elevating the risk of disease. Proper management is essential to mitigate these concerns.
 
-\textbf{Ebb and Flow Systems:} Also known as flood and drain systems, ebb and flow setups periodically flood the growing area with nutrient-rich water and then allow it to drain away. This cyclical process ensures that plant roots receive adequate moisture and nutrients while preventing waterlogging. Ebb and flow systems are commonly used in hydroponic greenhouse operations \citep{floraflex_irrigation}. Irrigation water in these systems is most effectively stored in closed storage tanks. This provides a means to better control water quality as it protects water from outside contaminants, in addition to minimizing loss of water due to evaporation.
+\textbf{Ebb and Flow Systems:} Also known as flood and drain systems, ebb and flow setups periodically flood the growing area with nutrient-rich water and then allow it to drain away. This cyclical process ensures that plant roots receive adequate moisture and nutrients while preventing waterlogging. Ebb and flow systems are commonly used in hydroponic greenhouse operations \citep{floraflex_irrigation}. However, these systems require complex hydraulic components and precise nutrient management, increasing system complexity and maintenance requirements.
 
 \subsection{Heating and Cooling Systems} \label{heat}
 
-\section*{Heating and Cooling Systems in Greenhouses}
+Efficient greenhouse climate control uses \textbf{passive} and \textbf{active} methods \citep{vegtech_netafim}. Passive approaches rely on natural processes and strategic design, needing no external energy; active systems use mechanical/electrical equipment requiring external energy inputs. 
 
-Efficient heating and cooling systems are essential for maintaining optimal conditions within greenhouses. These systems can be broadly categorized into \textbf{passive} and \textbf{active} methods, each with distinct mechanisms and applications \citep{vegtech_netafim}.
-
-\textbf{Passive systems} utilize natural processes and strategic design to regulate the greenhouse environment without relying on external energy sources, while \textbf{active systems} involve mechanical or electrical components that require external energy inputs.
-
-\subsection*{Passive Heating}
+\subsubsection*{Passive Heating}
 This approach leverages solar energy to naturally warm the greenhouse. By incorporating design elements such as proper orientation, insulation, and thermal mass (e.g., water barrels or rock walls), heat is absorbed during the day and released at night, maintaining a stable internal temperature \citep{kumari2007}.
 
-\subsection*{Active Heating}
+\subsubsection*{Active Heating}
 To compensate for temperature drops, especially during winter nights, various heating systems are utilized. Options include unit heaters such as electric fan heaters, gas heating systems, heat lamps, and solar heating systems. The choice of system depends on factors such as greenhouse size, crop requirements, and energy efficiency considerations.
 
-\subsection*{Passive Cooling}
+\subsubsection*{Passive Cooling}
 Natural ventilation is employed to facilitate air exchange between the interior and exterior, helping to dissipate excess heat. This can be achieved through operable vents in the roof and sidewalls, allowing warm air to escape and cooler air to enter \citep{faridi_cooling}.
 
-\subsection*{Active Cooling}
+\subsubsection*{Active Cooling}
 In situations where passive cooling is insufficient, active methods like evaporative cooling are implemented. This technique involves using fans and wet pads to cool the air through water evaporation, effectively reducing internal temperatures even during hot periods \citep{verma_cooling}. Integrating both passive and active systems allows for a comprehensive approach to climate control in greenhouses, ensuring optimal growing conditions across varying external temperatures and weather conditions.
 
 \subsection{Humidity Control}
 
-A cost-effective way to achieve humidity control in a controlled environment involves a misting system that sprays mist over the entire crop, thereby increasing humidity~\citep{controlling_humidity}.
-
-It is essential to recognize that relative humidity is strongly influenced by temperature: warm air can hold more moisture than cooler air. As temperatures drop, the relative humidity increases, even if the actual amount of water vapor in the air remains constant.
+A cost-effective way to achieve humidity control in a controlled environment involves a misting system that sprays mist over the entire crop, thereby increasing humidity~\citep{controlling_humidity}. It is essential to recognize that relative humidity is strongly influenced by temperature: warm air can hold more moisture than cooler air. As temperatures drop, the relative humidity increases, even if the actual amount of water vapor in the air remains constant. \citep{Lawrence2005RHdewpoint}
 
 Traditional humidity control methods often involve a combination of heating and ventilation. When humidity exceeds the desired level, greenhouse vents and windows can be opened to expel warm, moist air and allow cooler, drier air to enter. While this effectively reduces humidity, it can also result in unwanted heat loss. As a result, additional heating may be required to maintain optimal growing temperatures. Achieving a balance between ventilation and heating is therefore essential for stable humidity and temperature regulation within the greenhouse environment~\citep{pepper_guide}.
 
 \subsection{Airflow}
 
-\subsection*{Airflow in Greenhouse Environments}
+\subsubsection*{Airflow in Greenhouse Environments}
 
 Effective airflow is crucial in greenhouse environments to maintain optimal growing conditions and prevent plant diseases. Proper air movement helps disperse microclimates, preventing localized areas of trapped moisture, and ensures uniform temperature and humidity levels throughout the greenhouse. This uniformity is vital for consistent plant growth and reducing the risk of fungal infections~\citep{pepper_guide}.
 
-\subsection*{Airflow Components in Greenhouses}
+\subsubsection*{Airflow Components in Greenhouses}
 
 \begin{itemize}
     \item \textbf{Roof Vents:} These allow hot air to escape from the top of the greenhouse, facilitating natural convection. As warm air rises and exits, cooler air is drawn in, aiding in temperature regulation.
@@ -249,9 +232,9 @@ Sensor data is fed into a controller, such as a PLC, Arduino, or Raspberry Pi, e
 \textbf{Microcontrollers:} Microcontrollers are small, programmable devices that can control a wide range of greenhouse automation tasks, such as environmental monitoring and data logging. The following microcontrollers are commonly used in greenhouse automation:
 
 \begin{itemize}
-    \item \textbf{Raspberry Pi:} A low-cost, powerful computer board frequently used in Internet of Things (IoT) applications. It offers greater processing power and versatility than simpler microcontrollers like Arduino and ESP8266. Raspberry Pi is ideal for more complex greenhouse automation systems, including advanced data collection and analysis \citep{raspberrypi}.
+    \item \textbf{Raspberry Pi:} A low-cost, powerful computer board frequently used in Internet of Things (IoT) applications. \citep{raspberrypi}. It offers greater processing power and versatility than simpler microcontrollers like Arduino and ESP8266. Raspberry Pi is ideal for more complex greenhouse automation systems, including advanced data collection and analysis 
     
-    \item \textbf{ESP8266/ESP32:} These low-cost Wi-Fi microchips, developed by Espressif Systems, include built-in TCP/IP stacks and microcontroller capabilities. The ESP8266 and ESP32 are widely used in IoT applications for connecting devices to the internet. They are compatible with the Arduino IDE, making them a popular choice for developing cost-effective, connected greenhouse systems \citep{esp_esp32}.
+    \item \textbf{ESP8266/ESP32:} These low-cost Wi-Fi microchips, developed by Espressif Systems, include built-in transmission control protocol (TCP/IP) stacks and microcontroller capabilities. The ESP8266 and ESP32 are widely used in IoT applications for connecting devices to the internet. They are compatible with the Arduino IDE, making them a popular choice for developing cost-effective, connected greenhouse systems \citep{esp_esp32}.
     
     \item \textbf{Arduino:} An open-source platform based on simple microcontroller chips, Arduino is designed for ease of use and flexibility. It is suitable for basic greenhouse monitoring and control tasks. Arduino's simplicity and large community make it an excellent choice for entry-level projects that require straightforward automation \citep{Yahaya2019}.
 \end{itemize}
@@ -262,15 +245,15 @@ These controllers play a critical role in facilitating data logging and remote m
 
 \textbf{Wireless Connection:}
 
-One can make use of ThingSpeak with both Raspberry Pi and Arduino to wirelessly upload and visualize sensor data. ThingSpeak is an IoT analytics platform that allows real-time data collection, storage, and visualization from connected devices. Once connected to Wi-Fi, the Arduino or Raspberry Pi can send HTTP requests to ThingSpeak's API to upload sensor readings. By integrating ThingSpeak with these controllers, one can effectively monitor and analyze sensor data remotely, making it a valuable tool for greenhouse automation and other IoT applications \citep{thingspeak}.
+ThingSpeak can be used with both Raspberry Pi and Arduino to wirelessly upload and visualize sensor data. ThingSpeak is an IoT analytics platform that allows real-time data collection, storage, and visualization from connected devices. Once connected to Wi-Fi, the Arduino or Raspberry Pi can send HTTP (Hypertext Transfer Protocol) requests to ThingSpeak's API (Application Programming Interface) to upload sensor readings. By integrating ThingSpeak with these controllers, one can effectively monitor and analyze sensor data remotely, making it a valuable tool for greenhouse automation and other IoT applications \citep{thingspeak}.
 
 \textbf{Actuators and Switches:}
 
-In greenhouse automation, relays are essential components that allow low-voltage control signals to switch high-voltage appliances such as irrigation pumps, lights, and ventilation systems on and off. This ensures efficient and safe operation of the system. These relays can be activated using the low voltage signals sent by the controller \citep{Farooq2022}.
+In greenhouse automation, relays are essential components that allow low-voltage control signals to switch high-voltage appliances such as irrigation pumps, lights, and ventilation systems on and off. This ensures efficient and safe operation of the system. These relays can be activated using the low voltage signals sent by the controller \citep{farooq2022}.
 
 \section{Energy Efficiency \& Sustainability}
 
-Solar power is useful in greenhouses because it provides a renewable and sustainable energy source for powering equipment, leading to reduced operating costs and environmental impact, while also enabling year-round crop production. By harnessing solar energy, solar-powered greenhouses create sustainable growing conditions for plants, regardless of external climate variations. With a system that runs on the solar power, especially when paired with a battery, it is not necessary to rely on an energy provider or worry about blackouts.
+Solar power lets greenhouses run equipment on a clean, renewable source, cutting costs and environmental impact. Paired with batteries, it keeps systems running through outages and seasons, enabling stable, year-round crop production regardless of outside weather.
 
 \subsection{Key Requirements for Solar System}
 
@@ -279,13 +262,13 @@ Incorporating a solar power system into a greenhouse requires understanding its 
 \begin{enumerate}
     \item \textbf{Solar Panels (Photovoltaic Modules):} Solar panels are the primary components that capture sunlight and convert it into direct current (DC) electricity through photovoltaic cells \citep{Krisciunas2023}.
     
-    \item \textbf{Inverter:} The inverter transforms the DC electricity generated by the solar panels into alternating current (AC) electricity, which is the standard form used to power electrical devices and systems within most greenhouses.
+    \item \textbf{Inverter:} The inverter transforms the DC electricity generated by the solar panels into alternating current (AC) electricity
     
-    \item \textbf{Charge Controller with Maximum Power Point Tracking (MPPT):} A charge controller manages the flow of electricity from the solar panels to the batteries, preventing overcharging and prolonging battery life. MPPT or Maximum Power Point Tracking is an algorithm included in charge controllers used for extracting maximum available power from a PV module under varying conditions \citep{Eltawil2013}.
+    \item \textbf{Charge Controller with Maximum Power Point Tracking (MPPT):} A charge controller manages the flow of electricity from the solar panels to the batteries, preventing overcharging and prolonging battery life. MPPT is an algorithm included in charge controllers used for extracting maximum available power from a PV module under varying conditions \citep{Eltawil2013}.
     
-    \item \textbf{Batteries:} Batteries store the electricity produced by the solar panels, providing energy during periods without sunlight or during power outages, ensuring continuous operation of greenhouse systems.
+    \item \textbf{Batteries:} Batteries store electricity produced by the solar panels, providing energy during periods without sunlight or during power outages, ensuring continuous operation.
     
-    \item \textbf{Racking and Mounting Systems:} Proper racking and mounting systems are crucial for securely installing solar panels on the greenhouse structure or the ground. These systems ensure that panels are positioned at an optimal angle and orientation to maximize solar exposure. Standard rails and brackets for panels of various sizes exist on the market \citep{axe_struct_solar_mounting}.
+    \item \textbf{Mounting Systems:} Racking and mounting systems are crucial for securely installing solar panels on the greenhouse structure or the ground. This ensures that panels are positioned at an optimal angle to maximize solar exposure. Standard rails and brackets for various sizes exist on the market \citep{axe_struct_solar_mounting}.
 \end{enumerate}
 
 Understanding and integrating these components effectively is vital for the successful implementation of a solar-powered greenhouse, leading to enhanced energy efficiency and sustainability.

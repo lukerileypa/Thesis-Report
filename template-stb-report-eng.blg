@@ -20,7 +20,7 @@ A level-1 auxiliary file: chaps-main/chap-intro.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chaps-main/chap-literature.aux
 Case mismatch error between cite keys Farooq2022 and farooq2022
----line 92 of file chaps-main/chap-literature.aux
+---line 95 of file chaps-main/chap-literature.aux
  : \citation{Farooq2022
  :                     }
 I'm skipping whatever remains of this command
@@ -36,7 +36,7 @@ Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chaps-main/chap-conclusion.aux
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 Database file #1: bib/GHreferences.bib
-Repeated entry---line 153 of file bib/GHreferences.bib
+Repeated entry---line 165 of file bib/GHreferences.bib
  : @article{ahn2017
  :                 ,
 I'm skipping whatever remains of this entry
@@ -48,45 +48,45 @@ Warning--missing institution in Dieter
 Warning--missing institution in faridi_cooling
 Warning--missing institution in greenhouse_lighting
 Warning--empty journal in verma_cooling
-You've used 43 entries,
+You've used 47 entries,
             3324 wiz_defined-function locations,
-            912 strings with 13993 characters,
-and the built_in function-call counts, 32048 in all, are:
-= -- 2517
-> -- 925
-< -- 49
-+ -- 363
-- -- 314
-* -- 2960
-:= -- 4223
-add.period$ -- 138
-call.type$ -- 43
-change.case$ -- 341
-chr.to.int$ -- 43
-cite$ -- 48
-duplicate$ -- 3137
-empty$ -- 2848
-format.name$ -- 614
-if$ -- 6360
+            941 strings with 15272 characters,
+and the built_in function-call counts, 36873 in all, are:
+= -- 2886
+> -- 1104
+< -- 59
++ -- 432
+- -- 377
+* -- 3470
+:= -- 4800
+add.period$ -- 156
+call.type$ -- 47
+change.case$ -- 385
+chr.to.int$ -- 56
+cite$ -- 52
+duplicate$ -- 3611
+empty$ -- 3267
+format.name$ -- 729
+if$ -- 7338
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 388
-newline$ -- 267
-num.names$ -- 174
-pop$ -- 958
+missing$ -- 446
+newline$ -- 292
+num.names$ -- 190
+pop$ -- 1081
 preamble$ -- 1
-purify$ -- 276
+purify$ -- 313
 quote$ -- 0
-skip$ -- 775
+skip$ -- 869
 stack$ -- 0
-substring$ -- 1621
-swap$ -- 1362
-text.length$ -- 24
+substring$ -- 1877
+swap$ -- 1593
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 384
+type$ -- 414
 warning$ -- 5
-while$ -- 297
+while$ -- 341
 width$ -- 0
-write$ -- 591
+write$ -- 652
 (There were 2 error messages)

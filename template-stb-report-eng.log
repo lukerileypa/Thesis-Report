@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.9.21)  21 OCT 2025 22:35
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.9.21)  22 OCT 2025 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -275,11 +275,30 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count287
 \@thisrulewidth=\dimen187
 )
+(C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count288
+\LTcapwidth=\dimen188
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count289
+\LT@rows=\count290
+\c@LT@tables=\count291
+\c@LT@chunks=\count292
+\LT@p@ftn=\toks25
+)
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen188
-\c@nlinenum=\count288
-\TeXr@lab=\toks25
+\rotheadsize=\dimen189
+\c@nlinenum=\count293
+\TeXr@lab=\toks26
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -321,22 +340,22 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count294
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen189
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
+\@linkdim=\dimen190
+\Hy@linkcounter=\count295
+\Hy@pagecounter=\count296
  (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 ) (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count292
+\Hy@SavedSpaceFactor=\count297
  (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 )
@@ -347,9 +366,9 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count293
+\c@Hy@tempcnt=\count298
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen190
+\XeTeXLinkMargin=\dimen191
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -359,9 +378,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count294
-\Field@Width=\dimen191
-\Fld@charsize=\dimen192
+\Fld@menulength=\count299
+\Field@Width=\dimen192
+\Fld@charsize=\dimen193
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -374,18 +393,18 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count295
-\c@Item=\count296
-\c@Hfootnote=\count297
+\Hy@abspage=\count300
+\c@Item=\count301
+\c@Hfootnote=\count302
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
-\pdfm@box=\box59
-\c@Hy@AnnotLevel=\count298
-\HyField@AnnotCount=\count299
-\Fld@listcount=\count300
-\c@bookmark@seq@number=\count301
+\pdfm@box=\box64
+\c@Hy@AnnotLevel=\count303
+\HyField@AnnotCount=\count304
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -398,13 +417,13 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip59
+\Hy@SectionHShift=\skip63
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count302
-\c@@ppsavesec=\count303
-\c@@ppsaveapp=\count304
+\c@@pps=\count307
+\c@@ppsavesec=\count308
+\c@@ppsaveapp=\count309
 )
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -416,11 +435,11 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count305
-\float@exts=\toks26
-\float@box=\box60
-\@float@everytoks=\toks27
-\@floatcapt=\box61
+\c@float@type=\count310
+\float@exts=\toks27
+\float@box=\box65
+\@float@everytoks=\toks28
+\@floatcapt=\box66
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
@@ -452,9 +471,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count306
-\svg@box=\box62
-\c@svg@param@currpage=\count307
+\c@svg@param@lastpage=\count311
+\svg@box=\box67
+\c@svg@param@currpage=\count312
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
 .sty
@@ -518,13 +537,13 @@ sty
 y
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen193
-\pgfutil@tempdimb=\dimen194
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen194
+\pgfutil@tempdimb=\dimen195
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box63
+\pgfutil@abb=\box68
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -537,33 +556,33 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks32
 ))
-\pgf@x=\dimen195
-\pgf@y=\dimen196
-\pgf@xa=\dimen197
-\pgf@ya=\dimen198
-\pgf@xb=\dimen199
-\pgf@yb=\dimen256
-\pgf@xc=\dimen257
-\pgf@yc=\dimen258
-\pgf@xd=\dimen259
-\pgf@yd=\dimen260
+\pgf@x=\dimen196
+\pgf@y=\dimen197
+\pgf@xa=\dimen198
+\pgf@ya=\dimen199
+\pgf@xb=\dimen256
+\pgf@yb=\dimen257
+\pgf@xc=\dimen258
+\pgf@yc=\dimen259
+\pgf@xd=\dimen260
+\pgf@yd=\dimen261
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count308
-\c@pgf@countb=\count309
-\c@pgf@countc=\count310
-\c@pgf@countd=\count311
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count312
+\c@pgf@counta=\count313
+\c@pgf@countb=\count314
+\c@pgf@countc=\count315
+\c@pgf@countd=\count316
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count317
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -583,13 +602,13 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count313
+\pgfsys@objnum=\count318
 )))
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count314
-\pgfsyssoftpath@bigbuffer@items=\count315
+\pgfsyssoftpath@smallbuffer@items=\count319
+\pgfsyssoftpath@bigbuffer@items=\count320
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -611,16 +630,16 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 ))
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip60
-\bibsep=\skip61
+\bibhang=\skip64
+\bibsep=\skip65
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count316
+\c@NAT@ctr=\count321
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 44.
+Package hyperref Info: Option `colorlinks' set `true' on input line 46.
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip62
+\@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -628,61 +647,61 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
-\ex@=\dimen261
+\@emptytoks=\toks36
+\ex@=\dimen262
 ))
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen262
+\pmbraise@=\dimen263
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count317
+\inf@bad=\count322
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count318
-\leftroot@=\count319
+\uproot@=\count323
+\leftroot@=\count324
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count320
-\DOTSCASE@=\count321
+\classnum@=\count325
+\DOTSCASE@=\count326
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box64
-\strutbox@=\box65
+\Mathstrutbox@=\box69
+\strutbox@=\box70
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen263
+\big@size=\dimen264
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count322
+\macc@depth=\count327
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count323
+\c@MaxMatrixCols=\count328
 \dotsspace@=\muskip18
-\c@parentequation=\count324
-\dspbrk@lvl=\count325
-\tag@help=\toks36
-\row@=\count326
-\column@=\count327
-\maxfields@=\count328
-\andhelp@=\toks37
-\eqnshift@=\dimen264
-\alignsep@=\dimen265
-\tagshift@=\dimen266
-\tagwidth@=\dimen267
-\totwidth@=\dimen268
-\lineht@=\dimen269
-\@envbody=\toks38
-\multlinegap=\skip63
-\multlinetaggap=\skip64
-\mathdisplay@stack=\toks39
+\c@parentequation=\count329
+\dspbrk@lvl=\count330
+\tag@help=\toks37
+\row@=\count331
+\column@=\count332
+\maxfields@=\count333
+\andhelp@=\toks38
+\eqnshift@=\dimen265
+\alignsep@=\dimen266
+\tagshift@=\dimen267
+\tagwidth@=\dimen268
+\totwidth@=\dimen269
+\lineht@=\dimen270
+\@envbody=\toks39
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -695,10 +714,10 @@ Package: expl3 2025-01-18 L3 programming layer (loader)
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
 ex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count329
-\l__pdf_internal_box=\box66
-\g__pdf_backend_annotation_int=\count330
-\g__pdf_backend_link_int=\count331
+\g__graphics_track_int=\count334
+\l__pdf_internal_box=\box71
+\g__pdf_backend_annotation_int=\count335
+\g__pdf_backend_link_int=\count336
 ))
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
 eys2e.sty
@@ -712,61 +731,61 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count332
-\g__chemgreek_tmpa_int=\count333
+\l__chemgreek_tmpa_int=\count337
+\g__chemgreek_tmpa_int=\count338
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count334
-\__mhchem_arrow_extPgfLength_skip=\skip65
-\mhchem@minispace@tmp=\skip66
-\mhchem@minibackspace@tmp=\skip67
-\mhchem@bondwidth=\skip68
-\mhchem@bondheight=\skip69
-\mhchem@smallbondwidth@tmpA=\skip70
-\mhchem@smallbondwidth@tmpB=\skip71
-\mhchem@smallbondwidth=\skip72
-\mhchem@bondtmp@minussidebearingleft=\skip73
-\mhchem@bondtmp@minussidebearingright=\skip74
-\l__mhchem_option_version_int=\count335
-\mhchem@option@minusmathsidebearingleft=\dimen270
-\mhchem@option@minusmathsidebearingright=\dimen271
-\mhchem@option@minustextsidebearingleft=\dimen272
-\mhchem@option@minustextsidebearingright=\dimen273
+\l__mhchem_ce_distanceFromLastComma_int=\count339
+\__mhchem_arrow_extPgfLength_skip=\skip69
+\mhchem@minispace@tmp=\skip70
+\mhchem@minibackspace@tmp=\skip71
+\mhchem@bondwidth=\skip72
+\mhchem@bondheight=\skip73
+\mhchem@smallbondwidth@tmpA=\skip74
+\mhchem@smallbondwidth@tmpB=\skip75
+\mhchem@smallbondwidth=\skip76
+\mhchem@bondtmp@minussidebearingleft=\skip77
+\mhchem@bondtmp@minussidebearingright=\skip78
+\l__mhchem_option_version_int=\count340
+\mhchem@option@minusmathsidebearingleft=\dimen271
+\mhchem@option@minusmathsidebearingright=\dimen272
+\mhchem@option@minustextsidebearingleft=\dimen273
+\mhchem@option@minustextsidebearingright=\dimen274
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count336
-\l__siunitx_number_exponent_fixed_int=\count337
-\l__siunitx_number_min_decimal_int=\count338
-\l__siunitx_number_min_integer_int=\count339
-\l__siunitx_number_round_precision_int=\count340
-\l__siunitx_number_lower_threshold_int=\count341
-\l__siunitx_number_upper_threshold_int=\count342
-\l__siunitx_number_group_first_int=\count343
-\l__siunitx_number_group_size_int=\count344
-\l__siunitx_number_group_minimum_int=\count345
-\l__siunitx_angle_tmp_dim=\dimen274
-\l__siunitx_angle_marker_box=\box67
-\l__siunitx_angle_unit_box=\box68
-\l__siunitx_compound_count_int=\count346
+\l__siunitx_number_uncert_offset_int=\count341
+\l__siunitx_number_exponent_fixed_int=\count342
+\l__siunitx_number_min_decimal_int=\count343
+\l__siunitx_number_min_integer_int=\count344
+\l__siunitx_number_round_precision_int=\count345
+\l__siunitx_number_lower_threshold_int=\count346
+\l__siunitx_number_upper_threshold_int=\count347
+\l__siunitx_number_group_first_int=\count348
+\l__siunitx_number_group_size_int=\count349
+\l__siunitx_number_group_minimum_int=\count350
+\l__siunitx_angle_tmp_dim=\dimen275
+\l__siunitx_angle_marker_box=\box72
+\l__siunitx_angle_unit_box=\box73
+\l__siunitx_compound_count_int=\count351
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_table_tmp_box=\box69
-\l__siunitx_table_tmp_dim=\dimen275
-\l__siunitx_table_column_width_dim=\dimen276
-\l__siunitx_table_integer_box=\box70
-\l__siunitx_table_decimal_box=\box71
-\l__siunitx_table_uncert_box=\box72
-\l__siunitx_table_before_box=\box73
-\l__siunitx_table_after_box=\box74
-\l__siunitx_table_before_dim=\dimen277
-\l__siunitx_table_carry_dim=\dimen278
-\l__siunitx_unit_tmp_int=\count347
-\l__siunitx_unit_position_int=\count348
-\l__siunitx_unit_total_int=\count349
+\l__siunitx_table_tmp_box=\box74
+\l__siunitx_table_tmp_dim=\dimen276
+\l__siunitx_table_column_width_dim=\dimen277
+\l__siunitx_table_integer_box=\box75
+\l__siunitx_table_decimal_box=\box76
+\l__siunitx_table_uncert_box=\box77
+\l__siunitx_table_before_box=\box78
+\l__siunitx_table_after_box=\box79
+\l__siunitx_table_before_dim=\dimen278
+\l__siunitx_table_carry_dim=\dimen279
+\l__siunitx_unit_tmp_int=\count352
+\l__siunitx_unit_position_int=\count353
+\l__siunitx_unit_total_int=\count354
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/unicode-math\unicode-ma
 th.sty
@@ -784,20 +803,20 @@ Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 .sty
 Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count350
-\l__fontspec_language_int=\count351
-\l__fontspec_strnum_int=\count352
-\l__fontspec_tmp_int=\count353
-\l__fontspec_tmpa_int=\count354
-\l__fontspec_tmpb_int=\count355
-\l__fontspec_tmpc_int=\count356
-\l__fontspec_em_int=\count357
-\l__fontspec_emdef_int=\count358
-\l__fontspec_strong_int=\count359
-\l__fontspec_strongdef_int=\count360
-\l__fontspec_tmpa_dim=\dimen279
-\l__fontspec_tmpb_dim=\dimen280
-\l__fontspec_tmpc_dim=\dimen281
+\l__fontspec_script_int=\count355
+\l__fontspec_language_int=\count356
+\l__fontspec_strnum_int=\count357
+\l__fontspec_tmp_int=\count358
+\l__fontspec_tmpa_int=\count359
+\l__fontspec_tmpb_int=\count360
+\l__fontspec_tmpc_int=\count361
+\l__fontspec_em_int=\count362
+\l__fontspec_emdef_int=\count363
+\l__fontspec_strong_int=\count364
+\l__fontspec_strongdef_int=\count365
+\l__fontspec_tmpa_dim=\dimen280
+\l__fontspec_tmpb_dim=\dimen281
+\l__fontspec_tmpc_dim=\dimen282
  (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
@@ -809,9 +828,9 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\g__um_fam_int=\count361
-\g__um_fonts_used_int=\count362
-\l__um_primecount_int=\count363
+\g__um_fam_int=\count366
+\g__um_fonts_used_int=\count367
+\l__um_primecount_int=\count368
 \g__um_primekern_muskip=\muskip19
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/unicode-math\unicode-ma
@@ -875,11 +894,11 @@ Package fontspec Info:
 (fontspec)             <->"Cambria/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/Cambria(1)/m/n on input line 106.
+(Font)                  OT1/lmr/m/n --> TU/Cambria(1)/m/n on input line 108.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/Cambria(1)/m/it on input line 106.
+(Font)                  OT1/lmr/m/it --> TU/Cambria(1)/m/it on input line 108.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/Cambria(1)/b/n on input line 106.
+(Font)                  OT1/lmr/bx/n --> TU/Cambria(1)/b/n on input line 108.
 
 Package fontspec Info: 
 (fontspec)             Calibri scale = 1.0052548708189.
@@ -1019,9 +1038,9 @@ uage=dflt;"
 uage=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/Calibri(1)/m/n on input line 107.
+(Font)                  OT1/lmss/m/n --> TU/Calibri(1)/m/n on input line 109.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/Calibri(1)/b/n on input line 107.
+(Font)                  OT1/lmss/bx/n --> TU/Calibri(1)/b/n on input line 109.
 
 Package fontspec Info: 
 (fontspec)             Consolas scale = 0.9521887652806346.
@@ -1107,9 +1126,9 @@ uage=dflt;"
 guage=dflt;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/Consolas(1)/m/n on input line 108.
+(Font)                  OT1/lmtt/m/n --> TU/Consolas(1)/m/n on input line 110.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/Consolas(1)/b/n on input line 108.
+(Font)                  OT1/lmtt/m/n --> TU/Consolas(1)/b/n on input line 110.
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "Cambria Math/B" (it probably
@@ -1152,16 +1171,16 @@ ia
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 109.
+(Font)              `operators' in the math version `normal' on input line 111.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/CambriaMath(1)/m/n on input line 109
+(Font)                  OT1/lmr/m/n --> TU/CambriaMath(1)/m/n on input line 111
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 109.
+(Font)              `operators' in the math version `bold' on input line 111.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/CambriaMath(1)/b/n on input line 10
-9.
+(Font)                  OT1/lmr/bx/n --> TU/CambriaMath(1)/b/n on input line 11
+1.
 
 Package fontspec Info: 
 (fontspec)             Cambria Math scale = 1.0001.
@@ -1215,15 +1234,15 @@ stment={\fontdimen
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 109.
+(Font)              `symbols' in the math version `normal' on input line 111.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/CambriaMath(2)/m/n on input line 10
-9.
+(Font)                  OMS/lmsy/m/n --> TU/CambriaMath(2)/m/n on input line 11
+1.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 109.
+(Font)              `symbols' in the math version `bold' on input line 111.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/CambriaMath(2)/b/n on input line 10
-9.
+(Font)                  OMS/lmsy/b/n --> TU/CambriaMath(2)/b/n on input line 11
+1.
 
 Package fontspec Info: 
 (fontspec)             Cambria Math scale = 0.9999.
@@ -1272,16 +1291,16 @@ stment={\fontdimen
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-09.
+11.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/CambriaMath(3)/m/n on input line 10
-9.
+(Font)                  OMX/lmex/m/n --> TU/CambriaMath(3)/m/n on input line 11
+1.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 109
+(Font)              `largesymbols' in the math version `bold' on input line 111
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/CambriaMath(3)/b/n on input line 10
-9.
+(Font)                  OMX/lmex/m/n --> TU/CambriaMath(3)/b/n on input line 11
+1.
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             
@@ -1315,36 +1334,17 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 ncl.sty
 Package: stb-nomencl 2023/07/25 v1.1 Stellenbosch Thesis Nomenclature (DNJ ELS)
 
-\STBN@tdima=\skip75
-\STBN@NomGrpSep=\skip76
-\NomGrpSep=\skip77
-\NomItmSep=\skip78
-\NomItmMrg=\skip79
-\NomLblSep=\skip80
-\UnitLabelWdth=\skip81
+\STBN@tdima=\skip79
+\STBN@NomGrpSep=\skip80
+\NomGrpSep=\skip81
+\NomItmSep=\skip82
+\NomItmMrg=\skip83
+\NomLblSep=\skip84
+\UnitLabelWdth=\skip85
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/stellenbosch-2\stb-bib.
 sty
 Package: stb-bib 2023/01/16 1.0 (DNJ Els)
-)
-(C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip82
-\LTright=\skip83
-\LTpre=\skip84
-\LTpost=\skip85
-\LTchunksize=\count364
-\LTcapwidth=\dimen282
-\LT@head=\box75
-\LT@firsthead=\box76
-\LT@foot=\box77
-\LT@lastfoot=\box78
-\LT@gbox=\box79
-\LT@cols=\count365
-\LT@rows=\count366
-\c@LT@tables=\count367
-\c@LT@chunks=\count368
-\LT@p@ftn=\toks40
 )
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
@@ -1353,7 +1353,7 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \rownum=\count369
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 189.
+h' as default language. on input line 191.
 
 (template-stb-report-eng.aux (chaps-front/chap-plagiarism.aux)
 (chaps-front/chap-AI-use-2024.aux) (chaps-front/chap-summary.aux)
@@ -1392,26 +1392,26 @@ LaTeX Warning: Label `fig:lcd_screen' multiply defined.
 ) (chaps-main/chap-Design_Evaluation.aux) (chaps-main/chap-conclusion.aux))
 \openout1 = `template-stb-report-eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1460,14 +1460,14 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 189.
+Package hyperref Info: Link coloring ON on input line 191.
 
 (template-stb-report-eng.out) (template-stb-report-eng.out)
 \@outlinefile=\write4
 \openout4 = `template-stb-report-eng.out'.
 
 
-Package chemgreek Info: Activating mapping `fontspec' on line 189.
+Package chemgreek Info: Activating mapping `fontspec' on line 191.
 
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
@@ -1476,25 +1476,25 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 189.
+or `english'. on input line 191.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-93.
+95.
 
 (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 193.
+(Font)              scaled to size 14.40152pt on input line 195.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 193.
+(Font)              scaled to size 10.00107pt on input line 195.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 193.
+(Font)              scaled to size 7.00075pt on input line 195.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 193.
+(Font)              scaled to size 14.39845pt on input line 195.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 193.
+(Font)              scaled to size 9.99893pt on input line 195.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 193.
+(Font)              scaled to size 6.99925pt on input line 195.
 
 
 [1
@@ -1554,7 +1554,7 @@ File: figs/sign.png Graphic file (type bmp)
 
 LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 196.
+ 198.
 [5]
 \openout2 = `chaps-front/chap-acknowledge.aux'.
 
@@ -1568,32 +1568,248 @@ LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 ]
 \openout2 = `chaps-front/chap-ecsa.aux'.
 
- (chaps-front/chap-ecsa.tex)
+ (chaps-front/chap-ecsa.tex
+Overfull \hbox (20.67278pt too wide) in alignment at lines 7--16
+ [] [] 
+ []
+
+
+Overfull \hbox (20.67278pt too wide) in alignment at lines 16--22
+ [] [] 
+ []
+
+
+Overfull \hbox (20.67278pt too wide) in alignment at lines 22--25
+ [] [] 
+ []
+
+
+Overfull \hbox (20.67278pt too wide) in alignment at lines 25--28
+ [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\TU/Cambria(0)/b/n/12 GA 1. Problem solving:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\TU/Cambria(0)/m/n/12 Demonstrate competence to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\TU/Cambria(0)/m/n/12 solve convergent and diver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\TU/Cambria(0)/m/n/12 gent engineering problems
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 32--33
+\TU/Cambria(0)/m/n/12 the main engineering problems addressed by the
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 38--38
+[]|\TU/Cambria(0)/b/n/12 GA 2. Application of sci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/Cambria(0)/b/n/12 entific and engineering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/Cambria(0)/b/n/12 knowledge: \TU/Cambria(0)/m/n/12 Demonstrate
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 38--38
+\TU/Cambria(0)/m/n/12 competence to apply knowl-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/Cambria(0)/m/n/12 edge of mathematics, basic
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 38--38
+\TU/Cambria(0)/m/n/12 science and engineering sci-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 38--38
+\TU/Cambria(0)/m/n/12 ences from first principles to
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 44--44
+[]|\TU/Cambria(0)/b/n/12 GA 3. Engineering Design:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+\TU/Cambria(0)/m/n/12 Demonstrate competence to
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 44--44
+\TU/Cambria(0)/m/n/12 perform creative, procedural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+\TU/Cambria(0)/m/n/12 and non-procedural design
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+\TU/Cambria(0)/m/n/12 systems, engineering works,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\TU/Cambria(0)/b/n/12 skills and tools, including
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\TU/Cambria(0)/b/n/12 Information Technology:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\TU/Cambria(0)/m/n/12 Demonstrate competence to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\TU/Cambria(0)/m/n/12 use appropriate engineering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\TU/Cambria(0)/m/n/12 methods, skills and tools,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\TU/Cambria(0)/m/n/12 including those based on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\TU/Cambria(0)/b/n/12 GA 6. Professional and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\TU/Cambria(0)/b/n/12 technical communication:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\TU/Cambria(0)/m/n/12 Demonstrate competence to
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 63--63
+\TU/Cambria(0)/m/n/12 communicate effectively, both
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\TU/Cambria(0)/m/n/12 orally and in writing, with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/Cambria(0)/b/n/12 Multidisciplinary Working:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/12 Demonstrate competence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/12 to work effectively as an
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/12 individual, in teams and in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/Cambria(0)/m/n/12 multi-disciplinary environ-
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 80--80
+[]|\TU/Cambria(0)/b/n/12 GA 9. Independent Learn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+\TU/Cambria(0)/b/n/12 ing Ability: \TU/Cambria(0)/m/n/12 Demonstrate
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 80--80
+\TU/Cambria(0)/m/n/12 competence to engage in in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+\TU/Cambria(0)/m/n/12 dependent learning through
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[]\TU/Cambria(0)/m/n/12 Section [][]4.8[][] demonstrates self-directed learning
+
+ []
+
+
+Overfull \hbox (20.67278pt too wide) in alignment at lines 28--89
+ [] [] 
+ []
 
 [7
 
 
 
 
-] (template-stb-report-eng.toc
+] [8])
 
-[8
+[9] (template-stb-report-eng.toc
+
+[10
 
 
 
 ]
 
-[9]
+[11]
 
-[10])
+[12])
 \tf@toc=\write5
 \openout5 = `template-stb-report-eng.toc'.
 
 
 
-[11] (template-stb-report-eng.lof
+[13] (template-stb-report-eng.lof
 
-[12
+[14
 
 ])
 \tf@lof=\write6
@@ -1601,13 +1817,13 @@ LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 
 
 
-[13] (template-stb-report-eng.lot)
+[15] (template-stb-report-eng.lot)
 \tf@lot=\write7
 \openout7 = `template-stb-report-eng.lot'.
 
 
 
-[14
+[16
 
 ]
 \openout2 = `chaps-front/chap-symbols.aux'.
@@ -1619,12 +1835,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
 
 
-[15
+[17
 
 
 ])
 
-[16]
+[18]
 \openout2 = `chaps-main/chap-intro.aux'.
 
  (chaps-main/chap-intro.tex
@@ -1663,19 +1879,19 @@ Overfull \hbox (20.35336pt too wide) in paragraph at lines 3--3
 File: figs/Co2.jpg Graphic file (type bmp)
 <figs/Co2.jpg>
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 54.
+(Font)              scaled to size 10.95116pt on input line 51.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 54.
+(Font)              scaled to size 8.00085pt on input line 51.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 54.
+(Font)              scaled to size 6.00064pt on input line 51.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 54.
+(Font)              scaled to size 10.94882pt on input line 51.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 54.
+(Font)              scaled to size 7.99915pt on input line 51.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 54.
+(Font)              scaled to size 5.99936pt on input line 51.
 
-Overfull \hbox (0.34999pt too wide) in paragraph at lines 64--65
+Overfull \hbox (0.34999pt too wide) in paragraph at lines 61--62
 []\TU/Cambria(0)/m/n/12 To monitor soil moisture effectively, \TU/Cambria(0)/b/
 n/12 Volumetric Water Content (VWC) \TU/Cambria(0)/m/n/12 is commonly used.
  []
@@ -1695,27 +1911,21 @@ File: figs/sawtooth.jpg Graphic file (type bmp)
 
 
 [7]
-Overfull \hbox (6.64651pt too wide) in paragraph at lines 125--126
-[]\TU/Cambria(0)/b/n/12 Framing Materials: \TU/Cambria(0)/m/n/12 Common framing
- materials include wood, steel, and aluminium. While
- []
-
-
-
-[8]
-Overfull \hbox (3.56082pt too wide) in paragraph at lines 133--134
+Overfull \hbox (3.56082pt too wide) in paragraph at lines 122--123
 []\TU/Cambria(0)/b/n/12 Plastic Film Greenhouses: \TU/Cambria(0)/m/n/12 Covered
  with flexible materials such as polyethylene, polyvinyl
  []
 
 
-Overfull \hbox (5.21161pt too wide) in paragraph at lines 135--136
+Overfull \hbox (5.21161pt too wide) in paragraph at lines 124--125
 []\TU/Cambria(0)/b/n/12 Rigid Panel Greenhouses: \TU/Cambria(0)/m/n/12 Made fro
 m polycarbonate, fiberglass-reinforced plastic, acrylic,
  []
 
 
-Overfull \hbox (0.61063pt too wide) in paragraph at lines 148--149
+
+[8]
+Overfull \hbox (0.61063pt too wide) in paragraph at lines 137--138
 \TU/Cambria(0)/m/n/12 erage suitable for various crops, particularly delicate s
 eedlings and humidity-loving plants.
  []
@@ -1731,34 +1941,24 @@ File: figs/airflow2.jpg Graphic file (type bmp)
 <figs/airflow2.jpg>
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
 [11]
 
 [12]
-Overfull \hbox (1.46223pt too wide) in paragraph at lines 254--255
-\TU/Cambria(0)/m/n/12 include built-in TCP/IP stacks and microcontroller capabi
-lities. The ESP8266 and ESP32
+Overfull \hbox (11.39032pt too wide) in paragraph at lines 256--257
+\TU/Cambria(0)/m/n/12 ages and seasons, enabling stable, year-round crop produc
+tion regardless of outside weather. 
  []
 
+)
 
-Package natbib Warning: Citation `Farooq2022' on page 13 undefined on input lin
-e 269.
-
-
-
-[13])
-
-[14]
+[13]
 \openout2 = `chaps-main/chap-concept.aux'.
 
  (chaps-main/chap-concept.tex
 Chapter 3.
 
 
-[15
+[14
 
 
 
@@ -1775,7 +1975,7 @@ Overfull \hbox (9.06104pt too wide) in paragraph at lines 31--58
 
 
 
-[16]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []|\TU/Cambria(0)/b/n/10.95 PR
  []
@@ -1805,38 +2005,34 @@ LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 160.
 
-Overfull \hbox (30.39528pt too wide) in paragraph at lines 126--170
+Overfull \hbox (30.39528pt too wide) in paragraph at lines 126--172
  [] 
  []
 
 
 
+[16]
+
 [17]
 File: figs/Funct.png Graphic file (type bmp)
 <figs/Funct.png>
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[18]
-Overfull \hbox (2.02039pt too wide) in paragraph at lines 217--218
+Overfull \hbox (2.02039pt too wide) in paragraph at lines 219--220
 \TU/Cambria(0)/m/n/12 The developed subsystem concepts were evaluated using a w
 eighted scoring method based
  []
 
 
 
-[19]
-Overfull \hbox (4.48889pt too wide) in paragraph at lines 233--234
+[18]
+Overfull \hbox (4.48889pt too wide) in paragraph at lines 235--236
 \TU/Cambria(0)/m/n/12 reduced performance in humid conditions. Thus, a combined
  ventilation–misting approach
  []
 
 
 
-[20]
+[19]
 File: figs/phys1.png Graphic file (type bmp)
 <figs/phys1.png>
 File: figs/phys2.png Graphic file (type bmp)
@@ -1845,7 +2041,7 @@ File: figs/phys3.png Graphic file (type bmp)
 <figs/phys3.png>
 )
 
-[21]
+[20]
 \openout2 = `chaps-main/chap-Detailed_design.aux'.
 
  (chaps-main/chap-Detailed_design.tex
@@ -1858,14 +2054,14 @@ File: figs/anotated.png Graphic file (type bmp)
 <figs/anotated.png>
 
 
-[22
+[21
 
 
 
 
 ]
 
-[23]
+[22]
 File: figs/whirlpool.png Graphic file (type bmp)
 <figs/whirlpool.png>
 
@@ -1877,30 +2073,30 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 64.
 
 
 
-[24]
+[23]
 File: figs/fbd.png Graphic file (type bmp)
 <figs/fbd.png>
 
 
-[25]
+[24]
 
-[26]
+[25]
 File: figs/airflow1.png Graphic file (type bmp)
 <figs/airflow1.png>
 
 
+[26]
+
 [27]
 
-[28]
-
-Package natbib Warning: Citation `manclim' on page 29 undefined on input line 1
+Package natbib Warning: Citation `manclim' on page 28 undefined on input line 1
 37.
 
 File: figs/steven.png Graphic file (type bmp)
 <figs/steven.png>
 
 
-[29]
+[28]
 Overfull \hbox (14.44943pt too wide) in paragraph at lines 219--220
 \TU/Cambria(0)/m/n/12 abling the automated misting system to deliver precise ir
 rigation when needed. The SEN0114
@@ -1908,7 +2104,7 @@ rigation when needed. The SEN0114
 
 
 
-[30]
+[29]
 Overfull \hbox (2.10925pt too wide) in paragraph at lines 247--248
 []\TU/Cambria(0)/b/n/12 Wet Point Calibration: \TU/Cambria(0)/m/n/12 Place the 
 sensor probes in fully saturated soil (considered 100%
@@ -1916,25 +2112,25 @@ sensor probes in fully saturated soil (considered 100%
 
 
 
-[31]
+[30]
 LaTeX Font Info:    Font shape `TU/Consolas(0)/m/n' will be
 (Font)              scaled to size 11.42633pt on input line 276.
 File: figs/LCD.jpg Graphic file (type bmp)
 <figs/LCD.jpg>
 
 
-[32]
+[31]
 
-[33])
+[32])
 
-[34]
+[33]
 \openout2 = `chaps-main/chap-integration.aux'.
 
  (chaps-main/chap-integration.tex
 Chapter 5.
 
 
-[35
+[34
 
 
 
@@ -1948,9 +2144,9 @@ LaTeX Warning: Float too large for page by 66.09665pt on input line 18.
 
 
 
-[36]
+[35]
 
-[37
+[36
 
 
 ]
@@ -1958,7 +2154,7 @@ File: figs/soft1.png Graphic file (type bmp)
 <figs/soft1.png>
 )
 
-[38]
+[37]
 \openout2 = `chaps-main/chap-Design_Evaluation.aux'.
 
  (chaps-main/chap-Design_Evaluation.tex
@@ -1979,7 +2175,7 @@ ged at one-second intervals through
 
 
 
-[39
+[38
 
 
 
@@ -1989,19 +2185,19 @@ File: figs/dthtest.jpg Graphic file (type bmp)
 <figs/dthtest.jpg>
 
 
-[40]
+[39]
 File: figs/soiltest.jpg Graphic file (type bmp)
 <figs/soiltest.jpg>
 File: figs/lighttest2.jpg Graphic file (type bmp)
 <figs/lighttest2.jpg>
 
 
-[41]
+[40]
 File: figs/CO2test.jpg Graphic file (type bmp)
 <figs/CO2test.jpg>
 
 
-[42]
+[41]
 Underfull \hbox (badness 4739) in paragraph at lines 115--115
 []|\TU/Cambria(0)/m/n/12 12V applied directly, then via
  []
@@ -2068,7 +2264,7 @@ Overfull \hbox (11.42339pt too wide) in paragraph at lines 111--124
 
 
 
-[43]
+[42]
 File: figs/dash.png Graphic file (type bmp)
 <figs/dash.png>
 File: figs/blynk.jpeg Graphic file (type bmp)
@@ -2085,9 +2281,9 @@ Underfull \hbox (badness 1320) in paragraph at lines 157--157
 
 
 
-[44]
+[43]
 
-[45]
+[44]
 File: figs/temp_n.png Graphic file (type bmp)
 <figs/temp_n.png>
 File: figs/temp_a.png Graphic file (type bmp)
@@ -2100,7 +2296,7 @@ uncontrolled scenario, in which
 
 
 
-[46]
+[45]
 File: figs/hum_n.png Graphic file (type bmp)
 <figs/hum_n.png>
 File: figs/hum_a.png Graphic file (type bmp)
@@ -2113,7 +2309,7 @@ ht, operation of the heater caused
 
 
 
-[47]
+[46]
 File: figs/soil_n.png Graphic file (type bmp)
 <figs/soil_n.png>
 File: figs/soil_a.png Graphic file (type bmp)
@@ -2135,7 +2331,7 @@ File: figs/co2data.png Graphic file (type bmp)
 <figs/co2data.png>
 
 
-[48]
+[47]
 File: figs/lux.png Graphic file (type bmp)
 <figs/lux.png>
 
@@ -2241,9 +2437,9 @@ Overfull \hbox (53.8984pt too wide) in paragraph at lines 303--336
 
 
 
-[49]
+[48]
 
-[50]
+[49]
 File: figs/greens.jpeg Graphic file (type bmp)
 <figs/greens.jpeg>
 
@@ -2260,14 +2456,14 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 353--354
 
 )
 
-[51]
+[50]
 \openout2 = `chaps-main/chap-conclusion.aux'.
 
  (chaps-main/chap-conclusion.tex
 Chapter 7.
 )
 
-[52
+[51
 
 
 
@@ -2279,17 +2475,17 @@ LaTeX Font Info:    Font shape `TU/Consolas(0)/m/n' will be
 (Font)              scaled to size 10.42651pt on input line 26.
 
 
-[53
+[52
 
 
 
 ]
 
-[54]
+[53]
 
-[55]) (chaps-append/concepteval.tex
+[54]) (chaps-append/concepteval.tex
 
-[56]
+[55]
 Appendix A.
 
 Overfull \hbox (1.10208pt too wide) in paragraph at lines 18--18
@@ -2353,7 +2549,7 @@ Overfull \hbox (19.55199pt too wide) in paragraph at lines 16--31
 
 
 
-[57
+[56
 
 ]
 Overfull \hbox (1.10208pt too wide) in paragraph at lines 72--72
@@ -2397,7 +2593,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 72--72
 
 
 
-[58]
+[57]
 Overfull \hbox (1.10208pt too wide) in paragraph at lines 104--104
  []|\TU/Cambria(0)/b/n/10.95 Weight 
  []
@@ -2465,7 +2661,7 @@ Underfull \hbox (badness 1152) in paragraph at lines 145--145
 
 
 
-[59]
+[58]
 Overfull \hbox (4.00867pt too wide) in paragraph at lines 156--157
 \TU/Cambria(0)/m/n/12 The weighting was selected to reflect the importance of r
 eliable soil moisture control (30%)
@@ -2518,7 +2714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--180
 
 
 
-[60]
+[59]
 Overfull \hbox (1.10208pt too wide) in paragraph at lines 205--205
  []|\TU/Cambria(0)/b/n/10.95 Weight 
  []
@@ -2585,9 +2781,9 @@ Overfull \hbox (31.55199pt too wide) in paragraph at lines 203--220
 
 
 
-[61]) (chaps-append/software.tex
+[60]) (chaps-append/software.tex
 
-[62]
+[61]
 Appendix B.
 
 Overfull \hbox (1.31494pt too wide) in paragraph at lines 1--1
@@ -2600,19 +2796,19 @@ File: figs/soft3.png Graphic file (type bmp)
 <figs/soft3.png>
 
 
-[63
+[62
 
 ]
 File: figs/soft4.png Graphic file (type bmp)
 <figs/soft4.png>
 
 
-[64]
+[63]
 File: figs/soft5.png Graphic file (type bmp)
 <figs/soft5.png>
 ) (chaps-append/chap-planning.tex
 
-[65]
+[64]
 Appendix C.
 File: figs/budget.pdf Graphic file (type pdf)
 <use figs/budget.pdf>
@@ -2623,7 +2819,7 @@ Overfull \hbox (113.24197pt too wide) in paragraph at lines 9--10
 
 
 
-[66
+[65
 
 ]
 
@@ -2672,7 +2868,7 @@ or  <return>  to continue without it.
 
 
 
-[67
+[66
 
 ]
 Overfull \hbox (0.1217pt too wide) in paragraph at lines 39--40
@@ -2688,13 +2884,13 @@ perational savings and improved
 
 ) (chaps-append/risk.tex
 
-[68
+[67
 
 ]
 Appendix D.
 
 
-[69
+[68
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 95--95
@@ -2878,9 +3074,9 @@ Underfull \hbox (badness 3417) in paragraph at lines 95--95
 
 ) (chaps-append/draw.tex
 
-[70]
+[69]
 
-[71]
+[70]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
@@ -2895,7 +3091,7 @@ See the caption package documentation for explanation.
 
 
 
-[72
+[71
 
 ]) (chaps-append/chap-maths.tex
 File: smath2.pdf Graphic file (type pdf)
@@ -2914,7 +3110,7 @@ Appendix F.
 
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 1>
-[73
+[72
 
 
 
@@ -2933,51 +3129,51 @@ File: smath2.pdf Graphic file (type pdf)
 
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 2>
+[73
+
+]
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 3>
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 3>
+
+
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 3>
 [74
 
 ]
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
+<use smath2.pdf, page 4>
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
+<use smath2.pdf, page 4>
 
 
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
+<use smath2.pdf, page 4>
 [75
 
 ]
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
+<use smath2.pdf, page 5>
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
+<use smath2.pdf, page 5>
 
 
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
+<use smath2.pdf, page 5>
 [76
 
 ]
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
+<use smath2.pdf, page 6>
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
+<use smath2.pdf, page 6>
 
 
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
+<use smath2.pdf, page 6>
 [77
-
-]
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
-
-
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
-[78
 
 ]) (chaps-append/Setup.tex
 Appendix G.
@@ -3001,7 +3197,7 @@ File: figs/LCD2.jpeg Graphic file (type bmp)
 <figs/LCD2.jpeg>
 ) (chaps-append/endoflife.tex
 
-[79
+[78
 
 ]
 Appendix H.
@@ -3012,7 +3208,7 @@ Overfull \hbox (13.26903pt too wide) in paragraph at lines 1--1
 
 
 
-[80
+[79
 
 ]
 Overfull \hbox (2.85477pt too wide) in paragraph at lines 23--24
@@ -3022,7 +3218,7 @@ erial reuse in future projects.
 
 )
 
-[81]
+[80]
 
 Package natbib Warning: There were undefined citations.
 
@@ -3043,19 +3239,19 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `template-stb-report-eng.out' has not changed
 .
-(rerunfilecheck)             Checksum: 3F7E34AF42E786C00B0D28120DB94383;20668.
+(rerunfilecheck)             Checksum: DB92B5901173E44F9DDBACEB3C0BFAE7;20797.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28233 strings out of 408640
- 586805 string characters out of 5744798
- 1172240 words of memory out of 5000000
- 50700 multiletter control sequences out of 15000+600000
+ 28249 strings out of 408640
+ 587104 string characters out of 5744798
+ 1176671 words of memory out of 5000000
+ 50716 multiletter control sequences out of 15000+600000
  565527 words of font info for 149 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  95i,18n,115p,1324b,1607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (97 pages).
+Output written on template-stb-report-eng.pdf (98 pages).

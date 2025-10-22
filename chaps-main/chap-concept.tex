@@ -6,12 +6,12 @@ This section outlines the concept development for the electronic greenhouse. It 
 Greenhouses require continuous supervision to maintain optimal growing conditions for plants. This manual oversight can be time-consuming and inconsistent, potentially affecting crop quality and yield. The proposed solution is to develop an electronic greenhouse system capable of monitoring and controlling critical environmental parameters such as temperature, humidity, soil moisture, CO\textsubscript{2} levels, and light intensity. The design should support plant growth while minimizing human intervention. This project focuses on designing and developing a small-scale, automated greenhouse system suitable for educational or personal use. The scope includes:
 
 \begin{itemize}
-    \item Selection and integration of sensors for monitoring environmental variables (e.g., temperature, humidity, CO\textsubscript{2}, light).
+    \item Selection and integration of sensors for monitoring environmental variables (e.g., temperature, humidity, CO\textsubscript{2}, light, soil moisture).
     \item Design and implementation of a control system using microcontrollers or PLCs.
+    \item Design and construction of a structural frame using lightweight and transparent covering materials.
     \item Incorporation of solar power as a primary energy source.
-    \item Design of a structural frame using lightweight, transparent materials.
     \item Implementation of programmable irrigation and ventilation systems.
-    \item Development of a simple user interface or data display.
+    \item Development of a simple user interface with data display and user control.
     \item Testing and documentation of system performance under typical operating conditions.
 \end{itemize}
 
@@ -20,7 +20,7 @@ The project will not cover large-scale commercial greenhouse operations or compl
 \section{Stakeholder Requirements}
 
 
-Table~\ref{tab:stakeholder_requirements} expands on the problem definition given above. The items in the table represent the requirements as stated by the stakeholders. The stakeholders in this project are the end-user, the University of Stellenbosch staff and supervisors, and health and safety officers in compliance with the OSHA Act. The end-user benefits from the smooth operation of the final product, while both the end-user and the university benefit from the design being the most cost-effective option, given that university funds are limited.
+Table~\ref{tab:stakeholder_requirements} expands on the problem definition given above. The items in the table represent the requirements as stated by the stakeholders. The stakeholders in this project are the end-user, the University of Stellenbosch staff and supervisors, and health and safety officers in compliance with the OSHA Act. The end-user benefits from the smooth operation of the final product, while both the end-user and the university benefit from the design being the most cost-effective option, given that university funding is limited.
 
 \begin{table}[H]
 \centering
@@ -48,7 +48,7 @@ SR7  & End-user, University & Cost-effective. & High \\
 \hline
 SR8  & End-user, University & Energy efficient. & High \\
 \hline
-SR9  & End-user             & Environmental parameter allowable ranges settable by user with simple user interface. & High \\
+SR9  & End-user             & Environmental parameter allowable ranges wirelessly settable by user with simple user interface. & High \\
 \hline
 SR10 & University           & Easy to manufacture. & High \\
 \hline
@@ -111,7 +111,7 @@ of how well the system should perform the functions.
 %\vspace{0.3em}
 
 \raggedright
-\textsuperscript{1} Refers to both internal and external temperature and humidity.
+\textsuperscript{1} Refers to both internal and external temperature and humidity for comparison.
 \end{table}
 
 
@@ -130,40 +130,42 @@ of how well the system should perform the functions.
 \hline
 2 & Resist Wind speeds\tnote{1} & 18.81 & >18.8 & kph & SR1 \\
 \hline
-3 & Temperature sensing range & Maximize & -10--50 & °C & SR2 \\
+3 & Temperature sensing range\tnote{2} & Maximize & -10--50 & °C & SR2 \\
 \hline
 4 & Soil moisture sensing & 0--100 & 0--100 & \% & SR2 \\
 \hline
 5 & Humidity sensing & 0--100 & 0--100 & RH\% & SR2 \\
 \hline
-6 & CO2 sensing range & 0--1000 & 0--1000 & ppm & SR2 \\
+6 & CO\textsubscript{2} sensing range \tnote{3} & 0--1000 & 0--1000 & ppm & SR2 \\
 \hline
-7 & Light sensing\tnote{2} & 0--600 & 0--600 & \si{\micro\mole\per\metre\squared\per\second} & SR2 \\
+7 & Light sensing\tnote{4} & 0--600 & 0--600 & \si{\micro\mole\per\metre\squared\per\second} & SR2 \\
 \hline
 8 & Latency in displaying environmental conditions & Minimize & <120 & s & SR3 \\
 \hline
-9 & Control temperature\tnote{4} & User selected\tnote{3} & 15--30 & °C & SR4 \\
+9 & Control temperature\tnote{6} & User selected\tnote{5} & 15--30 & °C & SR4 \\
 \hline
-10 & Control soil moisture content\tnote{5} & User selected & 50--100 & \% & SR5 \\
+10 & Control soil moisture content\tnote{7} & User selected & 50--100 & \% & SR5 \\
 \hline
-11 & Control humidity\tnote{6} & User selected & 40--90 & \% & SR5 \\
+11 & Control humidity\tnote{8} & User selected & 40--90 & \% & SR5 \\
 \hline
-12 & Supplemental lighting intensity\tnote{2} & 200 & 100--300 & \si{\micro\mole\per\metre\squared\per\second} & SR4 \\
+12 & Supplemental lighting intensity\tnote{4} & 200 & 100--300 & \si{\micro\mole\per\metre\squared\per\second} & SR4 \\
 \hline
 13 & Energy Consumption & Minimize & 0--1200 & Wh & SR8 \\
 \hline
-14 & Battery storage capacity & 24\tnote{7} & >24 & hours & SR6 \\
+14 & Battery storage capacity & 24\tnote{9} & >24 & hours & SR6 \\
 \hline
 \end{tabular}
 \begin{tablenotes}
 \footnotesize
 \item[1] \citep{weatherStellenbosch2024} Maximum average wind speeds peak at 18.8 kph in Stellenbosch during January.
-\item[2] \citep{definitiveGrowLight2024}. Ideal ranges for Seedlings: 100–300, Vegetative: 300–600 \si{\micro\mole\per\metre\squared\per\second}
-\item[3] The System should allow desired ranges to be setable by the user, however suitable testing thresholds are used as follows.
-\item[4] \citep{kosan2020}. Suitable temperature ranges for a range of plants: 15–30°C.
-\item[5] 50\% minimum soil moisture prevents dry soil medium
-\item[6] \citep{Wei2024}. Tolerable humidity is between 40–90\% for greenhouses.
-\item[7] The system must maintain power throughout the night.
+\item[2] \citep{weatherStellenbosch2024} Stellenbosch climate ranges from extremes of around -10 to 50°C
+\item[3] \cite{carbon_dioxide_enrichment} optimal CO\textsubscript{2} ranges for plant growth
+\item[4] \citep{definitiveGrowLight2024}. Ideal ranges for Seedlings: 100–300, Vegetative: 300–600 \si{\micro\mole\per\metre\squared\per\second}
+\item[5] The System should allow desired ranges to be setable by the user, however suitable testing thresholds are used as follows.
+\item[6] \citep{kosan2020}. Suitable temperature ranges for a range of plants: 15–30°C.
+\item[7] 50\% minimum soil moisture prevents dry soil medium
+\item[8] \citep{Wei2024}. Tolerable humidity is between 40–90\% for greenhouses.
+\item[9] The system must maintain power throughout the night.
   
 \end{tablenotes}
 \end{threeparttable}
@@ -186,7 +188,7 @@ The primary subsystems and their corresponding functions are numbered from 1.0 t
 \label{fig:functional_decomposition}
 \end{figure}
 
-\section{Concept Developement}
+\section{Concept Developement}\label{sec:dev}
 
 To address the multidisciplinary requirements of the concept design, the system will be partitioned into specialized subsystems. Each subsystem concept is derived from comprehensive market research, focusing on industry-standard operations and adapting these practices to suit the scale and specific needs of a small-scale greenhouse environment.
 Each subsystem will undergo an independent evaluation to identify solutions that optimally balance functional performance, efficiency, and cost-effectiveness. By analyzing multiple design concepts for every subsystem, this approach aims to mitigate the risk of concept vulnerability and aligns with established systems engineering practices to optimize the overall system architecture. The individual subsystems are defined as follows:  

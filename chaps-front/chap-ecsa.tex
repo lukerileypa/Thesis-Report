@@ -1,75 +1,90 @@
+
 \chapter*{ECSA Outcomes Self-Assessment}
 
 \setlength{\tabcolsep}{6pt}
 \renewcommand{\arraystretch}{1.15}
 
-\begin{table}[H]
-	\centering
-	\begin{tabularx}{\textwidth}{|
-			>{\raggedright\arraybackslash}X |
-			>{\raggedright\arraybackslash}p{0.38\textwidth} |
-		}
-		\hline
-		\textbf{ECSA Outcome} & \textbf{Addressed in Sections:} \\
-		\hline
-		\textbf{GA 1. Problem solving:} Demonstrate competence to identify, assess, formulate and solve convergent and divergent engineering problems creatively and innovatively.
-		&
-		\begin{itemize}[leftmargin=*, nosep]
-			\item Concept Design Section~\ref{chap:concept}
-		\end{itemize}
-		\\ \hline
-		
-		\textbf{GA 2. Application of scientific and engineering knowledge:} Demonstrate competence to apply knowledge of mathematics, basic science and engineering sciences from first principles to solve engineering problems.
-		&
-		\begin{itemize}[leftmargin=*, nosep]
-			\item Calculations Appendix~\ref{chap:calcs}
-		\end{itemize}
-		\\ \hline
-		
-		\textbf{GA 3. Engineering Design:} Demonstrate competence to perform creative, procedural and non-procedural design and synthesis of components, systems, engineering works, products or processes.
-		&
-		\begin{itemize}[leftmargin=*, nosep]
-			\item Concept Design Section~\ref{chap:concept}
-			\item Detailed Design Section~\ref{chap:design}
-		\end{itemize}
-		\\ \hline
-		
-		\textbf{GA 5. Engineering methods, skills and tools, including Information Technology:} Demonstrate competence to use appropriate engineering methods, skills and tools, including those based on information technology.
-		&
-		\begin{itemize}[leftmargin=*, nosep]
-			\item Design Evaluation Section~\ref{chap:eval}
-		\end{itemize}
-		\\ \hline
-		
-		\textbf{GA 6. Professional and technical communication:} Demonstrate competence to communicate effectively, both orally and in writing, with engineering audiences and the community at large.
-		&
-		\begin{itemize}[leftmargin=*, nosep]
-			\item Project Proposal
-			\item Progress Report / Presentation
-			\item Safety Report
-			\item First Draft / Final Report
-			\item Final Presentation
-		\end{itemize}
-		\\ \hline
-		
-		\textbf{GA 8. Individual, Team and Multidisciplinary Working:} Demonstrate competence to work effectively as an individual, in teams and in multi-disciplinary environments.
-		&
-		\begin{itemize}[leftmargin=*, nosep]
-			\item Safety Report Section~\ref{chap:safety}
-			\item Provided Equipment Section~\ref{sec:provided}
-		\end{itemize}
-		\\ \hline
-		
-		\textbf{GA 9. Independent Learning Ability:} Demonstrate competence to engage in independent learning through well-developed learning skills.
-		&
-		\begin{itemize}[leftmargin=*, nosep]
-			\item Literature Review and Market Research Section~\ref{chap:lit}
-			\item Detailed Design Section~\ref{chap:design}
-		\end{itemize}
-		\\ \hline
-	\end{tabularx}
-	\caption{ECSA Graduate Attributes Mapping}
-	\label{tab:ecsa_outcomes}
-\end{table}
-
+\begin{longtable}{|p{0.35\textwidth}|p{0.64\textwidth}|}
+	\caption{ECSA Graduate Attributes Mapping}%
+	\label{tab:ecsa_outcomes} 
+	\small
+	\\
+	
+	\hline
+	\textbf{ECSA Outcome} & \textbf{Addressed in Sections:} \\
+	\hline
+	\endfirsthead
+	
+	\multicolumn{2}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+	\hline
+	\textbf{ECSA Outcome} & \textbf{Addressed in Sections:} \\
+	\hline
+	\endhead
+	
+	\hline \multicolumn{2}{r}{{Continued on next page}} \\
+	\endfoot
+	
+	\hline
+	\endlastfoot
+	
+	\textbf{GA 1. Problem solving:} Demonstrate competence to identify, assess, formulate and solve convergent and divergent engineering problems creatively and innovatively. &
+	\begin{itemize}[leftmargin=*, nosep]
+		\item Section~\ref{chap:concept} the problem definition defines and assesses the main engineering problems addressed by the project.
+		\item Section ~\ref{sec:dev} outlines the generation and comparison of possible approaches to solution.
+		\item Appendix~\ref{app:concept_evaluation} details the evaluation and selection of optimal concepts through decision matrices.
+	\end{itemize}
+	\\ \hline
+	
+	\textbf{GA 2. Application of scientific and engineering knowledge:} Demonstrate competence to apply knowledge of mathematics, basic science and engineering sciences from first principles to solve engineering problems. &
+	\begin{itemize}[leftmargin=*, nosep]
+		\item Appendix~\ref{chap:calcs} includes mathematical analysis and modelling of key design elements, incorporating heat loss, structural analysis, wind loading, fan sizing and power calculations based on first-principle engineering relations and real world application.
+	\end{itemize}
+	\\ \hline
+	
+	\textbf{GA 3. Engineering Design:} Demonstrate competence to perform creative, procedural and non-procedural design and synthesis of components, systems, engineering works, products or processes. &
+	\begin{itemize}[leftmargin=*, nosep]
+		\item Section~\ref{chap:concept} documents the overall design process and conceptual development, guided by design methodology adapted from \cite{Dieter}.
+		\item Appendix~\ref{app:concept_evaluation} presents decision matrices for the evaluation of alternative subsystem concepts.
+		\item Section~\ref{chap:design} provides the final system structure, integration of subsystems, and detailed design documentation. Appendix~\ref{fig:engineering-drawing} includes dimensioned CAD drawings of the frame assembly.
+		\item Section~\ref{chap:eval} outlines test procedures and results for both subsystem and system-level performance evaluation.
+	\end{itemize}
+	\\ \hline
+	
+	\textbf{GA 5. Engineering methods, skills and tools, including Information Technology:} Demonstrate competence to use appropriate engineering methods, skills and tools, including those based on information technology. &
+	\begin{itemize}[leftmargin=*, nosep]
+		\item Section~\ref{chap:concept} documents system and component design using structured design methodologies adapted from \cite{Dieter}.
+		\item Section~\ref{chap:design} includes CAD modelling performed in Autodesk Inventor.
+		\item Figure~\ref{wire} shows digital wiring schematics created using electronic design automation (EDA) software. The ESP32 microcontroller was programmed using the PlatformIO IDE with version control maintained through GitHub.
+		\item Construction tools included soldering, drilling, laser cutting and 3D printing, alongside use of relays, an H-bridge motor driver, solenoid valves, and various sensors integrated with IoT platforms. Power was supplied through a solar array, charge controller, battery, and buck converter.
+		\item Sections~\ref{sec:sensor_validation} and~\ref{sec:response} detail data analysis and visualization conducted using MATLAB and Python.
+	\end{itemize}
+	\\ \hline
+	
+	\textbf{GA 6. Professional and technical communication:} Demonstrate competence to communicate effectively, both orally and in writing, with engineering audiences and the community at large. &
+	\begin{itemize}[leftmargin=*, nosep]
+		\item Project Proposal
+		\item Progress Report and Presentation
+		\item Safety Report
+		\item First Draft and Final Report
+		\item Final Presentation
+	\end{itemize}
+	\\ \hline
+	
+	\textbf{GA 8. Individual, Team and Multidisciplinary Working:} Demonstrate competence to work effectively as an individual, in teams and in multi-disciplinary environments. &
+	\begin{itemize}[leftmargin=*, nosep]
+		\item Although primarily requiring individual effort and responsibility, collaboration across disciplines was essential for component sourcing and fabrication, as described in Section~\ref{sec:provided}.
+		\item Appendix ~\ref{chap:safety} discusses collaboration within the multidisciplinary environment of the M\&M rooftop laboratory, including coordination with safety officers and laboratory managers for risk assessment and compliance.
+	\end{itemize}
+	\\ \hline
+	
+	\textbf{GA 9. Independent Learning Ability:} Demonstrate competence to engage in independent learning through well-developed learning skills. &
+	\begin{itemize}[leftmargin=*, nosep]
+		\item Section~\ref{chap:lit} covers literature review and market research across domains such as controlled agriculture, solar energy integration, and automation, extending beyond the standard Mechanical and Mechatronic Engineering curriculum at Stellenbosch University.
+		\item Section~\ref{sec:power_supply} demonstrates self-directed learning through the design and integration of an off-grid solar power system.
+		\item Section~\ref{sec:response} applies independent Python programming for data visualization and analysis.
+		\item Appendix~\ref{chap:calcs} includes heat loss calculations based on \citep{heat} and buoyancy effect estimations using the stack effect formulation from \citep{stack}, showing applied learning beyond formal coursework.
+	\end{itemize}
+	\\ \hline
+	
+\end{longtable}
 

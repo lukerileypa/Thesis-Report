@@ -1,19 +1,19 @@
 \chapter{Detailed Design}\label{chap:design}
 
-Following a design review, a revised structural design was developed to enable improved operation and manufacturability. The general shape was optimized to accommodate laser cutting processes, with the maximum available bed size of \SI{1260}{mm} $\times$ \SI{860}{mm}. The roof geometry was modified to an uneven-span lean-to configuration. While this maintains a steep roof inclination for efficient solar gain, it also allows for better thermal control and ensures that the vent can be actuated even when the greenhouse is positioned adjacent to a wall.
+This section presents the detailed greenhouse design using a structured approach: for each design element, requirements are defined first, followed by technical specifications and implementation details. A key design priority is the roof vent to maximize passive ventilation, which guided the geometry and mechanism choices that follow. Following design reviews, a revised structural design was developed to enable improved operation and manufacturability. The general shape was optimized to accommodate laser cutting processes, with the use of the universities CO2 laser cutter with a maximum available bed size of \SI{1260}{mm} $\times$ \SI{860}{mm}. The roof geometry was modified to an uneven-span lean-to configuration. While this maintains a steep roof inclination for efficient solar gain, it also allows for better thermal control and ensures that the roof vent can be actuated even when the greenhouse is positioned adjacent to a wall.
 
-Allowing users to place the greenhouse against a thermally massive surface (e.g., a concrete or brick wall) enhances passive heat retention and improves overall energy performance. Additionally, the revised structure introduces more right angles, simplifying manufacturing and increasing the usable internal volume of the greenhouse.
+Allowing users to place the greenhouse against a thermally massive surface (e.g., a concrete or brick wall) enhances passive heat retention and improves overall energy performance. Additionally, the revised structure introduced more right angles, simplifying manufacturing and increasing the usable internal volume of the greenhouse.
 
 \begin{figure}[h]
 	\centering
-	\begin{subfigure}[b]{0.45\textwidth}
+	\begin{subfigure}[b]{0.43\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/frame.png}
 		\caption{Frame Structure}
 		\label{fig:image1}
 	\end{subfigure}
-	\hfill
-	\begin{subfigure}[b]{0.43\textwidth}
+	\hspace{0.6em} % was \hfill — make this small; 0pt to touch, negative to overlap
+	\begin{subfigure}[b]{0.41\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/front.png}
 		\caption{Final Concept}
@@ -35,13 +35,32 @@ The control center protecting all of the electrical components is shifted to the
 
 \section{Structure}
 \subsection{Frame}
-The frame must provide a durable structural foundation that supports the greenhouse covering material, withstands environmental loads such as wind and rain, and does so in a cost-effective manner. Aluminum square tubing is selected for its excellent strength-to-weight ratio. Compared to a stainless steel frame, aluminum offers a much lighter structure, making the greenhouse easier to transport or reposition if necessary. Additionally, aluminum is naturally corrosion-resistant, eliminating the need for protective coatings to prevent rust. It is also widely available and relatively easy to cut and assemble, making it a practical and cost-effective choice for the frame. A structural analysis seen in the calculations in Appendix \ref{chap:calcs} confirmed that the frame can withstand its own weight, the weight of Perspex panels, and wind loads simultaneously. The calculated safety factor for the aluminium frame, based on maximum wind loads of up to 40 km/h acting perpendicularly to the side panels, was determined to be approximately 40. The maximum deflection simulated at the apex of the greenhouse amounted to only 0.5\,mm, demonstrating excellent structural stiffness and integrity.
+The frame must provide a durable structural foundation that supports the greenhouse covering material, withstands environmental loads such as wind and rain, and does so in a cost-effective manner. Aluminum square tubing is selected for its excellent strength-to-weight ratio. Compared to a stainless steel frame, aluminum offers a much lighter structure, making the greenhouse easier to transport or reposition if necessary. Additionally, aluminum is naturally corrosion-resistant, eliminating the need for protective coatings to prevent rust. Standard aluminium extrusions are also widely available and relatively easy to cut and assemble, making it a practical and cost-effective choice for the frame. A structural analysis seen in the calculations in Appendix \ref{chap:calcs} confirmed that the frame can withstand its own weight, the weight of Perspex panels, and wind loads simultaneously. The calculated safety factor for the aluminium frame, based on maximum wind loads of up to 40 km/h acting perpendicularly to the side panels, was determined to be approximately 40.1 . The maximum deflection simulated at the apex of the greenhouse amounted to only 0.5\,mm, demonstrating excellent structural stiffness and integrity. Detailed engineering drawing of the frame assmbly can be seen in Appendix \ref{fig:engineering-drawing}
 
 \subsection{Covering material}
 Perspex was chosen over glass for its combination of machinability, thermal performance, transparency, and non-brittle nature, addressing both construction and long-term durability needs.
 
+\section{Control Center Design}
+\subsection{Electrical Component Housing}
+A dedicated area is required for the safe and neat storage of all electrical components such as the battery, charge controller, buck convertor, microcontroller, relays and valve. The control center can be made from wood as it is simple to construct and mount parts to, as well as being electrically nonconductive and thermally insulating. Specifically, marine plywood is used as it resists water damage and is made from high-quality hardwood veneers, making it stronger and more resistant to warping compared to standard plywood. Coating it with white exterior-grade paint will further improve water resistance and reflect sunlight, keeping internal components cooler while reflecting more light for the plants. Silicone sealant is applied in and around the control centre to ensure waterproofing and isolate it from the greenhouse environment, protecting components from misting and rain.
+
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=0.65\textwidth]{figs/airflow1.png}}
+	\caption{Air Intake}
+	\label{fig:air_circulation}
+\end{figure}
+
+\subsection{Control Center Ventilation }
+A cutout from the Perspex allows for placement of a louvre vent as seen in figure \ref{fig:air_circulation}. These vents will allow for passive ventilation to keep the control center cool while the shape of the louvre vents will prevent water from entering. This vent is placed on the side of the greenhouse to allow for the placement of the greenhouse against a wall. 
+
+For this reason, the control center was moved to the right side of the greenhouse, freeing up more space for plants. Dedicated ventilation prevents overheating, a strategically positioned HAF fan mounted on the enclosure's side creates an airflow path drawing outside air through the large louvred vent, across the electronics, and exhausting it into the greenhouse. This dual-purpose setup cools the control and electrical components while supplying fresh air to the growing environment.
+
+\subsection{Access Panel}
+A cutout from the side panel around the control center allows for the placement of a door providing easy access to the electrical components. This door will also incorporate the louvred vent, enabling proper ventilation for the electrical components and acting as the intake for the HAF fan attached to the side of the control center.
+
 \section{Intake and HAF fans}
-Intake fans bring in fresh oxygen rich air when needed. To regulate the greenhouse temperature, cool air is drawn in from the base while a top vent opens to allow warm air to escape, promoting natural convection and effective cooling. Industrial greenhouses also rely on HAF fans to promote healthy air movement and prevent stagnation. However, on a small scale dedicated HAF fans are not necessary. For the sake of simple design and using smart controller logic these two actions of air intake and HAF can be combined to be completed by the same two components. In this case two 12V fans on either side of the greenhouse are placed towards the bottom section of the greenhouse. These two fans will allow for air intake when necessary and intermediate HAF at a set interval. The fans are placed slightly offset from each other to promote circular airflow and improve coverage.
+Intake fans bring in fresh oxygen rich air when needed. To regulate the greenhouse temperature, cool air is drawn in from the base while a top vent opens to allow warm air to escape, promoting natural convection and effective cooling. Industrial greenhouses also rely on HAF fans to promote healthy air movement and prevent stagnation. However, on a smaller scale, dedicated HAF fans are not necessary. For the sake of simple design and using smart controller logic these two actions of air intake and HAF can be combined to be completed by the same two components. In this case two 12V fans on either side of the greenhouse are placed towards the bottom section of the greenhouse. These two fans will allow for air intake when necessary as well as intermediate HAF control at set intervals. The fans are placed slightly offset from each other to promote circular airflow and improve coverage.
 
 \begin{figure}[H]
 	\centering
@@ -49,6 +68,8 @@ Intake fans bring in fresh oxygen rich air when needed. To regulate the greenhou
 	\caption{Air circulation}
 	\label{fig:air_circulation}
 \end{figure}
+
+Exhaust fans were excluded from the design as the roof vent, having a large surface area, will allow for the escape of a large quantity of air when the air intake and ventilation is active. This exhaust flow is assisted by the buoyancy effect as stipulated in the calculations in Appendix \ref{chap:calcs}
 
 \subsection{HAF Requirements}
 
@@ -63,9 +84,7 @@ A common guideline is to size the HAF fans to be able to move 2 CFM for each squ
 	= 18.2988 \,\frac{\si{ft^3}}{\si{min}}
 \end{align}
 
-Exhaust fans are not necessary as the vent at the top, having a large surface area, will allow for the escape of a large quantity of air when the air intake and ventilation is active. This exhaust flow is assisted by the buoyancy effect as stipulated in the calculations.
-
-Due to the use of misting systems within the greenhouse care needs to be taken to protect the fans and other components from moisture buildup, for this reason 3D printed covers are designed to protect from droplet buildup on components. Smart placement of misting nozzles and intermediate misting control will also prevent excessive moisture exposure to electrical components.
+Due to the use of misting systems within the greenhouse care needs to be taken to protect the fans and other components from moisture buildup, for this reason 3D printed covers and louvered vents are designed to protect from droplet buildup on components. Smart placement of misting nozzles and intermediate misting control will also prevent excessive moisture exposure to electrical components.
 
 \section{Ventilation}
 
@@ -84,39 +103,21 @@ When opened, the vent exposes the greenhouse interior to potential precipitation
 
 \subsection{Forced Ventilation}
  
-Typical greenhouse design guidelines recommend approximately one complete air exchange per minute \citep{Watson2019}. With a greenhouse volume of 0.77~m$^3$, this requires two fans with a combined flow rate of at least 0.77~m$^3$/min. Calculations in Appendix \ref{chap:calcs} indicate that the volumetric flow rate of the intake fans must be at least 27~CFM. Accordingly, two PC fans, each averaging 70~CFM, are selected, more than sufficient to exchange the entire greenhouse volume within one minute.
+Typical greenhouse design guidelines recommend approximately one complete air exchange per minute \citep{Watson2019}. With a greenhouse volume of 0.77~m$^3$, this requires two fans with a combined flow rate of at least 0.77~m$^3$/min. Calculations in Appendix \ref{chap:calcs} indicate that the volumetric flow rate of the intake fans must be at least 27~CFM. Accordingly, two PC fans, each averaging 70~CFM, are selected, more than sufficient to exchange the entire greenhouse volumes air within one minute.
 
 \section{Misting System}
 
-Proper greenhouse management involves regulating soil moisture through watering while maintaining humidity levels within the ideal range for the cultivated plants. Instead of two separate systems complicating the design it is decided to implement a twin operation where a single misting system along with smart scheduling and programmed procedures can strike a balance between controlling the supply of fresh water as well as allowing for the control of the humidity in the environment. One way in which this can be implemented is that when watering is necessary during and after a subsequent misting period the ventilation system is activated to release excess humidity and drop back to the desired level. The added benefit of having a misting system is that it also allows for increased cooling capabilities and will work alongside the active and passive ventilation system to cool the greenhouse when required.
+Effective greenhouse environmental control requires regulating soil moisture while maintaining relative humidity (RH) within crop-specific setpoints. To avoid the complexity of parallel systems, this design adopts a single misting system coordinated by scheduling and control procedures to handle both irrigation and humidity management. When irrigation or a misting cycle elevates RH, the mechanical ventilation is automatically engaged to exhaust excess moisture and restore RH to the target range. The developed control algorithms for this optimization can be seen in appendix \ref{flow}. A further advantage of the misting system is evaporative cooling, which operates in combination with the greenhouse’s passive (roof vent) and active ventilation to limit temperature spikes above desired thresholds.
 
-Misting Nozzles are placed effectively to ensure moisture reaches the roots directly. Up to 4 nozzles will be placed slightly above the soil and deliver water straight to the soil medium. Misting nozzles offer adjustable spray patterns, ranging from a targeted drip to an ultra-fine mist. Two additional nozzles will be installed at a higher elevation within the greenhouse to provide broader coverage while still targeting specific zones. Careful positioning will ensure mist is directed away from sensitive electrical components. 
+Misting Nozzles are placed effectively to ensure moisture reaches the roots directly. Up to 4 nozzles are placed slightly above the soil and deliver water straight to the soil medium. Misting nozzles offer adjustable spray patterns, ranging from a targeted drip to an ultra-fine mist. Two additional nozzles will be installed at a higher elevation within the greenhouse to provide broader coverage while still targeting specific zones. Careful positioning will ensure mist is directed away from sensitive electrical components. 
 
 \section{Active Heating System}
 To achieve effective active heating, a fan heater is selected. Based on the heat loss calculations on the surface area, the greenhouse experiences a convective heat loss of approximately 119\,W when there is a 5\,°C temperature difference between the internal and external environments. 
 
 Given that many plants require a minimum desirable temperature of around 15\,°C for optimal growth, the heating system must be capable of compensating for this heat loss. Therefore, a fan heater with a power rating of at least 120\,W is required.
 
-A 12\,V, 120\,W fan heateer is provided by the university to meet this requirement, powered directly by the 12\,V battery supply. The heater is controlled via a relay module, which is switched by signals from the microcontroller. This setup allows the heater to automatically activate when the internal temperature falls below a user-defined threshold. A hysterisis band is implemented in the coding, this prevents fast unnecesary switching extending the lifespan of the heater and relays. 
+A 12,V, 120,W fan heater is provided by the university to meet this requirement, powered directly by the 12,V battery supply. The heater is controlled via a relay module, which is switched by signals from the microcontroller. This setup allows the heater to automatically activate when the internal temperature falls below a user-defined threshold. A hysteresis band is implemented in the code, this prevents fast unnecessary switching, allowing for accurate feedback and extending the lifespan of the heater and relays.
 
-\section{Control Center Design}
-\subsection{Electrical Component Housing}
-A dedicated area is required for the safe and neat storage of all electrical components such as the battery, controller, and valve. The control center can be made from wood as it is simple to construct and mount parts to, as well as being electrically nonconductive and thermally insulating. Specifically, marine plywood will be used as it resists water damage and is made from high-quality hardwood veneers, making it stronger and more resistant to warping compared to standard plywood. Coating it with white exterior-grade paint will further improve water resistance and reflect sunlight, keeping internal components cooler while reflecting more light for the plants.
-
-\subsection{Ventilation System}
-A cutout from the Perspex allows for placement of a louvre vent as seen in figure \ref{fig:air_circulation}. These vents will allow for passive ventilation to keep the control center cool while the shape of the louvre vents will prevent water from entering. This vent needs to be placed on the side of the greenhouse to allow for the placement of the greenhouse against a wall. 
-
-For this reason, the control center was moved to the right side of the greenhouse, freeing up more space for plants. Dedicated ventilation prevents overheating, a strategically positioned HAF fan mounted on the enclosure's side creates an airflow path drawing outside air through the large vent, across the electronics, and exhausting it into the greenhouse. This dual-purpose setup cools the control components while supplying fresh air to the growing environment.
-
-\subsection{Access Panel}
-A cutout from the side panel around the control center allows for the placement of a door providing easy access to the electrical components. This door will also incorporate the louvred vent, enabling proper ventilation for the electrical components and acting as the intake for the HAF fan attached to the side of the control center.
-
-\begin{figure}[H]
-	\centering
-	\fbox{\includegraphics[width=0.68\textwidth]{figs/airflow1.png}}
-	\caption{Air Intake}
-	\label{fig:air_circulation}
-\end{figure}
 
 \section{Environmental Monitoring}
 \label{sec:environmental_monitoring}
@@ -134,7 +135,7 @@ The ESP32 supports a variety of communication protocols such as I\textsuperscrip
 \label{subsec:sensors}
 Multiple sensors enable accurate monitoring of both the internal greenhouse environment and the external ambient conditions. This data informs the control of greenhouse parameters and provides a baseline for comparison between internal and external climates. 
 
-The external temperature and humidity sensor will be exposed to direct sunlight and rainfall, while the internal sensors will experience both sunlight and periodic misting. To ensure longevity and reliable performance, protective housings are required. Custom 3D-printed Stevenson screens can shield sensors from water and heat while allowing airflow through their slatted design for accurate readings. White filament is recommended to reflect sunlight and minimize heat absorption. In accordance with standards, the Stevenson screen should be mounted at least 1.2,m above ground level~\cite{manclim}.
+The external temperature and humidity sensor will be exposed to direct sunlight and rainfall, while the internal sensors will experience both sunlight and periodic misting. To ensure longevity and reliable performance, protective housings are required. Custom 3D-printed Stevenson screens can shield sensors from water and heat while allowing airflow through their slatted design for accurate readings. White filament is recommended to reflect sunlight and minimize heat absorption. In accordance with standards, the Stevenson screen should be mounted around 1.2m above ground level~\cite{manclim}.
 
 \begin{figure}[htbp]
 	\centering
@@ -191,7 +192,7 @@ The BH1750 light sensor is chosen for its good balance of accuracy, cost-effecti
 
 
 \subsubsection{ Carbon Dioxide Sensor}
-The MH-Z19 CO\textsubscript{2} sensor is chosen due to its balance of affordability, accuracy, and ease of integration with microcontrollers like the ESP32. It uses Non-Dispersive Infrared (NDIR) technology to detect CO\textsubscript{2} concentrations, which provides reliable and stable readings with minimal calibration.
+The MH-Z19 CO\textsubscript{2} sensor is chosen due to its balance of affordability, accuracy, and ease of integration with microcontrollers like the ESP32. It uses Non-Dispersive Infrared (NDIR) technology to detect CO\textsubscript{2} concentrations, which provides reliable and stable readings with minimal calibration necessary.
 
 The sensor communicates through UART or PWM, offering flexibility in how data is read by the system. Its compact design and low power consumption (typically 33\,mA at 5\,V) make it ideal for continuous indoor monitoring in environments such as greenhouses. The sensor has a measurement range of 0--5000\,ppm with an accuracy of ±(50\,ppm + 5\% of reading) in the 0--2000\,ppm range.
 

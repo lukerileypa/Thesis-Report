@@ -152,7 +152,7 @@ of how well the system should perform the functions.
 \hline
 13 & Energy Consumption & Minimize & 0--1200 & Wh & SR8 \\
 \hline
-14 & Battery storage capacity & 24\tnote{9} & >24 & hours & SR6 \\
+14 & Battery storage capacity\tnote{9} & 24 & >24 & hours & SR6 \\
 \hline
 \end{tabular}
 \begin{tablenotes}
@@ -179,7 +179,7 @@ The functional requirements outlined in the previous section describe only the h
 
 Figure~\ref{fig:functional_decomposition} illustrates the flow of energy, information, and/or materials into and out of the system's internal functions. These functions are responsible for consuming, generating, or transforming the various flows to support overall system operation.
 
-The primary subsystems and their corresponding functions are numbered from 1.0 to 3.0. These serve as the foundation for the physical decomposition discussed after the concept evaluation.
+The primary subsystems and their corresponding functions are numbered from 1.0 to 7.0. These serve as the foundation for the physical decomposition discussed after the concept evaluation.
 
 \begin{figure}[h]
     \centering
@@ -216,7 +216,7 @@ Each subsystem will undergo an independent evaluation to identify solutions that
 
 \section{Concept Evaluation}
 
-The developed subsystem concepts were evaluated using a weighted scoring method based on key criteria such as efficiency, cost, and manufacturability. Each concept was rated according to these criteria, and the highest-scoring alternatives were selected for detailed design. The full evaluation process and scoring tables are presented in Appendix~\ref{app:concept_evaluation}. The final Concept decisions for each subsytem are detailed below.
+The developed subsystem concepts were evaluated using a weighted scoring method based on key criteria such as efficiency, cost, and manufacturability. Each concept was rated according to these criteria, and the highest-scoring alternatives were selected for detailed design. The full evaluation process and scoring matrices are presented in Appendix~\ref{app:concept_evaluation}. The final Concept decisions for each subsytem are detailed below.
 
 \subsection{Structure}
 
@@ -232,7 +232,7 @@ An electric heater was selected as it offers efficient, evenly distributed heati
 
 \subsection{Active Cooling}
 
-Actuated ventilation is the most economical and energy-efficient cooling option, relying only on fans to exchange hot and cool air. However, it can cool only to the ambient temperature. Combining ventilation with misting enhances evaporative cooling and improves temperature regulation, though it requires a pressurized water supply and humidity control. Evaporative cooling modules were ruled out due to higher cost, power demand, and reduced performance in humid conditions. Thus, a combined ventilation–misting approach offers the best balance of cost, simplicity, and effectiveness.
+Actuated ventilation is the most economical and energy-efficient cooling option, relying only on fans to exchange hot and cool air. However, it can cool only to the ambient external temperature. Combining ventilation with misting enhances evaporative cooling and improves temperature regulation, though it requires a pressurized water supply and humidity control. Evaporative cooling modules were ruled out due to higher cost, power demand, and reduced performance in humid conditions. Thus, a combined ventilation–misting approach offers the best balance of cost, simplicity, and effectiveness.
 
 \subsection{Irrigation}
 
@@ -241,29 +241,29 @@ Misting emerges as the most effective method due to its dual role in both irriga
 \subsection{Controller Selection}
 
 
-The ESP32 Offers a balance of performance and cost, with built-in Wi-Fi and Bluetooth, making it ideal for IoT and wireless applications.
+The ESP32 Offers a balance of performance and cost, with built-in Wi-Fi and Bluetooth capabilities, making it ideal for IoT and wireless applications.
 
 \section{Physical Decomposition}
 
-The following physical decomposition figures break down the physical components necessary in each subsystem while. The use of a system engineering approach delves into physical decomposition of the main subsystems (namely Environmental monitoring, Actuation, and Solar Power System) and are numbered 1 through 3 as seen in the functional decomposition in figure \ref{fig:functional_decomposition}.
+The following sample physical decomposition figures break down the physical components necessary in the primary subsystems. The use of a system engineering approach delves into physical decomposition of the main subsystems (namely Environmental Monitoring and Actuation) and are numbered 1 through 2.2 as numbered in the functional decomposition in figure \ref{fig:functional_decomposition}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{figs/phys1.png}
-    \caption{Sensor Physical Decomposition}
+    \fbox{\includegraphics[width=0.8\textwidth]{figs/phys1.png}}
+    \caption{Environmental monitoring Physical Decomposition}
     \label{fig:sensor_decomposition}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{figs/phys2.png}
-    \caption{Ventilation Physical Decomposition}
+    \fbox{\includegraphics[width=0.8\textwidth]{figs/phys2.png}}
+    \caption{Ventilation and Heating Actuation Physical Decomposition}
     \label{fig:ventilation_decomposition}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{figs/phys3.png}
+    \fbox{\includegraphics[width=0.8\textwidth]{figs/phys3.png}}
     \caption{Irrigation Physical Decomposition}
     \label{fig:irrigation_decomposition}
 \end{figure}

@@ -8,15 +8,15 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Airflow \citep {airflow_growersnetwork}}}{11}{figure.caption.20}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Functional decomposition}}{18}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sensor Physical Decomposition}}{20}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ventilation Physical Decomposition}}{20}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Environmental monitoring Physical Decomposition}}{20}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ventilation and Heating Actuation Physical Decomposition}}{20}{figure.caption.27}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Irrigation Physical Decomposition}}{20}{figure.caption.28}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Detailed Design}}{21}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Final Concept Definition}}{22}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Air circulation}}{23}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Free body diagram of Vent Mechanism}}{24}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Air Intake}}{27}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Air Intake}}{23}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Air circulation}}{24}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Free body diagram of Vent Mechanism}}{26}{figure.caption.33}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Stevenson Screens for sensor protection}}{28}{figure.caption.34}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces LCD screen for local monitoring}}{31}{figure.caption.41}%
 \addvspace {10\p@ }
@@ -45,8 +45,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {C.1}{\ignorespaces Proposed Project Budget and Actual Costs}}{65}{figure.caption.80}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Engineering Drawing}}{71}{figure.1.E.1}%
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Engineering Drawing}}{72}{figure.1.E.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {G.1}{\ignorespaces Overview of greenhouse hardware components and setup.}}{78}{figure.caption.82}%
+\contentsline {figure}{\numberline {G.1}{\ignorespaces Overview of greenhouse hardware components and setup.}}{79}{figure.caption.82}%
 \addvspace {10\p@ }

@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{48}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -102,6 +102,14 @@
 \newblock \emph{Renewable and Sustainable Energy Reviews}, \bblvol{}~25,
   \bblpp{} 793--813.
 \newblock ISSN 1364-0321.
+
+\bibitem[{\citenamefont{{Environment and Climate Change
+  Canada}}(2017)}]{manclim}
+\bibnamefont{{Environment and Climate Change Canada}} (2017 \bblsep{}).
+\newblock Manclim manual of climatological observations: Temperature.
+\newblock
+  \url{https://www.canada.ca/en/environment-climate-change/services/weather-manuals-documentation/manclim-climatological-observations/temperature.html}.
+\newblock Meteorological Service of Canada; MANCLIM 4th ed. (July 2012).
 
 \bibitem[{\citenamefont{{Espressif Systems}}(n.d.)}]{esp_esp32}
 \bibnamefont{{Espressif Systems}} (nd).

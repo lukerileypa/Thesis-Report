@@ -19,11 +19,6 @@ Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: chaps-main/chap-intro.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chaps-main/chap-literature.aux
-Case mismatch error between cite keys Farooq2022 and farooq2022
----line 95 of file chaps-main/chap-literature.aux
- : \citation{Farooq2022
- :                     }
-I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: chaps-main/chap-concept.aux
 Reallocating 'name_of_file' (item size: 1) to 36 items.
@@ -40,7 +35,6 @@ Repeated entry---line 165 of file bib/GHreferences.bib
  : @article{ahn2017
  :                 ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "manclim"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty chapter and pages in dalai2020
@@ -48,45 +42,45 @@ Warning--missing institution in Dieter
 Warning--missing institution in faridi_cooling
 Warning--missing institution in greenhouse_lighting
 Warning--empty journal in verma_cooling
-You've used 47 entries,
+You've used 48 entries,
             3324 wiz_defined-function locations,
-            941 strings with 15272 characters,
-and the built_in function-call counts, 36873 in all, are:
-= -- 2886
-> -- 1104
-< -- 59
-+ -- 432
-- -- 377
-* -- 3470
-:= -- 4800
-add.period$ -- 156
-call.type$ -- 47
-change.case$ -- 385
-chr.to.int$ -- 56
-cite$ -- 52
-duplicate$ -- 3611
-empty$ -- 3267
-format.name$ -- 729
-if$ -- 7338
+            945 strings with 15579 characters,
+and the built_in function-call counts, 37444 in all, are:
+= -- 2936
+> -- 1114
+< -- 60
++ -- 436
+- -- 380
+* -- 3511
+:= -- 4884
+add.period$ -- 160
+call.type$ -- 48
+change.case$ -- 392
+chr.to.int$ -- 57
+cite$ -- 53
+duplicate$ -- 3665
+empty$ -- 3321
+format.name$ -- 735
+if$ -- 7453
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 446
-newline$ -- 292
-num.names$ -- 190
-pop$ -- 1081
+missing$ -- 452
+newline$ -- 298
+num.names$ -- 194
+pop$ -- 1092
 preamble$ -- 1
-purify$ -- 313
+purify$ -- 318
 quote$ -- 0
-skip$ -- 869
+skip$ -- 885
 stack$ -- 0
-substring$ -- 1877
-swap$ -- 1593
+substring$ -- 1918
+swap$ -- 1611
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 414
+type$ -- 423
 warning$ -- 5
-while$ -- 341
+while$ -- 346
 width$ -- 0
-write$ -- 652
-(There were 2 error messages)
+write$ -- 666
+(There was 1 error message)

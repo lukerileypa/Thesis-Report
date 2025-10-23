@@ -8,9 +8,21 @@ The Full Greenhouse setup can be seen in the figure below. Please see Appendix \
 
 \begin{figure}[H]
 	\centering
-	\fbox{\includegraphics[width=0.4\textwidth]{figs/setup.jpeg}}
-	\caption{Greenhouse Setup}
-	\label{fig:Greenhouse Setup}
+	\begin{subfigure}[b]{0.48\linewidth}
+		\centering
+		\fbox{\includegraphics[width=\linewidth]{figs/setup.jpeg}}
+		\caption{Greenhouse Setup}
+		\label{fig:greenhouse_setup}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.48\linewidth}
+		\centering
+		\fbox{\includegraphics[width=\linewidth]{figs/pv.png}}
+		\caption{PV Panels}
+		\label{fig:pv_panels}
+	\end{subfigure}
+	\caption{Greenhouse setup and PV panels.}
+	\label{fig:setup_pv_side_by_side}
 \end{figure}
 
 \section{Sensor Validation}\label{sec:sensor_validation}
@@ -172,15 +184,15 @@ The experiment confirmed that both remote data monitoring and user interaction w
 To validate the capability of the solar subsystem to power the greenhouse entirely off-grid, a series of tests were conducted. The procedure was as follows:
 
 \begin{enumerate}
-	\item The battery voltage was measured with no load connected, showing 12.8\,V, indicating a partial state of charge (full charge is approximately 14.8\,V).  
-	\item The battery was connected to the Skyking charge controller via the positive and negative terminals. Upon connection, the controller powered on and displayed the battery voltage.  
+	\item The battery voltage was measured using a mulimeter with no load connected, showing 12.8\,V, indicating a partial state of charge (full charge is approximately 14.8\,V).  
+	\item The battery was connected to the Skyking charge controller via the positive and negative terminals. Upon connection, the charge controller powered on and displayed the battery voltage.  
 	\item Using the controller menu, the float voltage was set to 13.7\,V, the discharge stop voltage to 10.8\,V, and the battery type configured as a sealed gel battery, in accordance with the battery manufacturer’s recommended operating conditions.  
-	\item The solar panels were connected using MC4 connectors. The charge controller confirmed successful charging through its display.  
+	\item The solar panels were connected using crimped MC4 connectors. The charge controller confirmed successful charging through its display.  
 	\item The 12\,V supply terminal block and greenhouse system ground were connected to the load terminals of the charge controller.  
 	\item The controller display indicated power transfer to the load. This was verified by measuring the potential difference across the load terminals with a multimeter.  
 \end{enumerate}
 
-These steps confirmed correct wiring and successful operation of the solar power subsystem. The charge controller additionally provides low-voltage protection by disconnecting the load if the battery voltage drops below a safe threshold. During full system testing, it was confirmed that the solar array supplied sufficient power to operate the greenhouse without discharging the battery to unsafe levels even during days with high cloud cover.
+These steps confirmed correct wiring and successful operation of the solar power subsystem as imaged in Appendix \ref{chap:pics}. The charge controller additionally provides low-voltage protection by disconnecting the load if the battery voltage drops below a safe threshold. During full system testing, it was confirmed that the solar array supplied sufficient power to operate the greenhouse without discharging the battery to unsafe levels even during days with high cloud cover.
 
 \section{Enviromental Response}\label{sec:response}
 
@@ -188,88 +200,105 @@ With all sensors, actuators, solar power components, and monitoring systems succ
 
 \subsection{ Dual Phase Test}
 
-To evaluate the performance of the greenhouse control system, a two-phase test procedure was conducted. In the first phase, the greenhouse was operated for three full day–night cycles with all sensors and monitoring systems active, but without the actuators connected. This allowed the internal environment to respond passively to external conditions, providing a baseline measurement of natural fluctuations in temperature, humidity, and light.
+To evaluate the performance of the greenhouse control system, a two-phase test procedure was conducted. In the first phase, the greenhouse was operated for three full day–night cycles with all sensors and monitoring systems active, but without the actuators connected. This allowed the internal environment to respond passively to external conditions, providing a baseline measurement of natural fluctuations in temperature, humidity, and soil moisture.
 
-In the second phase, the actuators (ventilation, irrigation, and heating) were connected and enabled. The greenhouse was again run for more than three full day–night cycles, with the control system actively attempting to regulate conditions towards the desirable setpoints. This phase demonstrates the effectiveness of the system in stabilizing the greenhouse environment.
-
-The temperature, humidity and soil data from both phases were collected from Thingspeak and plotted using python, enabling a direct comparison between passive response and active control. The resulting figures highlight the extent to which the actuators improve environmental stability and overall system performance.
+In the second phase, the actuators (ventilation, irrigation, and heating) were connected and enabled. The greenhouse was again run for more than three full day–night cycles, with the control system actively attempting to regulate conditions. This phase demonstrates the effectiveness of the system in stabilizing the greenhouse environment. The temperature, humidity and soil data from both phases were collected from Thingspeak and plotted using python, enabling a direct comparison between passive response and active control. The resulting figures highlight the extent to which the actuators improve environmental stability and overall system performance.
 
 \begin{figure}[H]
 	\centering
-	\begin{subfigure}[b]{0.7\textwidth}
+	\begin{subfigure}[b]{0.67\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/temp_n.png}
-		\caption{Actuators off}
+		\caption{Temperature profile with \textbf{Actuators off}}
 		\label{fig:temp_off}
 	\end{subfigure}
 	\vskip\baselineskip
-	\begin{subfigure}[b]{0.7\textwidth}
+	\begin{subfigure}[b]{0.67\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/temp_a.png}
-		\caption{Actuators on}
+		\caption{Temperature profile with \textbf{Actuators on}}
 		\label{fig:temp_on}
 	\end{subfigure}
-	\caption{Internal vs. external temperature profiles for the greenhouse with (a) Actuators off and (b) Actuators on.}
+	\caption{Internal vs. external temperature profiles with (a) Actuators off and (b) Actuators on.}
 	\label{fig:temp_comparison}
 \end{figure}
 
+\subsubsection*{Temperature}
 
-During the actuator-off test, the internal environment of the greenhouse was allowed to fluctuate naturally with ambient conditions. Without any active control, the internal temperature (shown in red) rose to a peak of approximately \SI{48}{\celsius} during the day, significantly exceeding optimal growing conditions. At night, the temperature dropped well below the desired setpoint, reaching approximately \SI{10}{\celsius}, highlighting the system’s vulnerability to external temperature extremes under passive operation.
+Without any active control, the internal temperature (shown in red) was allowed to fluctuate naturally with ambient conditions and rose to a peak of approximately \SI{48}{\celsius} during the day, significantly exceeding optimal growing conditions. At night, the temperature dropped well below desired levels, reaching approximately \SI{10}{\celsius}, highlighting the system’s vulnerability to external temperature extremes under passive operation.
 
-In contrast, during the actuator-on test, the greenhouse exhibited an improved thermal response. The heating system successfully maintained the internal temperature near the desired setpoint of \SI{15}{\celsius} during cooler periods, keeping the environment consistently warmer than outside conditions. However, under hot daytime conditions, the system faced challenges in reducing internal temperatures, which remained around \SI{5}{\celsius} above ambient. Despite this limitation, the active ventilation, circulation fans, and misting system provided measurable cooling benefits compared to the uncontrolled scenario, in which temperatures rose to approximately \SI{15}{\celsius} above ambient due to the unchecked greenhouse effect heating the internal environment.
+In contrast, during the \textbf{actuator-on} test plotted in figure \ref{fig:temp_on}, the greenhouse exhibited an improved thermal response. The heating system successfully maintained the internal temperature above the desired setpoint of \SI{15}{\celsius} during cooler periods, keeping the environment consistently warmer than outside conditions. However, under hot daytime conditions, the system faced challenges in maintaining internal temperatures below the \SI{30}{\celsius} setpoint. Internal temperatures remained less than \SI{5}{\celsius} above ambient. Despite this limitation, the active ventilation, intake fans, and misting system provided measurable cooling benefits compared to the uncontrolled scenario, in which temperatures rose to approximately \SI{15}{\celsius} above ambient due to the unchecked greenhouse effect heating the internal environment.
+
+\subsubsection*{Humidity}
 
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{0.7\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/hum_n.png}
-		\caption{Actuators off}
+		\caption{Humidity profile with \textbf{Actuators off}}
 		\label{fig:hum_off}
 	\end{subfigure}
 	\vskip\baselineskip
 	\begin{subfigure}[b]{0.7\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/hum_a.png}
-		\caption{Actuators on}
+		\caption{Humidity profile with \textbf{Actuators on}}
 		\label{fig:hum_on}
 	\end{subfigure}
-	\caption{Internal vs.\ external humidity profiles for the greenhouse with (a) actuators off and (b) actuators on.}
+	\caption{Internal vs.\ external humidity profiles (a) actuators off and (b) actuators on.}
 	\label{fig:hum_comparison}
 \end{figure}
 
+During the \textbf{actuator-off} phase, the internal and external humidity profiles closely mirrored one another, with relative humidity varying widely between 20\% and 100\% over the day–night cycle. This variation reflects the natural dependence of relative humidity on temperature, decreasing during the warmer daytime periods and increasing overnight.
 
-During the actuator-off phase, the internal and external humidity profiles closely mirrored one another, with relative humidity varying widely between 20\% and 100\% over the day–night cycle. This variation reflects the natural dependence of relative humidity on temperature, decreasing during the warmer daytime periods and increasing overnight.
+During the \textbf{actuator-on} phase plotted in \ref{fig:hum_on}, the system responded to low humidity by activating the misting function every 20 minutes, visible as periodic spikes in the recorded data. These misting periods effectively restored the internal humidity to above 40\% (within the desired range), demonstrating successful environmental regulation. At night during cold periods, operation of the heater caused a decrease in humidity, an unintended but beneficial effect that maintained more balanced conditions during peak RH levels. However, at times when the heater was inactive due to adequate internal temperatures, the humidity occasionally exceeded the desired maximum setpoint. 
 
-When the actuators were enabled, the system responded to low humidity by activating the misting function every 20 minutes, visible as periodic spikes in the recorded data. These misting periods effectively restored the internal humidity to within the desired range, demonstrating successful environmental regulation. At night, operation of the heater caused a further decrease in humidity, an unintended but beneficial effect that prevented excessive condensation and maintained more balanced conditions during peak humidity levels. However, during times when the heater was inactive due to adequate internal temperatures, the humidity occasionally exceeded the desired maximum setpoint. 
+Overall, the actuator-on phase exhibited a more stable humidity range of 40\%--100\%, compared to the uncontrolled 20\%--100\% range. While the system was unable to maintain the desired maximum humidity limit of 90\%, it successfully prevented humidity from dropping below the 40\% minimum, demonstrating effective humidity control through intermittent misting.
 
-Overall, the actuator-on phase exhibited a more stable humidity range of 40\% to 100\%, compared to the uncontrolled 20\% to 100\% range. While the system was unable to maintain the desired maximum humidity limit of 90\%, it successfully prevented humidity from dropping below 40\%, demonstrating effective intermittent misting control.
+\subsubsection*{Soil Moisture}
+
+During the initial \textbf{actuator off} phase, when the mister was inactive, the soil moisture content gradually declined and remained below the setpoint as the soil medium dried out. A slight increase was observed on the third day following a cold, rainy night, likely due to condensation re-entering the system. However soil moisture levels were consistently below the desired level. 
 
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{0.7\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/soil_n.png}
-		\caption{Actuators off}
+		\caption{Soil Moisture profile with \textbf{Actuators off}}
 		\label{fig:Soil_off}
 	\end{subfigure}
 	\vskip\baselineskip
 	\begin{subfigure}[b]{0.7\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/soil_a.png}
-		\caption{Actuators on}
+		\caption{Soil Moisture profile with \textbf{Actuators on}}
 		\label{fig:Soil_on}
 	\end{subfigure}
-	\caption{Soil Moisture profile for the greenhouse with (a) actuators off and (b) actuators on.}
+	\caption{Soil Moisture profile with (a) actuators off and (b) actuators on.}
 	\label{fig:soil_comparison}
 \end{figure}
 
-During the initial phase, when the mister was inactive, the soil moisture content gradually declined and remained below the setpoint as the soil medium dried out. A slight increase was observed on the third day following a cold, rainy night, likely due to condensation re-entering the soil system.
-
-When the actuators were enabled, the soil moisture stabilized around 70\% for several days before dropping below the setpoint, at which point the misting system activated to restore the desired moisture level. The data showed a recurring pattern of moisture loss during the night, followed by misting events during the day that raised levels above the setpoint. On average, the system maintained soil moisture within or slightly above the desired range, demonstrating effective control based on sensor feedback.
+In contrast, during the \textbf{actuator on} test, the initial hot days prompted intermittent misting for evaporative cooling. Accordingly, the soil-moisture trace in Figure~\ref{fig:Soil_on} remained well saturated for several days before declining to the setpoint, at which point the misting system activated to restore the desired level. During the subsequent cooler days, a recurring pattern emerged with nighttime moisture loss followed by controlled daytime misting events that raised levels back above the desired setpoint. On average, the system maintained soil moisture within, or slightly above the target range during the day, demonstrating effective, sensor-driven control.
 
 The fluctuations and response delays observed, are attributed to the misting system’s operational settings, restricted to daytime activation and governed by a duty cycle of two minutes on every twenty minutes, as described in Appendix~\ref{flow}. These constraints were intentionally implemented to prevent overwatering, allow time for sensor feedback stabilization, and avoid unintended nighttime cooling when thermal regulation takes priority.
 
-\subsection{ CO\textsubscript{2} and Lux Observation}
+\subsection{Light Observation and Supplementation }
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/lux.png}
+	\caption{Lux Profile}
+	\label{fig:Lux}
+\end{figure}
+
+Using Python for data processing and visualization, the plot in figure \ref{fig:Lux} illustrates the digital on/off state of the supplemental LED lighting alongside the measured light intensity trace. As calculated in Appendix \ref{chap:calcs}, the LED was designed to provide 
+\SI{200}{\micro\mole\per\square\meter\per\second} PPFD and was configured to activate whenever the ambient sunlight
+levels dropped below this threshold, but only during daylight hours. This corresponds to an illuminance of approximately 
+\SI{10800}{lux} using the conversion stipulated in Formula \ref{ppfd}. In the above plot, the lighting can be observed switching on during the early morning and late evening periods, as well as 
+intermittently on the fourth day when cloud cover reduced incoming solar radiation to below the desired PPFD levels. This behavior demonstrates successful automatic light supplementation, maintaining consistent photosynthetic photon levels during the day despite varying natural light conditions.
+
+\subsection{ CO\textsubscript{2} Observation}
 
 \begin{figure}[H]
 	\centering
@@ -279,60 +308,54 @@ The fluctuations and response delays observed, are attributed to the misting sys
 \end{figure}
 
 
-The \(\mathrm{CO_{2}}\) plot provides valuable insight by highlighting a distinct day–night cycle, with concentrations rising during the night as a result of plant respiration. 
+The \(\mathrm{CO_{2}}\) profile provides valuable insight by highlighting a distinct day–night cycle, with concentrations rising during the night as a result of plant respiration. 
 This trend is consistent with general ambient \(\mathrm{CO_{2}}\) behavior and does not indicate any problematic accumulation within the greenhouse. Since the levels remained within healthy ranges for plant growth, no active control or actuation was required, such as venting to regulate concentrations.  
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{figs/lux.png}
-	\caption{Lux Profile}
-	\label{fig:Lux}
-\end{figure}
-
-The plot of the light intensity profile illustrates the digital on/off state of the supplemental LED lighting. 
-As calculated in Appendix~D, the LED was designed to provide 
-\SI{200}{\micro\mole\per\square\meter\per\second} PPFD and was configured to activate whenever the ambient 
-levels dropped below this threshold, but only during daylight hours. This corresponds to an illuminance of approximately 
-\SI{10800}{lux}. The lighting can be observed switching on during the early morning and evening periods, as well as 
-intermittently on the second day when cloud cover reduced incoming solar radiation.
-
 \section{Evaluation Using Performance Requirements}
 
-\begin{threeparttable}
-	\caption{Performance Requirement Verification}\label{tab:performance_verification}
-	\begin{tabular}{|p{1.5cm}|p{4.5cm}|c|p{3cm}|p{3cm}|}
+\begin{ThreePartTable}
+	\begin{TableNotes}
+		\footnotesize
+		%	\item PR = Performance Requirement.
+	\end{TableNotes}
+	
+	\begin{longtable}{|p{1.5cm}|p{4.4cm}|c|p{3cm}|p{3cm}|}
+		\caption{Performance Requirement Verification}\label{tab:performance_verification}\\
 		\hline
 		\textbf{PR Number} & \textbf{Description} & \textbf{Target} & \textbf{Actual} & \textbf{Comment} \\
 		\hline
-		2 & Resist Wind speeds & 18.81\,kph & Not Tested & Validated through calculations \\
+		\endfirsthead
+		
 		\hline
-		3 & Temperature sensing range & -10–50\,°C & -40–80\,°C & Passed \\
+		\textbf{PR Number} & \textbf{Description} & \textbf{Target} & \textbf{Actual} & \textbf{Comment} \\
 		\hline
-		4 & Soil moisture sensing & 0–100\,\% & 0–100\,\%  & Passed \\
+		\endhead
+		
 		\hline
-		5 & Humidity sensing & 0–100\,RH\% & 0–100\,RH\%  & Passed \\
+		\multicolumn{5}{r}{\emph{Continued on next page}}\\
+		\endfoot
+		
 		\hline
-		6 & CO\textsubscript{2} sensing range & 0–1000\,ppm & 0–5000\,ppm & Passed \\
-		\hline
-		7 & Light sensing & 0–600\,\si{\micro\mole\per\metre\squared\per\second} & 0–925\,\si{\micro\mole\per\metre\squared\per\second} & Passed \\
-		\hline
-		8 & Latency in displaying environmental conditions & <120\,s & $\sim$30\,s average & Passed \\
-		\hline
-		9 & Control temperature & 15 min–30 max\,°C & 15–35\,°C maintained & 15 min Passed - 30 max Failed \\
-		\hline
-		10 & Control soil moisture content & 50–100\,\% & 50–100\,\% maintained during day & Passed \\
-		\hline
-		11 & Control humidity & 40 min–90 max\,\% & 40–95\,\% maintained & 40 min Passed - 90 max Failed \\
-		\hline
-		12 & Supplemental lighting intensity & 200\,\si{\micro\mole\per\metre\squared\per\second} & Not tested & Validated through calculations \\
-		\hline
-		13 & Energy consumption & 0–1200\,Wh & 980\,Wh over 24\,h & Validated in calculations \\
-		\hline
-		14 & Battery storage capacity & >24\,h & Not Tested & Remained sufficiently charged through solar over cloudy periods \\
-		\hline
-	\end{tabular}
-\end{threeparttable}
+		%		\insertTableNotes % prints the TableNotes at the end
+		\endlastfoot
+		
+		1  & Resist Wind speeds                                  & 18.81\,kph & Not Tested           & Validated through calculations \\ \hline
+		2  & Temperature sensing range                           & -10--50\,°C & -40--80\,°C          & Passed \\ \hline
+		3  & Soil moisture sensing                               & 0--100\,\% & 0--100\,\%           & Passed \\ \hline
+		4  & Humidity sensing                                    & 0--100\,RH\% & 0--100\,RH\%        & Passed \\ \hline
+		5  & CO\textsubscript{2} sensing range                   & 0--1000\,ppm & 0--5000\,ppm        & Passed \\ \hline
+		6  & Light sensing                                       & 0--600\,\si{\micro\mole\per\metre\squared\per\second} & 0--925\,\si{\micro\mole\per\metre\squared\per\second} & Passed \\ \hline
+		7  & Latency in displaying environmental conditions      & <120\,s     & $\sim$30\,s average  & Passed \\ \hline
+		8  & Control temperature                                 & 15 min--30 max\,°C & 15--35\,°C maintained & 15 min Passed — 30 max Failed \\ \hline
+		9  & Control soil moisture content                       & 50--100\% & 50--100\% maintained during day & Passed \\ \hline
+		10 & Control humidity                                    & 40\% min--90\% max & 40--100\% maintained & 40\% min Passed — 90\% max Failed \\ \hline
+		11 & Supplemental lighting intensity                     & 200\,\si{\micro\mole\per\metre\squared\per\second} & Not tested           & Validated in calculations \\ \hline
+		12 & Energy consumption                                  & 0--1200\,Wh & 980\,Wh over 24\,h   & Validated in calculations \\ \hline
+		13 & Battery storage capacity                            & 24\,h      & Not Tested            & Remained sufficiently charged via solar over cloudy periods \\ \hline
+		
+	\end{longtable}
+\end{ThreePartTable}
 
 
 \section{Full system Test with Plants Growth}

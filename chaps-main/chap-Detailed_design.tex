@@ -217,7 +217,7 @@ The sensor communicates through UART or PWM, offering flexibility in how data is
 
 \subsubsection{ Soil Moisture Sensor}
 \label{subsubsec:soil_moisture}
-The soil moisture sensor provides real-time monitoring of substrate hydration levels, enabling the automated misting system to deliver precise irrigation when needed. The SEN0114 soil moisture sensor is selected for its simplicity, cost-effectiveness, and compatibility with the ESP32 microcontroller.
+The soil moisture sensor needs to provide real-time monitoring of substrate hydration levels, enabling the automated misting system to deliver precise irrigation when needed. A generic industrial grade capacitive soil moisture sensor and module is selected for its simplicity, cost-effectiveness, and compatibility with the ESP32 microcontroller.
 
 \begin{table}[h]
 	\centering
@@ -238,12 +238,12 @@ The soil moisture sensor provides real-time monitoring of substrate hydration le
 
 The sensor operates by measuring the conductivity between two exposed probes inserted into the soil, where higher conductivity indicates greater moisture content. It provides an analog voltage output (0--3.3\,V) corresponding to the soil's moisture level, allowing for real-time monitoring of water content in the growing medium. 
 
-The sensors ease of integration, low power requirements (drawing less than 20\,mA) make it well-suited for irrigation automation. The sensor only requires one wire for communication and connects to an analog-to-digital converter (ADC) pin on the ESP32. Initial calibration is required to establish the relationship between voltage output and actual soil moisture content. This can be achieved as follows. 
+The sensors ease of integration and low power requirements (drawing less than 20\,mA) make it well-suited for irrigation automation. The sensor only requires one wire for communication and connects to an analog-to-digital converter (ADC) pin on the ESP32. Initial calibration is required to establish the relationship between voltage output and actual soil moisture content. This can be achieved as follows. 
 
 \subsubsection*{Calibration Procedure}
 
 \begin{enumerate}
-	\item \textbf{Hardware Setup:} Connect the soil moisture sensor's output to an ADC pin (e.g., GPIO 36) on the ESP32. Ensure the sensor is powered correctly.
+	\item \textbf{Hardware Setup:} Connect the soil moisture sensor's output to an ADC compatible pin (e.g., GPIO 11) set to 12-bit resolution on the ESP32. Ensure the sensor is powered correctly.
 	
 	\item \textbf{Wet Point Calibration:} Place the sensor probes in fully saturated soil (considered 100\% moisture). Record the stable ADC reading, \( R_{\text{wet}} \).
 	
@@ -268,14 +268,7 @@ The selected model is an HKD general-purpose rain sensor, which features a large
 \label{subsec:data_acquisition}
 
 
-The ESP32 can collect sensor data and store it locally in .xls format on an SD card. However, to provide a more accessible and user-friendly interface, data will instead be uploaded to a cloud-based platform such as ThingSpeak. ThingSpeak supports monitoring and control of up to 8 fields with a minimum update interval of 15 seconds. The free tier offers up to 3 million messages per year, which equates to approximately 8,000 messages per day. Alternatively, Adafruit IO provides similar cloud-based data logging capabilities along with customizable dashboards. Its free tier includes 30 data points per minute, 30 days of data retention, action triggers every 15 minutes, and a limit of 5 dashboards. Blynk is another free IoT platform that allows for easy creation of mobile apps to control and monitor hardware remotely. It is fully compatible with the Arduino platform, making it a convenient choice for IoT projects.
-
-\subsubsection*{Local Monitoring}
-\label{subsubsec:local_monitoring}
-Local monitoring is useful when a user is on-site near the greenhouse and wants to easily view the current internal conditions. Additionally, in the event of a Wi-Fi outage, the greenhouse can still communicate essential data locally. For this reason, a small LCD screen is used to display key environmental parameters, including temperature, humidity, light levels, soil moisture, and CO\textsubscript{2} concentration. The LCM1602A display is selected for its built-in I\textsuperscript{2}C communication interface. 
-This allows it to share the same two pins already used by the BH1750 sensor, since I\textsuperscript{2}C supports multiple devices on a single bus through unique addresses. 
-The LCM1602A operates at address \texttt{0x3E}, enabling efficient integration while reducing GPIO pin usage compared to the standard 8-bit parallel interface.
-The screen cycles through these readings to present the information clearly and efficiently. It is mounted on the control room door and is visible through the Perspex panel, allowing for quick visual access without needing to enter the enclosure.
+The ESP32 can collect sensor data and store it locally in .xls format on an SD card. However, to provide a more accessible and user-friendly interface, data will instead be uploaded to a cloud-based platform such as ThingSpeak. ThingSpeak supports monitoring and control of up to 8 fields with a minimum update interval of 15 seconds. The free tier offers up to 3 million messages per year, which equates to approximately 8,000 messages per day. Blynk is another free IoT platform that allows for easy creation of mobile apps to control and monitor hardware remotely. It is fully compatible with the Arduino platform, making it a convenient choice for IoT projects. A Blynk dashboard is thus setup alongside a ThingSpeak dashboard to allow for wireless monitoring and control of the greenhouse environment.
 
 \begin{figure}[H]
 	\centering
@@ -284,15 +277,23 @@ The screen cycles through these readings to present the information clearly and 
 	\label{fig:lcd_screen}
 \end{figure}
 
+\subsubsection*{Local Monitoring}
+\label{subsubsec:local_monitoring}
+Local monitoring is useful when a user is on-site near the greenhouse and wants to easily view the current internal conditions. Additionally, in the event of a Wi-Fi outage, the greenhouse can still communicate essential data locally. For this reason, a small LCD screen is used to display key environmental parameters, including temperature, humidity, light levels, soil moisture, and CO\textsubscript{2} concentration. The LCM1602A display is selected for its built-in I\textsuperscript{2}C communication interface. 
+This allows it to share the same two pins already used by the BH1750 sensor, since I\textsuperscript{2}C supports multiple devices on a single bus through unique addresses. 
+The LCM1602A operates at address \texttt{0x3E}, enabling efficient integration while reducing GPIO pin usage compared to the standard 8-bit parallel interface.
+The screen cycles through these readings to present the information clearly and efficiently. It is mounted above the control room door and is visible through the Perspex panel, allowing for quick visual access without needing to enter the enclosure. The active screen alongside the all purpose on/off switch can be seen in the figure above.
+
+
 \section{Power Supply}
 \label{sec:power_supply}
 The power supply provides energy to the system as a whole and is crucial for the general operation and reliable functioning of the device. Power is supplied by a 12\,V battery through the integration of a barrel jack. However, several components require 5\,V or 3.3\,V for operation. Therefore, voltage conversion is necessary to supply the correct operating voltages. Instead of a traditional linear voltage regulator, a buck converter is chosen for its higher efficiency, especially when stepping down from 12\,V. Two fuses are incorporated to safeguard the components against potential failures or voltage spikes. 
-Following the guideline of using 1.5 times the maximum expected current, a 15\,A fuse is installed to protect the 12\,V line supplying high-power components such as the solenoid valve and heater. 
+Following the guideline of using 1.5 times the maximum expected current, a 15\,A fuse is installed to protect the 12\,V line, supplying high-power components such as the solenoid valve and heater. 
 Additionally, a smaller 5\,A fuse is placed on the supply line to the buck converter, ensuring protection for the lower-power electronics operating at 5\,V and 3.3\,V.
 
 \subsection{Step-down Buck Converter}
 
-A buck converter is a type of DC-DC converter that efficiently reduces a higher input voltage to a lower output voltage using high-speed switching elements (typically a transistor and a diode) along with energy storage components like inductors and capacitors. This method significantly reduces power loss compared to linear regulators, which dissipate excess voltage as heat.
+A buck converter is a type of DC-DC converter that efficiently reduces a higher input voltage to a lower output voltage using high-frequency switching elements (typically a transistor and a diode) along with energy storage components like inductors and capacitors. This method significantly reduces power loss compared to linear regulators, which dissipate excess voltage as heat.
 
 For this application, an MP4560 buck converter module is used. It is a high-efficiency, step-down switching regulator capable of handling input voltages up to 36V and outputting up to 3A. It is configured to provide a steady 5V output, which is distributed via a 5V rail for convenient access by various components. The MP4560 features an integrated high-side switch, built-in thermal protection, and short-circuit protection, making it well-suited for embedded applications.
 
@@ -300,7 +301,7 @@ An LED is included in the 5V power circuit to indicate active power supply, givi
 
 \subsection{Battery Capacity}
 
-A battery capacity of at least 70Ah is required to power the average energy usage of the system and its components as shown in the calculations in Appendix \ref{chap:calcs} . Thus to provide for DoD depth of discharge allowance minimum discharge of 20\% for safe lithium battery usage a battery capacity of 100Ah is selected. 
+A battery capacity of at least 89Ah is required to power the average energy usage of the system and its components as shown in the calculations in Appendix \ref{chap:calcs}. The calculations provide for an allowable minimum depth of discharge (DoD) of 20\% for recommended safe sealed gel battery usage. A battery with a capacity of 100Ah is provided by the university to meet the requirements.
 
 \subsection{Solar System}
 
@@ -308,17 +309,17 @@ A solar system rated to provide at least 240W would be able to charge the batter
 
 \subsection{Provided Equipment}\label{sec:provided}
 
-The M\&M department of engineering has provided a 12V, 100Ah battery which should be sufficient based on the previous DoD calculations. Additionally two solar panels rated at 105W are provided along with a Skyking Solar Charge Controller. This charge controller will charge the battery from the 2 solar panels which will power all the components. 
+The M\&M department of engineering has provided a 12V, 100Ah battery which should be sufficient based on the previous DoD calculations. Additionally two solar panels rated at 105W are provided along with a MPPT Skyking Solar Charge Controller. This charge controller will charge the battery from the 2 solar panels which will power all the components. 
 
 \section{Relays}
-The ESP32 operates with 3.3V digital logic, which is suitable for interfacing with most sensors. However, it cannot directly control components that require higher voltages or draw significant current. To address this, relay modules are used to enable the ESP32 to switch high-power devices using low-voltage control signals. Two 4-channel relay module has been selected for this project, capable of switching loads up to 250V and 10A, and compatible with 3.3V logic levels. This module will allow the ESP32 to control 12V devices such as fans, the linear actuator, and the heater efficiently and safely. 
+The ESP32 operates with 3.3V digital logic, which is suitable for interfacing with most sensors. However, it cannot directly control components that require higher voltages or draw significant current. To address this, relay modules are used to enable the ESP32 to switch high-power devices using low-voltage control signals. Two 4-channel relay modules have been selected for this project, capable of switching loads up to 250V and 10A, and compatible with 3.3V logic levels. This module will allow the ESP32 to control 12V devices such as fans, the linear actuator, and the heater efficiently and safely. 
 
 \section{Linear actuator and H-Bridge}
 
-To actuate the vent, a linear actuator is required. The Actuonix L16 S linear actuator is selected for this purpose due to its 12V operating voltage, its availability, and ability to deliver up to 50N of force, more than sufficient to lift the panel. The actuator includes built-in limit switches that stop motion at full extension or retraction. To control both extension and retraction, the polarity of the 12V power supply must be reversed. For this reason, an H-bridge circuit is necessary. Instead of using a dedicated H-bridge driver such as the DRV8871, the design implements two switching relays wired in an H-bridge configuration.  By toggling the relays, the polarity of the 12V supply to the actuator can be reversed, enabling both extension and retraction. Careful coding is essential to ensure that both relays are never activated simultaneously, as this could create a short circuit across the supply. Proper logic sequencing in the microcontroller program guarantees safe operation while maintaining reliable control of the actuator. 3D-printed components can be used to mount the linear actuator to the Perspex panels, providing two degrees of freedom to accommodate slight pivoting during extension and retraction.
+To actuate the roof vent, a linear actuator is required. The Actuonix L16 S linear actuator is selected for this purpose due to its 12V operating voltage, its availability, and ability to deliver up to 50N of force, verified through the calculations to be more than sufficient to lift the perspex panel. The actuator includes built-in limit switches that stop motion at full extension or retraction. To control both extension and retraction, the polarity of the 12V power supply must be reversed. For this reason, an H-bridge circuit is necessary. Instead of using a dedicated H-bridge driver, the design implements two switching relays wired in an H-bridge configuration.  By toggling the relays, the polarity of the 12V supply to the actuator can be reversed, enabling both extension and retraction. Careful coding is essential to ensure that both relays are never activated simultaneously, as this could create a short circuit across the supply. Proper logic sequencing in the microcontroller program guarantees safe operation while maintaining reliable control of the actuator. 3D-printed components can be used to mount the linear actuator to the Perspex panels, providing two degrees of freedom to accommodate slight pivoting during extension and retraction.
 
 \section{Solenoid valve}
 
 A solenoid valve operates using an electromagnetic coil that converts electrical energy into mechanical motion. \cite{solenoid} When the coil is energized, it generates a magnetic field that moves a plunger or valve mechanism, opening or closing the fluid passage. This enables precise electronic control of water flow in irrigation systems. 
 
-The solenoid valve is used to automate watering within the greenhouse. It is powered from the 12V supply and controlled via a relay module, allowing the ESP32 microcontroller to activate the valve as needed without directly handling high current loads. The integration of a solenoid valve ensures reliable, repeatable irrigation control, enabling system automation and reducing manual intervention. 
+The solenoid valve is used to automate watering within the greenhouse. It is powered from the 12V supply and controlled via one of the relay channels, allowing the ESP32 microcontroller to activate the valve as needed without directly handling high current loads. The integration of a solenoid valve ensures reliable, repeatable irrigation control, enabling system automation and reducing manual intervention. 

@@ -1,6 +1,6 @@
 \chapter{Design Evaluation}\label{chap:eval}
 
-This section outlines the tests used to validate the greenhouse systems setup and operation. It includes performance tests to validate selection and design of sensors, actuators the system as a whole and its wireless monitoring and control capabilities. 
+This chapter describes the tests used to validate the greenhouse system’s setup and operation. It includes performance tests that assess the selection and design of sensors and actuators, solar power supply, the integrated environmental control,  and the wireless monitoring and control capabilities. Where applicable, tests are designed and presented following standard experimental methodology. The chapter concludes with a full-system demonstration: growing microgreens over a two-week period.
 
 \section{Greenhouse Setup}
 
@@ -15,9 +15,7 @@ The Full Greenhouse setup can be seen in the figure below. Please see Appendix \
 
 \section{Sensor Validation}\label{sec:sensor_validation}
 
-All sensors were tested to verify their response and accuracy to real environmental changes under controlled conditions.  Each was connected to the ESP32 microcontroller with the appropriate pin configuration, and real-time data was logged at one-second intervals through serial communication. 
-The data was imported into MATLAB for processing and visualization. 
-This setup ensured consistent testing and provided clear insight into each sensor’s performance characteristics.
+All sensors were tested to verify their response and accuracy to real environmental changes under controlled conditions.  Each was connected to the ESP32 microcontroller with the appropriate pin configuration as detailed in section \ref{wiring}, and real-time data was logged at one-second intervals through the serial communication port connected to a PC. The data was then imported into MATLAB for processing and visualization. This setup ensured consistent testing and provided clear insight into each sensor’s performance characteristics.
 
 \subsection{Temperature and Humidity Sensor (DHT22)}
 
@@ -25,9 +23,12 @@ This setup ensured consistent testing and provided clear insight into each senso
 The purpose of this test was to verify the accuracy and responsiveness of the DHT22 sensor to real environmental changes in temperature and humidity. 
 
 \subsubsection*{Methodology}
-The sensor was connected to the ESP32 microcontroller through serial comunication and live readings were recorded. 
-A burst of warm air was directed towards the sensor to simulate a rapid change in environmental conditions. 
-The corresponding temperature and relative humidity values were logged and plotted using MATLAB for analysis. 
+
+\begin{enumerate}[label=\arabic*., labelsep=5pt, leftmargin=*, itemsep=1pt]
+	\item  The sensor was connected to the ESP32 via serial communication, and live readings were recorded.
+	\item  A burst of warm air was directed at the sensor to simulate a rapid change in conditions.
+	\item  Temperature and RH were logged and plotted in MATLAB for analysis.
+\end{enumerate}
 
 \subsubsection*{Results}
 The plotted data, shown in Figure~\ref{fig:dht22_test}, demonstrates the sensor's response to the applied stimulus. 
@@ -45,14 +46,14 @@ The test confirms that the DHT22 sensor responds promptly to changes in environm
 The test showed the expected rise in both temperature and humidity. 
 However, it was noted that the humidity readings temporarily saturated at the maximum percentage due to condensation forming within the sensor. 
 After a short period, the values gradually returned to ambient levels. 
-While this behavior is not ideal, it is a known characteristic of the sensor under extreme conditions and is not expected to cause issues during normal greenhouse operation, where such rapid condensation is unlikely to occur. 
+This behavior is a known characteristic of the sensor under extreme conditions and is not expected to cause issues during normal greenhouse operation, where such rapid condensation is unlikely to occur. 
 Slight response delays were also noted, which are consistent with the DHT22's documented sampling rate and latency.
 
 \subsection{Summary of Additional Sensor Tests}
 
 Following the same testing approach described above, all sensors were validated for responsiveness and reliability. 
 Each test involved controlled exposure to changing environmental conditions, with data recorded via serial communication and analyzed in MATLAB. 
-A summary of key results is provided below, as the procedures followed were identical to those of the DHT22 test.
+A summary of key results of each sensor is provided below, as the experimental procedures followed were identical to those of the DHT22 test.
 
 \subsubsection*{Soil Moisture Sensor}
 The sensor was connected to the ESP32 microcontroller through ADC and real‑time values were logged. The sensor probes were sequentially tested in open air, damp soil, and fully submerged conditions. 
@@ -67,8 +68,8 @@ The sensor provided consistent and repeatable readings, confirming its suitabili
 \end{figure}
 
 \subsubsection*{Light Sensor}
-The BH1750 light sensor was connected to the ESP32 via the I2C interface, and its lux readings were logged in real time. The sensor was exposed to varying illumination using a handheld torch. 
-As seen in Figure~\ref{fig:bh1750_test}, the sensor responded sharply, rising from 40\,lux (ambient) to approximately 200\,lux under direct illumination, then returning to baseline upon removal of the light source. 
+The BH1750 light sensor was connected to the ESP32 via the I²C interface, and its lux readings were logged in real time. The sensor was exposed to varying illumination using a handheld torch. 
+As seen in Figure~\ref{fig:bh1750_test}, the sensor responded sharply, rising from 40\,lux (ambient) to approximately 200\,lux under direct torch illumination, then returning to baseline upon removal of the light source. 
 This confirmed its accuracy and responsiveness to dynamic lighting conditions. 
 
 \begin{figure}[H]
@@ -81,19 +82,18 @@ This confirmed its accuracy and responsiveness to dynamic lighting conditions.
 \subsubsection*{CO\textsubscript{2} Sensor}
 The MHZ19B CO\textsubscript{2} sensor was connected to the ESP32 via UART communication and its readings were logged in real time. The sensors readings were allowed to stabilize at ambient indoor conditions (approximately 1000\,ppm) before being exposed to a burst of exhaled air. 
 The concentration rapidly increased to the sensor’s limit of 5000\,ppm, then decayed back to baseline within two minutes, as shown in Figure~\ref{fig:co2_response}. 
-This validated the sensor’s sensitivity, recovery time, and overall suitability for environmental monitoring.
+This validated the sensor’s sensitivity, recovery time, and overall suitability for environmental monitoring of air quality.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figs/CO2test.jpg}
-	\caption{CO\textsubscript{2} sensor response to rapid change in concentration.}
+	\caption{CO\textsubscript{2} sensor response to rapid change in air quality.}
 	\label{fig:co2_response}
 \end{figure}
 
 \subsection*{Summary Discussion}
 Across all tests, the sensors exhibited expected and reliable responses to environmental variations. 
-Minor latency and saturation effects observed under extreme conditions are consistent with manufacturer specifications and are not expected to affect normal operation. 
-The results confirm that all selected sensors are well-suited for integration into the automated greenhouse control system.
+Minor latency and saturation effects observed under extreme conditions are consistent with manufacturer specifications and are not expected to affect normal operation. The results confirm that all selected sensors are well-suited for integration into the automated greenhouse control system providing essential monitoring of the various internal and external environmental variables.
 
 \section{Actuator Validation }
 
@@ -101,11 +101,12 @@ Each actuator was connected to its respective relay channel, corresponding to th
 Testing was carried out by first supplying the rated voltage directly to each actuator, followed by validation through relay control. 
 A logical HIGH signal was written to each GPIO pin to trigger the relay, with successful activation confirmed visually via the built-in indicator LED and audibly by the distinct clicking sound of the relay switch. 
 As the relay module operates in active-high mode, actuators were connected to either the Normally Open (NO) or Normally Closed (NC) terminals as required. 
-Once verified, the appropriate 5\,V or 12\,V supply was connected to the Common (CO) port to power the actuators. 
+Once verified, the appropriate 5\,V or 12\,V supply was connected to the Common (CO) port to power the respective actuators. 
 Table~\ref{tab:actuator_tests} summarizes the testing procedures and outcomes for each actuator.
 
 \begin{table}[H]
 	\centering
+	\small
 	\caption{Actuator Testing and Observations}
 	\label{tab:actuator_tests}
 	\begin{tabular}{|p{3cm}|p{6cm}|p{6cm}|}
@@ -123,9 +124,9 @@ Table~\ref{tab:actuator_tests} summarizes the testing procedures and outcomes fo
 	\end{tabular}
 \end{table}
 
-With the mains water supply connected, the solenoid valve successfully controlled the misting system, providing adequate pressure to the misting nozzles. The nozzles were observed to start and stop spraying water in direct response to the relay switching.
+All actuators operated successfully during direct and relay controlled tests. With the mains water supply connected, the solenoid valve successfully controlled the misting system, providing adequate pressure to the misting nozzles. The nozzles were observed to start and stop spraying water in direct response to the relay switching.
 
-During testing, it was observed that switching the misting solenoid simultaneously with Wi-Fi activity (e.g., ThingSpeak uploads) introduced supply transients that caused the ESP32 to briefly brown-out and reset. The solenoid’s inductive kickback and relay contact bounce injected noise onto the 12 V rail, which coupled into the 5 V supply. To mitigate this, a bulk electrolytic capacitor and a high-frequency ceramic capacitor were added at the solenoid driver terminals. These components damped the transient response and provided local energy buffering, resulting in stable system operation without timeouts or resets.
+During further testing, it was observed that switching the misting solenoid simultaneously with Wi-Fi activity (e.g., ThingSpeak uploads) introduced supply transients that caused the ESP32 to briefly brown-out and reset. The solenoid’s inductive kickback and relay contact bounce injected noise onto the 12 V rail, which coupled into the 5 V supply. To mitigate this, a bulk electrolytic capacitor and a high-frequency ceramic capacitor were added at the solenoid driver terminals. These components damped the transient response and provided local energy buffering, resulting in stabler system operation without undesired timeouts or resets.
 
 \section{Remote monitoring}
 
@@ -133,14 +134,10 @@ During testing, it was observed that switching the misting solenoid simultaneous
 The objective of this experiment was to verify the successful implementation of remote monitoring and user control for the greenhouse system. The aim was to confirm that environmental parameters could be measured, transmitted, stored, and visualized in real time through wireless platforms, and that user-defined setpoints could be remotely updated.
 
 \subsection{Methodology}
-The test was conducted using the ESP32 microcontroller configured to interface with two IoT platforms: \textit{ThingSpeak} and \textit{Blynk}.  
-For remote monitoring, the ESP32 was programmed to upload data for all environmental parameters including temperature, humidity, soil moisture, CO\textsubscript{2}, and light intensity at 20-second intervals to the ThingSpeak cloud platform. A custom dashboard was developed to visualize these readings in real time, as shown in Figure~\ref{fig:thingspeak_dashboard}.  
+The ESP32 was configured to interface with two IoT platforms: \textit{ThingSpeak} and \textit{Blynk}. For remote monitoring, it transmitted internal and external temperature and humidity, soil moisture, CO\textsubscript{2}, and light intensity to ThingSpeak at 20-second intervals. Integration used the ThingSpeak API over HTTP and the firmware issued POST requests to \texttt{/update} with the channel’s write API key and the relevant field values (\texttt{field1}–\texttt{field7}) in the payload. A custom ThingSpeak dashboard was then used to visualize the data in real time (Figure~\ref{fig:thingspeak_dashboard}).
 
-For remote control, the system was integrated with the Blynk IoT platform. A mobile dashboard was created (Figure~\ref{fig:blynk_dashboard}) to enable the user to adjust key control parameters such as temperature and humidity setpoints through sliders and buttons. . The ESP32 was connected to Eduroam services and configured with a unique
+For remote control, the system was integrated with the Blynk IoT platform. A mobile dashboard was created (Figure~\ref{fig:blynk_dashboard}) to enable the user to adjust key control parameters such as temperature and humidity setpoints through sliders and buttons. The ESP32 was connected to Eduroam services and configured with a unique
 Blynk template and authentication token, allowing remote updates of setpoints for various environmental parameters.
-
-\subsection{Results}
-The greenhouse successfully transmitted all sensor data to ThingSpeak without communication interruptions. The online dashboard updated at the programmed 20-second interval, confirming the reliability of wireless data transfer and cloud visualization. Historical data was logged and plotted on the ThingSpeak channel, verifying successful storage for later analysis, as presented in Section~\ref{sec:response}.
 
 \begin{figure}[H]
 	\centering
@@ -157,10 +154,13 @@ The greenhouse successfully transmitted all sensor data to ThingSpeak without co
 		\caption{Blynk Mobile Control Interface.}
 		\label{fig:blynk_dashboard}
 	\end{subfigure}
-	\caption{Remote monitoring and control interfaces: (a) ThingSpeak dashboard for data visualization and logging, and (b) Blynk app for real-time parameter control.}
+	\caption{Remote monitoring and control interfaces}
 	\label{fig:remote_monitoring}
 \end{figure}
 
+\subsection{Results}
+The greenhouse successfully transmitted all sensor data to ThingSpeak without communication interruptions. The online dashboard updated at the programmed 20-second interval, confirming the reliability of wireless data transfer and cloud visualization. Historical data was logged and plotted on the ThingSpeak channel, verifying successful storage for later analysis, as presented in Section~\ref{sec:response}.
+ 
 The Blynk dashboard enabled real-time modification of environmental setpoints from a mobile device. Commands sent via Blynk were received by the microcontroller with negligible delay. Parameter changes were reflected in the system's behaviour, demonstrating successful two-way communication between the user and the greenhouse.
 
 

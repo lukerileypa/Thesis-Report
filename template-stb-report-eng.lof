@@ -12,9 +12,9 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Detailed Design}}{20}{figure.caption.24}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Final Concept Definition}}{21}{figure.caption.25}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Air Intake}}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Air circulation}}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Free body diagram of Vent Mechanism}}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Stevenson Screens for sensor protection}}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Free body diagram of Vent Mechanism}}{23}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Horizontal Air Circulation}}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Stevenson Screens for sensor protection}}{26}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces LCD screen for local monitoring}}{30}{figure.caption.35}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Wiring schematic}}{34}{figure.caption.37}%
@@ -26,11 +26,11 @@
 \contentsline {figure}{\numberline {6.4}{\ignorespaces BH1750 light sensor response to torch illumination and return to ambient lighting.}}{40}{figure.caption.48}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces CO\textsubscript {2} sensor response to rapid change in air quality.}}{40}{figure.caption.50}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Remote monitoring and control interfaces}}{42}{figure.caption.53}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Internal vs. external temperature profiles with (a) Actuators off and (b) Actuators on.}}{44}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Internal vs. external temperature with (a) Actuators off and (b) Actuators on.}}{44}{figure.caption.55}%
 \contentsline {figure}{\numberline {6.8}{\ignorespaces Internal vs.\ external humidity profiles (a) actuators off and (b) actuators on.}}{45}{figure.caption.57}%
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Soil Moisture profile with (a) actuators off and (b) actuators on.}}{46}{figure.caption.59}%
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Lux Profile}}{47}{figure.caption.60}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces CO\textsubscript {2} Profile}}{47}{figure.caption.61}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces CO\textsubscript {2} Profile}}{48}{figure.caption.61}%
 \contentsline {figure}{\numberline {6.12}{\ignorespaces Two-week microgreen growth trial conducted in the greenhouse.}}{49}{figure.caption.62}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -46,8 +46,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {D.1}{\ignorespaces Proposed Project Budget and Actual Costs}}{65}{figure.caption.80}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Engineering Drawing}}{72}{figure.1.F.1}%
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Engineering Drawing}}{71}{figure.1.F.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {H.1}{\ignorespaces Overview of greenhouse hardware components and setup.}}{79}{figure.caption.82}%
+\contentsline {figure}{\numberline {H.1}{\ignorespaces Overview of greenhouse hardware components and setup.}}{78}{figure.caption.82}%
 \addvspace {10\p@ }

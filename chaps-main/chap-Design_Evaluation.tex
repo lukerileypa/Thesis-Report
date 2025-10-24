@@ -4,7 +4,7 @@ This chapter describes the tests used to validate the greenhouse system’s setu
 
 \section{Greenhouse Setup}
 
-The Full Greenhouse setup can be seen in the figure below. Please see Appendix \ref{chap:pics} for additional pictures.
+The Full Greenhouse setup constructed on the engineering roof can be seen in the figure below. Please see Appendix \ref{chap:pics} for additional pictures.
 
 \begin{figure}[H]
 	\centering
@@ -74,7 +74,7 @@ The sensor provided consistent and repeatable readings, confirming its suitabili
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{figs/soiltest.jpg}
+	\includegraphics[width=0.7\textwidth]{figs/soiltest.jpg}
 	\caption{Soil moisture sensor response in open air, damp soil, and submerged in water.}
 	\label{fig:soilmoisture_test}
 \end{figure}
@@ -86,7 +86,7 @@ This confirmed its accuracy and responsiveness to dynamic lighting conditions.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figs/lighttest2.jpg}
+	\includegraphics[width=0.65\textwidth]{figs/lighttest2.jpg}
 	\caption{BH1750 light sensor response to torch illumination and return to ambient lighting.}
 	\label{fig:bh1750_test}
 \end{figure}
@@ -98,7 +98,7 @@ This validated the sensor’s sensitivity, recovery time, and overall suitabilit
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figs/CO2test.jpg}
+	\includegraphics[width=0.65\textwidth]{figs/CO2test.jpg}
 	\caption{CO\textsubscript{2} sensor response to rapid change in air quality.}
 	\label{fig:co2_response}
 \end{figure}
@@ -204,32 +204,34 @@ To evaluate the performance of the greenhouse control system, a two-phase test p
 
 In the second phase, the actuators (ventilation, irrigation, and heating) were connected and enabled. The greenhouse was again run for more than three full day–night cycles, with the control system actively attempting to regulate conditions. This phase demonstrates the effectiveness of the system in stabilizing the greenhouse environment. The temperature, humidity and soil data from both phases were collected from Thingspeak and plotted using python, enabling a direct comparison between passive response and active control. The resulting figures highlight the extent to which the actuators improve environmental stability and overall system performance.
 
+\subsubsection*{Temperature Control}
+
+Without any active control, the internal temperature (shown in red) was allowed to fluctuate naturally with ambient conditions and rose to a peak of approximately \SI{48}{\celsius} during the day, significantly exceeding optimal growing conditions. At night, the temperature dropped well below desired levels, reaching approximately \SI{10}{\celsius}, highlighting the system’s vulnerability to external temperature extremes under passive operation.
+
 \begin{figure}[H]
 	\centering
-	\begin{subfigure}[b]{0.67\textwidth}
+	\begin{subfigure}[b]{0.68\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/temp_n.png}
 		\caption{Temperature profile with \textbf{Actuators off}}
 		\label{fig:temp_off}
 	\end{subfigure}
 	\vskip\baselineskip
-	\begin{subfigure}[b]{0.67\textwidth}
+	\begin{subfigure}[b]{0.68\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figs/temp_a.png}
 		\caption{Temperature profile with \textbf{Actuators on}}
 		\label{fig:temp_on}
 	\end{subfigure}
-	\caption{Internal vs. external temperature profiles with (a) Actuators off and (b) Actuators on.}
+	\caption{Internal vs. external temperature with (a) Actuators off and (b) Actuators on.}
 	\label{fig:temp_comparison}
 \end{figure}
 
-\subsubsection*{Temperature}
-
-Without any active control, the internal temperature (shown in red) was allowed to fluctuate naturally with ambient conditions and rose to a peak of approximately \SI{48}{\celsius} during the day, significantly exceeding optimal growing conditions. At night, the temperature dropped well below desired levels, reaching approximately \SI{10}{\celsius}, highlighting the system’s vulnerability to external temperature extremes under passive operation.
-
 In contrast, during the \textbf{actuator-on} test plotted in figure \ref{fig:temp_on}, the greenhouse exhibited an improved thermal response. The heating system successfully maintained the internal temperature above the desired setpoint of \SI{15}{\celsius} during cooler periods, keeping the environment consistently warmer than outside conditions. However, under hot daytime conditions, the system faced challenges in maintaining internal temperatures below the \SI{30}{\celsius} setpoint. Internal temperatures remained less than \SI{5}{\celsius} above ambient. Despite this limitation, the active ventilation, intake fans, and misting system provided measurable cooling benefits compared to the uncontrolled scenario, in which temperatures rose to approximately \SI{15}{\celsius} above ambient due to the unchecked greenhouse effect heating the internal environment.
 
-\subsubsection*{Humidity}
+\subsubsection*{Humidity Control}
+
+During the \textbf{actuator-off} phase, the internal and external humidity profiles closely mirrored one another, with relative humidity varying widely between 20\% and 100\% over the day–night cycle. This variation reflects the natural dependence of relative humidity on temperature, decreasing during the warmer daytime periods and increasing overnight.
 
 \begin{figure}[H]
 	\centering
@@ -250,13 +252,11 @@ In contrast, during the \textbf{actuator-on} test plotted in figure \ref{fig:tem
 	\label{fig:hum_comparison}
 \end{figure}
 
-During the \textbf{actuator-off} phase, the internal and external humidity profiles closely mirrored one another, with relative humidity varying widely between 20\% and 100\% over the day–night cycle. This variation reflects the natural dependence of relative humidity on temperature, decreasing during the warmer daytime periods and increasing overnight.
-
 During the \textbf{actuator-on} phase plotted in \ref{fig:hum_on}, the system responded to low humidity by activating the misting function every 20 minutes, visible as periodic spikes in the recorded data. These misting periods effectively restored the internal humidity to above 40\% (within the desired range), demonstrating successful environmental regulation. At night during cold periods, operation of the heater caused a decrease in humidity, an unintended but beneficial effect that maintained more balanced conditions during peak RH levels. However, at times when the heater was inactive due to adequate internal temperatures, the humidity occasionally exceeded the desired maximum setpoint. 
 
 Overall, the actuator-on phase exhibited a more stable humidity range of 40\%--100\%, compared to the uncontrolled 20\%--100\% range. While the system was unable to maintain the desired maximum humidity limit of 90\%, it successfully prevented humidity from dropping below the 40\% minimum, demonstrating effective humidity control through intermittent misting.
 
-\subsubsection*{Soil Moisture}
+\subsubsection*{Soil Moisture Control}
 
 During the initial \textbf{actuator off} phase, when the mister was inactive, the soil moisture content gradually declined and remained below the setpoint as the soil medium dried out. A slight increase was observed on the third day following a cold, rainy night, likely due to condensation re-entering the system. However soil moisture levels were consistently below the desired level. 
 
@@ -298,6 +298,8 @@ levels dropped below this threshold, but only during daylight hours. This corres
 \SI{10800}{lux} using the conversion stipulated in Formula \ref{ppfd}. In the above plot, the lighting can be observed switching on during the early morning and late evening periods, as well as 
 intermittently on the fourth day when cloud cover reduced incoming solar radiation to below the desired PPFD levels. This behavior demonstrates successful automatic light supplementation, maintaining consistent photosynthetic photon levels during the day despite varying natural light conditions.
 
+\newpage
+
 \subsection{CO\textsubscript{2} Observation}
 
 \begin{figure}[H]
@@ -315,6 +317,7 @@ This trend is consistent with general ambient \(\mathrm{CO_{2}}\) behavior and d
 \section{Evaluation Using Performance Requirements}
 
 \begin{ThreePartTable}
+	\small
 	\begin{TableNotes}
 		\footnotesize
 		%	\item PR = Performance Requirement.

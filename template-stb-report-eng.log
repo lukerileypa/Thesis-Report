@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.9.21)  24 OCT 2025 00:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.9.21)  24 OCT 2025 01:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,7 +1101,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 20.
-<figs/sign.png, id=540, 160.80075pt x 52.39575pt>
+<figs/sign.png, id=532, 160.80075pt x 52.39575pt>
 File: figs/sign.png Graphic file (type png)
 <use figs/sign.png>
 Package pdftex.def Info: figs/sign.png  used on input line 21.
@@ -1256,7 +1256,7 @@ Underfull \hbox (badness 3557) in paragraph at lines 80--80
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
-[]\T1/lmr/m/n/12 Section [][]4.8[][] demon-strates self-directed learn-ing
+[]\T1/lmr/m/n/12 Section [][]4.7[][] demon-strates self-directed learn-ing
  []
 
 
@@ -1352,7 +1352,7 @@ Chapter 2.
 ]
 
 [4]
-<figs/Co2.jpg, id=986, 196.7715pt x 204.327pt>
+<figs/Co2.jpg, id=976, 196.7715pt x 204.327pt>
 File: figs/Co2.jpg Graphic file (type jpg)
 <use figs/Co2.jpg>
 Package pdftex.def Info: figs/Co2.jpg  used on input line 50.
@@ -1362,7 +1362,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 [5 <./figs/Co2.jpg>]
-<figs/shapes.jpg, id=1004, 355.59398pt x 141.98177pt>
+<figs/shapes.jpg, id=994, 355.59398pt x 141.98177pt>
 File: figs/shapes.jpg Graphic file (type jpg)
 <use figs/shapes.jpg>
 Package pdftex.def Info: figs/shapes.jpg  used on input line 82.
@@ -1370,12 +1370,12 @@ Package pdftex.def Info: figs/shapes.jpg  used on input line 82.
 
 
 [6 <./figs/shapes.jpg>]
-<figs/inclination.png, id=1020, 687.56876pt x 307.1475pt>
+<figs/inclination.png, id=1010, 687.56876pt x 307.1475pt>
 File: figs/inclination.png Graphic file (type png)
 <use figs/inclination.png>
 Package pdftex.def Info: figs/inclination.png  used on input line 96.
 (pdftex.def)             Requested size: 430.31812pt x 192.22916pt.
-<figs/sawtooth.jpg, id=1027, 179.6895pt x 139.6125pt>
+<figs/sawtooth.jpg, id=1017, 179.6895pt x 139.6125pt>
 File: figs/sawtooth.jpg Graphic file (type jpg)
 <use figs/sawtooth.jpg>
 Package pdftex.def Info: figs/sawtooth.jpg  used on input line 107.
@@ -1389,12 +1389,12 @@ Package pdftex.def Info: figs/sawtooth.jpg  used on input line 107.
 [9]
 
 [10]
-<figs/airflow1.jpg, id=1096, 384.43625pt x 218.8175pt>
+<figs/airflow1.jpg, id=1086, 384.43625pt x 218.8175pt>
 File: figs/airflow1.jpg Graphic file (type jpg)
 <use figs/airflow1.jpg>
 Package pdftex.def Info: figs/airflow1.jpg  used on input line 185.
 (pdftex.def)             Requested size: 203.83417pt x 116.0228pt.
-<figs/airflow2.jpg, id=1097, 450.68375pt x 218.8175pt>
+<figs/airflow2.jpg, id=1087, 450.68375pt x 218.8175pt>
 File: figs/airflow2.jpg Graphic file (type jpg)
 <use figs/airflow2.jpg>
 Package pdftex.def Info: figs/airflow2.jpg  used on input line 192.
@@ -1426,92 +1426,107 @@ Overfull \hbox (18.47746pt too wide) in paragraph at lines 31--58
 
 [15]
 Underfull \hbox (badness 10000) in paragraph at lines 139--139
-[]|\T1/lmr/bx/n/10.95 PR
+[]|\T1/lmr/bx/n/12 PR
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--139
-\T1/lmr/bx/n/10.95 Num-
+\T1/lmr/bx/n/12 Num-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
-[]|\T1/lmr/bx/n/10.95 Related
+[]|\T1/lmr/bx/n/12 Related
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
-\T1/lmr/bx/n/10.95 Stake-holder
+\T1/lmr/bx/n/12 Stake-holder
  []
 
 
-Overfull \hbox (41.43616pt too wide) in alignment at lines 136--141
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\T1/lmr/bx/n/12 Re-quire-
+ []
+
+
+Overfull \hbox (52.72554pt too wide) in alignment at lines 136--141
  [] [] [] [] [] [] 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[]|\T1/lmr/bx/n/10.95 PR
+[]|\T1/lmr/bx/n/12 PR
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--144
-\T1/lmr/bx/n/10.95 Num-
+\T1/lmr/bx/n/12 Num-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
-[]|\T1/lmr/bx/n/10.95 Related
+[]|\T1/lmr/bx/n/12 Related
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
-\T1/lmr/bx/n/10.95 Stake-holder
+\T1/lmr/bx/n/12 Stake-holder
  []
 
 
-Overfull \hbox (41.43616pt too wide) in alignment at lines 141--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+\T1/lmr/bx/n/12 Re-quire-
+ []
+
+
+Overfull \hbox (52.72554pt too wide) in alignment at lines 141--146
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (41.43616pt too wide) in alignment at lines 146--150
+Overfull \hbox (52.72554pt too wide) in alignment at lines 146--150
  [] [] [] [] [] [] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 153.
 
-Overfull \hbox (41.43616pt too wide) in alignment at lines 150--154
+Overfull \hbox (52.72554pt too wide) in alignment at lines 150--154
  [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]|\T1/lmr/m/n/12 Temperature sens-ing
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 164--164
-[]|\T1/lmr/m/n/10.95 Control soil mois-ture
+[]|\T1/lmr/m/n/12 Control soil mois-ture
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\T1/lmr/m/n/10.95 Supplemental light-ing
+[]|\T1/lmr/m/n/12 Supplemental light-ing
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--168
-[]|\T1/lmr/m/n/10.95 Operational Power
+[]|\T1/lmr/m/n/12 Operational Power
  []
 
 
-Overfull \hbox (41.43616pt too wide) in alignment at lines 154--170
+Overfull \hbox (52.72554pt too wide) in alignment at lines 154--170
  [] [] [] [] [] [] 
  []
 
 [16]
-<figs/Funct.png, id=1188, 766.66425pt x 399.29175pt>
+<figs/Funct.png, id=1178, 766.66425pt x 399.29175pt>
 File: figs/Funct.png Graphic file (type png)
 <use figs/Funct.png>
 Package pdftex.def Info: figs/Funct.png  used on input line 181.
-(pdftex.def)             Requested size: 362.37569pt x 188.72726pt.
+(pdftex.def)             Requested size: 407.66833pt x 212.31818pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1527,21 +1542,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (chaps-main/chap-Detailed_design.tex
 Chapter 4.
-<figs/frame.png, id=1214, 182.93344pt x 197.23688pt>
+<figs/frame.png, id=1204, 182.93344pt x 197.23688pt>
 File: figs/frame.png Graphic file (type png)
 <use figs/frame.png>
 Package pdftex.def Info: figs/frame.png  used on input line 11.
 (pdftex.def)             Requested size: 194.77287pt x 210.01207pt.
-<figs/front.png, id=1215, 675.27281pt x 761.84625pt>
+<figs/front.png, id=1205, 675.27281pt x 761.84625pt>
 File: figs/front.png Graphic file (type png)
 <use figs/front.png>
 Package pdftex.def Info: figs/front.png  used on input line 18.
 (pdftex.def)             Requested size: 185.71849pt x 209.5258pt.
-<figs/anotated.png, id=1216, 516.12825pt x 449.2785pt>
+<figs/anotated.png, id=1206, 516.12825pt x 449.2785pt>
 File: figs/anotated.png Graphic file (type png)
 <use figs/anotated.png>
 Package pdftex.def Info: figs/anotated.png  used on input line 28.
-(pdftex.def)             Requested size: 389.55266pt x 339.09692pt.
+(pdftex.def)             Requested size: 357.84158pt x 311.49011pt.
 
 
 [20
@@ -1552,65 +1567,65 @@ Package pdftex.def Info: figs/anotated.png  used on input line 28.
  <./figs/frame.png> <./figs/front.png>]
 
 [21 <./figs/anotated.png>]
-<figs/airflow1.png, id=1230, 484.05844pt x 346.29375pt>
+<figs/airflow1.png, id=1220, 484.05844pt x 346.29375pt>
 File: figs/airflow1.png Graphic file (type png)
 <use figs/airflow1.png>
 Package pdftex.def Info: figs/airflow1.png  used on input line 49.
-(pdftex.def)             Requested size: 294.42636pt x 210.64177pt.
+(pdftex.def)             Requested size: 271.7835pt x 194.441pt.
 
 
 [22 <./figs/airflow1.png>]
+<figs/fbd.png, id=1228, 396.2805pt x 418.56375pt>
+File: figs/fbd.png Graphic file (type png)
+<use figs/fbd.png>
+Package pdftex.def Info: figs/fbd.png  used on input line 71.
+(pdftex.def)             Requested size: 135.89174pt x 143.53604pt.
+
+
+[23 <./figs/fbd.png>]
 <figs/whirlpool.png, id=1237, 434.8245pt x 400.49625pt>
 File: figs/whirlpool.png Graphic file (type png)
 <use figs/whirlpool.png>
-Package pdftex.def Info: figs/whirlpool.png  used on input line 67.
-(pdftex.def)             Requested size: 226.48395pt x 208.60757pt.
+Package pdftex.def Info: figs/whirlpool.png  used on input line 86.
+(pdftex.def)             Requested size: 181.18439pt x 166.88116pt.
 
 
-[23 <./figs/whirlpool.png>]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 85.
+LaTeX Font Warning: Command \small invalid in math mode on input line 104.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 85.
-
-<figs/fbd.png, id=1247, 396.2805pt x 427.5975pt>
-File: figs/fbd.png Graphic file (type png)
-<use figs/fbd.png>
-Package pdftex.def Info: figs/fbd.png  used on input line 97.
-(pdftex.def)             Requested size: 135.89174pt x 146.63394pt.
+LaTeX Font Warning: Command \small invalid in math mode on input line 104.
 
 
-[24 <./figs/fbd.png>]
+
+[24 <./figs/whirlpool.png>]
 
 [25]
-<figs/steven.png, id=1270, 1105.12875pt x 430.60875pt>
+<figs/steven.png, id=1257, 1105.12875pt x 430.60875pt>
 File: figs/steven.png Graphic file (type png)
 <use figs/steven.png>
-Package pdftex.def Info: figs/steven.png  used on input line 142.
-(pdftex.def)             Requested size: 407.66833pt x 158.84308pt.
+Package pdftex.def Info: figs/steven.png  used on input line 139.
+(pdftex.def)             Requested size: 339.72592pt x 132.37033pt.
 
 
-[26]
+[26 <./figs/steven.png>]
+
+[27]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[27 <./figs/steven.png>]
-
 [28]
-<figs/LCD.jpg, id=1289, 1284.8pt x 655.44875pt>
-File: figs/LCD.jpg Graphic file (type jpg)
-<use figs/LCD.jpg>
-Package pdftex.def Info: figs/LCD.jpg  used on input line 274.
-(pdftex.def)             Requested size: 208.36827pt x 106.29413pt.
-
 
 [29{C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
 nc}]
+<figs/LCD.jpg, id=1291, 1284.8pt x 655.44875pt>
+File: figs/LCD.jpg Graphic file (type jpg)
+<use figs/LCD.jpg>
+Package pdftex.def Info: figs/LCD.jpg  used on input line 267.
+(pdftex.def)             Requested size: 217.42265pt x 110.91473pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-83.
+76.
  (C:\Users\luker\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1632,7 +1647,7 @@ Chapter 5.
 
 
 ]
-<figs/wiringpd.pdf, id=1326, 1173.78528pt x 830.2016pt>
+<figs/wiringpd.pdf, id=1316, 1173.78528pt x 830.2016pt>
 File: figs/wiringpd.pdf Graphic file (type pdf)
 <use figs/wiringpd.pdf>
 Package pdftex.def Info: figs/wiringpd.pdf  used on input line 15.
@@ -1649,11 +1664,11 @@ LaTeX Warning: Float too large for page by 66.09665pt on input line 18.
 
 
 ]
-<figs/soft1.png, id=1343, 510.708pt x 278.2395pt>
+<figs/soft1.png, id=1333, 510.708pt x 278.2395pt>
 File: figs/soft1.png Graphic file (type png)
 <use figs/soft1.png>
 Package pdftex.def Info: figs/soft1.png  used on input line 43.
-(pdftex.def)             Requested size: 375.96417pt x 204.83685pt.
+(pdftex.def)             Requested size: 362.37569pt x 197.43254pt.
 )
 
 [36 <./figs/soft1.png>]
@@ -1661,7 +1676,7 @@ Package pdftex.def Info: figs/soft1.png  used on input line 43.
 
  (chaps-main/chap-Design_Evaluation.tex
 Chapter 6.
-<figs/setup.jpeg, id=1351, 797.98125pt x 963.6pt>
+<figs/setup.jpeg, id=1341, 797.98125pt x 963.6pt>
 File: figs/setup.jpeg Graphic file (type jpg)
 <use figs/setup.jpeg>
 Package pdftex.def Info: figs/setup.jpeg  used on input line 13.
@@ -1671,7 +1686,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-<figs/pv.png, id=1352, 571.53525pt x 691.98524pt>
+<figs/pv.png, id=1342, 571.53525pt x 691.98524pt>
 File: figs/pv.png Graphic file (type png)
 <use figs/pv.png>
 Package pdftex.def Info: figs/pv.png  used on input line 20.
@@ -1689,7 +1704,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 20--21
 
 
  <./figs/setup.jpeg> <./figs/pv.png>]
-<figs/dthtest.jpg, id=1361, 1003.75pt x 752.8125pt>
+<figs/dthtest.jpg, id=1351, 1003.75pt x 752.8125pt>
 File: figs/dthtest.jpg Graphic file (type jpg)
 <use figs/dthtest.jpg>
 Package pdftex.def Info: figs/dthtest.jpg  used on input line 51.
@@ -1697,24 +1712,24 @@ Package pdftex.def Info: figs/dthtest.jpg  used on input line 51.
 
 
 [38 <./figs/dthtest.jpg>]
-<figs/soiltest.jpg, id=1373, 752.8125pt x 295.1025pt>
+<figs/soiltest.jpg, id=1363, 752.8125pt x 295.1025pt>
 File: figs/soiltest.jpg Graphic file (type jpg)
 <use figs/soiltest.jpg>
 Package pdftex.def Info: figs/soiltest.jpg  used on input line 77.
-(pdftex.def)             Requested size: 362.37569pt x 142.05284pt.
-<figs/lighttest2.jpg, id=1375, 752.8125pt x 300.3722pt>
+(pdftex.def)             Requested size: 317.07614pt x 124.29793pt.
+<figs/lighttest2.jpg, id=1365, 752.8125pt x 300.3722pt>
 File: figs/lighttest2.jpg Graphic file (type jpg)
 <use figs/lighttest2.jpg>
 Package pdftex.def Info: figs/lighttest2.jpg  used on input line 89.
-(pdftex.def)             Requested size: 317.07614pt x 126.51753pt.
+(pdftex.def)             Requested size: 294.42636pt x 117.47925pt.
 
 
 [39 <./figs/soiltest.jpg>]
-<figs/CO2test.jpg, id=1384, 752.8125pt x 292.84406pt>
+<figs/CO2test.jpg, id=1374, 752.8125pt x 292.84406pt>
 File: figs/CO2test.jpg Graphic file (type jpg)
 <use figs/CO2test.jpg>
 Package pdftex.def Info: figs/CO2test.jpg  used on input line 101.
-(pdftex.def)             Requested size: 317.07614pt x 123.34666pt.
+(pdftex.def)             Requested size: 294.42636pt x 114.53491pt.
 
 
 [40 <./figs/lighttest2.jpg> <./figs/CO2test.jpg>]
@@ -1740,12 +1755,12 @@ Overfull \hbox (11.42339pt too wide) in paragraph at lines 124--137
 
 
 [41]
-<figs/dash.png, id=1398, 558.28575pt x 367.3725pt>
+<figs/dash.png, id=1388, 558.28575pt x 367.3725pt>
 File: figs/dash.png Graphic file (type png)
 <use figs/dash.png>
 Package pdftex.def Info: figs/dash.png  used on input line 158.
 (pdftex.def)             Requested size: 310.73326pt x 204.47151pt.
-<figs/blynk.jpeg, id=1399, 657.95813pt x 1145.78062pt>
+<figs/blynk.jpeg, id=1389, 657.95813pt x 1145.78062pt>
 File: figs/blynk.jpeg Graphic file (type jpg)
 <use figs/blynk.jpeg>
 Package pdftex.def Info: figs/blynk.jpeg  used on input line 165.
@@ -1758,202 +1773,206 @@ Overfull \hbox (4.53465pt too wide) in paragraph at lines 165--166
 
 
 [42 <./figs/dash.png> <./figs/blynk.jpeg>]
-<figs/temp_n.png, id=1407, 1002.74625pt x 425.59pt>
-File: figs/temp_n.png Graphic file (type png)
-<use figs/temp_n.png>
-Package pdftex.def Info: figs/temp_n.png  used on input line 211.
-(pdftex.def)             Requested size: 303.48766pt x 128.80792pt.
-<figs/temp_a.png, id=1408, 1003.75pt x 425.59pt>
-File: figs/temp_a.png Graphic file (type png)
-<use figs/temp_a.png>
-Package pdftex.def Info: figs/temp_a.png  used on input line 218.
-(pdftex.def)             Requested size: 303.48766pt x 128.67804pt.
-
 
 [43]
-<figs/hum_n.png, id=1421, 1002.74625pt x 425.59pt>
-File: figs/hum_n.png Graphic file (type png)
-<use figs/hum_n.png>
-Package pdftex.def Info: figs/hum_n.png  used on input line 238.
-(pdftex.def)             Requested size: 317.07614pt x 134.57457pt.
-<figs/hum_a.png, id=1422, 1003.75pt x 425.59pt>
-File: figs/hum_a.png Graphic file (type png)
-<use figs/hum_a.png>
-Package pdftex.def Info: figs/hum_a.png  used on input line 245.
-(pdftex.def)             Requested size: 317.07614pt x 134.4382pt.
+<figs/temp_n.png, id=1408, 1002.74625pt x 425.59pt>
+File: figs/temp_n.png Graphic file (type png)
+<use figs/temp_n.png>
+Package pdftex.def Info: figs/temp_n.png  used on input line 215.
+(pdftex.def)             Requested size: 308.01485pt x 130.73015pt.
+<figs/temp_a.png, id=1409, 1003.75pt x 425.59pt>
+File: figs/temp_a.png Graphic file (type png)
+<use figs/temp_a.png>
+Package pdftex.def Info: figs/temp_a.png  used on input line 222.
+(pdftex.def)             Requested size: 308.01485pt x 130.60027pt.
 
 
 [44 <./figs/temp_n.png> <./figs/temp_a.png>]
-<figs/soil_n.png, id=1431, 1003.75pt x 425.59pt>
+<figs/hum_n.png, id=1418, 1002.74625pt x 425.59pt>
+File: figs/hum_n.png Graphic file (type png)
+<use figs/hum_n.png>
+Package pdftex.def Info: figs/hum_n.png  used on input line 240.
+(pdftex.def)             Requested size: 317.07614pt x 134.57457pt.
+<figs/hum_a.png, id=1419, 1003.75pt x 425.59pt>
+File: figs/hum_a.png Graphic file (type png)
+<use figs/hum_a.png>
+Package pdftex.def Info: figs/hum_a.png  used on input line 247.
+(pdftex.def)             Requested size: 317.07614pt x 134.4382pt.
+
+
+[45 <./figs/hum_n.png> <./figs/hum_a.png>]
+<figs/soil_n.png, id=1428, 1003.75pt x 425.59pt>
 File: figs/soil_n.png Graphic file (type png)
 <use figs/soil_n.png>
 Package pdftex.def Info: figs/soil_n.png  used on input line 267.
 (pdftex.def)             Requested size: 317.07614pt x 134.4382pt.
-<figs/soil_a.png, id=1432, 1003.75pt x 425.59pt>
+<figs/soil_a.png, id=1429, 1003.75pt x 425.59pt>
 File: figs/soil_a.png Graphic file (type png)
 <use figs/soil_a.png>
 Package pdftex.def Info: figs/soil_a.png  used on input line 274.
 (pdftex.def)             Requested size: 317.07614pt x 134.4382pt.
 
 
-[45 <./figs/hum_n.png> <./figs/hum_a.png>]
-<figs/lux.png, id=1443, 1000.73875pt x 425.59pt>
+[46 <./figs/soil_n.png> <./figs/soil_a.png>]
+<figs/lux.png, id=1439, 1000.73875pt x 425.59pt>
 File: figs/lux.png Graphic file (type png)
 <use figs/lux.png>
 Package pdftex.def Info: figs/lux.png  used on input line 290.
 (pdftex.def)             Requested size: 339.72592pt x 144.47787pt.
 
+Overfull \hbox (19.31113pt too wide) in paragraph at lines 295--300
+\T1/lmr/m/n/12 sity trace. As cal-cu-lated in Ap-pendix [][]G[][], the LED was 
+de-signed to pro-vide [][]
+ []
 
-[46 <./figs/soil_n.png> <./figs/soil_a.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 301.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 301.
-
+[47 <./figs/lux.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 301.
+(hyperref)                removing `\mathsurround' on input line 303.
 
-<figs/co2data.png, id=1453, 1003.75pt x 425.59pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 303.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 303.
+
+<figs/co2data.png, id=1448, 1003.75pt x 425.59pt>
 File: figs/co2data.png Graphic file (type png)
 <use figs/co2data.png>
-Package pdftex.def Info: figs/co2data.png  used on input line 305.
+Package pdftex.def Info: figs/co2data.png  used on input line 307.
 (pdftex.def)             Requested size: 317.07614pt x 134.4382pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\T1/lmr/bx/n/10.95 PR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 \T1/lmr/bx/n/10.95 Num-
  []
 
 
-Overfull \hbox (54.14409pt too wide) in alignment at lines 323--328
+Overfull \hbox (54.14409pt too wide) in alignment at lines 326--331
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 []|\T1/lmr/bx/n/10.95 PR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 \T1/lmr/bx/n/10.95 Num-
  []
 
 
-Overfull \hbox (54.14409pt too wide) in alignment at lines 328--333
+Overfull \hbox (54.14409pt too wide) in alignment at lines 331--336
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (54.14409pt too wide) in alignment at lines 333--337
+Overfull \hbox (54.14409pt too wide) in alignment at lines 336--340
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (54.14409pt too wide) in alignment at lines 337--341
+Overfull \hbox (54.14409pt too wide) in alignment at lines 340--344
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\T1/lmr/m/n/10.95 Validated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 \T1/lmr/m/n/10.95 through cal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 []|\T1/lmr/m/n/10.95 Temperature sens-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
 []|\T1/lmr/m/n/10.95 0--
  []
 
 
-Overfull \hbox (9.8162pt too wide) in paragraph at lines 348--348
+Overfull \hbox (9.8162pt too wide) in paragraph at lines 351--351
 \T1/lmr/m/n/10.95 925[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--350
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
 []|\T1/lmr/m/n/10.95 15--35\TS1/lmr/m/n/10.95 °\T1/lmr/m/n/10.95 C main-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 354--354
 []|\T1/lmr/m/n/10.95 50--100% main-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 354--354
 \T1/lmr/m/n/10.95 tained dur-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
 []|\T1/lmr/m/n/10.95 40--100% main-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
 \T1/lmr/m/n/10.95 ^^V 90% max
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []|\T1/lmr/m/n/10.95 Remained suf-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/n/10.95 ciently charged
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/n/10.95 via so-lar over
  []
 
 
-Overfull \hbox (54.14409pt too wide) in alignment at lines 341--357
+Overfull \hbox (54.14409pt too wide) in alignment at lines 344--360
  [] [] [] [] [] 
  []
 
-
-
-[47 <./figs/lux.png> <./figs/co2data.png>]
-
-[48]
-<figs/greens.jpeg, id=1464, 1284.8pt x 963.6pt>
+[48 <./figs/co2data.png>]
+<figs/greens.jpeg, id=1454, 1284.8pt x 963.6pt>
 File: figs/greens.jpeg Graphic file (type jpg)
 <use figs/greens.jpeg>
-Package pdftex.def Info: figs/greens.jpeg  used on input line 369.
+Package pdftex.def Info: figs/greens.jpeg  used on input line 372.
 (pdftex.def)             Requested size: 217.42265pt x 163.05997pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 369--370
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 372--373
  [][] 
  []
 
-<figs/green2.jpeg, id=1465, 1284.8pt x 962.59625pt>
+<figs/green2.jpeg, id=1455, 1284.8pt x 962.59625pt>
 File: figs/green2.jpeg Graphic file (type jpg)
 <use figs/green2.jpeg>
-Package pdftex.def Info: figs/green2.jpeg  used on input line 376.
+Package pdftex.def Info: figs/green2.jpeg  used on input line 379.
 (pdftex.def)             Requested size: 217.42265pt x 162.8901pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 376--377
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 379--380
  [][] 
  []
 
@@ -2037,6 +2056,8 @@ Underfull \hbox (badness 1924) in paragraph at lines 72--72
  []
 
 
+
+[56]
 Overfull \hbox (4.93478pt too wide) in paragraph at lines 104--104
  []|\T1/lmr/bx/n/10.95 Weight 
  []
@@ -2062,8 +2083,6 @@ Underfull \hbox (badness 4193) in paragraph at lines 104--104
  []
 
 
-
-[56]
 Overfull \hbox (4.93478pt too wide) in paragraph at lines 145--145
  []|\T1/lmr/bx/n/10.95 Weight 
  []
@@ -2223,17 +2242,17 @@ Overfull \hbox (31.55199pt too wide) in paragraph at lines 203--220
 
 [60]
 Appendix B.
-<figs/phys1.png, id=1558, 828.09375pt x 305.943pt>
+<figs/phys1.png, id=1549, 828.09375pt x 305.943pt>
 File: figs/phys1.png Graphic file (type png)
 <use figs/phys1.png>
 Package pdftex.def Info: figs/phys1.png  used on input line 7.
 (pdftex.def)             Requested size: 362.37569pt x 133.8824pt.
-<figs/phys2.png, id=1559, 817.25325pt x 323.40825pt>
+<figs/phys2.png, id=1550, 817.25325pt x 323.40825pt>
 File: figs/phys2.png Graphic file (type png)
 <use figs/phys2.png>
 Package pdftex.def Info: figs/phys2.png  used on input line 14.
 (pdftex.def)             Requested size: 362.37569pt x 143.40051pt.
-<figs/phys3.png, id=1560, 831.105pt x 284.262pt>
+<figs/phys3.png, id=1551, 831.105pt x 284.262pt>
 File: figs/phys3.png Graphic file (type png)
 <use figs/phys3.png>
 Package pdftex.def Info: figs/phys3.png  used on input line 21.
@@ -2244,12 +2263,12 @@ Package pdftex.def Info: figs/phys3.png  used on input line 21.
 
  <./figs/phys1.png> <./figs/phys2.png> <./figs/phys3.png>]
 Appendix C.
-<figs/soft2.png, id=1569, 557.08125pt x 471.56175pt>
+<figs/soft2.png, id=1560, 557.08125pt x 471.56175pt>
 File: figs/soft2.png Graphic file (type png)
 <use figs/soft2.png>
 Package pdftex.def Info: figs/soft2.png  used on input line 9.
 (pdftex.def)             Requested size: 339.72592pt x 287.58029pt.
-<figs/soft3.png, id=1570, 623.931pt x 398.6895pt>
+<figs/soft3.png, id=1561, 623.931pt x 398.6895pt>
 File: figs/soft3.png Graphic file (type png)
 <use figs/soft3.png>
 Package pdftex.def Info: figs/soft3.png  used on input line 20.
@@ -2259,7 +2278,7 @@ Package pdftex.def Info: figs/soft3.png  used on input line 20.
 [62
 
  <./figs/soft2.png>]
-<figs/soft4.png, id=1576, 759.43726pt x 452.28975pt>
+<figs/soft4.png, id=1567, 759.43726pt x 452.28975pt>
 File: figs/soft4.png Graphic file (type png)
 <use figs/soft4.png>
 Package pdftex.def Info: figs/soft4.png  used on input line 32.
@@ -2267,7 +2286,7 @@ Package pdftex.def Info: figs/soft4.png  used on input line 32.
 
 
 [63 <./figs/soft3.png> <./figs/soft4.png>]
-<figs/soft5.png, id=1583, 847.36575pt x 384.2355pt>
+<figs/soft5.png, id=1574, 847.36575pt x 384.2355pt>
 File: figs/soft5.png Graphic file (type png)
 <use figs/soft5.png>
 Package pdftex.def Info: figs/soft5.png  used on input line 45.
@@ -2280,13 +2299,13 @@ Appendix D.
 
 pdfTeX warning: pdflatex.exe (file ./figs/budget.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<figs/budget.pdf, id=1589, 845.07724pt x 597.55246pt>
+<figs/budget.pdf, id=1580, 845.07724pt x 597.55246pt>
 File: figs/budget.pdf Graphic file (type pdf)
 <use figs/budget.pdf>
 Package pdftex.def Info: figs/budget.pdf  used on input line 9.
-(pdftex.def)             Requested size: 566.20987pt x 400.36719pt.
+(pdftex.def)             Requested size: 543.56009pt x 384.34703pt.
 
-Overfull \hbox (113.24197pt too wide) in paragraph at lines 9--10
+Overfull \hbox (90.5922pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
@@ -2295,8 +2314,6 @@ Overfull \hbox (113.24197pt too wide) in paragraph at lines 9--10
 [65
 
  <./figs/budget.pdf>]
-
-[66]
 
 ! LaTeX Error: Environment sidewaysfigure undefined.
 
@@ -2310,7 +2327,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<figs/gant.png, id=1623, 1093.686pt x 490.83376pt>
+<figs/gant.png, id=1610, 1093.686pt x 490.83376pt>
 File: figs/gant.png Graphic file (type png)
 <use figs/gant.png>
 Package pdftex.def Info: figs/gant.png  used on input line 21.
@@ -2346,17 +2363,17 @@ or  <return>  to continue without it.
 
 
 
-[67
+[66
 
  <./figs/gant.png>]) (chaps-append/risk.tex
 
-[68
+[67
 
 ]
 Appendix E.
 
 
-[69
+[68
 
 ]
 
@@ -2504,15 +2521,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--95
 
 ) (chaps-append/draw.tex
 
+[69]
+
 [70]
 
-[71]
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 10.95pt
+(hyperref)                \hskip 11.74983pt
 (hyperref)                replaced by space on input line 7.
 
-<figs/drawing.png, id=1657, 726.91576pt x 507.0945pt>
+<figs/drawing.png, id=1644, 726.91576pt x 507.0945pt>
 File: figs/drawing.png Graphic file (type png)
 <use figs/drawing.png>
 Package pdftex.def Info: figs/drawing.png  used on input line 18.
@@ -2524,13 +2541,13 @@ See the caption package documentation for explanation.
 
 
 
-[72
+[71
 
  <./figs/drawing.png>]) (chaps-append/chap-maths.tex
 
 pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<smath2.pdf, id=1663, 597.55246pt x 845.07724pt>
+<smath2.pdf, id=1650, 597.55246pt x 845.07724pt>
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf>
 Package pdftex.def Info: smath2.pdf  used on input line 7.
@@ -2543,7 +2560,7 @@ ion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<smath2.pdf, id=1665, page=1, 597.55246pt x 845.07724pt>
+<smath2.pdf, id=1652, page=1, 597.55246pt x 845.07724pt>
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 1>
 Package pdftex.def Info: smath2.pdf , page1 used on input line 7.
@@ -2567,7 +2584,7 @@ File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 1>
 Package pdftex.def Info: smath2.pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 448.16324pt x 633.80638pt.
-[73
+[72
 
 
 
@@ -2584,7 +2601,7 @@ ion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<smath2.pdf, id=1686, page=2, 597.55246pt x 845.07724pt>
+<smath2.pdf, id=1672, page=2, 597.55246pt x 845.07724pt>
 File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 2>
 Package pdftex.def Info: smath2.pdf , page2 used on input line 12.
@@ -2607,26 +2624,47 @@ File: smath2.pdf Graphic file (type pdf)
 <use smath2.pdf, page 2>
 Package pdftex.def Info: smath2.pdf , page2 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
+[73
+
+ <./smath2.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<smath2.pdf, id=1689, page=3, 597.55246pt x 845.07724pt>
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 3>
+Package pdftex.def Info: smath2.pdf , page3 used on input line 12.
+(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 3>
+Package pdftex.def Info: smath2.pdf , page3 used on input line 12.
+(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
+
+
+File: smath2.pdf Graphic file (type pdf)
+<use smath2.pdf, page 3>
+Package pdftex.def Info: smath2.pdf , page3 used on input line 12.
+(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 [74
 
  <./smath2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<smath2.pdf, id=1702, page=3, 597.55246pt x 845.07724pt>
+<smath2.pdf, id=1704, page=4, 597.55246pt x 845.07724pt>
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
-Package pdftex.def Info: smath2.pdf , page3 used on input line 12.
+<use smath2.pdf, page 4>
+Package pdftex.def Info: smath2.pdf , page4 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
-Package pdftex.def Info: smath2.pdf , page3 used on input line 12.
+<use smath2.pdf, page 4>
+Package pdftex.def Info: smath2.pdf , page4 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 
 
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 3>
-Package pdftex.def Info: smath2.pdf , page3 used on input line 12.
+<use smath2.pdf, page 4>
+Package pdftex.def Info: smath2.pdf , page4 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 [75
 
@@ -2634,20 +2672,20 @@ Package pdftex.def Info: smath2.pdf , page3 used on input line 12.
 
 pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<smath2.pdf, id=1717, page=4, 597.55246pt x 845.07724pt>
+<smath2.pdf, id=1721, page=5, 597.55246pt x 845.07724pt>
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
-Package pdftex.def Info: smath2.pdf , page4 used on input line 12.
+<use smath2.pdf, page 5>
+Package pdftex.def Info: smath2.pdf , page5 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
-Package pdftex.def Info: smath2.pdf , page4 used on input line 12.
+<use smath2.pdf, page 5>
+Package pdftex.def Info: smath2.pdf , page5 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 
 
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 4>
-Package pdftex.def Info: smath2.pdf , page4 used on input line 12.
+<use smath2.pdf, page 5>
+Package pdftex.def Info: smath2.pdf , page5 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 [76
 
@@ -2655,94 +2693,73 @@ Package pdftex.def Info: smath2.pdf , page4 used on input line 12.
 
 pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<smath2.pdf, id=1734, page=5, 597.55246pt x 845.07724pt>
+<smath2.pdf, id=1731, page=6, 597.55246pt x 845.07724pt>
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
-Package pdftex.def Info: smath2.pdf , page5 used on input line 12.
+<use smath2.pdf, page 6>
+Package pdftex.def Info: smath2.pdf , page6 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
-Package pdftex.def Info: smath2.pdf , page5 used on input line 12.
+<use smath2.pdf, page 6>
+Package pdftex.def Info: smath2.pdf , page6 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 
 
 File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 5>
-Package pdftex.def Info: smath2.pdf , page5 used on input line 12.
+<use smath2.pdf, page 6>
+Package pdftex.def Info: smath2.pdf , page6 used on input line 12.
 (pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
 [77
 
- <./smath2.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./smath2.pdf): PDF inclusion: found PDF vers
-ion <1.7>, but at most version <1.5> allowed
-<smath2.pdf, id=1744, page=6, 597.55246pt x 845.07724pt>
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
-Package pdftex.def Info: smath2.pdf , page6 used on input line 12.
-(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
-Package pdftex.def Info: smath2.pdf , page6 used on input line 12.
-(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
-
-
-File: smath2.pdf Graphic file (type pdf)
-<use smath2.pdf, page 6>
-Package pdftex.def Info: smath2.pdf , page6 used on input line 12.
-(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
-[78
-
  <./smath2.pdf>]) (chaps-append/Setup.tex
 Appendix H.
-<figs/mppt.jpeg, id=1751, 722.7pt x 836.3747pt>
+<figs/mppt.jpeg, id=1738, 722.7pt x 836.3747pt>
 File: figs/mppt.jpeg Graphic file (type jpg)
 <use figs/mppt.jpeg>
 Package pdftex.def Info: figs/mppt.jpeg  used on input line 9.
 (pdftex.def)             Requested size: 126.83044pt x 146.77615pt.
-<figs/room2.jpeg, id=1752, 1127.21124pt x 1284.8pt>
+<figs/room2.jpeg, id=1739, 1127.21124pt x 1284.8pt>
 File: figs/room2.jpeg Graphic file (type jpg)
 <use figs/room2.jpeg>
 Package pdftex.def Info: figs/room2.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 126.83044pt x 144.54356pt.
-<figs/soilsensor.jpeg, id=1753, 722.7pt x 830.35219pt>
+<figs/soilsensor.jpeg, id=1740, 722.7pt x 830.35219pt>
 File: figs/soilsensor.jpeg Graphic file (type jpg)
 <use figs/soilsensor.jpeg>
 Package pdftex.def Info: figs/soilsensor.jpeg  used on input line 19.
 (pdftex.def)             Requested size: 126.83044pt x 145.71925pt.
-<figs/solar.jpeg, id=1754, 963.6pt x 1284.8pt>
+<figs/solar.jpeg, id=1741, 963.6pt x 1284.8pt>
 File: figs/solar.jpeg Graphic file (type jpg)
 <use figs/solar.jpeg>
 Package pdftex.def Info: figs/solar.jpeg  used on input line 26.
 (pdftex.def)             Requested size: 126.83044pt x 169.10793pt.
-<figs/Side.jpeg, id=1755, 963.6pt x 1284.8pt>
+<figs/Side.jpeg, id=1742, 963.6pt x 1284.8pt>
 File: figs/Side.jpeg Graphic file (type jpg)
 <use figs/Side.jpeg>
 Package pdftex.def Info: figs/Side.jpeg  used on input line 31.
 (pdftex.def)             Requested size: 126.83044pt x 169.10793pt.
-<figs/back.jpeg, id=1756, 1204.5pt x 1606.0pt>
+<figs/back.jpeg, id=1743, 1204.5pt x 1606.0pt>
 File: figs/back.jpeg Graphic file (type jpg)
 <use figs/back.jpeg>
 Package pdftex.def Info: figs/back.jpeg  used on input line 36.
 (pdftex.def)             Requested size: 126.83044pt x 169.08833pt.
-<figs/mist2.jpeg, id=1757, 1284.8pt x 725.71124pt>
+<figs/mist2.jpeg, id=1744, 1284.8pt x 725.71124pt>
 File: figs/mist2.jpeg Graphic file (type jpg)
 <use figs/mist2.jpeg>
 Package pdftex.def Info: figs/mist2.jpeg  used on input line 43.
 (pdftex.def)             Requested size: 154.00742pt x 86.98192pt.
-<figs/LED.png, id=1758, 1075.01625pt x 803.0pt>
+<figs/LED.png, id=1745, 1075.01625pt x 803.0pt>
 File: figs/LED.png Graphic file (type png)
 <use figs/LED.png>
 Package pdftex.def Info: figs/LED.png  used on input line 48.
 (pdftex.def)             Requested size: 113.24197pt x 84.58092pt.
-<figs/LCD2.jpeg, id=1759, 1284.8pt x 934.49126pt>
+<figs/LCD2.jpeg, id=1746, 1284.8pt x 934.49126pt>
 File: figs/LCD2.jpeg Graphic file (type jpg)
 <use figs/LCD2.jpeg>
 Package pdftex.def Info: figs/LCD2.jpeg  used on input line 53.
 (pdftex.def)             Requested size: 113.24197pt x 82.36096pt.
 ) (chaps-append/endoflife.tex
 
-[79
+[78
 
  <./figs/mppt.jpeg> <./figs/room2.jpeg> <./figs/soilsensor.jpeg> <./figs/solar.
 jpeg> <./figs/Side.jpeg> <./figs/back.jpeg> <./figs/mist2.jpeg> <./figs/LED.png
@@ -2750,11 +2767,17 @@ jpeg> <./figs/Side.jpeg> <./figs/back.jpeg> <./figs/mist2.jpeg> <./figs/LED.png
 Appendix I.
 
 
-[80
+[79
 
 ])
 
-[81]
+
+Overfull \hbox (42.59811pt too wide) has occurred while \output is active
+\T1/lmr/m/n/12 80 \T1/lmr/m/sl/12 APPENDIX I.  RESPONSIBLE USE OF RESOURCES AND
+ AN END-OF-LIFE STRATEGY 
+ []
+
+[80]
 ! Undefined control sequence.
 \__hook enddocument ...o\endcsname }}\ifTRP@rerun 
                                                   \PackageWarningNoLine {tra...
@@ -2793,26 +2816,25 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `template-stb-report-eng.out' has not changed
 .
-(rerunfilecheck)             Checksum: EEB7AC442C9E96A1AEF38A5554348D81;21081.
+(rerunfilecheck)             Checksum: 0EFE62A4776BC8045D0D3A330C304799;20805.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23484 strings out of 473523
- 475739 string characters out of 5714630
- 882612 words of memory out of 5000000
- 45761 multiletter control sequences out of 15000+600000
- 692275 words of font info for 116 fonts, out of 8000000 for 9000
+ 23481 strings out of 473523
+ 475695 string characters out of 5714630
+ 882604 words of memory out of 5000000
+ 45760 multiletter control sequences out of 15000+600000
+ 692593 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,18n,102p,1432b,1769s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,102p,1432b,1735s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx10.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx12.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx8.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /lm/lmex10.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmmi10.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /lm/lmmi12.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /lm/lmmib10.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmr10.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public
@@ -2826,10 +2848,11 @@ r8.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri
 12.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy
 10.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy
 8.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt1
-0.pfb>
-Output written on template-stb-report-eng.pdf (99 pages, 16084629 bytes).
+0.pfb><C:/Users/luker/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt1
+2.pfb>
+Output written on template-stb-report-eng.pdf (98 pages, 16099277 bytes).
 PDF statistics:
- 1962 PDF objects out of 2073 (max. 8388607)
- 413 named destinations out of 1000 (max. 500000)
- 1354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1947 PDF objects out of 2073 (max. 8388607)
+ 410 named destinations out of 1000 (max. 500000)
+ 1338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
